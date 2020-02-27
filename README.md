@@ -22,7 +22,7 @@ In this repository, previous works of active learning were categorized.
     - [Representativeness-imparted Models](#representativeness-imparted-models)
       - [Information Density Frameworks](#information-density-frameworks)
     - [Meta Active Learning](#meta-active-learning)
-  - [### Others](#h3-id%22others-8%22othersh3)
+  - [### Others](#h3-id%22others-584%22othersh3)
   - [Models](#models)
     - [SVM/LR](#svmlr)
     - [Bayesian/Probabilistic](#bayesianprobabilistic)
@@ -30,7 +30,6 @@ In this repository, previous works of active learning were categorized.
     - [Neural Network](#neural-network)
   - [Theoretical Support for Active Learning](#theoretical-support-for-active-learning)
     - [Explainable Active Learning](#explainable-active-learning)
-  - [- [Explainable Active Learning (XAL): An Empirical Study of How Local Explanations Impact Annotator Experience [Arxiv, 2020]](https://arxiv.org/pdf/2001.09219.pdf)](#ul-liexplainable-active-learning-xal-an-empirical-study-of-how-local-explanations-impact-annotator-experience-arxiv-2020li-ul)
   - [Problem Settings Change (Combine AL with other settings)](#problem-settings-change-combine-al-with-other-settings)
     - [Multi-Class Active Learning](#multi-class-active-learning)
     - [Multi-Task Active Learning](#multi-task-active-learning)
@@ -196,6 +195,7 @@ Might fill this slot at the end.
 
 ### Explainable Active Learning
 - [Explainable Active Learning (XAL): An Empirical Study of How Local Explanations Impact Annotator Experience [Arxiv, 2020]](https://arxiv.org/pdf/2001.09219.pdf)
+
 -------------------
 ## Problem Settings Change (Combine AL with other settings)
 ### Multi-Class Active Learning 
