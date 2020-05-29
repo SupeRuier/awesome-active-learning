@@ -16,7 +16,8 @@ And this site should work like a short sheet-sheet.
   - [Stream-based](#stream-based)
     - [Classification (Not finished yet)](#classification-not-finished-yet)
     - [Regression (Not finished yet)](#regression-not-finished-yet)
-- [AL with other Learning/Research paradigms](#al-with-other-learningresearch-paradigms)
+- [Practical Considerations for AL](#practical-considerations-for-al)
+- [AL with other Research Problems](#al-with-other-research-problems)
 
 # Taxonomy (table of content)
 
@@ -173,27 +174,43 @@ The list of works could see [here](subfields/sb_classification.md)
 ### Regression (Not finished yet)
 The list of works could see [here](subfields/sb_regression.md)
 
+# Practical Considerations for AL 
+When we use AL in real life scenarios, the practical situation is not perfectly match our problems introduced above.
+The data, the oracle, the scale and many other situations could be really different.
+Here we list the considerations potentially occurred in AL.
 
-# AL with other Learning/Research paradigms
+| Type        | Practical Considerations        |
+| ----------- | ------------------------------- |
+| Data        | Imbalanced data                 |
+|             | Cost-sensitive                  |
+|             | Logged data                     |
+| Oracle      | Noise-oracle/ Quality-sensitive |
+|             | Diverse labeler (ability/price) |
+| Scale       | Scalable                        |
+
+The list of works could see [here](subfields/practical_considerations.md).(Not finished yet.)
+
+# AL with other Research Problems
 
 Active learning is also been used with other Learning/Research paradigms.
 Some of them are use AL to reduce the annotation cost.
 Others try to improve the AL process with the knowledge in other fields.
 
-| Type                    | Combination with other research problems                |
-| ----------------------- | ------------------------------------------------------- |
-| To save annotation cost | Computer vision (CV)                                    |
-|                         | Natural Language Processing (NLP)                       |
-|                         | Transfer learning/Domain adaptation                     |
-|                         | Graph Embedding/Network representation learning         |
-|                         | Metric learning/Pairwise comparison/Similarity learning |
-|                         | One-shot learning                                       |
-|                         | Remote sensing data processing                          |
-|                         | Recommendation                                          |
-|                         | Generative Adversarial Network                          |
-| To improve AL           | Quantum computing                                       |
-|                         | GAN query synthesis                                     |
+| Type          | Combination with other research problems                |
+| ------------- | ------------------------------------------------------- |
+| Utilize AL    | Computer vision (CV)                                    |
+|               | Natural Language Processing (NLP)                       |
+|               | Transfer learning/Domain adaptation                     |
+|               | Graph Embedding/Network representation learning         |
+|               | Metric learning/Pairwise comparison/Similarity learning |
+|               | One-shot learning                                       |
+|               | Clustering                                              |
+|               | Remote sensing data processing                          |
+|               | Recommendation                                          |
+|               | Generative Adversarial Network                          |
+| To improve AL | Quantum computing                                       |
+|               | GAN query synthesis                                     |
 
-The list of works could see [here](subfields/AL_combinations.md)
+The list of works could see [here](subfields/AL_combinations.md) (Not finished yet.)
 
 

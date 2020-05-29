@@ -20,7 +20,10 @@ The main ideas and the scenarios are introduced in these surveys.
 
 If you are pursuing use AL to reduce the cost heavily problems in a pre-defined problem setting, we summarized the previous works in a [problem-orientated order](AL_core.md).
 
-If you are trying to improve the performance of the current AL or try to find a appropriate framework for the current model, we summarized the we summarized the previous works in a [technique-orientated order](materials.md).
+If you are trying to improve the performance of the current AL or try to find a appropriate framework for the current model, we summarized the we summarized the previous works in a [technique-orientated order](AL_technique.md).
+
+Besides, there are many real considerations when we implement AL to real life scenarios.
+We summarize these works [here](AL_considerations.md).
 
 # Real Applications of Active Learning
 

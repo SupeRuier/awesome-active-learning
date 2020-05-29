@@ -49,9 +49,6 @@ In this repository, previous works of active learning were categorized.
     - [Varying Costs](#varying-costs)
     - [Noise Labelers](#noise-labelers)
     - [Multiple Labelers](#multiple-labelers)
-- [Applications](#applications)
-- [Libraries/Toolboxes](#librariestoolboxes)
-- [Related Scholars](#related-scholars)
 
 
 # At the Beginning
@@ -116,11 +113,13 @@ Most of classic strategies are based on these models.
 - Employing EM and Pool-Based Active Learning for Text Classiﬁcation [[1998. ICML]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.10&rep=rep1&type=pdf): 
   EM + Query-by-Committee (QBC-with-EM)
 ### Gaussian Progress
+- Active instance sampling via matrix partition [2010, NIPS]: Gaussian Process. Maximizing a natural mutual information criterion between the labeled and unlabeled instances. No comparison with others.(69 citations)
 - [Bayesian active learning for classification and preference learning [Arxiv, 2011]](https://arxiv.org/abs/1112.5745):
   Propose an approach that expresses information gain in terms of predictive entropies, and apply this method to the Gaussian Process Classifier (GPC).
   This method is referred as *BALD*.
   Capture how strongly the model predictions for a given data point and the model parameters are coupled, implying that ﬁnding out about the true label of data points with high mutual information would also inform us about the true model parameters.
 - Adaptive active learning for image classiﬁcation [CVPR, 2013]
+- [Active learning with Gaussian Processes for object categorization [2007, ICCV]](https://ieeexplore.ieee.org/abstract/document/4408844): Consider both the distance from the boundary as well as the variance in selecting the points; this is only possible due to the availability of the predictive distribution in GP regression. A significant boost in classification performance is possible, especially when the amount of training data for a category is ultimately very small.(303 citations)
 ### Neural Network
 - A new active labeling method for deep learning [IJCNN, 2014]
 - Captcha recognition with active deep learning [Neural Computation, 2015]
@@ -326,7 +325,3 @@ There are not many work in this field.
 ### Multiple Labelers
 - [Active cross-query learning: A reliable labeling mechanism via crowdsourcing for smart surveillance [Computer Communications, 2020]](https://www.sciencedirect.com/science/article/pii/S014036641931730X):
   Each labeling task is repeated several times to complete the cross-query learning.
-
-# Applications
-# Libraries/Toolboxes
-# Related Scholars

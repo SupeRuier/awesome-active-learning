@@ -6,6 +6,7 @@ Learning How to Actively Learn: A Deep Imitation Learning Approach
 
 Support clustering: 
 Semi-Supervised Selective Affinity Propagation Ensemble Clustering With Active Constraints [2020, IEEE Access]
+Active Learning for Constrained Document Clustering with Uncertainty Region [Complexity, 2020]: Must link & cannot link.
 
 image segmentation：
 Geometry in active learning for binary and multi-class 
