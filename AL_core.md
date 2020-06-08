@@ -136,14 +136,14 @@ For more details, the list of works with short introductions could see [here](su
 
 For active learning regression (ALR), there are two problem settings.
 Supervised ALR is similar to the conventional pool based AL where the selection proceed interactively.
-Unsupervised ALR assume we don't have any labeled instances when we select data.
+Unsupervised ALR (passive sampling sometimes) assume we don't have any labeled instances when we select data.
 So in unsupervised ALR, the selection is only happened once at the beginning.
 We list several representative methods in the following table.
 
-|                | Supervised        | Unsupervised     |
-| -------------- | ----------------- | ---------------- |
-| Non-batch mode | QBC/EMCM/RSAL/iGS | P-ALICE/Gsx/iRDM |
-| Batch mode     | EBMAL             | (N/A)            |
+| Active learning for Regression: | Supervised            | Unsupervised (Passive) |
+| ------------------------------- | --------------------- | ---------------------- |
+| Non-batch mode                  | QBC/EMCM/RSAL/GSy/iGS | P-ALICE/Gsx/iRDM       |
+| Batch mode                      | EBMALR                | **N/A**                |
 
 For more details, the list of works could see [here](subfields/pb_regression.md).
 
@@ -179,14 +179,14 @@ When we use AL in real life scenarios, the practical situation is not perfectly 
 The data, the oracle, the scale and many other situations could be really different.
 Here we list the considerations potentially occurred in AL.
 
-| Type        | Practical Considerations        |
-| ----------- | ------------------------------- |
-| Data        | Imbalanced data                 |
-|             | Cost-sensitive                  |
-|             | Logged data                     |
-| Oracle      | Noise-oracle/ Quality-sensitive |
-|             | Diverse labeler (ability/price) |
-| Scale       | Scalable                        |
+| Type   | Practical Considerations        |
+| ------ | ------------------------------- |
+| Data   | Imbalanced data                 |
+|        | Cost-sensitive                  |
+|        | Logged data                     |
+| Oracle | Noise-oracle/ Quality-sensitive |
+|        | Diverse labeler (ability/price) |
+| Scale  | Scalable                        |
 
 The list of works could see [here](subfields/practical_considerations.md).(Not finished yet.)
 

@@ -51,3 +51,17 @@ There already are several python AL project:
 1. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
+
+# Need to be finished
+
+| Check list | Chapter                                                           |
+| ---------- | ----------------------------------------------------------------- |
+| 5          | [Taxonomy by techniques](AL_technique.md)                         |
+| 1 done     | [Pool-based regression](subfields/pb_regression.md).              |
+| 3          | [MLAL](subfields/MLAL.md).                                        |
+| 3          | [MTAL](subfields/MTAL.md).                                        |
+| 2          | [MDAL](subfields/MDAL.md).                                        |
+| 4          | [Stream-based classification](subfields/sb_classification.md)     |
+| 4          | [Stream-based regression](subfields/sb_regression.md)             |
+| 6          | [Practical considerations](subfields/practical_considerations.md) |
+| 7          | [Combination with other fields](subfields/AL_combinations.md)     |
