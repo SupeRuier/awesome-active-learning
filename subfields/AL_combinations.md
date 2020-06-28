@@ -12,11 +12,20 @@ image segmentation：
 Geometry in active learning for binary and multi-class 
 
 Object Detection: 
-Deep Active Learning for Remote Sensing Object Detection[2020, Arxiv]
+Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
+[Active Object Detection in Sonar Images [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9106398)
 
 Similarity learning: Pairwise Comparisons：
 [Active Ordinal Querying for Tuplewise Similarity Learning [2020 AAAI]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-CanalG.9650.pdf): Introduce AL to their new similarity methods (InfoTuple).
 Active Sampling for Pairwise Comparisons via Approximate Message Passing and Information Gain Maximization.
+
+causal learning:
+[Active Invariant Causal Prediction: Experiment Selection through Stability](https://arxiv.org/pdf/2006.05690.pdf)
+
+medical image annotation:
+- [An Adaptive Low-Rank Modeling-Based Active Learning Method for Medical Image Annotation [2020, IRBM]](https://www.sciencedirect.com/science/article/pii/S1959031820301056): 
+  Medical images: the intrinsic presence of noise in medical images, the large number of images, and the variety of imaging modalities. Low-rank modeling-based multi-label active learning (LRMMAL) method
+
 
 ## Use AL to save annotation cost
 Learning Class-Conditional GANs with Active Sampling

@@ -12,10 +12,8 @@ And this site should work like a short sheet-sheet.
   - [Pool-based](#pool-based)
     - [Classification](#classification)
     - [Regression](#regression)
-    - [Other dimensions (Not finished yet)](#other-dimensions-not-finished-yet)
+    - [Other dimensions](#other-dimensions)
   - [Stream-based](#stream-based)
-    - [Classification (Not finished yet)](#classification-not-finished-yet)
-    - [Regression (Not finished yet)](#regression-not-finished-yet)
 - [Practical Considerations for AL](#practical-considerations-for-al)
 - [AL with other Research Problems](#al-with-other-research-problems)
 
@@ -119,17 +117,6 @@ We have to note that a large amount of works focus on non-batch mode binary clas
 | Non-batch mode: | (A). Most of the AL works | (B). Generalize from (A)   |
 | Batch mode:     | (C). Improve over (A)     | (D). Combine (B) and (C)   |
 
-<!-- We list several representative methods of pool-based AL for classification in the following table.。
-
-| Types               | Subtype                | Works (* are a group of works) |
-| ------------------- | ---------------------- | ------------------------------ |
-| Informativeness     | Output of a classifier | Uncertainty*/QBC*/             |
-| Representativeness  |                        | Pre-cluster                    |
-| Info & Rep          |                        | QUIRE/BMDR                     |
-| Future improvements |                        | Expected error reduction       |
-| A learnt evaluation |                        | ALBL/LAL                       |
-| Neural Networks     |                        | BALD/BatchBALD/Core-set        | --> |
-
 For more details, the list of works with short introductions could see [here](subfields/pb_classification.md).
 
 ### Regression
@@ -147,7 +134,7 @@ We list several representative methods in the following table.
 
 For more details, the list of works could see [here](subfields/pb_regression.md).
 
-### Other dimensions (Not finished yet)
+### Other dimensions
 
 Multi-label/task/domain problems are usually considered in pool based AL.
 
@@ -162,17 +149,17 @@ The list of multi-label AL works could see [here](subfields/MDAL.md).
 In stream-based AL, the unlabeled data come with a stream manner, and the AL module decides whether to annotate the coming instance to update the model.
 This setting is not as popular as pool-based active learning. 
 Sometimes it also needs to consider data drift.
+The common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
+
+There are basically two settings.
+Most works are focused on the stream based setting with data drift.
 
 | Stream based:       | Description                                                                             |
 | ------------------- | --------------------------------------------------------------------------------------- |
 | without data drift: | Data could not be collected at once, the collected data are from the same distribution. |
-| with data drift:    | The underlying distribution is varying over time.                                       |
+| with data drift:    | The underlying distribution is varying over time. (Most works.)                         |
 
-### Classification (Not finished yet)
-The list of works could see [here](subfields/sb_classification.md)
-
-### Regression (Not finished yet)
-The list of works could see [here](subfields/sb_regression.md)
+The list of works could see [here](subfields/sb_works.md).
 
 # Practical Considerations for AL 
 When we use AL in real life scenarios, the practical situation is not perfectly match our problems introduced above.
@@ -188,7 +175,7 @@ Here we list the considerations potentially occurred in AL.
 |        | Diverse labeler (ability/price) |
 | Scale  | Scalable                        |
 
-The list of works could see [here](subfields/practical_considerations.md).(Not finished yet.)
+The list of works could see [here](subfields/practical_considerations.md). (Not finished yet.)
 
 # AL with other Research Problems
 

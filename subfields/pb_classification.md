@@ -140,6 +140,9 @@ These works might be classified later.
 Works:
 - [Self-Paced Active Learning: Query the Right Thing at the Right Time [AAAI 2019]](https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4445): 
   Borrow the idea in the self-paced learning that the learning from easy instances to hard instances would improve the performance.
+- [Combination of Active Learning and Self-Paced Learning for Deep Answer Selection with Bayesian Neural Network [2020, ECAI]](http://ecai2020.eu/papers/449_paper.pdf):
+  Just a combination.
+  Not use the idea of the self-paced learning into AL.
 
 
 # AL with Multi-class classification

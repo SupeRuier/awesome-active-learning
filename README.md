@@ -20,7 +20,7 @@ The main ideas and the scenarios are introduced in these surveys.
 
 If you are pursuing use AL to reduce the cost heavily problems in a pre-defined problem setting, we summarized the previous works in a [problem-orientated order](AL_core.md).
 
-If you are trying to improve the performance of the current AL or try to find a appropriate framework for the current model, we summarized the we summarized the previous works in a [technique-orientated order](AL_technique.md).
+If you are trying to improve the performance of the current AL or try to find a appropriate framework for the current model, we summarized the we summarized the previous works in a [technique-orientated order](AL_technique.md) (Not finished yet).
 
 Besides, there are many real considerations when we implement AL to real life scenarios.
 We summarize these works [here](AL_considerations.md).
@@ -51,17 +51,18 @@ There already are several python AL project:
 1. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
+4. Raymond Mooney
 
 # Need to finish
 
 | Check list | Chapter                                                           |
 | ---------- | ----------------------------------------------------------------- |
-| 5          | [Taxonomy by techniques](AL_technique.md)                         |
+| 5 hold     | [Taxonomy by techniques](AL_technique.md)                         |
 | 1 done     | [Pool-based regression](subfields/pb_regression.md).              |
 | 3 done     | [MLAL](subfields/MLAL.md).                                        |
 | 3 done     | [MTAL](subfields/MTAL.md).                                        |
 | 2 done     | [MDAL](subfields/MDAL.md).                                        |
-| 4          | [Stream-based classification](subfields/sb_classification.md)     |
-| 4          | [Stream-based regression](subfields/sb_regression.md)             |
+| 4 done     | [Stream-based classification](subfields/sb_classification.md)     |
+| 4 done     | [Stream-based regression](subfields/sb_regression.md)             |
 | 6          | [Practical considerations](subfields/practical_considerations.md) |
 | 7          | [Combination with other fields](subfields/AL_combinations.md)     |

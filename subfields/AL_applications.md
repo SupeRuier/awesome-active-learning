@@ -21,3 +21,12 @@ Active machine learning for transmembrane helix prediction. BMC Bioinform. 11, S
 
 Protein production optimization:
 Large scale active-learning-guided exploration for in vitro protein production optimization [2020, Nature Communications]$$
+
+Answer Selection (learning to rank):
+
+[Combination of Active Learning and Self-Paced Learning for Deep Answer Selection with Bayesian Neural Network [2020, ECAI]](http://ecai2020.eu/papers/449_paper.pdf)
+
+Dialog Policy Learning
+
+[Dialog Policy Learning for Joint Clarification and Active Learning Queries](https://arxiv.org/pdf/2006.05456.pdf)
+
