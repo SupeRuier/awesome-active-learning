@@ -38,7 +38,7 @@
 - **ALBL** 2015: Hsu & Lin 2015, Active Learning by Learning. 
 - **RALF** 2012: [RALF: A Reinforced Active Learning Formulation for Object Class Recognition](https://www.mpi-inf.mpg.de/fileadmin/inf/d2/Research_projects_files/EbertCVPR2012.pdf): Graph_density: Diversity promoting sampling method that uses graph density to determine most representative points.
 - **Hierarchical cluster AL method** 2008: Hierarchical Sampling for Active Learning.
-- **Informative and diverse**: Informative and diverse batch sampler that samples points with small margin while maintaining same distribution over clusters as entire training data. Batch is created by sorting datapoints by increasing margin and then growing the batch greedily.  A point is added to the batch if the result batch still respects the constraint that the cluster distribution of the batch will match the cluster distribution of the entire training set
+- **Informative and diverse**: Informative and diverse batch sampler that samples points with small margin while maintaining same distribution over clusters as entire training data. Batch is created by sorting data points by increasing margin and then growing the batch greedily.  A point is added to the batch if the result batch still respects the constraint that the cluster distribution of the batch will match the cluster distribution of the entire training set
 - **k-Center-Greedy** 2017: A Geometric Approach to Active Learning for Convolutional Neural Networks 
 - **MarginAL**: Uncertainty
 - **mixture_of_samplers**: Mixture of base sampling strategies

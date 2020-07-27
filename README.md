@@ -5,6 +5,9 @@ We try to summarize the current AL works from **problem-orientated approach** an
 We also summarized the applications of AL.
 The software resources and the relevant scholars are listed.
 
+*(I can't ensure this summary covers all the representative works and ideas.
+So if you have any comments and recommendations, pls let me know.)*
+
 # At the Beginning
 
 Active learning is used to reduce the annotation cost in machine learning process.
@@ -23,7 +26,7 @@ If you are pursuing use AL to reduce the cost heavily problems in a pre-defined 
 If you are trying to improve the performance of the current AL or try to find a appropriate framework for the current model, we summarized the we summarized the previous works in a [technique-orientated order](AL_technique.md) (Not finished yet).
 
 Besides, there are many real considerations when we implement AL to real life scenarios.
-We summarize these works [here](AL_considerations.md).
+We summarize these works [here](subfields/practical_considerations.md).
 
 # Real Applications of Active Learning
 
@@ -47,7 +50,7 @@ There already are several python AL project:
 - [active-learning-workshop](https://github.com/Azure/active-learning-workshop): 
   KDD 2018 Hands-on Tutorial: Active learning and transfer learning at scale with R and Python
 
-# Groups/Scholars:
+# Groups/Scholars (Not finished):
 1. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
@@ -64,5 +67,7 @@ There already are several python AL project:
 | 2 done     | [MDAL](subfields/MDAL.md).                                        |
 | 4 done     | [Stream-based classification](subfields/sb_classification.md)     |
 | 4 done     | [Stream-based regression](subfields/sb_regression.md)             |
-| 6          | [Practical considerations](subfields/practical_considerations.md) |
+| 6 done     | [Practical considerations](subfields/practical_considerations.md) |
 | 7          | [Combination with other fields](subfields/AL_combinations.md)     |
+| 8          | [Applications](subfields/AL_applications.md)                      |
+

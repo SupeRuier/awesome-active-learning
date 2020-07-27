@@ -65,7 +65,7 @@ With these foundations, AL would be extend to several extension dimensions and s
   The model or set of models handles different views simultaneously.
 
 So we would classify current AL works though the mentioned basic dimensions. 
-Ww will list the representative works on each dimension (with a short introduction hopefully.)
+We will list the representative works on each dimension (with a short introduction hopefully.)
 Beside these dimensions, we will also introduce several combinations with AL and other problem settings.
 Some real life applications also will be introduced.
 
@@ -142,7 +142,7 @@ The list of multi-label AL works could see [here](subfields/MLAL.md).
 
 The list of multi-task AL works could see [here](subfields/MTAL.md).
 
-The list of multi-label AL works could see [here](subfields/MDAL.md).
+The list of multi-domain AL works could see [here](subfields/MDAL.md).
 
 ## Stream-based
 
@@ -162,20 +162,23 @@ Most works are focused on the stream based setting with data drift.
 The list of works could see [here](subfields/sb_works.md).
 
 # Practical Considerations for AL 
-When we use AL in real life scenarios, the practical situation is not perfectly match our problems introduced above.
+When we use AL in real life scenarios, the practical situation is not perfectly match our problem settings introduced above.
 The data, the oracle, the scale and many other situations could be really different.
 Here we list the considerations potentially occurred in AL.
 
-| Type   | Practical Considerations        |
-| ------ | ------------------------------- |
-| Data   | Imbalanced data                 |
-|        | Cost-sensitive                  |
-|        | Logged data                     |
-| Oracle | Noise-oracle/ Quality-sensitive |
-|        | Diverse labeler (ability/price) |
-| Scale  | Scalable                        |
+| Type       | Practical Considerations                                          |
+| ---------- | ----------------------------------------------------------------- |
+| Data       | Imbalanced data                                                   |
+|            | Cost-sensitive                                                    |
+|            | Logged data                                                       |
+|            | Feature missing data                                              |
+|            | Multiple Correct Outputs                                          |
+| Oracle     | The assumption change on single oracle (Noise/Special behaviors) |
+|            | Multiple/Diverse labeler (ability/price)                          |
+| Scale      | Large-scale                                                       |
+| Other cost | Model's training cost                                             |
 
-The list of works could see [here](subfields/practical_considerations.md). (Not finished yet.)
+The list of works could see [here](subfields/practical_considerations.md).
 
 # AL with other Research Problems
 
