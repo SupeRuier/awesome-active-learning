@@ -19,7 +19,7 @@ The main ideas and the scenarios are introduced in these surveys.
 - A survey on instance selection for active learning [[2012]](https://link.springer.com/article/10.1007/s10115-012-0507-8)
 - Active Learning: A Survey [[2014]](https://www.taylorfrancis.com/books/e/9780429102639/chapters/10.1201/b17320-27)
 
-# Our summarization/Categorization
+# Our Summarization/Categorization
 
 If you are pursuing use AL to reduce the cost heavily problems in a pre-defined problem setting, we summarized the previous works in a [problem-orientated order](AL_core.md).
 
@@ -55,6 +55,7 @@ There already are several python AL project:
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
 4. Raymond Mooney
+5. [Yuchen Guo](http://ise.thss.tsinghua.edu.cn/MIG/gyc.html)
 
 # Need to finish
 
@@ -68,6 +69,6 @@ There already are several python AL project:
 | 4 done     | [Stream-based classification](subfields/sb_classification.md)     |
 | 4 done     | [Stream-based regression](subfields/sb_regression.md)             |
 | 6 done     | [Practical considerations](subfields/practical_considerations.md) |
-| 7          | [Combination with other fields](subfields/AL_combinations.md)     |
+| 7 done     | [Combination with other fields](subfields/AL_combinations.md)     |
 | 8          | [Applications](subfields/AL_applications.md)                      |
 

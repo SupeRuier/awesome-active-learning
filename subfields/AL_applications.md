@@ -9,9 +9,13 @@ There might be more important works in the corresponding fields not listed here.
 Besides, I can't ensure the works are representative in the fields.
 So if you have any comments and recommendations, pls let me know.)*
 
+### Spam Detection
+[Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning](https://www.aclweb.org/anthology/2020.acl-main.279.pdf)
 
 
-
+medical image annotation:
+- [An Adaptive Low-Rank Modeling-Based Active Learning Method for Medical Image Annotation [2020, IRBM]](https://www.sciencedirect.com/science/article/pii/S1959031820301056): 
+  Medical images: the intrinsic presence of noise in medical images, the large number of images, and the variety of imaging modalities. Low-rank modeling-based multi-label active learning (LRMMAL) method
 
 
 Chemical natural language processing: 
