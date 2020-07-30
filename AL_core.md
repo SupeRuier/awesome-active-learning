@@ -166,17 +166,17 @@ When we use AL in real life scenarios, the practical situation is not perfectly 
 The data, the oracle, the scale and many other situations could be really different.
 Here we list the considerations potentially occurred in AL.
 
-| Type       | Practical Considerations                                          |
-| ---------- | ----------------------------------------------------------------- |
-| Data       | Imbalanced data                                                   |
-|            | Cost-sensitive                                                    |
-|            | Logged data                                                       |
-|            | Feature missing data                                              |
-|            | Multiple Correct Outputs                                          |
+| Type       | Practical Considerations                                         |
+| ---------- | ---------------------------------------------------------------- |
+| Data       | Imbalanced data                                                  |
+|            | Cost-sensitive                                                   |
+|            | Logged data                                                      |
+|            | Feature missing data                                             |
+|            | Multiple Correct Outputs                                         |
 | Oracle     | The assumption change on single oracle (Noise/Special behaviors) |
-|            | Multiple/Diverse labeler (ability/price)                          |
-| Scale      | Large-scale                                                       |
-| Other cost | Model's training cost                                             |
+|            | Multiple/Diverse labeler (ability/price)                         |
+| Scale      | Large-scale                                                      |
+| Other cost | Model's training cost                                            |
 
 The list of works could see [here](subfields/practical_considerations.md).
 
@@ -190,16 +190,20 @@ Others try to improve the AL process with the knowledge in other fields.
 | ------------- | ------------------------------------------------------- |
 | Utilize AL    | Computer vision (CV)                                    |
 |               | Natural Language Processing (NLP)                       |
-|               | Transfer learning/Domain adaptation                     |
-|               | Graph Embedding/Network representation learning         |
+|               | Domain adaptation/Transfer learning                     |
+|               | Graph data                                              |
 |               | Metric learning/Pairwise comparison/Similarity learning |
 |               | One-shot learning                                       |
 |               | Clustering                                              |
-|               | Remote sensing data processing                          |
-|               | Recommendation                                          |
 |               | Generative Adversarial Network                          |
-| To improve AL | Quantum computing                                       |
-|               | GAN query synthesis                                     |
+|               | De-noise                                                |
+|               | Causal Analysis                                         |
+|               | Positive and unlabeled (PU) learning                    |
+|               | Reinforcement Learning                                  |
+| To improve AL | Reinforcement Learning                                  |
+|               | Meta-learning                                           |
+|               | Quantum computing                                       |
+|               | GAN                                                     |
 
 The list of works could see [here](subfields/AL_combinations.md) (Not finished yet.)
 

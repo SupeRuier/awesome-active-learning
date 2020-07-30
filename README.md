@@ -70,5 +70,5 @@ There already are several python AL project:
 | 4 done     | [Stream-based regression](subfields/sb_regression.md)             |
 | 6 done     | [Practical considerations](subfields/practical_considerations.md) |
 | 7 done     | [Combination with other fields](subfields/AL_combinations.md)     |
-| 8          | [Applications](subfields/AL_applications.md)                      |
+| 8 done     | [Applications](subfields/AL_applications.md)                      |
 
