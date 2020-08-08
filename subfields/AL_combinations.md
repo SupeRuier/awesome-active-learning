@@ -27,6 +27,7 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Causal Analysis](#causal-analysis)
     - [Positive and unlabeled (PU) learning](#positive-and-unlabeled-pu-learning)
     - [Reinforcement Learning](#reinforcement-learning)
+    - [Human Learning](#human-learning)
   - [Improve AL](#improve-al)
     - [Reinforcement Learning](#reinforcement-learning-1)
     - [Meta-learning](#meta-learning)
@@ -74,7 +75,7 @@ Domain adaptation:
 - Active learning for cross-domain sentiment classification [2013, IJCAI]
 - Transfer Learning with Active Queries from Source Domain [2016, IJCAI]
 - Active Sentiment Domain Adaptation [2017, ACL]
-- Active Adversarial Domain Adaptation [2020, The IEEE Winter Conference on Applications of Computer Vision]
+- Active Adversarial Domain Adaptation [2020, WACV]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -92,11 +93,11 @@ Graph Embedding/Network representation learning:
 
 Graph node classification:
 - Active learning for streaming networked data [2014, ACM International Conference on Conference on Information and Knowledge Management]
-- Active Learning on Graphs via Meta Learning [2020]
+- MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning [2020, Arxiv]
 
 Graph transfer:
 - [Graph Policy Network for Transferable Active Learning on Graphs [2020, Arxiv]](https://arxiv.org/pdf/2006.13463.pdf)
-- Active Domain Transfer on Network Embedding [2020, Proceedings of The Web Conference ]
+- [Active Domain Transfer on Network Embedding [2020, Proceedings of The Web Conference ]](https://arxiv.org/pdf/2007.11230.pdf)
 
 ### Metric learning/Pairwise comparison/Similarity learning 
 
@@ -154,6 +155,12 @@ Works:
 
 Works:
 - [SAMBA: Safe Model-Based & Active Reinforcement Learning [2020, Arxiv]](https://arxiv.org/pdf/2006.09436.pdf)
+
+### Human Learning
+
+Works:
+- [Human Active Learning [2008, NIPS]](http://papers.nips.cc/paper/3456-human-active-learning)
+- [Human Active Learning [2018]](https://www.intechopen.com/books/active-learning-beyond-the-future/human-active-learning)
 
 
 ## Improve AL

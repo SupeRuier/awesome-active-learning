@@ -21,6 +21,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The considerations of the scale](#the-considerations-of-the-scale)
   - [Large-scale](#large-scale)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
+- [The consideration of query types](#the-consideration-of-query-types)
 
 
 # The considerations of the data
@@ -140,3 +141,12 @@ Several works also take into account the model's training cost.
 
 Works:
 - [Minimum Cost Active Labeling](https://arxiv.org/pdf/2006.13999.pdf)
+
+# The consideration of query types
+
+Conventionally, the oracles provide and only provide the accurate labels of the select instance.
+However, in practice, it may not be convenient for oracles to provide labels.
+Sometimes, other interactions are allowed in active learning.
+
+Works:
+- [Active Learning with n-ary Queries for Image Recognition [2019, WACV]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8658398): This work is under multi-classification setting. Providing the exact class label may be time consuming and error prone. The annotator merely needs to identify which of the selected n categories a given unlabeled sample belongs to (where n is much smaller than the actual number of classes).

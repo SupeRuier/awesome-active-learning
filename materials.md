@@ -199,6 +199,12 @@ Most of classic strategies are based on these models.
   Train a discriminator as AL strategy.
   The discriminator is trained by a combined representation (supervised & unsupervised embedding) and the uncertainty calculated from the supervised model.
   The final selection is operated on the combined representation with the discriminator.
+- [DEAL: Deep Evidential Active Learning for Image Classification [2020, Arxiv]](https://arxiv.org/pdf/2007.11344.pdf):
+  Recent AL methods for CNNs do not perform consistently well and are often computationally expensive.
+  Replace the softmax standard output of a CNN with the parameters of a Dirichlet density.
+  This paper have a summary of the previous works on deep AL.
+- [Deep Active Learning by Model Interpretability [2020, Arxiv]](https://arxiv.org/pdf/2007.12100.pdf):
+  In this paper, inspired by piece-wise linear interpretability in DNN, they introduce the linear separable regions of samples to the problem of active learning, and propose a novel Deep Active learning approach by Model Interpretability (DAMI).
 
 -------------------
 ## Theoretical Support for Active Learning

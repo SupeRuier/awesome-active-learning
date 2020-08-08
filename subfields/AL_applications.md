@@ -25,6 +25,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Brain Mapping in a High Performance Computing Environment](#brain-mapping-in-a-high-performance-computing-environment)
   - [Robot motion planning](#robot-motion-planning)
   - [Crowd Counting](#crowd-counting)
+  - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
 
 # Scientific applications 
 
@@ -99,3 +100,15 @@ About neuron segmentation and tracing at scale.
 ## Crowd Counting
 
 - [Active Crowd Counting with Limited Supervision [2020, Arxiv]](https://arxiv.org/abs/2007.06334): An multi-domain crowd counting framework. Use discriminator to learn a feature extractor for the crowd density regression for all the domains.
+
+## Solvability Prediction in Power Systems
+
+- [Deep Active Learning for Solvability Prediction in Power Systems [2020]](https://arxiv.org/pdf/2007.13250.pdf)
+
+Disguised Faces Recognition
+
+- [A-LINK: Recognizing Disguised Faces via Active Learning based Inter-Domain Knowledge [2019]](http://iab-rubric.org/papers/2019_BTAS_ALINK.pdf)
+
+Video object detection
+
+- [Temporal Coherence for Active Learning in Videos [2019, ICCVW]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9022609&tag=1)
