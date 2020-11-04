@@ -18,6 +18,7 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Computer vision (CV)](#computer-vision-cv)
     - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
     - [Domain adaptation/Transfer learning](#domain-adaptationtransfer-learning)
+    - [Anomaly Detection](#anomaly-detection)
     - [Graph data](#graph-data)
     - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
     - [One-shot learning](#one-shot-learning)
@@ -45,14 +46,15 @@ So AL sometimes could be utilized in other research fields.
 CV is quite a wide conception.
 Here we only post several subtypes in the fields.
 
-Image segmentation：
+Image segmentation/Semantic Segmentation：
 - Geometry in active learning for binary and multi-class [2019, Computer vision and image understanding]
 - Contextual Diversity for Active Learning [2020, Arxiv]
+- Semi-supervised Active Learning for Instance Segmentation via Scoring Predictions
 
 Object Detection: 
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - [Active Object Detection in Sonar Images [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9106398)
-
+- [Importance of Self-Consistency in Active Learning for Semantic Segmentation [2020, Arxiv]](https://arxiv.org/pdf/2008.01860.pdf)
 
 ### Natural Language Processing (NLP)
 
@@ -64,6 +66,7 @@ Sentiment classification:
 
 Named entity recognition: 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
+- LTP: A New Active Learning Strategy for CRF-Based Named Entity Recognition [2020, Arxiv]
 
 ### Domain adaptation/Transfer learning
 
@@ -86,6 +89,10 @@ Transfer learning:
 - Rapid Performance Gain through Active Model Reuse [IJCAI, 2019]
 
 
+### Anomaly Detection
+
+- Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning [2020, Arxiv]
+
 ### Graph data
 
 Graph Embedding/Network representation learning:
@@ -98,6 +105,7 @@ Graph node classification:
 Graph transfer:
 - [Graph Policy Network for Transferable Active Learning on Graphs [2020, Arxiv]](https://arxiv.org/pdf/2006.13463.pdf)
 - [Active Domain Transfer on Network Embedding [2020, Proceedings of The Web Conference ]](https://arxiv.org/pdf/2007.11230.pdf)
+- [Active Learning on Graphs with Geodesically Convex Classes [2020, MLG]](http://www.mlgworkshop.org/2020/papers/MLG2020_paper_40.pdf)
 
 ### Metric learning/Pairwise comparison/Similarity learning 
 
@@ -124,6 +132,8 @@ AL could support clustering by provide pairwise information.
 Works:
 - Semi-Supervised Selective Affinity Propagation Ensemble Clustering With Active Constraints [2020, IEEE Access]
 - Active Learning for Constrained Document Clustering with Uncertainty Region [Complexity, 2020]: Must link & cannot link.
+- Cautious Active Clustering [2020]
+- Improving evolutionary constrained clustering using Active Learning [2020, Knowledge-Based Systems]
 
 ### Generative Adversarial Network
 

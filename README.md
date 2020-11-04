@@ -19,6 +19,8 @@ The main ideas and the scenarios are introduced in these surveys.
 - A survey on instance selection for active learning [[2012]](https://link.springer.com/article/10.1007/s10115-012-0507-8)
 - Active Learning: A Survey [[2014]](https://www.taylorfrancis.com/books/e/9780429102639/chapters/10.1201/b17320-27)
 - Active Learning Query Strategies for Classification, Regression, and Clustering: A Survey [[2020, Journal of Computer Science and Technology]](https://link.springer.com/article/10.1007/s11390-020-9487-4)
+- A Survey of Active Learning for Text Classification using Deep Neural Networks [[2020]](https://arxiv.org/pdf/2008.07267.pdf)
+- A Survey of Deep Active Learning [[2020]](https://arxiv.org/pdf/2009.00236.pdf)
 
 # Our Summarization/Categorization
 

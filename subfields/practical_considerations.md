@@ -15,12 +15,15 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
   - [Multiple Correct Outputs](#multiple-correct-outputs)
+  - [Unknown input classes](#unknown-input-classes)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on single oracles (Noise/Special behaviors)](#the-assumption-change-on-single-oracles-noisespecial-behaviors)
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
 - [The considerations of the scale](#the-considerations-of-the-scale)
   - [Large-scale](#large-scale)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
+  - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
+  - [Incrementally Train:](#incrementally-train)
 - [The consideration of query types](#the-consideration-of-query-types)
 
 
@@ -89,6 +92,14 @@ This causes the previous uncertainly based measurements to over-estimate the unc
 Works:
 - Deep Bayesian Active Learning for Multiple Correct Outputs [2019, Arxiv] (1)
 
+## Unknown input classes
+
+In a stream based setting, the coming instances might have labels not seen before.
+AL strategies should detect and make responses to these instances.
+
+- [Into the unknown: Active monitoring of neural networks [2020]](https://arxiv.org/pdf/2009.06429.pdf): in dynamic environments where unknown input classes appear frequently.
+
+
 # The considerations of the oracles
 
 The oracle is one of the important part in AL loop.
@@ -137,16 +148,29 @@ Works:
 # The considerations of the model training cost
 
 In AL process, the model would be retrained in every AL iteration, this would cause a heavy computational cost.
+
+## Take into the training cost into the total cost
 Several works also take into account the model's training cost.
 
 Works:
-- [Minimum Cost Active Labeling](https://arxiv.org/pdf/2006.13999.pdf)
+- [Minimum Cost Active Labeling [2020]](https://arxiv.org/pdf/2006.13999.pdf)
+
+## Incrementally Train:
+Not retain the model from the scratch but incrementally train the model.
+Fine-tuning is one of the practical method.
+
+Works:
+- Active and incremental learning for semantic ALS point cloud segmentation [2020]: In this paper, they propose an active and incremental learning strategy to iteratively query informative point cloud data for manual annotation and the model is continuously trained to adapt to the newly labelled samples in each iteration.
 
 # The consideration of query types
 
 Conventionally, the oracles provide and only provide the accurate labels of the select instance.
 However, in practice, it may not be convenient for oracles to provide labels.
-Sometimes, other interactions are allowed in active learning.
+In other situations, oracles might provide more information than labels.
+So other interactions are allowed in active learning.
 
 Works:
 - [Active Learning with n-ary Queries for Image Recognition [2019, WACV]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8658398): This work is under multi-classification setting. Providing the exact class label may be time consuming and error prone. The annotator merely needs to identify which of the selected n categories a given unlabeled sample belongs to (where n is much smaller than the actual number of classes).
+- [Active Learning++: Incorporating Annotator’s Rationale using Local Model Explanation [Arxiv, 2020]](https://arxiv.org/pdf/2009.04568.pdf): Beside the label, oracles also need to provide the rationale. In this paper, the rationale is the importance rank of the features. The oracles not only provide the label of the selected instance but also an importance rank of the features on the selected instance.
+- [ALICE: Active Learning with Contrastive Natural Language Explanations [2020, arxiv]](https://arxiv.org/pdf/2009.10259.pdf): This is a work from Stanford. It use an class-based AL which the AL module selects most confusing class pairs instead of instances (select the b class pairs with the lowest JensenShannon Divergence distance). The expert would provide contrastive natural language explanations. The knowledge is extracted by semantic parsing. The architecture of the model contains an one-vs-rest global classifier and local classifier (conditional execution on the global classifier). The local classifiers are not only trained on the original figures but also the resized image patches obtained in the semantic examination grounding. An attention mechanism is used to train the local classifiers.
+- [Active Learning of Classification Models from Enriched Label-related Feedback [2020, PhD Thesis]](http://d-scholarship.pitt.edu/39554/7/Xue%20Final%20ETD.pdf): The human annotator provides additional information (enriched label-related feedback) reflecting the relations among possible labels. The feedback includes probabilistic scores, ordinal Likert-scale categories, Ordered Class Set, Permutation Subsets.

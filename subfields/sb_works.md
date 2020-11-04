@@ -2,6 +2,7 @@
 Can't find works in this setting so far.
 This setting is not as common and useful as the setting with data drift.
 
+
 ## With concept drift
 1. [Active Mining of Data Streams [2004, SIAM]](https://epubs.siam.org/doi/abs/10.1137/1.9781611972740.46): 
    It estimates the error of the model on the new data stream without knowing the true class labels. 

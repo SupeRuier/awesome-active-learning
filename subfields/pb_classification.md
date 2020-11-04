@@ -104,6 +104,7 @@ More commonly, the representativeness and informativeness are considered togethe
   <!-- - Optimization based: Set an objective including the representativeness, then take the optimization result as the score of the unlabeled instaces. -->
   - Unlabeled loss: Also take into account the performance on the unlabeled instances.
     - **QUIRE**
+    - **ALDR+**
 
 Works:
 - [Active learning using pre-clustering [2004, ICML]](https://dl.acm.org/doi/abs/10.1145/1015330.1015349): (483 citations)
@@ -114,6 +115,7 @@ Works:
 - [Exploring Representativeness and Informativeness for Active Learning [2017, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.xilesou.top/abstract/document/7329991): Optimization based. The representativeness is measured by fully investigating the triple similarities that include the similarities between a query sample and the unlabeled set, between a query sample and the labeled set, and between any two candidate query samples. For representativeness, our goal is also to find the sample that makes the distribution discrepancy of unlabeled data and labeled data small. For informativeness, use BvSB. (85 citations)
 - [Active learning for convolutional neural networks: A core-set approach [ICLR, 2018]](https://arxiv.org/abs/1708.00489):
   Core-set loss is simply the difference between average empirical loss over the set of points which have labels for and the average empirical loss over the entire dataset including unlabelled points. Optimize the upper bound of core-set loss could be considered as a k-center problem in practice. Doesn't need to know the out put of the current model.
+- [Efﬁcient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
 
 ## Learn how to sample (Meta-AL)
 
@@ -129,7 +131,9 @@ So some researchers purposed that we can learn a sampling strategy during the sa
 Works:
 - [Active learning by learning [2015, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewPaper/9636): **ALBL**. A single human-designed philosophy is unlikely to work on all scenarios. Given an appropriate choice for the multi-armed bandit learner, take the importance-weighted-accuracy as reward function (an unbiased estimator for the test accuracy). It is possible to estimate the performance of different strategies on the fly. SVM as underlying classifier.(41 citations)
 - [Learning active learning from data [2017, NIPS]](http://papers.nips.cc/paper/7010-learning-active-learning-from-data): **LAL**. Train a random forest regressor that predicts the expected error reduction for a candidate sample in a particular learning state. Previous works they cannot go beyond combining pre-existing hand-designed heuristics. Random forest as basic classifiers. (Not clear how to get test classiﬁcation loss l. It is not explained in both the paper and the code.)(73 citations)
+- [Learning how to Active Learn: A Deep Reinforcement Learning Approach [2017, Arxiv]](https://arxiv.org/abs/1708.02383): **PAL**. Use RL to learn how to select instance. Even though the strategy is learned and applied in a stream manner, the stream is made by the data pool. So under my angle, it could be considered as a pool-based method. (92)
 - [Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]](https://www.aclweb.org/anthology/P18-1174.pdf): Learn an AL policy using imitation learning, mapping situations to most informative query datapoints. (8 citations)
+- [Learning to Rank for Active Learning: A Listwise Approach [2020]](https://arxiv.org/pdf/2008.00078.pdf): Have an additional loss prediction model to predict the loss of instances beside the classification model. Then the loss is calculated by the ranking instead of the ground truth loss of the classifier.
 
 ## Other works
 There still are other works uses innovative heuristics.
