@@ -16,15 +16,18 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Feature missing data](#feature-missing-data)
   - [Multiple Correct Outputs](#multiple-correct-outputs)
   - [Unknown input classes](#unknown-input-classes)
+  - [Different data types](#different-data-types)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on single oracles (Noise/Special behaviors)](#the-assumption-change-on-single-oracles-noisespecial-behaviors)
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
 - [The considerations of the scale](#the-considerations-of-the-scale)
   - [Large-scale](#large-scale)
+- [The consideration of the conventional AL process](#the-consideration-of-the-conventional-al-process)
+  - [Cold start problem](#cold-start-problem)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train:](#incrementally-train)
-- [The consideration of query types](#the-consideration-of-query-types)
+- [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 
 
 # The considerations of the data
@@ -44,6 +47,8 @@ Works:
 - Online Adaptive Asymmetric Active Learning for Budgeted Imbalanced Data [2018, SIGKDD]: Different query probability for different labels (according to the current model). (17)
 - Active Learning for Improving Decision-Making from Imbalanced Data [2019]
 - Active Learning for Skewed Data Sets [2020, Arxiv]
+- Balancing Exploration and Exploitation: A novel active learner for imbalanced data [2020, KBS]
+- [Identifying Wrongly Predicted Samples: A Method for Active Learning [2020]](https://arxiv.org/pdf/2010.06890.pdf): A type of expected loss reduction strategy. Identify wrongly predicted samples by accepting the model prediction and then judging its effect on the generalization error. Results are better than other method in imbalanced setting (Not specifically designed for imbalanced setting).
 
 ## Cost-sensitive case
 
@@ -99,6 +104,13 @@ AL strategies should detect and make responses to these instances.
 
 - [Into the unknown: Active monitoring of neural networks [2020]](https://arxiv.org/pdf/2009.06429.pdf): in dynamic environments where unknown input classes appear frequently.
 
+## Different data types
+
+We usually deal with normal data vectors in conventional learning.
+Sometimes, AL need to be used to handle several unusual data types.
+
+- [Cost-Effective Active Semi-Supervised Learning on Multivariate Time Series Data With Crowds [2020, TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9199304)
+
 
 # The considerations of the oracles
 
@@ -115,6 +127,7 @@ Works：
 - Get another label? improving data quality and data mining using multiple, noisy labelers [2008, KDD]: This paper addresses the repeated acquisition of labels for data items when the labeling is imperfect. 
 - Active Learning from Crowds with Unsure Option [2015, IJCAI]: Allow the annotators to express that they are unsure about the assigned data instances by adding the “unsure” option.
 - Active learning with oracle epiphany [2016, NIPS]: The oracle could suddenly decide how to label by the accumulative effect of seeing multiple similar queries.
+- [Exploiting Context for Robustness to Label Noise in Active Learning [2020, TIP]](https://arxiv.org/pdf/2010.09066.pdf)
 
 ## Multiple/Diverse labeler (ability/price) 
 
@@ -128,6 +141,8 @@ Works:
 - An Interactive Multi-Label Consensus Labeling Model for Multiple Labeler Judgments [2018, AAAI]: The premise is that labels inferred with high consensus among labelers, might be closer to the ground truth. Proposed  a novel formulation that aims to collectively optimize the cost of labeling, labeler reliability, label-label correlation and inter-labeler consensus.
 - Cost-effective active learning from diverse labelers [2017, AAAI]: The cost of a labeler is proportional to its overall labeling quality. But different labelers usually have diverse expertise, and thus it is likely that labelers with a low overall quality can provide accurate labels on some speciﬁc instances. Select labeler can provide an accurate label for the instance with a relative low cost.
 - Interactive Learning with Proactive Cognition Enhancement for Crowd Workers [2020, AAAI]: Try to help workers improve their reliability. Add a machine teaching part. Generate exemplars for human learners with the help of the ground truth inference algorithms.
+- [Cost-Effective Active Semi-Supervised Learning on Multivariate Time Series Data With Crowds [2020, TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9199304): Use evolutionary idea to select the oracle set hypothesis.
+- [Active Learning for Noisy Data Streams Using Weak and Strong Labelers [2020]](https://arxiv.org/pdf/2010.14149.pdf)
 
 
 # The considerations of the scale
@@ -145,6 +160,17 @@ Works:
 - Scalable active learning for multiclass image classification [2012, TPAMI]: Use locality sensitive hashing to provide a very fast approximation to active learning, which gives sublinear time scaling, allowing application to very large datasets. (107)
 - Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.(8)
   
+# The consideration of the conventional AL process
+
+## Cold start problem
+
+Normally, in a cold start setting (no labeled instance at all at the beginning), AL is hard to work.
+Prior work, like BADGE, often depend on model uncertainty or inference, but these measures can be unreliable if the model has not trained on enough data.
+Usually, a portion of data are randomly selected at the beginning to train a super weak model to get into the AL loop (might still not enough for deep models).
+
+Transfer an existing model:
+- [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
+
 # The considerations of the model training cost
 
 In AL process, the model would be retrained in every AL iteration, this would cause a heavy computational cost.
@@ -162,7 +188,7 @@ Fine-tuning is one of the practical method.
 Works:
 - Active and incremental learning for semantic ALS point cloud segmentation [2020]: In this paper, they propose an active and incremental learning strategy to iteratively query informative point cloud data for manual annotation and the model is continuously trained to adapt to the newly labelled samples in each iteration.
 
-# The consideration of query types
+# The consideration of query/feedback types
 
 Conventionally, the oracles provide and only provide the accurate labels of the select instance.
 However, in practice, it may not be convenient for oracles to provide labels.
@@ -171,6 +197,7 @@ So other interactions are allowed in active learning.
 
 Works:
 - [Active Learning with n-ary Queries for Image Recognition [2019, WACV]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8658398): This work is under multi-classification setting. Providing the exact class label may be time consuming and error prone. The annotator merely needs to identify which of the selected n categories a given unlabeled sample belongs to (where n is much smaller than the actual number of classes).
-- [Active Learning++: Incorporating Annotator’s Rationale using Local Model Explanation [Arxiv, 2020]](https://arxiv.org/pdf/2009.04568.pdf): Beside the label, oracles also need to provide the rationale. In this paper, the rationale is the importance rank of the features. The oracles not only provide the label of the selected instance but also an importance rank of the features on the selected instance.
+- [Active Learning++: Incorporating Annotator’s Rationale using Local Model Explanation [2020, Arxiv]](https://arxiv.org/pdf/2009.04568.pdf): Beside the label, oracles also need to provide the rationale. In this paper, the rationale is the importance rank of the features. The oracles not only provide the label of the selected instance but also an importance rank of the features on the selected instance.
 - [ALICE: Active Learning with Contrastive Natural Language Explanations [2020, arxiv]](https://arxiv.org/pdf/2009.10259.pdf): This is a work from Stanford. It use an class-based AL which the AL module selects most confusing class pairs instead of instances (select the b class pairs with the lowest JensenShannon Divergence distance). The expert would provide contrastive natural language explanations. The knowledge is extracted by semantic parsing. The architecture of the model contains an one-vs-rest global classifier and local classifier (conditional execution on the global classifier). The local classifiers are not only trained on the original figures but also the resized image patches obtained in the semantic examination grounding. An attention mechanism is used to train the local classifiers.
 - [Active Learning of Classification Models from Enriched Label-related Feedback [2020, PhD Thesis]](http://d-scholarship.pitt.edu/39554/7/Xue%20Final%20ETD.pdf): The human annotator provides additional information (enriched label-related feedback) reflecting the relations among possible labels. The feedback includes probabilistic scores, ordinal Likert-scale categories, Ordered Class Set, Permutation Subsets.
+- [Hierarchical Active Learning with Overlapping Regions [2020]](https://dl.acm.org/doi/pdf/10.1145/3340531.3412022)

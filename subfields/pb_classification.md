@@ -97,11 +97,13 @@ More commonly, the representativeness and informativeness are considered togethe
   - Cluster based sampling:
     - Pre-cluster
     - Hierarchical sampling
+    - Cluster on other types of embedding
   - Density based sampling
     - **Information density**
     - **RALF**
     - **(*Batch) k-Center-Greedy (Core-set)**: Only consider the representativeness.
-  <!-- - Optimization based: Set an objective including the representativeness, then take the optimization result as the score of the unlabeled instaces. -->
+    - **Adversarial based**: The labeled and the unlabeled instances should hard to be distinguished.
+  <!-- - Optimization based: Set an objective including the representativeness, then take the optimization result as the score of the unlabeled instances. -->
   - Unlabeled loss: Also take into account the performance on the unlabeled instances.
     - **QUIRE**
     - **ALDR+**
@@ -116,6 +118,7 @@ Works:
 - [Active learning for convolutional neural networks: A core-set approach [ICLR, 2018]](https://arxiv.org/abs/1708.00489):
   Core-set loss is simply the difference between average empirical loss over the set of points which have labels for and the average empirical loss over the entire dataset including unlabelled points. Optimize the upper bound of core-set loss could be considered as a k-center problem in practice. Doesn't need to know the out put of the current model.
 - [Efﬁcient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
+- [Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification [2020]](https://arxiv.org/pdf/2009.14448.pdf): Use kmeans++ on the learned gradient embeddings to select instances.
 
 ## Learn how to sample (Meta-AL)
 

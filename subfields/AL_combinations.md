@@ -23,17 +23,23 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
     - [One-shot learning](#one-shot-learning)
     - [Clustering](#clustering)
+    - [Ordinal Regression/Classification](#ordinal-regressionclassification)
     - [Generative Adversarial Network](#generative-adversarial-network)
     - [De-noise](#de-noise)
+    - [Classifier Pruning](#classifier-pruning)
     - [Causal Analysis](#causal-analysis)
+    - [Model selection](#model-selection)
     - [Positive and unlabeled (PU) learning](#positive-and-unlabeled-pu-learning)
     - [Reinforcement Learning](#reinforcement-learning)
     - [Human Learning](#human-learning)
+    - [Model interpretability](#model-interpretability)
+    - [Sequence labeling](#sequence-labeling)
+    - [Sample selection for optimization problem](#sample-selection-for-optimization-problem)
   - [Improve AL](#improve-al)
     - [Reinforcement Learning](#reinforcement-learning-1)
     - [Meta-learning](#meta-learning)
     - [Quantum computing](#quantum-computing)
-    - [GAN](#gan)
+    - [Generative Adversarial Network](#generative-adversarial-network-1)
 
 
 ## Utilize AL
@@ -50,23 +56,33 @@ Image segmentation/Semantic Segmentation：
 - Geometry in active learning for binary and multi-class [2019, Computer vision and image understanding]
 - Contextual Diversity for Active Learning [2020, Arxiv]
 - Semi-supervised Active Learning for Instance Segmentation via Scoring Predictions
+- [Attention, Suggestion and Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation [2020, MICCAI]](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_1)
+- [Deep Active Learning for Joint Classification & Segmentation with Weak Annotator [2020]](https://arxiv.org/pdf/2010.04889.pdf): Leverage the unlabeled images to improve model accuracy with less oracle-annotation. AL for segmentation of images selected for pixel-level annotation.
+- [Difficulty-aware Active Learning for Semantic Segmentation [2020]](https://arxiv.org/pdf/2010.08705.pdf)
 
 Object Detection: 
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - [Active Object Detection in Sonar Images [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9106398)
 - [Importance of Self-Consistency in Active Learning for Semantic Segmentation [2020, Arxiv]](https://arxiv.org/pdf/2008.01860.pdf)
 
+Image Captioning:
+- Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
+
 ### Natural Language Processing (NLP)
 
 NLP is also quite a wide conception.
 Here we only post several subtypes in the fields.
 
-Sentiment classification:
+Sentiment/text classification:
 - Active learning for imbalanced sentiment classification [2012, EMNLP-CoNLL]
+- [Deep Active Learning with Simulated Rationales for Text Classiﬁcation [2020, PRAI]](https://link.springer.com/chapter/10.1007/978-3-030-59830-3_32): Utilize auxiliary task to reduce the data scarce affect at the beginning of the AL process.
 
 Named entity recognition: 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
 - LTP: A New Active Learning Strategy for CRF-Based Named Entity Recognition [2020, Arxiv]
+
+Semantic Parsing:
+- [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
 
 ### Domain adaptation/Transfer learning
 
@@ -101,6 +117,10 @@ Graph Embedding/Network representation learning:
 Graph node classification:
 - Active learning for streaming networked data [2014, ACM International Conference on Conference on Information and Knowledge Management]
 - MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning [2020, Arxiv]
+- Active Learning for Node Classiﬁcation: An Evaluation [2020, Entropy MDPI]
+
+Node response prediction:
+- [Meta-Active Learning for Node Response Prediction in Graphs [2020]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=META-ACTIVE+LEARNING+FOR+NODE+RESPONSE+PREDICTION+IN+GRAPHS&btnG=)
 
 Graph transfer:
 - [Graph Policy Network for Transferable Active Learning on Graphs [2020, Arxiv]](https://arxiv.org/pdf/2006.13463.pdf)
@@ -127,13 +147,22 @@ Works:
 
 ### Clustering
 
-AL could support clustering by provide pairwise information.
+AL could support clustering by provide supervised information.
 
 Works:
 - Semi-Supervised Selective Affinity Propagation Ensemble Clustering With Active Constraints [2020, IEEE Access]
 - Active Learning for Constrained Document Clustering with Uncertainty Region [Complexity, 2020]: Must link & cannot link.
 - Cautious Active Clustering [2020]
 - Improving evolutionary constrained clustering using Active Learning [2020, Knowledge-Based Systems]
+
+Review:
+- Interactive clustering: a scoping review [2020, Artificial Intelligence Review]
+
+### Ordinal Regression/Classification
+
+Could be consider as a regression where the relative orders of the instances matter.
+
+- [Active Learning for Imbalanced Ordinal Regression [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208667)
 
 ### Generative Adversarial Network
 
@@ -147,11 +176,22 @@ Works:
 Works:
 - Active Deep Learning to Tune Down the Noise in Labels [2018, KDD]
 
+### Classifier Pruning
+
+- [FIND: Human-in-the-Loop Debugging Deep Text Classifiers [2020]](https://arxiv.org/pdf/2010.04987.pdf): Visualize each extracted feature as a word cloud. Human decide wether to block the corresponding feature.
+
 ### Causal Analysis
 
 Works:
 - [Root Cause Analysis for Self-organizing Cellular Network: an Active Learning Approach](https://link.springer.com/article/10.1007/s11036-020-01589-1)
 - [Active Invariant Causal Prediction: Experiment Selection through Stability](https://arxiv.org/pdf/2006.05690.pdf)
+
+### Model selection
+
+As active model selection, both pool based and stream based. 
+Normally there only is model selection without training.
+
+- Online Active Model Selection for Pre-trained Classifiers [2020]
 
 ### Positive and unlabeled (PU) learning
 
@@ -172,6 +212,21 @@ Works:
 - [Human Active Learning [2008, NIPS]](http://papers.nips.cc/paper/3456-human-active-learning)
 - [Human Active Learning [2018]](https://www.intechopen.com/books/active-learning-beyond-the-future/human-active-learning)
 
+### Model interpretability
+
+- [ALEX: Active Learning based Enhancement of a Model’s EXplainability [2020, CIKM]](https://dl.acm.org/doi/pdf/10.1145/3340531.3417456)
+
+### Sequence labeling
+
+- [SeqMix: Augmenting Active Sequence Labeling via Sequence Mixup [2020]](https://arxiv.org/pdf/2010.02322.pdf): Not only provide the selected instance, but also provide a generated sequence according to the selected one.
+
+### Sample selection for optimization problem
+
+The background is that simulation (for evaluation) is quite expensive in many optimization problem.
+Utilize active sampling to reduce the optimization cost.
+
+- [Building energy optimization using surrogate model and active sampling [2020]](https://www.tandfonline.com/doi/pdf/10.1080/19401493.2020.1821094)
+
 
 ## Improve AL
 
@@ -185,6 +240,7 @@ Works:
 - Active Learning by Learning [2015, AAAI]
 - Learning how to Active Learn: A Deep Reinforcement Learning Approach [2017, Arxiv]
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, Annual Meeting of the Association for Computational Linguistics]
+- [Deep Reinforcement Active Learning for Medical Image Classiﬁcation [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.
 
 ### Meta-learning
 
@@ -198,7 +254,7 @@ Works:
 Works:
 - Quantum speedup for pool-based active learning
 
-### GAN 
+### Generative Adversarial Network
 
 Could be used in query synthesis.
 

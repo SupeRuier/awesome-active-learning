@@ -13,7 +13,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Protein production optimization](#protein-production-optimization)
   - [Molecular property prediction](#molecular-property-prediction)
   - [Medical image annotation](#medical-image-annotation)
-  - [Discovery of objects in large spectroscopic surveys](#discovery-of-objects-in-large-spectroscopic-surveys)
+  - [Astronomy: spectroscopic surveys](#astronomy-spectroscopic-surveys)
   - [Drug discovery](#drug-discovery)
   - [Chemical natural language processing](#chemical-natural-language-processing)
   - [Experiment design/Experimental condition selection](#experiment-designexperimental-condition-selection)
@@ -22,13 +22,17 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Medical image classification](#medical-image-classification)
   - [Spam Detection](#spam-detection)
   - [Mobile Health Monitoring](#mobile-health-monitoring)
+  - [Disease detection](#disease-detection)
   - [Privacy Policy Classification](#privacy-policy-classification)
   - [Dataset building](#dataset-building)
   - [Data Enrichment](#data-enrichment)
   - [Answer Selection (learning to rank)](#answer-selection-learning-to-rank)
   - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
+  - [Communication](#communication)
   - [Brain Mapping in a High Performance Computing Environment](#brain-mapping-in-a-high-performance-computing-environment)
-  - [Robot motion planning](#robot-motion-planning)
+  - [Robotics](#robotics)
+    - [Human-Robot Interaction](#human-robot-interaction)
+    - [Robot motion planning](#robot-motion-planning)
   - [Crowd Counting](#crowd-counting)
   - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
   - [Disguised Faces Recognition](#disguised-faces-recognition)
@@ -55,9 +59,10 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 
 - [An Adaptive Low-Rank Modeling-Based Active Learning Method for Medical Image Annotation [2020, IRBM]](https://www.sciencedirect.com/science/article/pii/S1959031820301056): Medical images: the intrinsic presence of noise in medical images, the large number of images, and the variety of imaging modalities. Low-rank modeling-based multi-label active learning (LRMMAL) method.
 
-## Discovery of objects in large spectroscopic surveys
+## Astronomy: spectroscopic surveys
 
 - [Active deep learning method for the discovery of objects of interest in large spectroscopic surveys](https://arxiv.org/pdf/2009.03219.pdf): We apply active learning classification methods supported by deep convolutional neural networks to automatically identify complex emission-line shapes in multi-million spectra archives.
+- [Active learning with RESSPECT: Resource allocation for extragalactic astronomical transients [2020]](https://arxiv.org/pdf/2010.05941.pdf): The Recommendation System for Spectroscopic follow- up (RESSPECT) project aims to enable the construction of optimized training samples for the Rubin Observatory Legacy Survey of Space and Time (LSST), taking into account a realistic description of the astronomical data environment.
 
 
 ## Drug discovery
@@ -73,6 +78,7 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 
 - Active machine learning-driven experimentation to determine compound effects on protein patterns [2016, Elife]
 - [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
+- Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
 
 
 # Industrial applications
@@ -82,10 +88,12 @@ The industrial applications of AL are about the practical problems or specific r
 ## Remote Sensing 
 
 Remote sensing is an field with really high labeling cost.
-AL is well use in this field.
+AL is well used in this field.
 
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
+- Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
+- [Online Semisupervised Active Classification for Multiview PolSAR Data [2020, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9238410)
 
 ## Medical image classification
 
@@ -98,6 +106,10 @@ AL is well use in this field.
 ## Mobile Health Monitoring
 
 - Collaborative Multi-Expert Active Learning for Mobile Health Monitoring: Architecture, Algorithms, and Evaluation [2020, Sensors]
+
+## Disease detection
+
+- [Exploiting Active Learning in Novel Refractive Error Detection with Smartphones [2020, ACMMM]](https://dl.acm.org/doi/pdf/10.1145/3394171.3413748): Use their own created dataset (only 172 images).
 
 ## Privacy Policy Classification
 - Deep Active Learning with Crowdsourcing Data for Privacy Policy Classification [2020, Arxiv]
@@ -118,18 +130,32 @@ AL is well use in this field.
 
 - [Dialog Policy Learning for Joint Clarification and Active Learning Queries [2020, Arxiv]](https://arxiv.org/pdf/2006.05456.pdf)
 
+## Communication
+
+Eg. 5g
+
+- [Active Popularity Learning with Cache Hit Ratio Guarantees using a Matrix Completion Committee [2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217322&tag=1): The object is modeling the optimal cache strategy in 5g wireless communication. AL is to learn the content popularities (criterion for determining whether cached or not) since it allows the system to leverage the trade-off between exploration (caching new files) and exploitation (use known files to cache). Specifically, AL is used to do matrix completion on the missing entries of the demand matrix
+- [Active content popularity learning and caching optimization with hit ratio guarantees [2020, IEEE Access]](https://ieeexplore.ieee.org/abstract/document/9159587): Similar to the last one but with more details. A query is defined as the response received from the user terminal to the system.
+
 ## Brain Mapping in a High Performance Computing Environment
 
 About neuron segmentation and tracing at scale.
 - [Active Learning Pipeline for Brain Mapping in a High Performance Computing Environment [2020, Arxiv]](https://arxiv.org/pdf/2006.14684.pdf)
 
-## Robot motion planning
+## Robotics
+
+### Human-Robot Interaction
+
+- [Teacher-Learner Interaction for Robot Active Learning [2020, Thesis]](https://aaltodoc.aalto.fi/bitstream/handle/123456789/46843/isbn9789526400556.pdf?sequence=1&isAllowed=y)
+
+### Robot motion planning
 
 - [Active Learning of Signal Temporal Logic Specifications](https://people.kth.se/~linard/publications/active_learn_stl.pdf)
 
 ## Crowd Counting
 
 - [Active Crowd Counting with Limited Supervision [2020, Arxiv]](https://arxiv.org/abs/2007.06334): An multi-domain crowd counting framework. Use discriminator to learn a feature extractor for the crowd density regression for all the domains.
+- [Uncertainty Estimation and Sample Selection for Crowd Counting [2020, Arxiv]](https://arxiv.org/pdf/2009.14411.pdf)
 
 ## Solvability Prediction in Power Systems
 

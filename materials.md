@@ -28,6 +28,7 @@ In this repository, previous works of active learning were categorized.
     - [Bayesian/Probabilistic](#bayesianprobabilistic)
     - [Gaussian Progress](#gaussian-progress)
     - [Neural Network](#neural-network)
+  - [- [Deep Adversarial Active Learning With Model Uncertainty For Image Classification [2020, ICIP]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190726&tag=1): Still distinguish between labeled and unlabeled data with a adversarial loss, but they try to use select instances dissimilar to the labeled data with higher prediction uncertainty. This work is inspired by *Variational adversarial active learning*.](#ullideep-adversarial-active-learning-with-model-uncertainty-for-image-classification-2020-icip-still-distinguish-between-labeled-and-unlabeled-data-with-a-adversarial-loss-but-they-try-to-use-select-instances-dissimilar-to-the-labeled-data-with-higher-prediction-uncertainty-this-work-is-inspired-by-variational-adversarial-active-learningliul)
   - [Theoretical Support for Active Learning](#theoretical-support-for-active-learning)
     - [Explainable Active Learning](#explainable-active-learning)
   - [Problem Settings Change (Combine AL with other settings)](#problem-settings-change-combine-al-with-other-settings)
@@ -157,7 +158,8 @@ Most of classic strategies are based on these models.
 - [Deep active learning for named entity recognition [ICLR, 2018]](https://arxiv.org/abs/1707.05928)80:
   Incremental manner.
   Uncertainty-based heuristic, select those sentences for which the length-normalized log probability of the current prediction is the lowest。
-- [Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds [Arxiv, 2019]](https://arxiv.org/abs/1906.03671)：
+- [Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds [Arxiv, 2019][2020, ICLR]](https://arxiv.org/abs/1906.03671)：
+  *BADGE*. 
   Good paper, compared many previous Deep AL.
   Very representative for Deep AL.
   Capture uncertainty and diversity.
@@ -184,9 +186,9 @@ Most of classic strategies are based on these models.
 - [Deeper Connections between Neural Networks and Gaussian Processes Speed-up Active Learning [IJCAI, 2019]](https://arxiv.org/abs/1902.10350)0
 - [Variational Adversarial Active Learning [ICCV, 2019]](http://openaccess.thecvf.com/content_ICCV_2019/html/Sinha_Variational_Adversarial_Active_Learning_ICCV_2019_paper.html): 
   Use the idea from adversarial learning.
-  The intuition is that the discriminator should not distinguish labeled instances and unlabeled instances.
-  (This could be understand as a domain adaptation work where the labeled and unlabeled instances are in different domain.
-  The purpose is to find a subspace make domains closer.)
+  The intuition is to train a discriminator to decide which instance is least similar the labeled instance.
+  This discriminator works as the selector.
+  (The VAE is trained to fool the adversarial network to believe that all the examples are from the labeled data while the adversarial classifier is trained to differentiate labeled from unlabeled samples.) 52
 - [Multi-criteria active deep learning for image classification [Knowledge-Based Systems, 2019]](https://www.sciencedirect.com/science/article/pii/S0950705119300747)3：
   Integrate different query strategies as well as make a performance balance among classes.
   The strategies are adapted.
@@ -205,7 +207,8 @@ Most of classic strategies are based on these models.
   This paper have a summary of the previous works on deep AL.
 - [Deep Active Learning by Model Interpretability [2020, Arxiv]](https://arxiv.org/pdf/2007.12100.pdf):
   In this paper, inspired by piece-wise linear interpretability in DNN, they introduce the linear separable regions of samples to the problem of active learning, and propose a novel Deep Active learning approach by Model Interpretability (DAMI).
-
+- [Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification [2020, Arxiv]](https://arxiv.org/pdf/2009.14448.pdf): Use kmeans++ on the learned gradient embeddings to select instances.
+- [Deep Adversarial Active Learning With Model Uncertainty For Image Classification [2020, ICIP]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190726&tag=1): Still distinguish between labeled and unlabeled data with a adversarial loss, but they try to use select instances dissimilar to the labeled data with higher prediction uncertainty. This work is inspired by *Variational adversarial active learning*.
 -------------------
 ## Theoretical Support for Active Learning
 Not really familiar with this.
