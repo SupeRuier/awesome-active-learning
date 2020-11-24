@@ -12,14 +12,16 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Structural biology](#structural-biology)
   - [Protein production optimization](#protein-production-optimization)
   - [Molecular property prediction](#molecular-property-prediction)
-  - [Medical image annotation](#medical-image-annotation)
   - [Astronomy: spectroscopic surveys](#astronomy-spectroscopic-surveys)
   - [Drug discovery](#drug-discovery)
+  - [Materials design and discovery](#materials-design-and-discovery)
   - [Chemical natural language processing](#chemical-natural-language-processing)
   - [Experiment design/Experimental condition selection](#experiment-designexperimental-condition-selection)
 - [Industrial applications](#industrial-applications)
   - [Remote Sensing](#remote-sensing)
-  - [Medical image classification](#medical-image-classification)
+  - [Medical](#medical)
+    - [Medical image classification/image annotation](#medical-image-classificationimage-annotation)
+    - [Medical symptom recognition from text](#medical-symptom-recognition-from-text)
   - [Spam Detection](#spam-detection)
   - [Mobile Health Monitoring](#mobile-health-monitoring)
   - [Disease detection](#disease-detection)
@@ -55,10 +57,6 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 
 - [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020. KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
 
-## Medical image annotation
-
-- [An Adaptive Low-Rank Modeling-Based Active Learning Method for Medical Image Annotation [2020, IRBM]](https://www.sciencedirect.com/science/article/pii/S1959031820301056): Medical images: the intrinsic presence of noise in medical images, the large number of images, and the variety of imaging modalities. Low-rank modeling-based multi-label active learning (LRMMAL) method.
-
 ## Astronomy: spectroscopic surveys
 
 - [Active deep learning method for the discovery of objects of interest in large spectroscopic surveys](https://arxiv.org/pdf/2009.03219.pdf): We apply active learning classification methods supported by deep convolutional neural networks to automatically identify complex emission-line shapes in multi-million spectra archives.
@@ -69,6 +67,11 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 
 - Active-learning strategies in computer-assisted drug discovery. [2015, Drug Discov.]
 - Active learning for computational chemogenomics [2017, Future Medicinal Chemistry]
+
+## Materials design and discovery
+
+- Bias free multiobjective active learning for materials design and discovery [2020]
+- [Active learning for the power factor prediction in diamond-like thermoelectric materials [2020, npj Computational Materials]](https://www.nature.com/articles/s41524-020-00439-8)
 
 ## Chemical natural language processing
 
@@ -95,9 +98,18 @@ AL is well used in this field.
 - Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
 - [Online Semisupervised Active Classification for Multiview PolSAR Data [2020, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9238410)
 
-## Medical image classification
+## Medical 
+
+### Medical image classification/image annotation
 
 - [Semi-Supervised Active Learning for COVID-19 Lung Ultrasound Multi-symptom Classification [2020]](https://arxiv.org/pdf/2009.05436.pdf): Multi-label classification network (MSML) is proposed, and a human-machine interaction is exploited to confirm the final annotations that are used to fine-tune MSML with progressively labeled data. Still pool based.
+- [An Adaptive Low-Rank Modeling-Based Active Learning Method for Medical Image Annotation [2020, IRBM]](https://www.sciencedirect.com/science/article/pii/S1959031820301056): Medical images: the intrinsic presence of noise in medical images, the large number of images, and the variety of imaging modalities. Low-rank modeling-based multi-label active learning (LRMMAL) method.
+- A Transfer Learning Based Active Learning Framework for Brain Tumor Classification [2020]
+
+
+### Medical symptom recognition from text
+
+- Medical symptom recognition from patient text: An active learning approach for long-tailed multilabel distributions [2020, ML4H]
 
 ## Spam Detection
 
@@ -134,7 +146,7 @@ AL is well used in this field.
 
 Eg. 5g
 
-- [Active Popularity Learning with Cache Hit Ratio Guarantees using a Matrix Completion Committee [2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217322&tag=1): The object is modeling the optimal cache strategy in 5g wireless communication. AL is to learn the content popularities (criterion for determining whether cached or not) since it allows the system to leverage the trade-off between exploration (caching new files) and exploitation (use known files to cache). Specifically, AL is used to do matrix completion on the missing entries of the demand matrix
+- [Active Popularity Learning with Cache Hit Ratio Guarantees using a Matrix Completion Committee [2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217322&tag=1): The object is modeling the optimal cache strategy in 5g wireless communication. AL is to learn the content popularities (criterion for determining whether cached or not) since it allows the system to leverage the trade-off between exploration (caching new files) and exploitation (use known files to cache). Specifically, AL is used to do matrix completion on the missing entries of the demand matrix.
 - [Active content popularity learning and caching optimization with hit ratio guarantees [2020, IEEE Access]](https://ieeexplore.ieee.org/abstract/document/9159587): Similar to the last one but with more details. A query is defined as the response received from the user terminal to the system.
 
 ## Brain Mapping in a High Performance Computing Environment

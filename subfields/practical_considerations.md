@@ -143,6 +143,7 @@ Works:
 - Interactive Learning with Proactive Cognition Enhancement for Crowd Workers [2020, AAAI]: Try to help workers improve their reliability. Add a machine teaching part. Generate exemplars for human learners with the help of the ground truth inference algorithms.
 - [Cost-Effective Active Semi-Supervised Learning on Multivariate Time Series Data With Crowds [2020, TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9199304): Use evolutionary idea to select the oracle set hypothesis.
 - [Active Learning for Noisy Data Streams Using Weak and Strong Labelers [2020]](https://arxiv.org/pdf/2010.14149.pdf)
+- Cost-Accuracy Aware Adaptive Labeling for Active Learning [2020, AAAI]: Need to select instances and labelers.
 
 
 # The considerations of the scale

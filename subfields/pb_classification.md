@@ -18,7 +18,7 @@ And at the end, we will list the famous works (with a short note).
   - [Disagreement-based sampling](#disagreement-based-sampling)
   - [Expected-improvement-based](#expected-improvement-based)
   - [Representativeness-impart sampling](#representativeness-impart-sampling)
-  - [Learn how to sample (Meta-AL)](#learn-how-to-sample-meta-al)
+  - [Learn how to sample / Learn how to active learn](#learn-how-to-sample--learn-how-to-active-learn)
   - [Other works](#other-works)
 - [AL with Multi-class classification](#al-with-multi-class-classification)
   - [Uncertainty-based sampling](#uncertainty-based-sampling-1)
@@ -120,10 +120,10 @@ Works:
 - [Efﬁcient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
 - [Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification [2020]](https://arxiv.org/pdf/2009.14448.pdf): Use kmeans++ on the learned gradient embeddings to select instances.
 
-## Learn how to sample (Meta-AL)
+## Learn how to sample / Learn how to active learn
 
 All the mentioned sampling strategies is basing on a heuristic approach.
-Their intuition is clear, but might perform differently in different settings.
+Their intuition is clear, but might perform differently in different datasets.
 So some researchers purposed that we can learn a sampling strategy during the sampling process.
 
 - Learn how to sample
@@ -136,6 +136,7 @@ Works:
 - [Learning active learning from data [2017, NIPS]](http://papers.nips.cc/paper/7010-learning-active-learning-from-data): **LAL**. Train a random forest regressor that predicts the expected error reduction for a candidate sample in a particular learning state. Previous works they cannot go beyond combining pre-existing hand-designed heuristics. Random forest as basic classifiers. (Not clear how to get test classiﬁcation loss l. It is not explained in both the paper and the code.)(73 citations)
 - [Learning how to Active Learn: A Deep Reinforcement Learning Approach [2017, Arxiv]](https://arxiv.org/abs/1708.02383): **PAL**. Use RL to learn how to select instance. Even though the strategy is learned and applied in a stream manner, the stream is made by the data pool. So under my angle, it could be considered as a pool-based method. (92)
 - [Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]](https://www.aclweb.org/anthology/P18-1174.pdf): Learn an AL policy using imitation learning, mapping situations to most informative query datapoints. (8 citations)
+- [Learning Loss for Active Learning [2019, CVPR]](https://openaccess.thecvf.com/content_CVPR_2019/html/Yoo_Learning_Loss_for_Active_Learning_CVPR_2019_paper.html): Attach a small parametric module, named “loss prediction module,” to a target network, and learn it to predict target losses of unlabeled inputs. 
 - [Learning to Rank for Active Learning: A Listwise Approach [2020]](https://arxiv.org/pdf/2008.00078.pdf): Have an additional loss prediction model to predict the loss of instances beside the classification model. Then the loss is calculated by the ranking instead of the ground truth loss of the classifier.
 
 ## Other works

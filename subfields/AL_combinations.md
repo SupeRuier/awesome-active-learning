@@ -26,7 +26,6 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Ordinal Regression/Classification](#ordinal-regressionclassification)
     - [Generative Adversarial Network](#generative-adversarial-network)
     - [De-noise](#de-noise)
-    - [Classifier Pruning](#classifier-pruning)
     - [Causal Analysis](#causal-analysis)
     - [Model selection](#model-selection)
     - [Positive and unlabeled (PU) learning](#positive-and-unlabeled-pu-learning)
@@ -37,7 +36,6 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Sample selection for optimization problem](#sample-selection-for-optimization-problem)
   - [Improve AL](#improve-al)
     - [Reinforcement Learning](#reinforcement-learning-1)
-    - [Meta-learning](#meta-learning)
     - [Quantum computing](#quantum-computing)
     - [Generative Adversarial Network](#generative-adversarial-network-1)
 
@@ -84,6 +82,12 @@ Named entity recognition:
 Semantic Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
 
+Classifier Pruning:
+- [FIND: Human-in-the-Loop Debugging Deep Text Classifiers [2020, EMNLP]](https://www.aclweb.org/anthology/2020.emnlp-main.24.pdf): Visualize each extracted feature as a word cloud. Human decide wether to block the corresponding feature.
+
+Neural Machine Translation:
+- [Active Learning Approaches to Enhancing Neural Machine Translation [2020, EMNLP]](https://www.aclweb.org/anthology/2020.findings-emnlp.162.pdf): The first to do a large-scale study on actively training Transformer for NMT.
+
 ### Domain adaptation/Transfer learning
 
 Normally when we use AL in domain adaptation, we can obtain several true labels of the unlabeled instances on source/target domain.
@@ -118,6 +122,9 @@ Graph node classification:
 - Active learning for streaming networked data [2014, ACM International Conference on Conference on Information and Knowledge Management]
 - MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning [2020, Arxiv]
 - Active Learning for Node Classiﬁcation: An Evaluation [2020, Entropy MDPI]
+
+Link Prediction:
+- Complex Query Answering with Neural Link Predictors [2020]
 
 Node response prediction:
 - [Meta-Active Learning for Node Response Prediction in Graphs [2020]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=META-ACTIVE+LEARNING+FOR+NODE+RESPONSE+PREDICTION+IN+GRAPHS&btnG=)
@@ -176,9 +183,6 @@ Works:
 Works:
 - Active Deep Learning to Tune Down the Noise in Labels [2018, KDD]
 
-### Classifier Pruning
-
-- [FIND: Human-in-the-Loop Debugging Deep Text Classifiers [2020]](https://arxiv.org/pdf/2010.04987.pdf): Visualize each extracted feature as a word cloud. Human decide wether to block the corresponding feature.
 
 ### Causal Analysis
 
@@ -203,7 +207,8 @@ Works:
 
 ### Reinforcement Learning
 
-Works:
+Active exploration Works:
+- Model-Based Active Exploration
 - [SAMBA: Safe Model-Based & Active Reinforcement Learning [2020, Arxiv]](https://arxiv.org/pdf/2006.09436.pdf)
 
 ### Human Learning
@@ -241,13 +246,6 @@ Works:
 - Learning how to Active Learn: A Deep Reinforcement Learning Approach [2017, Arxiv]
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, Annual Meeting of the Association for Computational Linguistics]
 - [Deep Reinforcement Active Learning for Medical Image Classiﬁcation [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.
-
-### Meta-learning
-
-Could be used to develop query strategy (define query loss).
-
-Works:
-- Learning Loss for Active Learning [2019, CVPR]
 
 ### Quantum computing 
 
