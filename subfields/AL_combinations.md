@@ -21,7 +21,7 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Anomaly Detection](#anomaly-detection)
     - [Graph data](#graph-data)
     - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
-    - [One-shot learning](#one-shot-learning)
+    - [One/Few-shot learning](#onefew-shot-learning)
     - [Clustering](#clustering)
     - [Ordinal Regression/Classification](#ordinal-regressionclassification)
     - [Generative Adversarial Network](#generative-adversarial-network)
@@ -34,6 +34,7 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Model interpretability](#model-interpretability)
     - [Sequence labeling](#sequence-labeling)
     - [Sample selection for optimization problem](#sample-selection-for-optimization-problem)
+    - [Multi-fidelity machine learning](#multi-fidelity-machine-learning)
   - [Improve AL](#improve-al)
     - [Reinforcement Learning](#reinforcement-learning-1)
     - [Quantum computing](#quantum-computing)
@@ -65,6 +66,9 @@ Object Detection:
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
+
+Action Recognition:
+- [Sparse Semi-Supervised Action Recognition with Active Learning [2020]](https://arxiv.org/pdf/2012.01740.pdf)
 
 ### Natural Language Processing (NLP)
 
@@ -140,7 +144,7 @@ Works:
 - [Active Ordinal Querying for Tuplewise Similarity Learning [2020 AAAI]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-CanalG.9650.pdf): Introduce AL to their new similarity methods (InfoTuple). Active Sampling for Pairwise Comparisons via Approximate Message Passing and Information Gain Maximization.
 - Batch Decorrelation for Active Metric Learning [2020, IJCAI]
 
-### One-shot learning
+### One/Few-shot learning
 
 One/few-shot learning is to learn a model on a new dataset with one for few available instances.
 AL could be used to select the instances in the new dataset.
@@ -150,6 +154,7 @@ Works:
 - Augmented Memory Networks for Streaming-Based Active One-Shot Learning [2019, Arxiv]
 - Active one-shot learning with Prototypical Networks [2019, ESANN]
 - Active one-shot learning by a deep Q-network strategy [2020, Neurocomputing]
+- On the Utility of Active Instance Selection for Few-Shot Learning [2020]: Show via these “upper bounds” that we do not have a significant room for improving few-shot models through actively selecting instances.
 
 
 ### Clustering
@@ -220,6 +225,7 @@ Works:
 ### Model interpretability
 
 - [ALEX: Active Learning based Enhancement of a Model’s EXplainability [2020, CIKM]](https://dl.acm.org/doi/pdf/10.1145/3340531.3417456)
+- [Active Sampling for Learning Interpretable Surrogate Machine Learning Models [2020, DSAA]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9260055&tag=1)
 
 ### Sequence labeling
 
@@ -231,7 +237,11 @@ The background is that simulation (for evaluation) is quite expensive in many op
 Utilize active sampling to reduce the optimization cost.
 
 - [Building energy optimization using surrogate model and active sampling [2020]](https://www.tandfonline.com/doi/pdf/10.1080/19401493.2020.1821094)
+- [ALGA: Active Learning-Based Genetic Algorithm for Accelerating Structural Optimization [2020, AIAA]](https://arc.aiaa.org/doi/pdf/10.2514/1.J059240)
 
+### Multi-fidelity machine learning
+
+- [Deep Multi-Fidelity Active Learning of High-Dimensional Outputs [2020]](https://arxiv.org/pdf/2012.00901.pdf)
 
 ## Improve AL
 

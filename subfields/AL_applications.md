@@ -37,6 +37,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Robot motion planning](#robot-motion-planning)
   - [Crowd Counting](#crowd-counting)
   - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
+  - [Software defects prediction](#software-defects-prediction)
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Video object detection](#video-object-detection)
   - [Gas reservoir prediction](#gas-reservoir-prediction)
@@ -97,6 +98,7 @@ AL is well used in this field.
 - Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
 - Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
 - [Online Semisupervised Active Classification for Multiview PolSAR Data [2020, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9238410)
+- [Hyperspectral Image Classiﬁcation with Feature-Oriented Adversarial Active Learning [2020, Remote Sensing]](https://www.mdpi.com/2072-4292/12/23/3879)
 
 ## Medical 
 
@@ -172,6 +174,11 @@ About neuron segmentation and tracing at scale.
 ## Solvability Prediction in Power Systems
 
 - [Deep Active Learning for Solvability Prediction in Power Systems [2020]](https://arxiv.org/pdf/2007.13250.pdf)
+
+## Software defects prediction
+
+- [Empirical evaluation of the active learning strategies on software defects prediction [2016, ISSSR]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9265897)
+
 
 ## Disguised Faces Recognition
 
