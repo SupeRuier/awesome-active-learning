@@ -24,6 +24,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Large-scale](#large-scale)
 - [The consideration of the conventional AL process](#the-consideration-of-the-conventional-al-process)
   - [Cold start problem](#cold-start-problem)
+  - [Stop criteria](#stop-criteria)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train:](#incrementally-train)
@@ -171,6 +172,14 @@ Usually, a portion of data are randomly selected at the beginning to train a sup
 
 Transfer an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
+
+## Stop criteria
+
+When to stop the active learning process is important.
+If the performance barely improves, the running learning process would waste the budget.
+
+- Rebuilding Trust in Active Learning with Actionable Metrics [2020]: Use a contradiction metric as a proxy on model improvement.
+
 
 # The considerations of the model training cost
 
