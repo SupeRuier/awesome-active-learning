@@ -58,6 +58,7 @@ Image segmentation/Semantic Segmentation：
 - [Attention, Suggestion and Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation [2020, MICCAI]](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_1)
 - [Deep Active Learning for Joint Classification & Segmentation with Weak Annotator [2020]](https://arxiv.org/pdf/2010.04889.pdf): Leverage the unlabeled images to improve model accuracy with less oracle-annotation. AL for segmentation of images selected for pixel-level annotation.
 - [Difficulty-aware Active Learning for Semantic Segmentation [2020]](https://arxiv.org/pdf/2010.08705.pdf)
+- Embodied Visual Active Learning for Semantic Segmentation [2020]
 
 Object Detection: 
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
@@ -126,6 +127,7 @@ Graph node classification:
 - Active learning for streaming networked data [2014, ACM International Conference on Conference on Information and Knowledge Management]
 - MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning [2020, Arxiv]
 - Active Learning for Node Classiﬁcation: An Evaluation [2020, Entropy MDPI]
+- Active Learning for Node Classification: The Additional Learning Ability from Unlabelled Nodes [2020]
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]

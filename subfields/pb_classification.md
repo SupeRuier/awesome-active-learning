@@ -119,6 +119,7 @@ Works:
   Core-set loss is simply the difference between average empirical loss over the set of points which have labels for and the average empirical loss over the entire dataset including unlabelled points. Optimize the upper bound of core-set loss could be considered as a k-center problem in practice. Doesn't need to know the out put of the current model.
 - [Efﬁcient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
 - [Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification [2020]](https://arxiv.org/pdf/2009.14448.pdf): Use kmeans++ on the learned gradient embeddings to select instances.
+- [Minimax Active Learning [2020]](https://arxiv.org/pdf/2012.10467.pdf): Develop a semi-supervised minimax entropy-based active learning algorithm that leverages both uncertainty and diversity in an adversarial manner.
 
 ## Learn how to sample / Learn how to active learn
 

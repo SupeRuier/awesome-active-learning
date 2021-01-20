@@ -23,6 +23,7 @@ The main ideas and the scenarios are introduced in these surveys.
 - A Survey of Active Learning for Text Classification using Deep Neural Networks [[2020]](https://arxiv.org/pdf/2008.07267.pdf)
 - A Survey of Deep Active Learning [[2020]](https://arxiv.org/pdf/2009.00236.pdf)
 - [ALdataset: a benchmark for pool-based active learning [2020]](https://arxiv.org/pdf/2010.08161.pdf)
+- [Active Learning: Problem Settings and Recent Developments [2020]](https://arxiv.org/pdf/2012.04225.pdf)
 
 # Our Summarization/Categorization
 

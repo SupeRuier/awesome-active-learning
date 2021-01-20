@@ -49,6 +49,7 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 ## Structural biology
 
 - Active machine learning for transmembrane helix prediction [2010, BMC Bioinform]
+- Investigating Active Learning and Meta-Learning for Iterative Peptide Design [2020, JCM]
 
 ## Protein production optimization
 
@@ -107,6 +108,7 @@ AL is well used in this field.
 - [Semi-Supervised Active Learning for COVID-19 Lung Ultrasound Multi-symptom Classification [2020]](https://arxiv.org/pdf/2009.05436.pdf): Multi-label classification network (MSML) is proposed, and a human-machine interaction is exploited to confirm the final annotations that are used to fine-tune MSML with progressively labeled data. Still pool based.
 - [An Adaptive Low-Rank Modeling-Based Active Learning Method for Medical Image Annotation [2020, IRBM]](https://www.sciencedirect.com/science/article/pii/S1959031820301056): Medical images: the intrinsic presence of noise in medical images, the large number of images, and the variety of imaging modalities. Low-rank modeling-based multi-label active learning (LRMMAL) method.
 - A Transfer Learning Based Active Learning Framework for Brain Tumor Classification [2020]
+- An Active Learning Method for Diabetic Retinopathy Classification with Uncertainty Quantification [2020]
 
 
 ### Medical symptom recognition from text
