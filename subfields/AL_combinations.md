@@ -228,6 +228,7 @@ Works:
 
 - [ALEX: Active Learning based Enhancement of a Model’s EXplainability [2020, CIKM]](https://dl.acm.org/doi/pdf/10.1145/3340531.3417456)
 - [Active Sampling for Learning Interpretable Surrogate Machine Learning Models [2020, DSAA]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9260055&tag=1)
+- [Explainable Active Learning (XAL): Toward AI Explanations as Interfaces for Machine Teachers [Arxiv, 2020]](https://arxiv.org/pdf/2001.09219.pdf)
 
 ### Sequence labeling
 

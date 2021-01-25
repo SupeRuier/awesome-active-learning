@@ -21,6 +21,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Remote Sensing](#remote-sensing)
   - [Medical](#medical)
     - [Medical image classification/image annotation](#medical-image-classificationimage-annotation)
+    - [Medical image segmentation](#medical-image-segmentation)
     - [Medical symptom recognition from text](#medical-symptom-recognition-from-text)
   - [Spam Detection](#spam-detection)
   - [Mobile Health Monitoring](#mobile-health-monitoring)
@@ -54,6 +55,11 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 ## Protein production optimization
 
 - Large scale active-learning-guided exploration for in vitro protein production optimization [2020, Nature Communications]
+
+## Molecular dynamics
+
+- [Active learning accelerates ab initio molecular dynamics on reactive energy surfaces [2020, Chem]](https://pdf.sciencedirectassets.com/314039/AIP/1-s2.0-S2451929420306410/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAsaCXVzLWVhc3QtMSJHMEUCIBF6kwSpNHJ7WxmdRodU48LohfudilRlb2PRjbNv2Et2AiEA9ymiNHNU2inoEiA9VuHRBHB5Tb4Pwl2kT3pFLRm1xt8qvQMI4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARADGgwwNTkwMDM1NDY4NjUiDG416XZd4GxbvfVXPyqRA6oh5kfh1P4ddPEJZudhKBJq2PMEXW7G0Kacat%2Bz0NTHZ979PeX1sB1ssm3bvJ0yvwINR%2B%2FxbOFsxExlBpeiAodpliq5lx92eVmqHPzoR4vqNMPa1UlZ9ZkMiENSXnKiBHW33TIVWOnQ%2FPyJvU2n5z0bem8wKmfRSeOEJmkLMbUSS7Dg7zw6LqLqsFLzsJcaecIaBTCJ6zv%2FZh%2FPT2jjPoIezT6xxZqZ%2FTVwgERTZ3%2BNo%2FEy1DwdbU9ouu6L6BjZLpptRpQD6mRPzLBIB3LZYSUwxV2RAtB%2BueIYCJH3%2B4bWo4c0Tmfc8IEdpHvH8TigNc9V%2B5X8v5HRLWC5ZD4lhXCy8sW7PcWZYoQDW3DhKcYZIFD1L2Q%2BnilQz1jxa%2FbT7MJQN773zg4lmoYPeDa%2BazcXSvUJtup8aQ6ztxKlYmpSxNFl3PdI0lUxye2tIH203u7R2rzSUpVcndD%2Fl1M38OfxliMkEUiDXJiLsigSJ1AOaD3m3uCvtftiYbX7%2BWuGOxp9cxOL0Jn2jeYNxsr95toMMLqzs4AGOusBWiEJbfbiBuj8YT1kUJVhP5c3xMoQQCEHJlPnkC2lnlHf13B5PGcga9qUYo8V1nzc2nSn5yjZ8cIpslEo4xe7PyYHcaYYU3ALkIyjIHhJiHwC36%2F1x1mPcFw5uG9oRSjptU8g7uFaIu0OxJjknZHDFqviZtqdzqlKHiZJgifO5iau%2BOysdugkVxcgztseAt1cfzaaPu6sZPA1I%2BA2XIqIf7dAnY%2FfttZtMeLPyRBQaMhgCAuYZxs0IsE52xeY2%2B3AXKG44EXlaTywH%2Fk25SgLYckcCinVrpL5phnv1%2B51gsaQ73qCKtPXHBLZxg%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20210124T032835Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYYA4QDCHF%2F20210124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=aabb96293cdc854152757383a45a6efab0ce53316153565261a0db699f07bf18&hash=e139dd5c8372f5d88b9b95798eccf1395849e6af35bc8e51db881493ffdd73a2&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2451929420306410&tid=spdf-79b7de88-888e-490b-a6a1-5828daf8c461&sid=f1e3687c8b9e4444fd986c92bd970bbc15e0gxrqa&type=client)
+
 
 ## Molecular property prediction
 
@@ -110,6 +116,9 @@ AL is well used in this field.
 - A Transfer Learning Based Active Learning Framework for Brain Tumor Classification [2020]
 - An Active Learning Method for Diabetic Retinopathy Classification with Uncertainty Quantification [2020]
 
+### Medical image segmentation
+
+- [Diminishing Uncertainty within the Training Pool: Active Learning for Medical Image Segmentation [2020, IEEE TRANSACTIONS ON MEDICAL IMAGING]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9310359)
 
 ### Medical symptom recognition from text
 

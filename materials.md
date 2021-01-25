@@ -28,9 +28,8 @@ In this repository, previous works of active learning were categorized.
     - [Bayesian/Probabilistic](#bayesianprobabilistic)
     - [Gaussian Progress](#gaussian-progress)
     - [Neural Network](#neural-network)
-  - [- [Deep Adversarial Active Learning With Model Uncertainty For Image Classification [2020, ICIP]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190726&tag=1): Still distinguish between labeled and unlabeled data with a adversarial loss, but they try to use select instances dissimilar to the labeled data with higher prediction uncertainty. This work is inspired by *Variational adversarial active learning*.](#ullideep-adversarial-active-learning-with-model-uncertainty-for-image-classification-2020-icip-still-distinguish-between-labeled-and-unlabeled-data-with-a-adversarial-loss-but-they-try-to-use-select-instances-dissimilar-to-the-labeled-data-with-higher-prediction-uncertainty-this-work-is-inspired-by-variational-adversarial-active-learningliul)
+  - [- [Deep Adversarial Active Learning With Model Uncertainty For Image Classification [2020, ICIP]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190726&tag=1): Still distinguish between labeled and unlabeled data with a adversarial loss, but they try to use select instances dissimilar to the labeled data with higher prediction uncertainty. This work is inspired by *Variational adversarial active learning*.](#--deep-adversarial-active-learning-with-model-uncertainty-for-image-classification-2020-icip-still-distinguish-between-labeled-and-unlabeled-data-with-a-adversarial-loss-but-they-try-to-use-select-instances-dissimilar-to-the-labeled-data-with-higher-prediction-uncertainty-this-work-is-inspired-by-variational-adversarial-active-learning)
   - [Theoretical Support for Active Learning](#theoretical-support-for-active-learning)
-    - [Explainable Active Learning](#explainable-active-learning)
   - [Problem Settings Change (Combine AL with other settings)](#problem-settings-change-combine-al-with-other-settings)
     - [Multi-Class Active Learning](#multi-class-active-learning)
     - [Multi-Task Active Learning](#multi-task-active-learning)
@@ -162,7 +161,10 @@ Most of classic strategies are based on these models.
   Batch active learning.
 - [Deep active learning for named entity recognition [ICLR, 2018]](https://arxiv.org/abs/1707.05928)80:
   Incremental manner.
-  Uncertainty-based heuristic, select those sentences for which the length-normalized log probability of the current prediction is the lowest。
+  Uncertainty-based heuristic, select those sentences for which the length-normalized log probability of the current prediction is the lowest.
+- [Adversarial active learning for deep networks: a margin based approach [ICML, 2018]](https://arxiv.org/pdf/1802.09841.pdf)61:
+  Based on theoretical works on margin theory for active learning, we know that such examples may help to considerably decrease the number of annotations. 
+  While measuring the exact distance to the decision boundaries is intractable, we propose to rely on adversarial examples.
 - [Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds [Arxiv, 2019][2020, ICLR]](https://arxiv.org/abs/1906.03671)：
   *BADGE*. 
   Good paper, compared many previous Deep AL.
@@ -219,8 +221,6 @@ Most of classic strategies are based on these models.
 Not really familiar with this.
 Might fill this slot at the end.
 
-### Explainable Active Learning
-- [Explainable Active Learning (XAL): An Empirical Study of How Local Explanations Impact Annotator Experience [Arxiv, 2020]](https://arxiv.org/pdf/2001.09219.pdf)
 
 -------------------
 ## Problem Settings Change (Combine AL with other settings)

@@ -95,3 +95,10 @@ There already are several python AL project:
 | 7 done     | [Combination with other fields](subfields/AL_combinations.md)     |
 | 8 done     | [Applications](subfields/AL_applications.md)                      |
 
+# Note
+
+- Supervised
+  - model output guided selection
+  - model middle information guided selection
+- Unsupervised
+  - only base on the original features
