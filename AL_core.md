@@ -1,13 +1,12 @@
 # At the beginning
-In this file, we give our taxonomy of active learning.
 **We assume the readers already have the very basic knowledge of active learning.**
 We will not cover all the details of the whole fields, but we will display the core information of active learning which you should know in each basic problem setting.
 We are trying to make the taxonomy problem-oriented, so that you can find the relevant paper you need.
-Our purpose is to help you easily find the appropriate methods to solve your problem.
-And this site should work like a short sheet-sheet.
+Our purpose is to help you easily find the appropriate methods to solve your problems.
+And this site should work like a short cheat-sheet.
 
 - [At the beginning](#at-the-beginning)
-- [Taxonomy (table of content)](#taxonomy-table-of-content)
+- [Dimensions in Taxonomy (table of content)](#dimensions-in-taxonomy-table-of-content)
 - [Representative works of two basic problem settings on different dimensions](#representative-works-of-two-basic-problem-settings-on-different-dimensions)
   - [Pool-based](#pool-based)
     - [Classification](#classification)
@@ -17,9 +16,9 @@ And this site should work like a short sheet-sheet.
 - [Practical Considerations for AL](#practical-considerations-for-al)
 - [AL with other Research Problems](#al-with-other-research-problems)
 
-# Taxonomy (table of content)
+# Dimensions in Taxonomy (table of content)
 
-In this section, we will summarize AL to the following dimensions.
+In this section, we summarize AL works into the following dimensions.
 Each dimension is an assumption of the research problem.
 We wouldn't consider all these dimensions all at once but select the basic problem settings.
 The first four dimensions are the foundations of current AL works.

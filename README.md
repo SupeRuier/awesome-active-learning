@@ -1,7 +1,7 @@
 # Active learning summary
 
 In this repository, previous works of active learning were categorized. 
-We try to summarize the current AL works from **problem-orientated approach** and **technique-orientated approach**.
+We try to summarize the current AL works in a **problem-orientated approach** and a **technique-orientated approach**.
 We also summarized the applications of AL.
 The software resources and the relevant scholars are listed.
 
@@ -11,7 +11,7 @@ So if you have any comments and recommendations, pls let me know.)*
 # At the Beginning
 
 Active learning is used to reduce the annotation cost in machine learning process.
-It is under the assumption that some samples are more important for a given task than others.
+It is under the assumption that some samples are more important for a given task than other samples.
 There have been several surveys for this topic.
 The main ideas and the scenarios are introduced in these surveys.
 
@@ -25,11 +25,11 @@ The main ideas and the scenarios are introduced in these surveys.
 - [ALdataset: a benchmark for pool-based active learning [2020]](https://arxiv.org/pdf/2010.08161.pdf)
 - [Active Learning: Problem Settings and Recent Developments [2020]](https://arxiv.org/pdf/2012.04225.pdf)
 
-# Our Summarization/Categorization
+# Our Taxonomy
 
-If you are pursuing use AL to reduce the cost heavily problems in a pre-defined problem setting, we summarized the previous works in a [problem-orientated order](AL_core.md).
+If you are pursuing use AL to reduce the cost of annotation in a pre-defined problem setting, we summarized the previous works in a [problem-orientated order](AL_core.md).
 
-If you are trying to improve the performance of the current AL or try to find a appropriate framework for the current model, we summarized the we summarized the previous works in a [technique-orientated order](AL_technique.md) (Not finished yet).
+If you are trying to improve the performance of the current AL or try to find a appropriate framework for the current model, we summarized the summarized the previous works in a [technique-orientated order](AL_technique.md) (Not finished yet).
 
 Besides, there are many real considerations when we implement AL to real life scenarios.
 We summarize these works [here](subfields/practical_considerations.md).
@@ -38,26 +38,25 @@ We summarize these works [here](subfields/practical_considerations.md).
 
 AL has already been used in many real life applications.
 For many reasons, the implementations in many companies are confidential.
-But we can still find some innovated applications from several published papers and websites.
+But we can still find many applications from several published papers and websites.
 
-If you are wondering how could AL be used in real life scenarios, we summarized a list of works [here](subfields/AL_applications.md).
+If you are wondering how could AL be applied in many other fields, we summarized a list of works [here](subfields/AL_applications.md).
 
 # Feature Research Directions
 
-Active learning has been research over 3 decades, the fundamental theories and ideas are quite complete.
-Current works are more about combining AL and other research field or looking for an application.
+Active learning has been researched over 3 decades, the fundamental theories and ideas are quite complete.
+Current works are more focusing on combining AL and other research fields or looking for new applications.
 
 In my point of view, there are several directions which are promising but not fully discovered:
 - Deep active learning: from the popularity of the deep models
   - Cold start
   - Uncertainty measurement
   - Efficiently update model in AL process
-- Stream based active learning: most works are about pool-based AL, but the data steam is also heavily-used in daily life. This types of works should be similar to online learning.
+- Stream based active learning: most works are about pool-based AL, but the data steam is also heavily-used in daily life. This types of works should be similar to online learning
   - Selection strategy.
-- Large scale active learning: AL is invented for high labeling cost situation. However, most works are just try their algorithms on a relatively small dataset. 
-  - Effective informative score calculation
-- Practical considerations: Before utilize AL into realistic situation, there still are many technique problems.
-- Application scenarios: Last but not least. I believe digging the demands of AL in scientific research and industrial applications could benefit the AL society a lot.
+- Large scale active learning: AL is invented for high labeling cost situation. However, most works are just try their algorithms on a relatively small dataset
+- Practical considerations: Before utilize AL into realistic situation, there still are many technique problems
+- Application scenarios
 
 # Resources:
 ## Software Packages/Libraries
