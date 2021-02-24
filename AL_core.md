@@ -1,5 +1,5 @@
 # At the beginning
-**We assume the readers already have the very basic knowledge of active learning.**
+**We assume the readers already have the basic knowledge of active learning.**
 We will not cover all the details of the whole fields, but we will display the core information of active learning which you should know in each basic problem setting.
 We are trying to make the taxonomy problem-oriented, so that you can find the relevant paper you need.
 Our purpose is to help you easily find the appropriate methods to solve your problems.
@@ -7,12 +7,15 @@ And this site should work like a short cheat-sheet.
 
 - [At the beginning](#at-the-beginning)
 - [Dimensions in Taxonomy (table of content)](#dimensions-in-taxonomy-table-of-content)
-- [Representative works of two basic problem settings on different dimensions](#representative-works-of-two-basic-problem-settings-on-different-dimensions)
+  - [Explanation for each dimension:](#explanation-for-each-dimension)
+  - [The problem-oriented classification:](#the-problem-oriented-classification)
+- [Problem settings under two senarios](#problem-settings-under-two-senarios)
   - [Pool-based](#pool-based)
     - [Classification](#classification)
     - [Regression](#regression)
-    - [Other dimensions](#other-dimensions)
+    - [Other Dimensions](#other-dimensions)
   - [Stream-based](#stream-based)
+    - [Classification and Regression](#classification-and-regression)
 - [Practical Considerations for AL](#practical-considerations-for-al)
 - [AL with other Research Problems](#al-with-other-research-problems)
 
@@ -24,31 +27,28 @@ We wouldn't consider all these dimensions all at once but select the basic probl
 The first four dimensions are the foundations of current AL works.
 With these foundations, AL would be extend to several extension dimensions and some other combinations.
 
-| Dimension                                 | Value                     |
+| Dimensions                                | Value                     |
 | ----------------------------------------- | ------------------------- |
 | Scenarios/Problem Settings                | pool-based/stream-based   |
 | Task                                      | classification/regression |
-| ----------------------------------------- | ------------------------- |
 | Batch mode (For pool-based problems)      | yes/no                    |
-| Concept drift (For stream-based problems) | with/without              |
-| ----------------------------------------- | ------------------------- |
 | Multi-class (Classification)              | binary/multiple           |
 | Multi-label (Classification)              | single/multiple           |
 | Multi-task                                | single/multiple           |
 | Multi-domain                              | single/multiple           |
 | Multi-view/modal                          | single/multiple           |
 
-**Explanation for each dimension:**
+## Explanation for each dimension:
 - Scenarios/Problem Settings:
   The way AL is basing on.
   It decides how the data reveal and how to get the instance to query.
+  - Pool based: select instance from a pre-collected data pools to annotate.
+  - Stream based: decide wether to annotate the comming instance in a data stream.
 - Task:
   The mission we are going to accomplish.
 - Batch mode:
   In pool-based AL, it decides whether select more than one instance at once to annotate.
   There should be a specific selection criteria for batch selection.
-- Concept drift:
-  In stream-based AL, the data distribution may change over time.
 - Multi-class (Classification):
   In a classification task, each instance has one label from several possible classes.
 - Multi-label (Classification):
@@ -68,7 +68,17 @@ We will list the representative works on each dimension (with a short introducti
 Beside these dimensions, we will also introduce several combinations with AL and other problem settings.
 Some real life applications also will be introduced.
 
-# Representative works of two basic problem settings on different dimensions
+## The problem-oriented classification:
+
+We address that the first two dimensions are the most basic dimensions.
+The are four general problem settings.
+
+|                | Pool-based | Stream-based |
+| -------------- | ---------- | ------------ |
+| Classification |            |              |
+| Regression     |            |              |
+
+# Problem settings under two senarios
 In this chapter, we will talk about two problem settings, Pool-based setting and Stream-based setting.
 For each problem, we only discuss classification and regression tasks here.
 
@@ -133,7 +143,7 @@ We list several representative methods in the following table.
 
 For more details, the list of works could see [here](subfields/pb_regression.md).
 
-### Other dimensions
+### Other Dimensions
 
 Multi-label/task/domain problems are usually considered in pool based AL.
 
@@ -147,16 +157,11 @@ The list of multi-domain AL works could see [here](subfields/MDAL.md).
 
 In stream-based AL, the unlabeled data come with a stream manner, and the AL module decides whether to annotate the coming instance to update the model.
 This setting is not as popular as pool-based active learning. 
-Sometimes it also needs to consider data drift.
+In most times, it needs to consider data drift where the underlying distribution is varying over time.
+
+### Classification and Regression
+
 The common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
-
-There are basically two settings.
-Most works are focused on the stream based setting with data drift.
-
-| Stream based:       | Description                                                                             |
-| ------------------- | --------------------------------------------------------------------------------------- |
-| without data drift: | Data could not be collected at once, the collected data are from the same distribution. |
-| with data drift:    | The underlying distribution is varying over time. (Most works.)                         |
 
 The list of works could see [here](subfields/sb_works.md).
 
