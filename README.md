@@ -2,8 +2,8 @@
 
 In this repository, previous works of active learning were categorized. 
 We try to summarize the current AL works in a **problem-orientated approach** and a **technique-orientated approach**.
-We also summarized the applications of AL.
-The software resources and the relevant scholars are listed.
+We also include many real-world applications of AL.
+The open-source software resources and the information of relevant scholars are listed.
 
 *(I can't ensure this summary covers all the representative works and ideas.
 So if you have any comments and recommendations, pls let me know.)*
@@ -15,7 +15,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Advanced Problem Settings](#advanced-problem-settings)
   - [Problem Settings from other Research Fields](#problem-settings-from-other-research-fields)
 - [Technique-oriented Approach](#technique-oriented-approach)
-  - [Taxonomy on AL Strategies (Pool-based Classification)](#taxonomy-on-al-strategies-pool-based-classification)
+  - [Taxonomy in AL Strategies (Pool-based Classification)](#taxonomy-in-al-strategies-pool-based-classification)
   - [AL Strategies on Different models](#al-strategies-on-different-models)
 - [Theoretical Support for Active Learning](#theoretical-support-for-active-learning)
 - [Practical Considerations when Apply AL](#practical-considerations-when-apply-al)
@@ -24,14 +24,14 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Software Packages/Libraries](#software-packageslibraries)
   - [Tutorials](#tutorials)
 - [Groups/Scholars](#groupsscholars)
-- [Our Subjective Opintions on AL](#our-subjective-opintions-on-al)
+- [Our Subjective Opinions on AL](#our-subjective-opinions-on-al)
 
 # At the Beginning
 
 Active learning is used to reduce the annotation cost in machine learning process.
 It is under the assumption that some samples are more important for a given task than other samples.
 There have been several surveys for this topic.
-The main ideas and the scenarios are introduced in these surveys.
+They provided a good overview for the field.
 
 - Active learning: theory and applications [[2001]](https://ai.stanford.edu/~koller/Papers/Tong:2001.pdf.gz)
 - **Active Learning Literature Survey (Recommend to read)**[[2009]](https://minds.wisconsin.edu/handle/1793/60660)
@@ -45,13 +45,23 @@ The main ideas and the scenarios are introduced in these surveys.
 
 # Problem-oriented approach
 
-If you are pursuing use AL to reduce the cost of annotation in a pre-defined problem setting, we summarized the previous works in a problem-oriented order.
-In this section we are not focus on what the algorithm looks like.
-However, we identify the exact problem settings and list the applicable methods in the previous works.
+Firstly, we summarized the previous works in a problem-oriented order.
+We note that, in this section we don't focus on what the algorithms look like.
+However, we try to identify the exact problem settings and list the applicable methods (or works) for the corresponding settings.
+In other words, we need to understand what specific problems are active learning trying to solve.
+
+We divided the problem settings into three types:
+1. Basic Problem Settings
+   - Under the basic scenarios: Pool-based/Stream-based/Query synthesis
+   - Under the basic tasks: Classification/Regression
+2. Advanced Problem Settings
+   - Under many variants of machine learning problem settings.
+3. Problem Settings from other Research Fields
+   - With more complex tasks or problem settings in other research fields
 
 ## Basic Problem Settings
 
-According to scenarios and tasks, almost all the AL works could be divided into the following sub-problems.
+According to three types of scenarios and two basic tasks, almost all the AL works could be divided into the following sub-problems.
 Please check [here](AL_problem.md) for more details.
 
 |                | Pool-based                     | Stream-based         | Query synthesis |
@@ -61,7 +71,8 @@ Please check [here](AL_problem.md) for more details.
 
 ## Advanced Problem Settings
 
-Under these problem settings, there are also other dimensions.
+There are many variants of machine learning problem settings.
+Under these problem settings, AL could be further applied.
 
 - [Multi-class active learning](subfields/MCAL.md): In a classification task, each instance has one label from several possible classes.
 - [Multi-label active learning](subfields/MLAL.md): In a classification task, each instance has multiple labels.
@@ -71,10 +82,12 @@ Under these problem settings, there are also other dimensions.
 
 ## Problem Settings from other Research Fields
 
-In many research fields, the problems we are meeting can't be easily divided into classification or regression.
-So AL algorithms should be revised for different problem settings.
+In many research fields, the problem settings can't be simply divided into supervised classification or regression problem.
+They either acquire a different types of output or assume a unusual learning process.
+So AL algorithms should be revised/developed for these problem settings.
 Here we summarized several related research fields which use AL to reduce the cost of annotation.
 
+TODO need to be updated
 - Computer vision (CV)
 - Natural Language Processing (NLP)
 - Domain adaptation/Transfer learning
@@ -93,16 +106,16 @@ The list of works could see [here](subfields/AL_combinations.md)
 # Technique-oriented Approach
 
 After we specifying the problems,the way to derive active learning algorithms should be considered.
-In this section, we analyze the current works from two aspects：
-- Taxonomy on AL strategies
-- AL strategies on Different models
+This section contains two parts：
+- Taxonomy in AL strategies
+- AL strategies under different models
 
-There might be overlaps between these two aspects. 
-Here we just provide two different approaches for you to find the information you need.
+There might be overlaps between these two parts. 
+Here we just provide two different dimensions for you to find the information you need.
 
-## Taxonomy on AL Strategies (Pool-based Classification)
+## Taxonomy in AL Strategies (Pool-based Classification)
 
-In this section, we provide our taxonomy on the current AL strategies.
+In this section, we provide our taxonomy in the current AL strategies.
 We hope this can bring you a intuition to design your own strategy or just choose the most appropriate strategy.
 We note that the taxonomy we used here is focusing on pool-based classification.
 
@@ -126,8 +139,8 @@ Please check [here](subfields/pb_classification.md) for more information.
 
 There are model-free AL strategies and model-dependent AL strategies.
 However, even the same strategy might be implement differently on different models.
-So we summarized several of the previous works for several well used models.
-Hopefully this could help you improve the performance of your current AL strategy or try to find a appropriate framework for your current model.
+So we summarized the previous works for several models.
+Hopefully this could help you easily find a appropriate AL strategy for your current model.
 Specifically, we care how to apply AL strategy on each type of models in this approach.
 
 Model list:
@@ -144,9 +157,9 @@ Might fill this slot later.
 
 # Practical Considerations when Apply AL
 
-When we use AL in real life scenarios, the practical situation is not perfectly match our problem settings introduced above.
+When we use AL in real life scenarios, the practical situations are usually not perfectly match our problem settings introduced above.
 The data, the oracle, the scale and many other situations could be really different.
-In other words, this section is about the issues in AL.
+In other words, this section is about what else need to be considered to apply AL strategies to meet the needs in practical problems.
 Here we list the considerations potentially occurred in AL.
 
 | Type       | Practical Considerations                                         |
@@ -165,9 +178,12 @@ The list of works could see [here](subfields/practical_considerations.md).
 
 # Real-World Applications of AL
 
-AL has already been used in many real life applications.
+We have introduced that AL could be used in many [other research fields](subfields/AL_combinations.md).
+In fact, AL has already been used in many real-world applications.
 For many reasons, the implementations in many companies are confidential.
 But we can still find many applications from several published papers and websites.
+
+Basically, there are two types of applications: **scientific applications** & **industrial applications**.
 
 If you are wondering how could AL be applied in many other fields, we summarized a list of works [here](subfields/AL_applications.md).
 
@@ -189,24 +205,27 @@ There already are several python AL project:
   KDD 2018 Hands-on Tutorial: Active learning and transfer learning at scale with R and Python
 
 # Groups/Scholars
+
+We also list several scholars who is currently contributing to this research direction.
+
 1. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
 4. Raymond Mooney
 5. [Yuchen Guo](http://ise.thss.tsinghua.edu.cn/MIG/gyc.html)
 
-# Our Subjective Opintions on AL
+# Our Subjective Opinions on AL
 
 Active learning has been researched over 3 decades, the fundamental theories and ideas are quite complete.
-Current works are more focusing on combining AL and other research fields or looking for new applications.
+Current works are more focusing on apply AL on other research fields or looking for new applications of AL.
 
 In my point of view, there are several directions which are promising but not fully discovered:
-- Deep active learning: from the popularity of the deep models
+- Deep active learning: Because of the popularity of the deep models.
   - Cold start
   - Uncertainty measurement
   - Efficiently update model in AL process
-- Stream based active learning: most works are about pool-based AL, but the data steam is also heavily-used in daily life. This types of works should be similar to online learning
+- Stream based active learning: Most works are about pool-based AL, but the data steam is also heavily-used in daily life.
   - Selection strategy.
-- Large scale active learning: AL is invented for high labeling cost situation. However, most works are just try their algorithms on a relatively small dataset
-- Practical considerations: Before utilize AL into realistic situation, there still are many technique problems
+- Large scale active learning: AL is invented for high labeling cost situation. However, most works are just try their algorithms on a relatively small dataset.
+- Practical considerations: Before utilize AL into realistic situation, there still are many technical problems.
 - Application scenarios

@@ -1,15 +1,18 @@
 # Batch mode classification
 
-Batch mode selection is important in real life applications.
-Although the non-batch AL methods could still select the top evaluated instances as a batch, they would contain too much overlap information.
+Batch mode selection is important in AL.
+In many real life cases, it is more efficient to select a number of instances to be annotated in each AL iteration.
+Although the non-batch AL methods could still meet this requirement by selecting the top evaluated instances as a batch, they would contain too much overlap information.
 So the non-batch mode selection would waste the budget in the batch selection case.
-
-Even though we have mentioned some batch-mode works in the two previous section, we will still summarize the batch mode AL works here.
-In the previous two sections, our taxonomy are mostly basing on how to evaluate instances instead of how to batch.
-In this section, we will summarize several types of techniques on batch mode selection.
-
+Batch mode AL requires that the information overlap of instances in a single query batch should be small enough.
 Different batch selection strategies have the same intuition which is try to diverse the instances in a single training batch.
 However, they might achieve this goal in different approaches.
+
+| Intuition                                   | Techniques          |
+| ------------------------------------------- | ------------------- |
+| Diverse the instances in the selected batch | Heuristic-diversity |
+|                                             | Optimization-based  |
+|                                             | Greedy Selection    |
 
 ## Heuristic-diversity
 

@@ -1,9 +1,6 @@
 # Basic Problem Settings
 **We assume the readers already have the basic knowledge of active learning.**
-We will not cover all the details of the whole fields, but we will display the core information of active learning which you should know in each basic problem setting.
-We are trying to make the taxonomy problem-oriented, so that you can find the relevant paper you need.
-Our purpose is to help you easily find the appropriate methods to solve your problems.
-And this site should work like a short cheat-sheet.
+In this chapter, we try to identify and describe different type of basic active learning problem settings.
 
 - [Basic Problem Settings](#basic-problem-settings)
 - [Taxonomy](#taxonomy)
@@ -17,24 +14,18 @@ And this site should work like a short cheat-sheet.
 
 # Taxonomy 
 
-In this section, we summarize AL works into the following dimensions.
-Each dimension is an assumption of the research problem.
-We wouldn't consider all these dimensions all at once but select the basic problem settings.
-The first four dimensions are the foundations of current AL works.
-With these foundations, AL would be extend to several extension dimensions and some other combinations.
+In this basic problem settings, we only consider two dimensions in our taxonomy:
 
-**Explanation for each dimension:**
-- Scenarios/Problem Settings:
+- Scenarios:
   The way AL is basing on.
   It decides how the data reveal and how to get the instance to query.
   - Pool based: select instance from a pre-collected data pools to annotate.
   - Stream based: decide wether to annotate the coming instance in a data stream.
   - Query synthesis: the queried instances are synthesized by the algorithm.
-- Task:
+- Task: We are going to accomplish.
   - Classification
   - Regression
 
-We address that the first two dimensions are the most basic.
 According to scenarios and tasks, almost all the AL works could be divided into the following sub-problem settings.
 
 |                | Pool-based                     | Stream-based         | Query synthesis |
@@ -45,35 +36,21 @@ According to scenarios and tasks, almost all the AL works could be divided into 
 
 # Pool-based Scenario
 
-In pool based setting, a bunch of unlabeled data could be collected in advance as a data pool.
+In pool-based setting, a bunch of unlabeled data could be collected in advance as a data pool.
 The purpose of pool-based active learning is to learn a model on the current data pool with as less labeled instances as possible.
 The instances need to be annotated are selected iteratively in the active learning loop with the corresponding query strategy.
-Instead of selection of instances, some other works try to generalize new instances to query, which is called **Query synthesis**.
-We won't talk about the query synthesis for now but focus on how to select instances.
 
 The instances selection strategies evaluate how useful the instances are.
 Different works evaluate instances in different ways.
-We note that most of the methods are model-specific, which means they can't freely apply to all the kinds of models.
-Some methods are partly model-free, and they are most applied on discriminative models (e.g. Uncertainty).
 Here are the common used heuristics for selection.
 
+TODO
 | Evaluation          | Description                                              | Comments                             |
 | ------------------- | -------------------------------------------------------- | ------------------------------------ |
 | Informativeness     | Only use the output of the current model.                | Neglect the underlying distribution. |
 | Representativeness  | Utilize the unlabeled instances distribution.            | Normally used with the first type.   |
 | Future improvements | Evaluate how much the model's performance would improve. | The evaluations usually take time.   |
 | A learnt evaluation | Learn a evaluation function directly.                    |                                      |
-
-Batch mode selection is important in AL.
-In real life cases, annotating a batch of instance would be more efficient.
-It requires that the information overlap of instances in a single query batch should be small enough.
-There are several types of batch selection techniques.
-But the intuitions are same, which is make the selected instances be diverse enough.
-
-| Intuition                                   | Techniques                                       |
-| ------------------------------------------- | ------------------------------------------------ |
-| Diverse the instances in the selected batch | Usually reselect from the preselected set.       |
-|                                             | Some works treat this as a optimization problem. |
 
 ## Classification
 
@@ -120,6 +97,9 @@ The list of works could see [here](subfields/sb_classification.md).
 The list of works could see [here](subfields/sb_regression.md).
 
 # Query-Synthesis Scenario
+
+Instead of selection of instances, some other works try to generalize new instances to query, which is called **Query synthesis**.
+We won't talk about the query synthesis for now but focus on how to select instances.
 
 This field is not well developed in the past years.
 TODO Fill this slot later.
