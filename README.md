@@ -12,18 +12,18 @@ So if you have any comments and recommendations, pls let me know.)*
 - [At the Beginning](#at-the-beginning)
 - [Problem-oriented approach](#problem-oriented-approach)
   - [Basic Problem Settings](#basic-problem-settings)
-  - [Advanced Problem Setting](#advanced-problem-setting)
-  - [Problem Settings with other Research Fields](#problem-settings-with-other-research-fields)
-- [Technique-oriented approach](#technique-oriented-approach)
-  - [Taxonomy on AL strategies](#taxonomy-on-al-strategies)
-  - [AL strategies on Different models](#al-strategies-on-different-models)
+  - [Advanced Problem Settings](#advanced-problem-settings)
+  - [Problem Settings from other Research Fields](#problem-settings-from-other-research-fields)
+- [Technique-oriented Approach](#technique-oriented-approach)
+  - [Taxonomy on AL Strategies (Pool-based Classification)](#taxonomy-on-al-strategies-pool-based-classification)
+  - [AL Strategies on Different models](#al-strategies-on-different-models)
 - [Theoretical Support for Active Learning](#theoretical-support-for-active-learning)
 - [Practical Considerations when Apply AL](#practical-considerations-when-apply-al)
 - [Real-World Applications of AL](#real-world-applications-of-al)
 - [Resources:](#resources)
   - [Software Packages/Libraries](#software-packageslibraries)
   - [Tutorials](#tutorials)
-- [Groups/Scholars:](#groupsscholars)
+- [Groups/Scholars](#groupsscholars)
 - [Our Subjective Opintions on AL](#our-subjective-opintions-on-al)
 
 # At the Beginning
@@ -52,14 +52,14 @@ However, we identify the exact problem settings and list the applicable methods 
 ## Basic Problem Settings
 
 According to scenarios and tasks, almost all the AL works could be divided into the following sub-problems.
-Please check [here](AL_core.md) for more details.
+Please check [here](AL_problem.md) for more details.
 
 |                | Pool-based                     | Stream-based         | Query synthesis |
-| -------------- | ------------------------------ | -------------------- | --------------- |
-| Classification | PB-classification (most works) | SB-classification    |                 |
-| Regression     | PB-regression                  | SB-regression (rare) |                 |
+| -------------- | ------------------------------ | -------------------- | :-------------: |
+| Classification | PB-classification (most works) | SB-classification    |        -        |
+| Regression     | PB-regression                  | SB-regression (rare) |        -        |
 
-## Advanced Problem Setting
+## Advanced Problem Settings
 
 Under these problem settings, there are also other dimensions.
 
@@ -69,28 +69,28 @@ Under these problem settings, there are also other dimensions.
 - [Multi-domain active learning](subfields/MDAL.md): Similar to multi-task, but the data are from different datasets(domains). The model or set of models handles multiple datasets simultaneously.
 - [Multi-view/modal active learning](subfields/MVAL.md): The instances might have different views (different sets of features). The model or set of models handles different views simultaneously.
 
-## Problem Settings with other Research Fields
+## Problem Settings from other Research Fields
 
 In many research fields, the problems we are meeting can't be easily divided into classification or regression.
 So AL algorithms should be revised for different problem settings.
 Here we summarized several related research fields which use AL to reduce the cost of annotation.
 
-- Computer vision (CV)                                    
-- Natural Language Processing (NLP)                       
-- Domain adaptation/Transfer learning                     
-- Graph data                                              
-- Metric learning/Pairwise comparison/Similarity learning 
-- One-shot learning                                       
-- Clustering                                              
-- Generative Adversarial Network                          
-- De-noise                                                
-- Causal Analysis                                         
-- Positive and unlabeled (PU) learning                    
-- Reinforcement Learning                                  
+- Computer vision (CV)
+- Natural Language Processing (NLP)
+- Domain adaptation/Transfer learning
+- Graph data
+- Metric learning/Pairwise comparison/Similarity learning
+- One-shot learning
+- Clustering
+- Generative Adversarial Network
+- De-noise
+- Causal Analysis
+- Positive and unlabeled (PU) learning
+- Reinforcement Learning
 
 The list of works could see [here](subfields/AL_combinations.md)
 
-# Technique-oriented approach
+# Technique-oriented Approach
 
 After we specifying the problems,the way to derive active learning algorithms should be considered.
 In this section, we analyze the current works from two aspects：
@@ -100,10 +100,11 @@ In this section, we analyze the current works from two aspects：
 There might be overlaps between these two aspects. 
 Here we just provide two different approaches for you to find the information you need.
 
-## Taxonomy on AL strategies
+## Taxonomy on AL Strategies (Pool-based Classification)
 
 In this section, we provide our taxonomy on the current AL strategies.
 We hope this can bring you a intuition to design your own strategy or just choose the most appropriate strategy.
+We note that the taxonomy we used here is focusing on pool-based classification.
 
 - Supervised
   - model output guided selection
@@ -121,7 +122,7 @@ The list of works could see [here](subfields/AL_combinations.md)
 
 Please check [here](subfields/pb_classification.md) for more information.
 
-## AL strategies on Different models
+## AL Strategies on Different models
 
 There are model-free AL strategies and model-dependent AL strategies.
 However, even the same strategy might be implement differently on different models.
@@ -145,6 +146,7 @@ Might fill this slot later.
 
 When we use AL in real life scenarios, the practical situation is not perfectly match our problem settings introduced above.
 The data, the oracle, the scale and many other situations could be really different.
+In other words, this section is about the issues in AL.
 Here we list the considerations potentially occurred in AL.
 
 | Type       | Practical Considerations                                         |
@@ -186,7 +188,7 @@ There already are several python AL project:
 - [active-learning-workshop](https://github.com/Azure/active-learning-workshop): 
   KDD 2018 Hands-on Tutorial: Active learning and transfer learning at scale with R and Python
 
-# Groups/Scholars:
+# Groups/Scholars
 1. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
