@@ -1,4 +1,4 @@
-# Technique-oriented Active Learning
+# AL strategies on Different models
 
 In this chapter, we care about how to apply AL on specific models.
 We won't cover all the models.
