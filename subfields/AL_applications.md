@@ -11,6 +11,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [Scientific applications](#scientific-applications)
   - [Structural biology](#structural-biology)
   - [Protein production optimization](#protein-production-optimization)
+  - [Molecular dynamics](#molecular-dynamics)
   - [Molecular property prediction](#molecular-property-prediction)
   - [Astronomy: spectroscopic surveys](#astronomy-spectroscopic-surveys)
   - [Drug discovery](#drug-discovery)
@@ -101,6 +102,7 @@ The industrial applications of AL are about the practical problems or specific r
 Remote sensing is an field with really high labeling cost.
 AL is well used in this field.
 
+- A survey of active learning algorithms for supervised remote sensing image classification
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
 - Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]

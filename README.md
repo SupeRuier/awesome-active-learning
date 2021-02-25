@@ -11,9 +11,12 @@ So if you have any comments and recommendations, pls let me know.)*
 - [Active learning summary](#active-learning-summary)
 - [At the Beginning](#at-the-beginning)
 - [Problem-oriented approach](#problem-oriented-approach)
+  - [General Problems](#general-problems)
+  - [Other Problems](#other-problems)
 - [Technique-oriented approach](#technique-oriented-approach)
-- [Practical considerations](#practical-considerations)
-- [Real Applications of Active Learning](#real-applications-of-active-learning)
+- [Theoretical Support for Active Learning](#theoretical-support-for-active-learning)
+- [Practical considerations when Apply AL](#practical-considerations-when-apply-al)
+- [Real-World Applications of AL](#real-world-applications-of-al)
 - [Resources:](#resources)
   - [Software Packages/Libraries](#software-packageslibraries)
   - [Tutorials](#tutorials)
@@ -41,13 +44,17 @@ The main ideas and the scenarios are introduced in these surveys.
 # Problem-oriented approach
 
 If you are pursuing use AL to reduce the cost of annotation in a pre-defined problem setting, we summarized the previous works in a problem-oriented order.
-
 According to scenarios and tasks, almost all the AL works could be devided into the following sub-problem settings.
+Please check [here](AL_core.md) for more details.
+
+## General Problems
 
 |                | Pool-based                     | Stream-based         |
 | -------------- | ------------------------------ | -------------------- |
 | Classification | PB-classification (most works) | SB-classification    |
 | Regression     | PB-regression                  | SB-regression (rare) |
+
+## Other Problems
 
 Under these problem settings, there are also other dimensions：
 
@@ -59,8 +66,6 @@ Under these problem settings, there are also other dimensions：
   - Multi-domain
   - Multi-view/modal
 
-Please check [here](AL_core.md) for more details.
-
 # Technique-oriented approach
 
 If you are trying to improve the performance of the current AL or try to find a appropriate framework for the current model, we summarized several of the previous works in a technique-orientated order.
@@ -68,12 +73,32 @@ Specifically, we care how to apply AL strategy on each type of models in this ap
 
 Please check [here](AL_technique.md) form more details (Not finished yet).
 
-# Practical considerations
+# Theoretical Support for Active Learning
 
-Besides, there are many real considerations when we implement AL to real life scenarios.
-We summarize these works [here](subfields/practical_considerations.md).
+Not really familiar with this.
+Might fill this slot at the end.
 
-# Real Applications of Active Learning
+# Practical considerations when Apply AL
+
+When we use AL in real life scenarios, the practical situation is not perfectly match our problem settings introduced above.
+The data, the oracle, the scale and many other situations could be really different.
+Here we list the considerations potentially occurred in AL.
+
+| Type       | Practical Considerations                                         |
+| ---------- | ---------------------------------------------------------------- |
+| Data       | Imbalanced data                                                  |
+|            | Cost-sensitive                                                   |
+|            | Logged data                                                      |
+|            | Feature missing data                                             |
+|            | Multiple Correct Outputs                                         |
+| Oracle     | The assumption change on single oracle (Noise/Special behaviors) |
+|            | Multiple/Diverse labeler (ability/price)                         |
+| Scale      | Large-scale                                                      |
+| Other cost | Model's training cost                                            |
+
+The list of works could see [here](subfields/practical_considerations.md).
+
+# Real-World Applications of AL
 
 AL has already been used in many real life applications.
 For many reasons, the implementations in many companies are confidential.

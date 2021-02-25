@@ -6,20 +6,24 @@ Our purpose is to help you easily find the appropriate methods to solve your pro
 And this site should work like a short cheat-sheet.
 
 - [At the beginning](#at-the-beginning)
-- [Dimensions in Taxonomy (table of content)](#dimensions-in-taxonomy-table-of-content)
+- [Dimensions in Taxonomy](#dimensions-in-taxonomy)
   - [Explanation for each dimension:](#explanation-for-each-dimension)
-  - [The problem-oriented classification:](#the-problem-oriented-classification)
-- [Problem settings under two senarios](#problem-settings-under-two-senarios)
+  - [The problem settings:](#the-problem-settings)
+- [General dimensions](#general-dimensions)
   - [Pool-based](#pool-based)
     - [Classification](#classification)
     - [Regression](#regression)
-    - [Other Dimensions](#other-dimensions)
   - [Stream-based](#stream-based)
-    - [Classification and Regression](#classification-and-regression)
-- [Practical Considerations for AL](#practical-considerations-for-al)
-- [AL with other Research Problems](#al-with-other-research-problems)
+    - [Classification](#classification-1)
+    - [Regression](#regression-1)
+  - [Query-synthesis](#query-synthesis)
+- [Other Dimensions](#other-dimensions)
+  - [Multi-label AL](#multi-label-al)
+  - [Multi-task AL](#multi-task-al)
+  - [Multi-domain AL](#multi-domain-al)
+- [Problems in other Research Field](#problems-in-other-research-field)
 
-# Dimensions in Taxonomy (table of content)
+# Dimensions in Taxonomy 
 
 In this section, we summarize AL works into the following dimensions.
 Each dimension is an assumption of the research problem.
@@ -27,16 +31,18 @@ We wouldn't consider all these dimensions all at once but select the basic probl
 The first four dimensions are the foundations of current AL works.
 With these foundations, AL would be extend to several extension dimensions and some other combinations.
 
-| Dimensions                                | Value                     |
-| ----------------------------------------- | ------------------------- |
-| Scenarios/Problem Settings                | pool-based/stream-based   |
-| Task                                      | classification/regression |
-| Batch mode (For pool-based problems)      | yes/no                    |
-| Multi-class (Classification)              | binary/multiple           |
-| Multi-label (Classification)              | single/multiple           |
-| Multi-task                                | single/multiple           |
-| Multi-domain                              | single/multiple           |
-| Multi-view/modal                          | single/multiple           |
+| General Dimensions                     | Value                     |
+| ------------------------------------ | ------------------------- |
+| Scenarios/Problem Settings           | pool-based/stream-based/query-synthesis   |
+| Task                                 | classification/regression |
+| Batch mode (For pool-based problems) | yes/no                    |
+
+| Other Dimensions | Value           |
+| ---------------- | --------------- |
+| Multi-label      | single/multiple |
+| Multi-task       | single/multiple |
+| Multi-domain     | single/multiple |
+| Multi-view/modal | single/multiple |
 
 ## Explanation for each dimension:
 - Scenarios/Problem Settings:
@@ -44,6 +50,7 @@ With these foundations, AL would be extend to several extension dimensions and s
   It decides how the data reveal and how to get the instance to query.
   - Pool based: select instance from a pre-collected data pools to annotate.
   - Stream based: decide wether to annotate the comming instance in a data stream.
+  - Query synthesis: the queried instances are synthezised by the algorithm.
 - Task:
   The mission we are going to accomplish.
 - Batch mode:
@@ -68,17 +75,27 @@ We will list the representative works on each dimension (with a short introducti
 Beside these dimensions, we will also introduce several combinations with AL and other problem settings.
 Some real life applications also will be introduced.
 
-## The problem-oriented classification:
+## The problem settings:
 
-We address that the first two dimensions are the most basic dimensions.
-The are four general problem settings.
+We address that the first two dimensions are the most basic.
+According to scenarios and tasks, almost all the AL works could be devided into the following sub-problem settings.
 
-|                | Pool-based | Stream-based |
-| -------------- | ---------- | ------------ |
-| Classification |            |              |
-| Regression     |            |              |
+|                | Pool-based                     | Stream-based         |
+| -------------- | ------------------------------ | -------------------- |
+| Classification | PB-classification (most works) | SB-classification    |
+| Regression     | PB-regression                  | SB-regression (rare) |
 
-# Problem settings under two senarios
+Under these problem settings, there are also other dimensions：
+
+- Batch mode (under pool-based problems)
+- Additional constrains
+  - Multi-class (Classification)
+  - Multi-label (Classification)
+  - Multi-task
+  - Multi-domain
+  - Multi-view/modal
+
+# General dimensions
 In this chapter, we will talk about two problem settings, Pool-based setting and Stream-based setting.
 For each problem, we only discuss classification and regression tasks here.
 
@@ -143,48 +160,40 @@ We list several representative methods in the following table.
 
 For more details, the list of works could see [here](subfields/pb_regression.md).
 
-### Other Dimensions
-
-Multi-label/task/domain problems are usually considered in pool based AL.
-
-The list of multi-label AL works could see [here](subfields/MLAL.md).
-
-The list of multi-task AL works could see [here](subfields/MTAL.md).
-
-The list of multi-domain AL works could see [here](subfields/MDAL.md).
-
 ## Stream-based
 
 In stream-based AL, the unlabeled data come with a stream manner, and the AL module decides whether to annotate the coming instance to update the model.
 This setting is not as popular as pool-based active learning. 
 In most times, it needs to consider data drift where the underlying distribution is varying over time.
-
-### Classification and Regression
-
 The common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
 
-The list of works could see [here](subfields/sb_works.md).
+### Classification
 
-# Practical Considerations for AL 
-When we use AL in real life scenarios, the practical situation is not perfectly match our problem settings introduced above.
-The data, the oracle, the scale and many other situations could be really different.
-Here we list the considerations potentially occurred in AL.
+The list of works could see [here](subfields/sb_classification.md).
 
-| Type       | Practical Considerations                                         |
-| ---------- | ---------------------------------------------------------------- |
-| Data       | Imbalanced data                                                  |
-|            | Cost-sensitive                                                   |
-|            | Logged data                                                      |
-|            | Feature missing data                                             |
-|            | Multiple Correct Outputs                                         |
-| Oracle     | The assumption change on single oracle (Noise/Special behaviors) |
-|            | Multiple/Diverse labeler (ability/price)                         |
-| Scale      | Large-scale                                                      |
-| Other cost | Model's training cost                                            |
+### Regression
 
-The list of works could see [here](subfields/practical_considerations.md).
+The list of works could see [here](subfields/sb_regression.md).
 
-# AL with other Research Problems
+## Query-synthesis
+
+# Other Dimensions
+
+Multi-label/task/domain problems are usually considered in a pool based AL problem.
+
+## Multi-label AL
+
+The list of multi-label AL works could see [here](subfields/MLAL.md).
+
+## Multi-task AL
+
+The list of multi-task AL works could see [here](subfields/MTAL.md).
+
+## Multi-domain AL
+
+The list of multi-domain AL works could see [here](subfields/MDAL.md).
+
+# Problems in other Research Field
 
 Active learning is also been used with other Learning/Research paradigms.
 Some of them are use AL to reduce the annotation cost.

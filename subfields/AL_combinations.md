@@ -23,6 +23,7 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
     - [One/Few-shot learning](#onefew-shot-learning)
     - [Clustering](#clustering)
+    - [Recommendation](#recommendation)
     - [Ordinal Regression/Classification](#ordinal-regressionclassification)
     - [Generative Adversarial Network](#generative-adversarial-network)
     - [De-noise](#de-noise)
@@ -171,6 +172,11 @@ Works:
 
 Review:
 - Interactive clustering: a scoping review [2020, Artificial Intelligence Review]
+
+### Recommendation
+
+Review:
+- A survey of active learning in collaborative filtering recommender systems
 
 ### Ordinal Regression/Classification
 
