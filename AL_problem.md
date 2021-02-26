@@ -17,13 +17,8 @@ And this site should work like a short cheat-sheet.
 
 # Taxonomy 
 
-In this section, we summarize AL works into the following dimensions.
-Each dimension is an assumption of the research problem.
-We wouldn't consider all these dimensions all at once but select the basic problem settings.
-The first four dimensions are the foundations of current AL works.
-With these foundations, AL would be extend to several extension dimensions and some other combinations.
+In this chapter, we consider three types of scenarios and two typs of tasks.
 
-**Explanation for each dimension:**
 - Scenarios/Problem Settings:
   The way AL is basing on.
   It decides how the data reveal and how to get the instance to query.
@@ -34,7 +29,6 @@ With these foundations, AL would be extend to several extension dimensions and s
   - Classification
   - Regression
 
-We address that the first two dimensions are the most basic.
 According to scenarios and tasks, almost all the AL works could be divided into the following sub-problem settings.
 
 |                | Pool-based                     | Stream-based         | Query synthesis |
@@ -42,14 +36,12 @@ According to scenarios and tasks, almost all the AL works could be divided into 
 | Classification | PB-classification (most works) | SB-classification    |        -        |
 | Regression     | PB-regression                  | SB-regression (rare) |        -        |
 
-
+TODO
 # Pool-based Scenario
 
 In pool based setting, a bunch of unlabeled data could be collected in advance as a data pool.
 The purpose of pool-based active learning is to learn a model on the current data pool with as less labeled instances as possible.
 The instances need to be annotated are selected iteratively in the active learning loop with the corresponding query strategy.
-Instead of selection of instances, some other works try to generalize new instances to query, which is called **Query synthesis**.
-We won't talk about the query synthesis for now but focus on how to select instances.
 
 The instances selection strategies evaluate how useful the instances are.
 Different works evaluate instances in different ways.
@@ -109,7 +101,8 @@ For more details, the list of works could see [here](subfields/pb_regression.md)
 In stream-based AL, the unlabeled data come with a stream manner, and the AL module decides whether to annotate the coming instance to update the model.
 This setting is not as popular as pool-based active learning. 
 In most times, it needs to consider data drift where the underlying distribution is varying over time.
-The common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
+
+For both the clssification and the regression tasks, the common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
 
 ## Classification
 
@@ -120,6 +113,9 @@ The list of works could see [here](subfields/sb_classification.md).
 The list of works could see [here](subfields/sb_regression.md).
 
 # Query-Synthesis Scenario
+
+Instead of selection of instances, some other works try to generalize new instances to query, which is called **Query synthesis**.
+We won't talk about the query synthesis for now but focus on how to select instances.
 
 This field is not well developed in the past years.
 TODO Fill this slot later.
