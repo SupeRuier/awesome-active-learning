@@ -13,6 +13,7 @@ For the works in this page, we divided them to two types.
 Some of them are use AL to reduce the annotation cost.
 Others try to improve the AL process with the knowledge in other fields.
 
+<!-- TODO: revise the order -->
 - [AL with other Research Problems](#al-with-other-research-problems)
   - [Utilize AL](#utilize-al)
     - [Computer vision (CV)](#computer-vision-cv)

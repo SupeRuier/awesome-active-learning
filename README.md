@@ -2,7 +2,7 @@
 
 In this repository, previous works of active learning were categorized. 
 We try to summarize the current AL works in a **problem-orientated approach** and a **technique-orientated approach**.
-We also include many real-world applications of AL.
+Besides the research papers, we also include many real-world applications of AL in this repository.
 The open-source software resources and the information of relevant scholars are listed.
 
 *(I can't ensure this summary covers all the representative works and ideas.
@@ -16,15 +16,14 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Problem Settings from other Research Fields](#problem-settings-from-other-research-fields)
 - [Technique-oriented Approach](#technique-oriented-approach)
   - [Taxonomy in AL Strategies (Pool-based Classification)](#taxonomy-in-al-strategies-pool-based-classification)
-  - [AL Strategies on Different models](#al-strategies-on-different-models)
+  - [AL Strategies with specific models](#al-strategies-with-specific-models)
 - [Theoretical Support for Active Learning](#theoretical-support-for-active-learning)
-- [Practical Considerations when Apply AL](#practical-considerations-when-apply-al)
+- [Practical Considerations when Applying AL](#practical-considerations-when-applying-al)
 - [Real-World Applications of AL](#real-world-applications-of-al)
 - [Resources:](#resources)
   - [Software Packages/Libraries](#software-packageslibraries)
   - [Tutorials](#tutorials)
 - [Groups/Scholars](#groupsscholars)
-- [Our Subjective Opinions on AL](#our-subjective-opinions-on-al)
 
 # At the Beginning
 
@@ -62,7 +61,7 @@ We divided the problem settings into three types:
 ## Basic Problem Settings
 
 According to three types of scenarios and two basic tasks, almost all the AL works could be divided into the following sub-problems.
-Please check [here](AL_problem.md) for more details.
+Please check [**here**](AL_problem.md) for more details.
 
 |                | Pool-based                     | Stream-based         | Query synthesis |
 | -------------- | ------------------------------ | -------------------- | :-------------: |
@@ -87,7 +86,7 @@ They either acquire a different types of output or assume a unusual learning pro
 So AL algorithms should be revised/developed for these problem settings.
 Here we summarized several related research fields which use AL to reduce the cost of annotation.
 
-TODO need to be updated
+<!-- TODO need to be updated -->
 - Computer vision (CV)
 - Natural Language Processing (NLP)
 - Domain adaptation/Transfer learning
@@ -101,11 +100,11 @@ TODO need to be updated
 - Positive and unlabeled (PU) learning
 - Reinforcement Learning
 
-The list of works could see [here](subfields/AL_combinations.md)
+The list of works could see [**here**](subfields/AL_combinations.md)
 
 # Technique-oriented Approach
 
-After we specifying the problems,the way to derive active learning algorithms should be considered.
+After we specifying the problems, the way to derive active learning algorithms should be considered.
 This section contains two parts：
 - Taxonomy in AL strategies
 - AL strategies under different models
@@ -117,8 +116,9 @@ Here we just provide two different dimensions for you to find the information yo
 
 In this section, we provide our taxonomy in the current AL strategies.
 We hope this can bring you a intuition to design your own strategy or just choose the most appropriate strategy.
-We note that the taxonomy we used here is focusing on pool-based classification.
+We note that the taxonomy we used here is focusing on **pool-based classification**.
 
+<!-- TODO: Specify the taxonomy -->
 - Supervised
   - model output guided selection
   - model middle information guided selection
@@ -127,21 +127,21 @@ We note that the taxonomy we used here is focusing on pool-based classification.
 - [Batch mode](subfields/AL_combinations.md)
 
 Use other research field to improve AL.
-The list of works could see [here](subfields/AL_combinations.md)
+The list of works could see [**here**](subfields/AL_combinations.md)
 - Reinforcement Learning
 - Meta-learning
 - Quantum computing
 - GAN
 
-Please check [here](subfields/pb_classification.md) for more information.
+Please check [**here**](subfields/pb_classification.md) for more information.
 
-## AL Strategies on Different models
+## AL Strategies with specific models
 
 There are model-free AL strategies and model-dependent AL strategies.
 However, even the same strategy might be implement differently on different models.
+Different strategies are also designed for different models by take into account the models' characteristic.
 So we summarized the previous works for several models.
 Hopefully this could help you easily find a appropriate AL strategy for your current model.
-Specifically, we care how to apply AL strategy on each type of models in this approach.
 
 Model list:
 - SVM/LR
@@ -149,17 +149,17 @@ Model list:
 - Gaussian Progress
 - Neural Network
 
-Please check [here](AL_technique.md) form more details (Not finished yet).
+Please check [**here**](AL_technique.md) form more details (Not finished yet).
 
 # Theoretical Support for Active Learning
 
-Might fill this slot later.
+<!-- TODO: Might fill this slot later. -->
 
-# Practical Considerations when Apply AL
+# Practical Considerations when Applying AL
 
-When we use AL in real life scenarios, the practical situations are usually not perfectly match our problem settings introduced above.
-The data, the oracle, the scale and many other situations could be really different.
-In other words, this section is about what else need to be considered to apply AL strategies to meet the needs in practical problems.
+When we use AL in real life scenarios, the practical situations usually are not perfectly match our problem settings introduced above.
+The data, the oracle, the scale and many other situations could be really different to the experimental settings.
+In other words, this section is about what else need to be considered to meet the needs in practical problems for applying AL strategies.
 Here we list the considerations potentially occurred in AL.
 
 | Type       | Practical Considerations                                         |
@@ -174,7 +174,7 @@ Here we list the considerations potentially occurred in AL.
 | Scale      | Large-scale                                                      |
 | Other cost | Model's training cost                                            |
 
-The list of works could see [here](subfields/practical_considerations.md).
+The list of works could see [**here**](subfields/practical_considerations.md).
 
 # Real-World Applications of AL
 
@@ -184,8 +184,7 @@ For many reasons, the implementations in many companies are confidential.
 But we can still find many applications from several published papers and websites.
 
 Basically, there are two types of applications: **scientific applications** & **industrial applications**.
-
-If you are wondering how could AL be applied in many other fields, we summarized a list of works [here](subfields/AL_applications.md).
+We summarized a list of works [**here**](subfields/AL_applications.md).
 
 # Resources:
 
@@ -208,11 +207,15 @@ There already are several python AL project:
 
 We also list several scholars who is currently contributing to this research direction.
 
+<!-- TODO: need to be updated. -->
+
 1. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
 4. Raymond Mooney
 5. [Yuchen Guo](http://ise.thss.tsinghua.edu.cn/MIG/gyc.html)
+
+<!-- 
 
 # Our Subjective Opinions on AL
 
@@ -228,4 +231,6 @@ In my point of view, there are several directions which are promising but not fu
   - Selection strategy.
 - Large scale active learning: AL is invented for high labeling cost situation. However, most works are just try their algorithms on a relatively small dataset.
 - Practical considerations: Before utilize AL into realistic situation, there still are many technical problems.
-- Application scenarios
+- Application scenarios 
+
+-->

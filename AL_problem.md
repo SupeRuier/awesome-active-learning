@@ -44,7 +44,7 @@ The instances selection strategies evaluate how useful the instances are.
 Different works evaluate instances in different ways.
 Here are the common used heuristics for selection.
 
-TODO
+<!-- TODO fix the logics -->
 | Evaluation          | Description                                              | Comments                             |
 | ------------------- | -------------------------------------------------------- | ------------------------------------ |
 | Informativeness     | Only use the output of the current model.                | Neglect the underlying distribution. |
