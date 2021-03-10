@@ -18,7 +18,7 @@ In this basic problem settings, we only consider two dimensions in our taxonomy:
 
 - Scenarios:
   The way AL is basing on.
-  It decides how the data reveal and how to get the instance to query.
+  It decides how the data reveals and how to get the instance to query.
   - Pool based: select instance from a pre-collected data pools to annotate.
   - Stream based: decide wether to annotate the coming instance in a data stream.
   - Query synthesis: the queried instances are synthesized by the algorithm.
@@ -41,30 +41,35 @@ The purpose of pool-based active learning is to learn a model on the current dat
 The instances need to be annotated are selected iteratively in the active learning loop with the corresponding query strategy.
 
 The instances selection strategies evaluate how useful the instances are.
-Different works evaluate instances in different ways.
-Here are the common used heuristics for selection.
+So the AL strategies would give each instance a score.
+The score usually imply how much information the instance contains in the corresponding task.
+The instances with highest scores would be selected.
+Different strategies evaluate instances in different ways.
+The information could be defined in different ways.
 
-<!-- TODO fix the logics -->
-| Evaluation          | Description                                              | Comments                             |
-| ------------------- | -------------------------------------------------------- | ------------------------------------ |
-| Informativeness     | Only use the output of the current model.                | Neglect the underlying distribution. |
-| Representativeness  | Utilize the unlabeled instances distribution.            | Normally used with the first type.   |
-| Future improvements | Evaluate how much the model's performance would improve. | The evaluations usually take time.   |
-| A learnt evaluation | Learn a evaluation function directly.                    |                                      |
+| Define information  | Description                                | Comments                             |
+| ------------------- | ------------------------------------------ | ------------------------------------ |
+| Informativeness     | Uncertainty by the model prediction        | Neglect the underlying distribution. |
+| Representativeness  | Represent the underlying distribution      | Normally used with the first type.   |
+| Future improvements | The improvement of the model's performance | The evaluations usually take time.   |
+| Hybrid              | Combination of above ones                  | Need trade-off                       |
+| Learn to define     | Learn a evaluation function directly.      |                                      |
+
+In pool-based scenario, batch mode selection is also important, i.e. select a batch of instances with the maximum information.
+Batch makes the query selection more efficient and avoids redundant information query.
+We summarize the idea of batch mode selection [**here**](subfields/AL_combinations.md).
 
 ## Classification
 
-Batch-mode and multi-class are two most important dimensions in pool-based classification.
-Batch makes the query selection more efficient and avoids redundant information query.
-And multiple class is common in real life.
-We have to note that a large amount of works focus on non-batch mode binary classification (A).
+<!-- TODO: complete -->
+We have to note that a large amount of works focus on pool based classification.
 
-|                 | Binary classification     | Multi-class classification |
-| --------------- | ------------------------- | -------------------------- |
-| Non-batch mode: | (A). Most of the AL works | (B). Generalize from (A)   |
-| Batch mode:     | (C). Improve over (A)     | (D). Combine (B) and (C)   |
+|                 | Classification       |
+| --------------- | -------------------- |
+| Non-batch mode: | Most of the AL works |
+| Batch mode:     | Improve over         |
 
-For more details, the list of works with short introductions could see [here](subfields/pb_classification.md).
+For more details, the list of works with short introductions could see [**here**](subfields/pb_classification.md).
 
 ## Regression
 
@@ -79,9 +84,11 @@ We list several representative methods in the following table.
 | Non-batch mode                  | QBC/EMCM/RSAL/GSy/iGS | P-ALICE/Gsx/iRDM       |
 | Batch mode                      | EBMALR                | **N/A**                |
 
-For more details, the list of works could see [here](subfields/pb_regression.md).
+For more details, the list of works could see [**here**](subfields/pb_regression.md).
 
 # Stream-based Scenario
+
+<!-- TODO point out that the stream based doesn't need a score to compare different items. But need a criteria to decide wether to query. A threshold and a score. -->
 
 In stream-based AL, the unlabeled data come with a stream manner, and the AL module decides whether to annotate the coming instance to update the model.
 This setting is not as popular as pool-based active learning. 
@@ -90,11 +97,11 @@ The common methodology is to set a threshold and define a information measuremen
 
 ## Classification
 
-The list of works could see [here](subfields/sb_classification.md).
+The list of works could see [**here**](subfields/sb_classification.md).
 
 ## Regression
 
-The list of works could see [here](subfields/sb_regression.md).
+The list of works could see [**here**](subfields/sb_regression.md).
 
 # Query-Synthesis Scenario
 
@@ -102,6 +109,6 @@ Instead of selection of instances, some other works try to generalize new instan
 We won't talk about the query synthesis for now but focus on how to select instances.
 
 This field is not well developed in the past years.
-TODO Fill this slot later.
+<!-- TODO Fill this slot later. -->
 
 

@@ -2,15 +2,17 @@
 
 We could divide the works of pool-based active learning into for different problem settings.
 
-|                 | Binary classification     | Multi-class classification |
-| --------------- | ------------------------- | -------------------------- |
-| Non-batch mode: | (A). Most of the AL works | (B). Generalize from (A)   |
-| Batch mode:     | (C). Improve over (A)     | (D). Combine (B) and (C)   |
+|                 | Classification       |
+| --------------- | -------------------- |
+| Non-batch mode: | Most of the AL works |
+| Batch mode:     | Improve over         |
 
 The previous table is an problem oriented taxonomy.
 In this chapter, we would use technique-oriented taxonomy to classify the current works under each subproblem.
 In each section and each type of strategy, we will make a short description at the beginning, then provide a more detail taxonomy.
 And at the end, we will list the famous works (with a short note).
+
+<!-- TODO: Specify here we doesn't dig into batch mode and multi-class. -->
 
 - [Pool based active learning for classification](#pool-based-active-learning-for-classification)
 - [AL with Binary classification](#al-with-binary-classification)
