@@ -14,9 +14,9 @@ In this chapter, we try to identify and describe different type of basic active 
 
 # Taxonomy 
 
-In this basic problem settings, we only consider two dimensions in our taxonomy:
+In this chapter, we consider three types of scenarios and two typs of tasks.
 
-- Scenarios:
+- Scenarios/Problem Settings:
   The way AL is basing on.
   It decides how the data reveals and how to get the instance to query.
   - Pool based: select instance from a pre-collected data pools to annotate.
@@ -33,7 +33,7 @@ According to scenarios and tasks, almost all the AL works could be divided into 
 | Classification | PB-classification (most works) | SB-classification    |        -        |
 | Regression     | PB-regression                  | SB-regression (rare) |        -        |
 
-
+TODO
 # Pool-based Scenario
 
 In pool-based setting, a bunch of unlabeled data could be collected in advance as a data pool.
@@ -93,7 +93,8 @@ For more details, the list of works could see [**here**](subfields/pb_regression
 In stream-based AL, the unlabeled data come with a stream manner, and the AL module decides whether to annotate the coming instance to update the model.
 This setting is not as popular as pool-based active learning. 
 In most times, it needs to consider data drift where the underlying distribution is varying over time.
-The common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
+
+For both the clssification and the regression tasks, the common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
 
 ## Classification
 

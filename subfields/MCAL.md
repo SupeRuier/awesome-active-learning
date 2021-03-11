@@ -19,5 +19,8 @@ We need to mention that these works are rely on the prediction of probability $f
   Select the instance which has the largest output entropy.
 
 Works:
-1. [Multi-Class Active Learning for Image Classification [CVPR, 2009]](https://ieeexplore.ieee.org/abstract/document/5206627): A comparison of **BvSB** and **Entropy** for active multi-classification. They use one-vs-one SVM to evaluate the probability for each class. (338 citations). Also see [Scalable Active Learning for Multiclass Image Classification [TPAMI, 2012]](https://ieeexplore.ieee.org/abstract/document/6127880/). (104 citations)
-2. [An active learning-based SVM multi-class classification model [2015, Pattern Recognition]](https://www.sciencedirect.com/science/article/pii/S003132031400497X): Use ove-vs-rest SVM, and select from the three types of unclear region (CBA, CCA, CNA). Allow the addition of new classes. (65 citations)
+1. [Multi-class Ensemble-Based Active Learning [2006, ECML]](https://link.springer.com/chapter/10.1007/11871842_68): 
+  Extract the most valuable samples by margin-based disagreement, uncertainty, sampling-based disagreement, or specific disagreement. 
+  C4.5 as base learner.
+2. [Multi-Class Active Learning for Image Classification [CVPR, 2009]](https://ieeexplore.ieee.org/abstract/document/5206627): A comparison of **BvSB** and **Entropy** for active multi-classification. They use one-vs-one SVM to evaluate the probability for each class. (338 citations). Also see [Scalable Active Learning for Multiclass Image Classification [TPAMI, 2012]](https://ieeexplore.ieee.org/abstract/document/6127880/). (104 citations)
+3. [An active learning-based SVM multi-class classification model [2015, Pattern Recognition]](https://www.sciencedirect.com/science/article/pii/S003132031400497X): Use ove-vs-rest SVM, and select from the three types of unclear region (CBA, CCA, CNA). Allow the addition of new classes. (65 citations)
