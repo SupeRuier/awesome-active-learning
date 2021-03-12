@@ -1,9 +1,9 @@
 # Batch mode classification
 
-Batch mode selection is important in AL.
+Batch mode selection is important in pool-based AL.
 In many real life cases, it is more efficient to select a number of instances to be annotated in each AL iteration.
 Although the non-batch AL methods could still meet this requirement by selecting the top evaluated instances as a batch, they would contain too much overlap information.
-So the non-batch mode selection would waste the budget in the batch selection case.
+So the non-batch mode selection would waste the budget compared to the batch selection case.
 Batch mode AL requires that the information overlap of instances in a single query batch should be small enough.
 Different batch selection strategies have the same intuition which is try to diverse the instances in a single training batch.
 However, they might achieve this goal in different approaches.
@@ -44,8 +44,8 @@ Different from the heuristic-diversity methods, optimization-based methods defin
 The instance selection could be directly revealed from the optimization result.
 
 The optimization objective for the batch selection could be:
--  Directly minimize the loss or the expected variance after querying.
--  The constrain of distribution of the batch selection set and a corresponding target set. 
+-  The loss or the expected variance after querying.
+-  The discrepancy of distributions (the batch selection set and a corresponding target set). 
 
 Works:
 - [Discriminative batch mode active learning [2008, NIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
@@ -59,15 +59,13 @@ Works:
 - [Querying discriminative and representative samples for batch mode active learning [2015, TKDD]](https://dlacm.xilesou.top): 
   Optimization based. **BMDR**. 
   Query the most informative samples while preserving the source distribution as much as possible, thus identifying the most uncertain and representative queries. 
-  Try to minimize the difference between two distributions (maximum mean discrepancy between iid. 
-  Samples from the dataset and the actively selected samples). 
+  Try to minimize the difference between two distributions (maximum mean discrepancy between iid. samples from the dataset and the actively selected samples). 
   **Also could be extended to multi-class AL.** (82 citations)
 
 ## Greedy Selection
 
 This type of methods select instance in a greedy search way.
-It could be considered as a conventional AL selection without updating the model in each iteration.
-The model updating only process after the whole batch is collected.
+In each active learning iteration, the strategies greedily select instances to maximum their diversity (in distribution or in other criteria).
 
 Works:
 1. [Batch mode active learning and its application to medical image classification [2006, ICML]](https://dlacm.xilesou.top/doi/abs/10.1145/1143844.1143897): 

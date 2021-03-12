@@ -63,12 +63,6 @@ We summarize the idea of batch mode selection [**here**](subfields/AL_combinatio
 
 <!-- TODO: complete -->
 We have to note that a large amount of works focus on pool based classification.
-
-|                 | Classification       |
-| --------------- | -------------------- |
-| Non-batch mode: | Most of the AL works |
-| Batch mode:     | Improve over         |
-
 For more details, the list of works with short introductions could see [**here**](subfields/pb_classification.md).
 
 ## Regression
