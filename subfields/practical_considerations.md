@@ -163,6 +163,7 @@ Works:
 - Scaling Up Crowd-Sourcing to Very Large Datasets: A Case for Active Learning [2014, VLDB]: (161)
 - Scalable active learning for multiclass image classification [2012, TPAMI]: Use locality sensitive hashing to provide a very fast approximation to active learning, which gives sublinear time scaling, allowing application to very large datasets. (107)
 - Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.(8)
+- Quantum speedup for pool-based active learning [2019, QIP]
   
 # The consideration of the conventional AL process
 

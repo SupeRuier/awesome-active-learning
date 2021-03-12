@@ -104,7 +104,8 @@ The list of works could see [**here**](subfields/AL_combinations.md)
 
 # Technique-oriented Approach
 
-After we specifying the problems, the way to derive active learning algorithms should be considered.
+In this section, we construct the works 
+
 This section contains two parts：
 - Taxonomy in AL strategies
 - AL strategies under different models
@@ -117,23 +118,16 @@ Here we just provide two different dimensions for you to find the information yo
 In this section, we provide our taxonomy in the current AL strategies.
 We hope this can bring you a intuition to design your own strategy or just choose the most appropriate strategy.
 We note that the taxonomy we used here is focusing on **pool-based classification**.
+We summarized the way to calculate the score of instances into the following categories.
 
-<!-- TODO: Specify the taxonomy -->
-- Supervised
-  - model output guided selection
-  - model middle information guided selection
-- Unsupervised
-  - only base on the original features
-- [Batch mode](subfields/AL_combinations.md)
+| Score                     | Description                                       | Comments                                                                        |
+| ------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Informativeness           | Uncertainty by the model prediction               | Neglect the underlying distribution.                                            |
+| Representativeness-impart | Represent the underlying distribution             | Normally used with informativeness. May have overlaps with batch-mode selection |
+| Expected Improvements     | The improvement of the model's performance        | The evaluations usually take time.                                              |
+| Learn to score            | Learn a evaluation function directly.             |                                                                                 |
 
-Use other research field to improve AL.
-The list of works could see [**here**](subfields/AL_combinations.md)
-- Reinforcement Learning
-- Meta-learning
-- Quantum computing
-- GAN
-
-Please check [**here**](subfields/pb_classification.md) for more information.
+For more details, the list of works with short introductions could see [**here**](subfields/pb_classification.md).
 
 ## AL Strategies with specific models
 

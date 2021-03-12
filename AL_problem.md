@@ -33,7 +33,6 @@ According to scenarios and tasks, almost all the AL works could be divided into 
 | Classification | PB-classification (most works) | SB-classification    |        -        |
 | Regression     | PB-regression                  | SB-regression (rare) |        -        |
 
-TODO
 # Pool-based Scenario
 
 In pool-based setting, a bunch of unlabeled data could be collected in advance as a data pool.
@@ -44,16 +43,7 @@ The instances selection strategies evaluate how useful the instances are.
 So the AL strategies would give each instance a score.
 The score usually imply how much information the instance contains in the corresponding task.
 The instances with highest scores would be selected.
-Different strategies evaluate instances in different ways.
-The information could be defined in different ways.
-
-| Define information  | Description                                | Comments                             |
-| ------------------- | ------------------------------------------ | ------------------------------------ |
-| Informativeness     | Uncertainty by the model prediction        | Neglect the underlying distribution. |
-| Representativeness  | Represent the underlying distribution      | Normally used with the first type.   |
-| Future improvements | The improvement of the model's performance | The evaluations usually take time.   |
-| Hybrid              | Combination of above ones                  | Need trade-off                       |
-| Learn to define     | Learn a evaluation function directly.      |                                      |
+Different strategies calculate the scores in different ways.
 
 In pool-based scenario, batch mode selection is also important, i.e. select a batch of instances with the maximum information.
 Batch makes the query selection more efficient and avoids redundant information query.
@@ -61,8 +51,16 @@ We summarize the idea of batch mode selection [**here**](subfields/AL_combinatio
 
 ## Classification
 
-<!-- TODO: complete -->
 We have to note that a large amount of works focus on pool based classification.
+We categorized the current pool-based classification strategies by how they calculate the scores.
+
+| Score                     | Description                                       | Comments                                                                        |
+| ------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Informativeness           | Uncertainty by the model prediction               | Neglect the underlying distribution.                                            |
+| Representativeness-impart | Represent the underlying distribution             | Normally used with informativeness. May have overlaps with batch-mode selection |
+| Expected Improvements     | The improvement of the model's performance        | The evaluations usually take time.                                              |
+| Learn to score            | Learn a evaluation function directly.             |                                                                                 |
+
 For more details, the list of works with short introductions could see [**here**](subfields/pb_classification.md).
 
 ## Regression
@@ -82,13 +80,12 @@ For more details, the list of works could see [**here**](subfields/pb_regression
 
 # Stream-based Scenario
 
-<!-- TODO point out that the stream based doesn't need a score to compare different items. But need a criteria to decide wether to query. A threshold and a score. -->
-
 In stream-based AL, the unlabeled data come with a stream manner, and the AL module decides whether to annotate the coming instance to update the model.
+So there won't be any comparisons between different instances.
 This setting is not as popular as pool-based active learning. 
 In most times, it needs to consider data drift where the underlying distribution is varying over time.
 
-For both the clssification and the regression tasks, the common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
+For both the classification and the regression tasks, the common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
 
 ## Classification
 
@@ -106,4 +103,4 @@ We won't talk about the query synthesis for now but focus on how to select insta
 This field is not well developed in the past years.
 <!-- TODO Fill this slot later. -->
 
-
+- Generative Adversarial Active Learning [2017, Arxiv]

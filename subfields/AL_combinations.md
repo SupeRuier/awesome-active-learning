@@ -37,10 +37,6 @@ Others try to improve the AL process with the knowledge in other fields.
     - [Sequence labeling](#sequence-labeling)
     - [Sample selection for optimization problem](#sample-selection-for-optimization-problem)
     - [Multi-fidelity machine learning](#multi-fidelity-machine-learning)
-  - [Improve AL](#improve-al)
-    - [Reinforcement Learning](#reinforcement-learning-1)
-    - [Quantum computing](#quantum-computing)
-    - [Generative Adversarial Network](#generative-adversarial-network-1)
 
 
 ## Utilize AL
@@ -252,29 +248,3 @@ Utilize active sampling to reduce the optimization cost.
 ### Multi-fidelity machine learning
 
 - [Deep Multi-Fidelity Active Learning of High-Dimensional Outputs [2020]](https://arxiv.org/pdf/2012.00901.pdf)
-
-## Improve AL
-
-Instead of use AL to save labeling cost in other research fields, the ideas in other research fields could also be used to improve AL framework.
-
-### Reinforcement Learning
-
-Could be used as a query strategy.
-
-Works:
-- Active Learning by Learning [2015, AAAI]
-- Learning how to Active Learn: A Deep Reinforcement Learning Approach [2017, Arxiv]
-- Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, Annual Meeting of the Association for Computational Linguistics]
-- [Deep Reinforcement Active Learning for Medical Image Classiﬁcation [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.
-
-### Quantum computing 
-
-Works:
-- Quantum speedup for pool-based active learning
-
-### Generative Adversarial Network
-
-Could be used in query synthesis.
-
-Works:
-- Generative Adversarial Active Learning
