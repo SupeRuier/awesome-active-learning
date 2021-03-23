@@ -87,6 +87,7 @@ There are also few works on this topic.
 - [Multi-label active learning based on submodular functions [2018, Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231218307070):
   Propose a query strategy by constructing a submodular function for the selected instance-label pairs, which can measure and combine the informativeness and representativeness
   (0)
+- [Multiview Multi-Instance Multilabel Active Learning [2021, TNNLS]](https://repository.kaust.edu.sa/bitstream/handle/10754/667375/TNNLS-2020-P-14015%20%281%29.pdf?sequence=1&isAllowed=y)
 
 ### Others
 - [Multi-Label Active Learning: Query Type Matters [2015, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10995):

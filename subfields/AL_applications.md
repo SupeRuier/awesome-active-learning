@@ -35,6 +35,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Communication](#communication)
   - [Brain Mapping in a High Performance Computing Environment](#brain-mapping-in-a-high-performance-computing-environment)
   - [Crowd Counting](#crowd-counting)
+  - [Malware Detection](#malware-detection)
   - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
@@ -48,6 +49,7 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 - Active machine learning for transmembrane helix prediction [2010, BMC Bioinform]
 - Investigating Active Learning and Meta-Learning for Iterative Peptide Design [2020, JCM]
 - Large scale active-learning-guided exploration for in vitro protein production optimization [2020, Nature Communications]
+- Active learning to classify macromolecular structures in situ for less supervision in cryo-electron tomography [Bioinformatics]
 
 ## Molecular Dynamics
 
@@ -90,12 +92,12 @@ Several surveys of AL for remote sensing:
 - A survey of active learning algorithms for supervised remote sensing image classification
 - A Survey of Active Learning for Quantifying Vegetation Traits from Terrestrial Earth Observation Data [2021]
 
-Works:
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
 - Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
 - [Online Semisupervised Active Classification for Multiview PolSAR Data [2020, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9238410)
 - [Hyperspectral Image Classiﬁcation with Feature-Oriented Adversarial Active Learning [2020, Remote Sensing]](https://www.mdpi.com/2072-4292/12/23/3879)
+- Adversarial Discriminative Active Deep Learning for Domain Adaptation in Hyperspectral Images Classification [2021, INTERNATIONAL JOURNAL OF REMOTE SENSING]
 
 ## Medical 
 
@@ -141,6 +143,7 @@ Works:
 ### Dataset Building/ Data Annotation
 
 - Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop [2015, Arxiv]
+- A Simple Yet Brisk And Efficient Active Learning Platform For Text Classification
 - [Scale AI](https://scale.com)
 - [Appen (Figure-Eight)](https://appen.com)
 
@@ -172,6 +175,10 @@ About neuron segmentation and tracing at scale.
 
 - [Active Crowd Counting with Limited Supervision [2020, Arxiv]](https://arxiv.org/abs/2007.06334): An multi-domain crowd counting framework. Use discriminator to learn a feature extractor for the crowd density regression for all the domains.
 - [Uncertainty Estimation and Sample Selection for Crowd Counting [2020, Arxiv]](https://arxiv.org/pdf/2009.14411.pdf)
+
+## Malware Detection
+
+- Q-learning and LSTM based deep active learning strategy for malware defense in industrial IoT applications [2021, Multimedia Tools and Applications]
 
 ## Solvability Prediction in Power Systems
 

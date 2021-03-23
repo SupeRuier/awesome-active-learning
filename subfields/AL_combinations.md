@@ -51,6 +51,7 @@ Image segmentation/Semantic Segmentation：
 - [Deep Active Learning for Joint Classification & Segmentation with Weak Annotator [2020]](https://arxiv.org/pdf/2010.04889.pdf): Leverage the unlabeled images to improve model accuracy with less oracle-annotation. AL for segmentation of images selected for pixel-level annotation.
 - [Difficulty-aware Active Learning for Semantic Segmentation [2020]](https://arxiv.org/pdf/2010.08705.pdf)
 - Embodied Visual Active Learning for Semantic Segmentation [2020]
+- Active Learning with Bayesian UNet for Efﬁcient Semantic Image Segmentation [Journal of Imaging]
 
 Object Detection: 
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
@@ -91,6 +92,9 @@ Neural Machine Translation:
 
 Sequence Tagging:
 - [Active Learning for Sequence Tagging with Deep Pre-trained Models and Bayesian Uncertainty Estimates [2021]](https://arxiv.org/pdf/2101.08133.pdf)
+
+Fine-Tuning for Downstream NLP Tasks:
+- Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task
 
 ## Domain adaptation/Transfer learning
 
@@ -183,6 +187,8 @@ Robot motion planning:
 - [Active Learning of Signal Temporal Logic Specifications](https://people.kth.se/~linard/publications/active_learn_stl.pdf)
 - [Online Body Schema Adaptation through Cost-Sensitive Active Learning](https://arxiv.org/pdf/2101.10892.pdf)
 
+Demonstrate Robots:
+- Active Learning of Bayesian Probabilistic Movement Primitives [2021, IEEE ROBOTICS AND AUTOMATION LETTERS]
 
 ## Model Interpretability
 
