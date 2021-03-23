@@ -91,6 +91,9 @@ Classifier Pruning:
 Neural Machine Translation:
 - [Active Learning Approaches to Enhancing Neural Machine Translation [2020, EMNLP]](https://www.aclweb.org/anthology/2020.findings-emnlp.162.pdf): The first to do a large-scale study on actively training Transformer for NMT.
 
+Sequence Tagging:
+- [Active Learning for Sequence Tagging with Deep Pre-trained Models and Bayesian Uncertainty Estimates [2021]](https://arxiv.org/pdf/2101.08133.pdf)
+
 ### Domain adaptation/Transfer learning
 
 Normally when we use AL in domain adaptation, we can obtain several true labels of the unlabeled instances on source/target domain.

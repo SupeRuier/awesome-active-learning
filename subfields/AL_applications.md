@@ -25,6 +25,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Medical image segmentation](#medical-image-segmentation)
     - [Medical symptom recognition from text](#medical-symptom-recognition-from-text)
   - [Spam Detection](#spam-detection)
+  - [Person re-identification](#person-re-identification)
   - [Mobile Health Monitoring](#mobile-health-monitoring)
   - [Disease detection](#disease-detection)
   - [Privacy Policy Classification](#privacy-policy-classification)
@@ -102,7 +103,11 @@ The industrial applications of AL are about the practical problems or specific r
 Remote sensing is an field with really high labeling cost.
 AL is well used in this field.
 
+Several surveys of AL for remote sensing:
 - A survey of active learning algorithms for supervised remote sensing image classification
+- A Survey of Active Learning for Quantifying Vegetation Traits from Terrestrial Earth Observation Data [2021]
+
+Works:
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
 - Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
@@ -129,6 +134,10 @@ AL is well used in this field.
 ## Spam Detection
 
 - [Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning](https://www.aclweb.org/anthology/2020.acl-main.279.pdf)
+
+## Person re-identification
+
+- [Rethinking data collection for person re-identification: active redundancy reduction [2021, Pattern Recognition]](https://reader.elsevier.com/reader/sd/pii/S0031320321000145?)
 
 ## Mobile Health Monitoring
 
@@ -178,6 +187,7 @@ About neuron segmentation and tracing at scale.
 ### Robot motion planning
 
 - [Active Learning of Signal Temporal Logic Specifications](https://people.kth.se/~linard/publications/active_learn_stl.pdf)
+- [Online Body Schema Adaptation through Cost-Sensitive Active Learning](https://arxiv.org/pdf/2101.10892.pdf)
 
 ## Crowd Counting
 
@@ -191,6 +201,7 @@ About neuron segmentation and tracing at scale.
 ## Software defects prediction
 
 - [Empirical evaluation of the active learning strategies on software defects prediction [2016, ISSSR]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9265897)
+- [Improving high-impact bug report prediction with combination of interactive machine learning and active learning [2021]](https://reader.elsevier.com/reader/sd/pii/S0950584921000185?token=E1D095736314C62935E011266E971E6DA8289DDF6AC3CB3F57115363383EEED292B3A9C1B8CDD30E81FAAE08F8F0B9B4)
 
 
 ## Disguised Faces Recognition
