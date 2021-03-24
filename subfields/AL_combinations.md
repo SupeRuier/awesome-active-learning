@@ -116,6 +116,7 @@ Transfer learning:
 
 - [Active Ordinal Querying for Tuplewise Similarity Learning [2020 AAAI]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-CanalG.9650.pdf): Introduce AL to their new similarity methods (InfoTuple). Active Sampling for Pairwise Comparisons via Approximate Message Passing and Information Gain Maximization.
 - Batch Decorrelation for Active Metric Learning [2020, IJCAI]
+- Maximizing Conditional Entropy for Batch-Mode Active Learning of Perceptual Metrics [2021]
 
 ## One/Few-shot learning
 
