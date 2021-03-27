@@ -78,6 +78,7 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 - Active machine learning-driven experimentation to determine compound effects on protein patterns [2016, Elife]
 - [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
 - Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
+- AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
 
 # Industrial Applications
 
@@ -98,6 +99,7 @@ Several surveys of AL for remote sensing:
 - [Online Semisupervised Active Classification for Multiview PolSAR Data [2020, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9238410)
 - [Hyperspectral Image Classiﬁcation with Feature-Oriented Adversarial Active Learning [2020, Remote Sensing]](https://www.mdpi.com/2072-4292/12/23/3879)
 - Adversarial Discriminative Active Deep Learning for Domain Adaptation in Hyperspectral Images Classification [2021, INTERNATIONAL JOURNAL OF REMOTE SENSING]
+- Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning [2021,Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning]
 
 ## Medical 
 

@@ -19,8 +19,9 @@ There also are some works focus on multi-class classification settings, please c
   - [Representativeness-impart sampling](#representativeness-impart-sampling)
     - [Cluster-based sampling](#cluster-based-sampling)
     - [Density-based sampling](#density-based-sampling)
+    - [Alignment-based sampling](#alignment-based-sampling)
     - [Expected loss on unlabeled data](#expected-loss-on-unlabeled-data)
-  - [Learn to score](#learn-to-score)
+  - [Learn to Score](#learn-to-score)
   - [Others](#others)
 
 # Taxonomy
@@ -101,6 +102,7 @@ Works:
 Previous introduced works seldomly consider the data distributions.
 So those strategies are more focusing on the decision boundary, and the representativeness of the data is neglected.
 Therefore, many works take the representativeness of the data into account.
+Basically, it measures how much the labeled instances are aligned with the unlabeled instances in distribution.
 We note that there aren't many works only consider the representativeness of the data.
 More commonly, the representativeness and informativeness are considered together to sample instances.
 
@@ -129,7 +131,6 @@ i.e. the selected instances and the unlabeled instances should have similar dist
   - **Information density**
   - **RALF**
   - **k-Center-Greedy (Core-set)**: Only consider the representativeness.
-  - **Adversarial based**: The labeled and the unlabeled instances should hard to be distinguished.
 
 Works:
 - [An analysis of active learning strategies for sequence labeling tasks [2008, CEMNL]](https://www.aclweb.org/anthology/D08-1112.pdf): **Information density** framework. The main idea is that informative instances should not only be those which are uncertain, but also those which are “representative” of the underlying distribution (i.e., inhabit dense regions of the input space).(659 citations)
@@ -137,7 +138,20 @@ Works:
 - [Active learning for convolutional neural networks: A core-set approach [ICLR, 2018]](https://arxiv.org/abs/1708.00489):
   Core-set loss is simply the difference between average empirical loss over the set of points which have labels for and the average empirical loss over the entire dataset including unlabelled points. Optimize the upper bound of core-set loss could be considered as a k-center problem in practice. Doesn't need to know the out put of the current model.
 - [Minimax Active Learning [2020]](https://arxiv.org/pdf/2012.10467.pdf): Develop a semi-supervised minimax entropy-based active learning algorithm that leverages both uncertainty and diversity in an adversarial manner.
+
+### Alignment-based sampling
+
+This type of works directly takes into account the measurement of distribution alignment between labeled and unlabeled data.
+i.e. The labeled and the unlabeled instances should hard to be distinguished.
+There are adversarial works and non-adversarial works.
+
+Types:
+- **Adversarial based**
+- **non-adversarial based**
+
+Works:
 - [Exploring Representativeness and Informativeness for Active Learning [2017, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.xilesou.top/abstract/document/7329991): Optimization based. The representativeness is measured by fully investigating the triple similarities that include the similarities between a query sample and the unlabeled set, between a query sample and the labeled set, and between any two candidate query samples. For representativeness, our goal is also to find the sample that makes the distribution discrepancy of unlabeled data and labeled data small. For informativeness, use BvSB. (85 citations)
+- Agreement-Discrepancy-Selection: Active Learning with Progressive Distribution Alignment [2021]
 
 ### Expected loss on unlabeled data
 
@@ -152,7 +166,7 @@ Works:
 - [Active Learning by Querying Informative and Representative Examples [2010, NIPS]](http://papers.nips.cc/paper/4176-active-learning-by-querying-informative-and-representative-examples): **QUIRE**. Optimization based. Not only consider the loss in the labeled data (uncertainty) but also consider the loss in the unlabeled data (representations, correct labels would leads small value of overall evaluation function.). This methods is very computationally expensive. (370 citations)
 - [Efﬁcient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
 
-## Learn to score
+## Learn to Score
 
 All the mentioned sampling strategies above are basing on heuristic approaches.
 Their intuitions are clear, but might perform differently in different datasets.

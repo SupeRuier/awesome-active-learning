@@ -18,7 +18,7 @@ The works here are almost
   - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
   - [Domain adaptation/Transfer learning](#domain-adaptationtransfer-learning)
   - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
-  - [One/Few-shot learning](#onefew-shot-learning)
+  - [One/Few/Zero-shot learning](#onefewzero-shot-learning)
   - [Graph Processing](#graph-processing)
   - [Clustering](#clustering)
   - [Recommendation](#recommendation)
@@ -122,7 +122,7 @@ Transfer learning:
 - Batch Decorrelation for Active Metric Learning [2020, IJCAI]
 - Maximizing Conditional Entropy for Batch-Mode Active Learning of Perceptual Metrics [2021]
 
-## One/Few-shot learning
+## One/Few/Zero-shot learning
 
 One/few-shot learning is to learn a model on a new dataset with one for few available instances.
 AL could be used to select the instances in the new dataset.
@@ -132,6 +132,9 @@ AL could be used to select the instances in the new dataset.
 - Active one-shot learning with Prototypical Networks [2019, ESANN]
 - Active one-shot learning by a deep Q-network strategy [2020, Neurocomputing]
 - On the Utility of Active Instance Selection for Few-Shot Learning [2020]: Show via these “upper bounds” that we do not have a significant room for improving few-shot models through actively selecting instances.
+
+There are also works about zero-shot learning:
+- Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]
 
 ## Graph Processing
 
