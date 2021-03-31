@@ -29,6 +29,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train:](#incrementally-train)
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
+- [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
 
 
 # The considerations of the data
@@ -214,3 +215,15 @@ Works:
 - [ALICE: Active Learning with Contrastive Natural Language Explanations [2020, arxiv]](https://arxiv.org/pdf/2009.10259.pdf): This is a work from Stanford. It use an class-based AL which the AL module selects most confusing class pairs instead of instances (select the b class pairs with the lowest JensenShannon Divergence distance). The expert would provide contrastive natural language explanations. The knowledge is extracted by semantic parsing. The architecture of the model contains an one-vs-rest global classifier and local classifier (conditional execution on the global classifier). The local classifiers are not only trained on the original figures but also the resized image patches obtained in the semantic examination grounding. An attention mechanism is used to train the local classifiers.
 - [Active Learning of Classification Models from Enriched Label-related Feedback [2020, PhD Thesis]](http://d-scholarship.pitt.edu/39554/7/Xue%20Final%20ETD.pdf): The human annotator provides additional information (enriched label-related feedback) reflecting the relations among possible labels. The feedback includes probabilistic scores, ordinal Likert-scale categories, Ordered Class Set, Permutation Subsets.
 - [Hierarchical Active Learning with Overlapping Regions [2020]](https://dl.acm.org/doi/pdf/10.1145/3340531.3412022)
+
+# The consideration of the performance metric
+
+In general, we still use visual comparison on learning curves to compare different strategies.
+However, sometimes the curves are not clearly evaluated.
+So several works try to analysis and improve the performance metric in AL.
+
+Works:
+- [Statistical comparisons of active learning strategies over multiple datasets [2018, KBS]](https://reader.elsevier.com/reader/sd/pii/S0950705118300492?token=205F260BCACAF95AB50110F9C7D04C204F3655534DACB447434150331DBDC420A8B45831D78B83BBE772FA273E855566):
+  Propose two approaches to analysis AL strategies.
+  The first approach is based on the analysis of the area under learning curve and the rate of performance change. 
+  The second approach considers the intermediate results derived from the active learning iterations.
