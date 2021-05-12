@@ -17,6 +17,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Multiple Correct Outputs](#multiple-correct-outputs)
   - [Unknown input classes](#unknown-input-classes)
   - [Different data types](#different-data-types)
+  - [Data with Perturbation](#data-with-perturbation)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on single oracles (Noise/Special behaviors)](#the-assumption-change-on-single-oracles-noisespecial-behaviors)
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
@@ -113,6 +114,12 @@ Sometimes, AL need to be used to handle several unusual data types.
 
 - [Cost-Effective Active Semi-Supervised Learning on Multivariate Time Series Data With Crowds [2020, TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9199304)
 
+## Data with Perturbation
+
+- Improving Model Robustness by Adaptively Correcting Perturbation Levels with Active Queries [2021, AAAI]:
+  To utilize the model on noised/perturbed data, the models are trained on the artificial noised/perturbed data.
+  To create the dataset, the different noise level should be assigned to each instance, this is costly.
+  Here use active selection to assign the noise to the most valuable instance (could be least or most perturbed).
 
 # The considerations of the oracles
 

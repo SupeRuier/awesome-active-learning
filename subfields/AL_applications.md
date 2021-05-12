@@ -16,6 +16,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Materials Design and Discovery](#materials-design-and-discovery)
   - [Chemical natural language processing](#chemical-natural-language-processing)
   - [Experiment Design/Experimental Condition Selection](#experiment-designexperimental-condition-selection)
+  - [Math and Statistics](#math-and-statistics)
   - [Geology](#geology)
 - [Industrial Applications](#industrial-applications)
   - [Remote Sensing](#remote-sensing)
@@ -31,6 +32,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Dataset Engineering](#dataset-engineering)
     - [Dataset Building/ Data Annotation](#dataset-building-data-annotation)
     - [Data Enrichment](#data-enrichment)
+  - [Software Engineering](#software-engineering)
   - [Answer Selection (learning to rank)](#answer-selection-learning-to-rank)
   - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
   - [Communication](#communication)
@@ -69,6 +71,8 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 
 - Bias free multi-objective active learning for materials design and discovery [2020]
 - [Active learning for the power factor prediction in diamond-like thermoelectric materials [2020, npj Computational Materials]](https://www.nature.com/articles/s41524-020-00439-8)
+- [Active Discovery of Catalysts for Sustainable Energy Storage [2021]](https://www.proquest.com/openview/660c2b7aa14e0b9228240134af6e089e/1?cbl=18750&diss=y&pq-origsite=gscholar)
+- [Active discovery of organic semiconductors [2021, Nature communications]](https://www.nature.com/articles/s41467-021-22611-4)
 
 ## Chemical natural language processing
 
@@ -80,6 +84,11 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 - [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
 - Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
 - AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
+
+## Math and Statistics
+
+Model checking:
+- [Active and sparse methods in smoothed model checking](https://arxiv.org/pdf/2104.09940.pdf)
 
 ## Geology
 
@@ -159,6 +168,11 @@ Several surveys of AL for remote sensing:
 ### Data Enrichment
 
 - [ActiveDeeper: A Model-based Active Data Enrichment System](http://www.vldb.org/pvldb/vol13/p2885-zhao.pdf): Use keywords provide by the oracles to search in a database to build a dataset for the current task.
+
+## Software Engineering
+
+API Misuse Detection
+- [Active Learning of Discriminative Subgraph Patterns for API Misuse Detection [2021, TSE]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9392340)
 
 ## Answer Selection (learning to rank)
 

@@ -58,6 +58,8 @@ Object Detection:
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - [Active Object Detection in Sonar Images [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9106398)
 - [Importance of Self-Consistency in Active Learning for Semantic Segmentation [2020, Arxiv]](https://arxiv.org/pdf/2008.01860.pdf)
+- [Localization head Localization Active Learning for Deep Object Detection via Probabilistic Modeling [2021, Arxiv]](https://arxiv.org/pdf/2103.16130.pdf)
+- [Multiple Instance Active Learning for Object Detection [2021]](https://arxiv.org/pdf/2104.02324.pdf)
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
@@ -85,8 +87,9 @@ Named entity recognition:
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
 - LTP: A New Active Learning Strategy for CRF-Based Named Entity Recognition [2020, Arxiv]
 
-Semantic Parsing:
+Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
+- [Diversity-Aware Batch Active Learning for Dependency Parsing [2021]](https://arxiv.org/pdf/2104.13936.pdf)
 
 Classifier Pruning:
 - [FIND: Human-in-the-Loop Debugging Deep Text Classifiers [2020, EMNLP]](https://www.aclweb.org/anthology/2020.emnlp-main.24.pdf): Visualize each extracted feature as a word cloud. Human decide wether to block the corresponding feature.
@@ -97,8 +100,13 @@ Neural Machine Translation:
 Sequence Tagging:
 - [Active Learning for Sequence Tagging with Deep Pre-trained Models and Bayesian Uncertainty Estimates [2021]](https://arxiv.org/pdf/2101.08133.pdf)
 
+Coreference Resolution：
+- [Adaptive Active Learning for Coreference Resolution [2021]](https://arxiv.org/pdf/2104.07611.pdf)
+
 Fine-Tuning for Downstream NLP Tasks:
 - Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task
+- Bayesian Active Learning with Pretrained Language Models
+- Multi-class Text Classification using BERT-based Active Learning
 
 ## Domain adaptation/Transfer learning
 

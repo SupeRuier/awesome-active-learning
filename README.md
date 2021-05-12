@@ -42,6 +42,7 @@ They provided a good overview for the field.
 - ALdataset: a benchmark for pool-based active learning [[2020]](https://arxiv.org/pdf/2010.08161.pdf)
 - Active Learning: Problem Settings and Recent Developments [[2020]](https://arxiv.org/pdf/2012.04225.pdf)
 - [From Model-driven to Data-driven: A Survey on Active Deep Learning [2021]](https://arxiv.org/pdf/2101.09933.pdf)
+- [Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
 
 # Problem-oriented approach
 
@@ -193,6 +194,7 @@ There already are several python AL project:
   The project is leaded by Shengjun Huang.
 - [pytorch_active_learning](https://github.com/rmunro/pytorch_active_learning)
 - [Deep-active-learning](https://github.com/ej0cl6/deep-active-learning)
+- [Paladin](https://www.aclweb.org/anthology/2021.eacl-demos.28.pdf): An anotation tool for creat- ing high-quality multi-label document-level datasets.
 
 ## Tutorials
 - [active-learning-workshop](https://github.com/Azure/active-learning-workshop): 
