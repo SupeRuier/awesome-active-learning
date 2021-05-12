@@ -120,6 +120,9 @@ The oracle is one of the important part in AL loop.
 Normally, we assume that we only have one perfect oracle with accurate feedback.
 However, this assumption might not always hold true in the number of the oracles or in the quality of the oracles.
 
+There is a PhD thesis for this topic:
+- [Active Learning with Uncertain Annotators [2020]](https://books.google.com.hk/books?hl=zh-CN&lr=&id=4pIiEAAAQBAJ&oi=fnd&pg=PA49&ots=i2qwdJVK3_&sig=6R5FxbWyjfcAjHZQttXL6jQ6ws8&redir_esc=y&hl=zh-CN&sourceid=cndr#v=onepage&q&f=false)
+
 ## The assumption change on single oracles (Noise/Special behaviors)
 
 We used to assume each labeler is perfect that they can provide accurate answer without doubt.

@@ -37,6 +37,7 @@ The works here are almost
   - [Sample Selection for Optimization Problems](#sample-selection-for-optimization-problems)
   - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
+  - [Adversarial Attach Detection](#adversarial-attach-detection)
 
 ## Computer Vision (CV)
 
@@ -72,6 +73,9 @@ Video Object Detection:
 
 NLP is also quite a wide conception.
 Here we only post several subtypes in the fields.
+
+**Survey** for the whole field:
+- [Putting Humans in the Natural Language Processing Loop: A Survey [2021]](https://arxiv.org/pdf/2103.04044.pdf)
 
 Sentiment/text classification:
 - Active learning for imbalanced sentiment classification [2012, EMNLP-CoNLL]
@@ -153,10 +157,11 @@ Link Prediction:
 Node response prediction:
 - [Meta-Active Learning for Node Response Prediction in Graphs [2020]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=META-ACTIVE+LEARNING+FOR+NODE+RESPONSE+PREDICTION+IN+GRAPHS&btnG=)
 
-Graph transfer:
+Graph transfer/Network Alignment:
 - [Graph Policy Network for Transferable Active Learning on Graphs [2020, Arxiv]](https://arxiv.org/pdf/2006.13463.pdf)
 - [Active Domain Transfer on Network Embedding [2020, Proceedings of The Web Conference ]](https://arxiv.org/pdf/2007.11230.pdf)
 - [Active Learning on Graphs with Geodesically Convex Classes [2020, MLG]](http://www.mlgworkshop.org/2020/papers/MLG2020_paper_40.pdf)
+- [Attent: Active Attributed Network Alignment [2021, WWW]](https://idvxlab.com/papers/2021WWW_Attent_zhou.pdf)
 
 ## Clustering
 
@@ -263,3 +268,7 @@ Utilize active sampling to reduce the optimization cost.
 
 AL could reduce the number of needed instances to train a GAN.
 - Learning Class-Conditional GANs with Active Sampling [2019, SIGKDD]
+
+## Adversarial Attach Detection
+
+- [Active Machine Learning Adversarial Attack Detection in the User Feedback Process [2021, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9366529)
