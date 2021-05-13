@@ -56,6 +56,8 @@ There are also few works on this topic.
   Uncertainty Sampling based on Category Vector Inconsistency and Ranking of Scores (**CVIRS**).
   This strategy selects those unlabelled examples having the most unified uncertainty computed by means of the rank aggregation problem formulated, and at the same time, the most inconsistent predicted category vectors.
   (19)
+- [Granular Multilabel Batch Active Learning With Pairwise Label Correlation [2021, TSMC]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9377714): 
+  Granular batch mode-based ranking active model for the multilabel (GBRAML).
 
 ### Instance-label pair query
 

@@ -19,6 +19,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Math and Statistics](#math-and-statistics)
   - [Geology](#geology)
 - [Industrial Applications](#industrial-applications)
+  - [Labeling System:](#labeling-system)
   - [Remote Sensing](#remote-sensing)
   - [Medical](#medical)
     - [Medical Image Classification / Image Annotation](#medical-image-classification--image-annotation)
@@ -100,6 +101,11 @@ Lithology Identification:
 
 The industrial applications of AL are about the practical problems or specific requirements in the industry.
 
+## Labeling System:
+
+This is the most direct industrial application:
+- [AI-Assisted Human Labeling: Batching for Efficiency without Overreliance [2021, ACM-HCI]](https://dl.acm.org/doi/pdf/10.1145/3449163)
+
 ## Remote Sensing 
 
 Remote sensing is an field with really high labeling cost.
@@ -142,7 +148,7 @@ Several surveys of AL for remote sensing:
 
 ## Spam Detection
 
-- [Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning](https://www.aclweb.org/anthology/2020.acl-main.279.pdf)
+- [Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning [2020, ACL]](https://www.aclweb.org/anthology/2020.acl-main.279.pdf)
 
 ## Person Re-identification
 

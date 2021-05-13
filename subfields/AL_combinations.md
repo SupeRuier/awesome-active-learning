@@ -119,6 +119,8 @@ Domain adaptation:
 - Transfer Learning with Active Queries from Source Domain [2016, IJCAI]
 - Active Sentiment Domain Adaptation [2017, ACL]
 - Active Adversarial Domain Adaptation [2020, WACV]
+- Transferable Query Selection for Active Domain Adaptation [2021]:
+  Point out that the strategy of previous works are not transferable (they use the criteria from the source domain to guide the target domain selection).
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -227,6 +229,7 @@ Demonstrate Robots:
 Could be consider as a regression where the relative orders of the instances matter.
 
 - [Active Learning for Imbalanced Ordinal Regression [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208667)
+- [Supervised Anomaly Detection via Conditional Generative Adversarial Network and Ensemble Active Learning [2021]](https://arxiv.org/pdf/2104.11952.pdf)
 
 ## Label De-noising
 
