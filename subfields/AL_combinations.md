@@ -160,6 +160,7 @@ Graph node classification:
 - MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning [2020, Arxiv]
 - Active Learning for Node Classiﬁcation: An Evaluation [2020, Entropy MDPI]
 - Active Learning for Node Classification: The Additional Learning Ability from Unlabelled Nodes [2020]
+- Active Learning for Attributed Graphs [2020, Master Dissertation]
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]
