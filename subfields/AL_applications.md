@@ -145,6 +145,7 @@ Several surveys of AL for remote sensing:
 
 - Active-learning strategies in computer-assisted drug discovery. [2015, Drug Discov.]
 - Active learning for computational chemogenomics [2017, Future Medicinal Chemistry]
+- Evaluation of Categorical Matrix Completion Algorithms: Towards Improved Active Learning for Drug Discovery [2021, System Biology]
 
 ## Spam Detection
 

@@ -37,7 +37,7 @@ The works here are almost
   - [Sample Selection for Optimization Problems](#sample-selection-for-optimization-problems)
   - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
-  - [Adversarial Attach Detection](#adversarial-attach-detection)
+  - [Adversarial Attack Detection](#adversarial-attack-detection)
 
 ## Computer Vision (CV)
 
@@ -281,6 +281,6 @@ Utilize active sampling to reduce the optimization cost.
 AL could reduce the number of needed instances to train a GAN.
 - Learning Class-Conditional GANs with Active Sampling [2019, SIGKDD]
 
-## Adversarial Attach Detection
+## Adversarial Attack Detection
 
 - [Active Machine Learning Adversarial Attack Detection in the User Feedback Process [2021, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9366529)

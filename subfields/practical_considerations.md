@@ -23,12 +23,12 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
 - [The considerations of the scale](#the-considerations-of-the-scale)
   - [Large-scale](#large-scale)
-- [The consideration of the conventional AL process](#the-consideration-of-the-conventional-al-process)
+- [The consideration of the workflow](#the-consideration-of-the-workflow)
   - [Cold start problem](#cold-start-problem)
   - [Stop criteria](#stop-criteria)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
-  - [Incrementally Train:](#incrementally-train)
+  - [Incrementally Train](#incrementally-train)
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
 
@@ -176,7 +176,7 @@ Works:
 - Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.(8)
 - Quantum speedup for pool-based active learning [2019, QIP]
   
-# The consideration of the conventional AL process
+# The consideration of the workflow
 
 ## Cold start problem
 
@@ -205,7 +205,7 @@ Several works also take into account the model's training cost.
 Works:
 - [Minimum Cost Active Labeling [2020]](https://arxiv.org/pdf/2006.13999.pdf)
 
-## Incrementally Train:
+## Incrementally Train
 Not retain the model from the scratch but incrementally train the model.
 Fine-tuning is one of the practical method.
 
