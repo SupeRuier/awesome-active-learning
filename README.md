@@ -5,6 +5,8 @@ We try to summarize the current AL works in both **problem-orientated** and **te
 Except the research papers, we also include many real-world applications of AL in this repository.
 The open-source software resources and the information of relevant scholars are listed.
 
+**We assume the readers already have the basic knowledge of active learning.**
+
 *(I can't ensure this summary covers all the representative works and ideas.
 So if you have any comments and recommendations, pls let me know.)*
 
@@ -15,7 +17,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [Problem-oriented approach](#problem-oriented-approach)
   - [Basic Problem Settings](#basic-problem-settings)
   - [Advanced Problem Settings](#advanced-problem-settings)
-  - [Problem Settings from other Research Fields](#problem-settings-from-other-research-fields)
+  - [Problem Settings from other AI Research Fields](#problem-settings-from-other-ai-research-fields)
 - [Technique-oriented Approach](#technique-oriented-approach)
   - [Taxonomy for AL Strategies (Pool-based Classification)](#taxonomy-for-al-strategies-pool-based-classification)
   - [AL Strategies with specific models](#al-strategies-with-specific-models)
@@ -83,9 +85,9 @@ Under these problem settings, AL could be further applied.
 - [Multi-domain active learning](subfields/MDAL.md): Similar to multi-task, but the data are from different datasets(domains). The model or set of models handles multiple datasets simultaneously.
 - [Multi-view/modal active learning](subfields/MVAL.md): The instances might have different views (different sets of features). The model or set of models handles different views simultaneously.
 
-## Problem Settings from other Research Fields
+## Problem Settings from other AI Research Fields
 
-In many research fields, the problem settings can't be simply divided into supervised classification or regression problem.
+In many AI research fields, the problem settings can't be simply divided into supervised classification or regression problem.
 They either acquire different types of outputs or assume a unusual learning process.
 So AL algorithms should be revised/developed for these problem settings.
 Here we summarized several research fields which use AL to reduce the cost of annotation.
@@ -97,25 +99,9 @@ Here we summarized several research fields which use AL to reduce the cost of an
 - One/Few/Zero-shot learning
 - Graph Processing
 - Clustering
-- Recommendation
-- Reinforcement Learning
-- Robotics
-- Model Interpretability
-- Causal Analysis
-- Anomaly Detection
-- Ordinal Regression/Classification
-- Label De-noising
-- Model Selection
-- Software Engineering
-- Positive and unlabeled (PU) learning
-- Human Learning
-- Sequence Labeling
-- Sample Selection for Optimization Problems
-- Multi-Fidelity Machine Learning
-- Generative Adversarial Network Training
-- Adversarial Attack Detection
+(We didn't list all of them in this section.)
 
-The list of works could see [**here**](subfields/AL_combinations.md)
+The full list of works could see [**here**](subfields/AL_combinations.md)
 
 # Technique-oriented Approach
 
@@ -133,12 +119,13 @@ We hope this can bring you a intuition to design your own strategy or just choos
 We note that the taxonomy we used here is focusing on **pool-based classification**.
 We summarized the way to calculate the score of instances into the following categories.
 
-| Score                     | Description                                | Comments                                                                        |
-| ------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------- |
-| Informativeness           | Uncertainty by the model prediction        | Neglect the underlying distribution.                                            |
-| Representativeness-impart | Represent the underlying distribution      | Normally used with informativeness. May have overlaps with batch-mode selection |
-| Expected Improvements     | The improvement of the model's performance | The evaluations usually take time.                                              |
-| Learn to Score            | Learn a evaluation function directly.      |                                                                                 |
+| Score                     | Description                                       | Comments                                                                                              |
+| ------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Informativeness           | Uncertainty by the model prediction               | Neglect the underlying distribution.                                                                  |
+| Representativeness-impart | Represent the underlying distribution             | Normally used with informativeness. This type of methods may have overlaps with batch-mode selection. |
+| Expected Improvements     | The improvement of the model's performance        | The evaluations usually take time.                                                                    |
+| Learn to score            | Learn a evaluation function directly.             |                                                                                                       |
+| Others                    | Could not classified into the previous categories |                                                                                                       |
 
 For more details, the list of works with short introductions could see [**here**](subfields/pb_classification.md).
 

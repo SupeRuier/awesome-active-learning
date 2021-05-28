@@ -8,20 +8,18 @@ Besides, I can't ensure the works are representative in the fields.
 So if you have any comments and recommendations, pls let me know.)*
 
 - [AL Applications](#al-applications)
-- [Scientific applications](#scientific-applications)
-  - [Structural Biology](#structural-biology)
-  - [Molecular Dynamics](#molecular-dynamics)
-  - [Molecular Property Prediction](#molecular-property-prediction)
-  - [Astronomy: Spectroscopic Surveys](#astronomy-spectroscopic-surveys)
-  - [Materials Design and Discovery](#materials-design-and-discovery)
-  - [Chemical natural language processing](#chemical-natural-language-processing)
-  - [Experiment Design/Experimental Condition Selection](#experiment-designexperimental-condition-selection)
+- [Scientific Applications](#scientific-applications)
+  - [Biology](#biology)
+  - [Materials](#materials)
+  - [Astronomy](#astronomy)
+  - [Chemistry](#chemistry)
   - [Math and Statistics](#math-and-statistics)
   - [Geology](#geology)
+  - [Experiment Design/Experimental Condition Selection](#experiment-designexperimental-condition-selection)
 - [Industrial Applications](#industrial-applications)
-  - [Labeling System:](#labeling-system)
+  - [Labeling System](#labeling-system)
   - [Remote Sensing](#remote-sensing)
-  - [Medical](#medical)
+  - [Medical Research](#medical-research)
     - [Medical Image Classification / Image Annotation](#medical-image-classification--image-annotation)
     - [Medical Image Segmentation](#medical-image-segmentation)
     - [Medical Symptom Recognition from Text](#medical-symptom-recognition-from-text)
@@ -34,7 +32,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Dataset Building/ Data Annotation](#dataset-building-data-annotation)
     - [Data Enrichment](#data-enrichment)
   - [Software Engineering](#software-engineering)
-  - [Answer Selection (learning to rank)](#answer-selection-learning-to-rank)
+  - [Answer Selection](#answer-selection)
   - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
   - [Communication](#communication)
   - [Brain Mapping in a High Performance Computing Environment](#brain-mapping-in-a-high-performance-computing-environment)
@@ -44,47 +42,43 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
 
-# Scientific applications 
+# Scientific Applications 
 
 The scientific applications of AL are about biology, chemistry, physics or things about experiment design and analysis.
 
-## Structural Biology
+## Biology
 
+Structural Biology
 - Active machine learning for transmembrane helix prediction [2010, BMC Bioinform]
 - Investigating Active Learning and Meta-Learning for Iterative Peptide Design [2020, JCM]
 - Large scale active-learning-guided exploration for in vitro protein production optimization [2020, Nature Communications]
 - Active learning to classify macromolecular structures in situ for less supervision in cryo-electron tomography [Bioinformatics]
 
-## Molecular Dynamics
+## Materials
 
+Molecular Dynamics
 - [Active learning accelerates ab initio molecular dynamics on reactive energy surfaces [2020, Chem]
-
-## Molecular Property Prediction
-
 - [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020. KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
 
-## Astronomy: Spectroscopic Surveys
-
-- [Active deep learning method for the discovery of objects of interest in large spectroscopic surveys](https://arxiv.org/pdf/2009.03219.pdf): We apply active learning classification methods supported by deep convolutional neural networks to automatically identify complex emission-line shapes in multi-million spectra archives.
-- [Active learning with RESSPECT: Resource allocation for extragalactic astronomical transients [2020]](https://arxiv.org/pdf/2010.05941.pdf): The Recommendation System for Spectroscopic follow- up (RESSPECT) project aims to enable the construction of optimized training samples for the Rubin Observatory Legacy Survey of Space and Time (LSST), taking into account a realistic description of the astronomical data environment.
-
-## Materials Design and Discovery
+Materials Design and Discovery
 
 - Bias free multi-objective active learning for materials design and discovery [2020]
 - [Active learning for the power factor prediction in diamond-like thermoelectric materials [2020, npj Computational Materials]](https://www.nature.com/articles/s41524-020-00439-8)
 - [Active Discovery of Catalysts for Sustainable Energy Storage [2021]](https://www.proquest.com/openview/660c2b7aa14e0b9228240134af6e089e/1?cbl=18750&diss=y&pq-origsite=gscholar)
 - [Active discovery of organic semiconductors [2021, Nature communications]](https://www.nature.com/articles/s41467-021-22611-4)
 
-## Chemical natural language processing
 
+## Astronomy
+
+Spectroscopic Surveys
+- [Active deep learning method for the discovery of objects of interest in large spectroscopic surveys](https://arxiv.org/pdf/2009.03219.pdf): We apply active learning classification methods supported by deep convolutional neural networks to automatically identify complex emission-line shapes in multi-million spectra archives.
+- [Active learning with RESSPECT: Resource allocation for extragalactic astronomical transients [2020]](https://arxiv.org/pdf/2010.05941.pdf): The Recommendation System for Spectroscopic follow- up (RESSPECT) project aims to enable the construction of optimized training samples for the Rubin Observatory Legacy Survey of Space and Time (LSST), taking into account a realistic description of the astronomical data environment.
+
+## Chemistry
+
+Chemical natural language processing
 - Active Learning Yields Better Training Data for Scientific Named Entity Recognition [2020]
 
-## Experiment Design/Experimental Condition Selection
-
-- Active machine learning-driven experimentation to determine compound effects on protein patterns [2016, Elife]
-- [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
-- Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
-- AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
 
 ## Math and Statistics
 
@@ -96,14 +90,28 @@ Model checking:
 Lithology Identification:
 - [Active Domain Adaptation With Application to Intelligent Logging Lithology Identification [IEEE TCYB]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9357423&tag=1)
 
+## Experiment Design/Experimental Condition Selection
+
+- Active machine learning-driven experimentation to determine compound effects on protein patterns [2016, Elife]
+- [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
+- Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
+- AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
+
+
 
 # Industrial Applications
 
 The industrial applications of AL are about the practical problems or specific requirements in the industry.
 
-## Labeling System:
+## Labeling System
 
-This is the most direct industrial application:
+This is the most direct industrial application.
+
+Firms:
+- [Scale](https://scale.com)
+- [Figure8](https://en.wikipedia.org/wiki/Figure_Eight_Inc.) (It seems to be closed.)
+
+Papers:
 - [AI-Assisted Human Labeling: Batching for Efficiency without Overreliance [2021, ACM-HCI]](https://dl.acm.org/doi/pdf/10.1145/3449163)
 
 ## Remote Sensing 
@@ -115,6 +123,7 @@ Several surveys of AL for remote sensing:
 - A survey of active learning algorithms for supervised remote sensing image classification
 - A Survey of Active Learning for Quantifying Vegetation Traits from Terrestrial Earth Observation Data [2021]
 
+Papers:
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
 - Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
@@ -123,7 +132,7 @@ Several surveys of AL for remote sensing:
 - Adversarial Discriminative Active Deep Learning for Domain Adaptation in Hyperspectral Images Classification [2021, INTERNATIONAL JOURNAL OF REMOTE SENSING]
 - Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning [2021,Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning]
 
-## Medical 
+## Medical Research 
 
 ### Medical Image Classification / Image Annotation
 
@@ -181,7 +190,7 @@ Several surveys of AL for remote sensing:
 API Misuse Detection
 - [Active Learning of Discriminative Subgraph Patterns for API Misuse Detection [2021, TSE]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9392340)
 
-## Answer Selection (learning to rank)
+## Answer Selection
 
 - [Combination of Active Learning and Self-Paced Learning for Deep Answer Selection with Bayesian Neural Network [2020, ECAI]](http://ecai2020.eu/papers/449_paper.pdf)
 

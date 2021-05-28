@@ -1,4 +1,4 @@
-## Regression
+# Steam-Based Active Learning for Regression
 
 - [Online Active Linear Regression via Thresholding [2017, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14599):
    For linear regression.

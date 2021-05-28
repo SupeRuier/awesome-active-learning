@@ -1,4 +1,4 @@
-## Classification
+# Stream-Based Active Learning for Classification
 - [Active Mining of Data Streams [2004, SIAM]](https://epubs.siam.org/doi/abs/10.1137/1.9781611972740.46): 
    It estimates the error of the model on the new data stream without knowing the true class labels. 
    When significantly higher error is suspected, it investigates the true class labels of a selected number of examples in the most recent data stream to verify the suspected higher error.

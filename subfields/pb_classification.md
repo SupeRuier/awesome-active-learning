@@ -1,4 +1,4 @@
-# Pool based active learning for classification
+# Pool-Based Active Learning for Classification
 
 In this chapter, we use our taxonomy to classify different types of AL strategies.
 In each section and each type of strategy, we will make a short description at the beginning, then provide a more detail.
@@ -9,7 +9,7 @@ If you are only care about how to apply batch selection, please check [**here**]
 And the classification problems here include binary and multi-class classification (even some works can only be applied to binary classification).
 There also are some works focus on multi-class classification settings, please check [**here**](subfields/MCAL.md).
 
-- [Pool based active learning for classification](#pool-based-active-learning-for-classification)
+- [Pool-Based Active Learning for Classification](#pool-based-active-learning-for-classification)
 - [Taxonomy](#taxonomy)
 - [Categories](#categories)
   - [Informativeness](#informativeness)
@@ -30,13 +30,13 @@ In pool based AL, the strategy is in fact a scoring function for each instance t
 Previous works calculate their scores in different ways.
 We summarize them into the following catagories.
 
-| Score                     | Description                                       | Comments                                                                        |
-| ------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------- |
-| Informativeness           | Uncertainty by the model prediction               | Neglect the underlying distribution.                                            |
-| Representativeness-impart | Represent the underlying distribution             | Normally used with informativeness. May have overlaps with batch-mode selection |
-| Expected Improvements     | The improvement of the model's performance        | The evaluations usually take time.                                              |
-| Learn to score            | Learn a evaluation function directly.             |                                                                                 |
-| Others                    | Could not classified into the previous categories |                                                                                 |
+| Score                     | Description                                       | Comments                                                                                              |
+| ------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Informativeness           | Uncertainty by the model prediction               | Neglect the underlying distribution.                                                                  |
+| Representativeness-impart | Represent the underlying distribution             | Normally used with informativeness. This type of methods may have overlaps with batch-mode selection. |
+| Expected Improvements     | The improvement of the model's performance        | The evaluations usually take time.                                                                    |
+| Learn to score            | Learn a evaluation function directly.             |                                                                                                       |
+| Others                    | Could not classified into the previous categories |                                                                                                       |
 
 
 # Categories

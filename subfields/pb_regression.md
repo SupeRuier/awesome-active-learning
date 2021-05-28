@@ -1,3 +1,5 @@
+# Pool-Based Active Learning for Regression
+
 | Active learning for Regression: | Supervised            | Unsupervised (Passive) |
 | ------------------------------- | --------------------- | ---------------------- |
 | Non-batch mode                  | QBC/EMCM/RSAL/GSy/iGS | P-ALICE/Gsx/iRDM       |

@@ -47,7 +47,7 @@ Different strategies calculate the scores in different ways.
 
 In pool-based scenario, batch mode selection is also important, i.e. select a batch of instances with the maximum information.
 Batch makes the query selection more efficient and avoids redundant information query.
-We summarize the idea of batch mode selection [**here**](subfields/AL_combinations.md).
+We summarize the idea of batch mode selection [**here**](subfields/batch_mode.md).
 
 ## Classification
 
