@@ -1,7 +1,7 @@
-# Active learning summary
+# Awesome Active Learning
 
 In this repository, previous works of active learning were categorized. 
-We try to summarize the current AL works in both **problem-orientated** and **technique-orientated** approach.
+We try to summarize the current AL works in both **problem-orientated** and **technique-orientated** approaches.
 Except the research papers, we also include many real-world applications of AL in this repository.
 The open-source software resources and the information of relevant scholars are listed.
 
@@ -12,7 +12,7 @@ So if you have any comments and recommendations, pls let me know.)*
 
 ![Overview](figures/structure-mindnode.png)
 
-- [Active learning summary](#active-learning-summary)
+- [Awesome Active Learning](#awesome-active-learning)
 - [At the Beginning (Reviews/Surveys)](#at-the-beginning-reviewssurveys)
 - [Problem-oriented approach](#problem-oriented-approach)
   - [Basic Problem Settings](#basic-problem-settings)
