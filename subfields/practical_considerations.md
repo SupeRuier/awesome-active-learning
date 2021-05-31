@@ -158,8 +158,10 @@ They might bring different levels of noise and ask different levels of pay.
 Works:
 - Knowledge transfer for multi-labeler active learning [2013, ECMLPKDD]: Model each labeler's expertise and only to query an instance’s label from the labeler with the best expertise.
 - Active learning from weak and strong labelers [2015, NIPS]: Learn a classifier with low error on data labeled by the oracle, while using the weak labeler to reduce the number of label queries made to this labeler.
-- An Interactive Multi-Label Consensus Labeling Model for Multiple Labeler Judgments [2018, AAAI]: The premise is that labels inferred with high consensus among labelers, might be closer to the ground truth. Proposed  a novel formulation that aims to collectively optimize the cost of labeling, labeler reliability, label-label correlation and inter-labeler consensus.
+- Active Learning from Imperfect Labelers [2016, NIPS]:
+  Theoretical work.
 - Cost-effective active learning from diverse labelers [2017, AAAI]: The cost of a labeler is proportional to its overall labeling quality. But different labelers usually have diverse expertise, and thus it is likely that labelers with a low overall quality can provide accurate labels on some speciﬁc instances. Select labeler can provide an accurate label for the instance with a relative low cost.
+- An Interactive Multi-Label Consensus Labeling Model for Multiple Labeler Judgments [2018, AAAI]: The premise is that labels inferred with high consensus among labelers, might be closer to the ground truth. Proposed  a novel formulation that aims to collectively optimize the cost of labeling, labeler reliability, label-label correlation and inter-labeler consensus.
 - Interactive Learning with Proactive Cognition Enhancement for Crowd Workers [2020, AAAI]: Try to help workers improve their reliability. Add a machine teaching part. Generate exemplars for human learners with the help of the ground truth inference algorithms.
 - [Cost-Effective Active Semi-Supervised Learning on Multivariate Time Series Data With Crowds [2020, TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9199304): Use evolutionary idea to select the oracle set hypothesis.
 - [Active Learning for Noisy Data Streams Using Weak and Strong Labelers [2020]](https://arxiv.org/pdf/2010.14149.pdf)

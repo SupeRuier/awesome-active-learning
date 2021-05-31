@@ -36,6 +36,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Sequence Labeling](#sequence-labeling)
   - [Optimization Problems](#optimization-problems)
     - [Multi-Objective Optimizations](#multi-objective-optimizations)
+    - [Influence Maximization in Network](#influence-maximization-in-network)
   - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
   - [Adversarial Attack Detection](#adversarial-attack-detection)
@@ -304,6 +305,11 @@ Works:
 
 Works:
 - [Active Learning for Multi-Objective Optimization [2013, ICML]](http://proceedings.mlr.press/v28/zuluaga13.pdf)
+
+### Influence Maximization in Network
+
+Works:
+- Near-optimal Batch Mode Active Learning and Adaptive Submodular Optimization [2013, ICML]
 
 ## Multi-Fidelity Machine Learning
 
