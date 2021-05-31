@@ -140,6 +140,8 @@ Papers:
 - [An Adaptive Low-Rank Modeling-Based Active Learning Method for Medical Image Annotation [2020, IRBM]](https://www.sciencedirect.com/science/article/pii/S1959031820301056): Medical images: the intrinsic presence of noise in medical images, the large number of images, and the variety of imaging modalities. Low-rank modeling-based multi-label active learning (LRMMAL) method.
 - A Transfer Learning Based Active Learning Framework for Brain Tumor Classification [2020]
 - An Active Learning Method for Diabetic Retinopathy Classification with Uncertainty Quantification [2020]
+- Deep Reinforcement Active Learning for Medical Image Classification [2020]
+- MedSelect: Selective Labeling for Medical Image Classification Combining Meta-Learning with Deep Reinforcement Learning [2021]
 
 ### Medical Image Segmentation
 
@@ -148,7 +150,6 @@ Papers:
 ### Medical Symptom Recognition from Text
 
 - Medical symptom recognition from patient text: An active learning approach for long-tailed multilabel distributions [2020, ML4H]
-
 
 ## Drug Discovery
 

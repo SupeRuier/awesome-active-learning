@@ -28,6 +28,7 @@ In this chapter, we would only list the works which are not included in MLAL.
   For example, whether the task i and j are more related than task i and k is much easier than asking to which extent the task i and j are related to each other.
   MTRL (kMTRL) formulates after having the human-provided knowledge, which learns a task covariance matrix constrained by the partial order relationships in the domain knowledge.
   (10)
+- Active Learning from Peers [2017, NIPS]
 
 ### Heterogeneous MTAL
 

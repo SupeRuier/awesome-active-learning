@@ -17,8 +17,9 @@ Reducing the labeling cost is a common need in many research fields.
   - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
   - [Domain adaptation/Transfer learning](#domain-adaptationtransfer-learning)
   - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
-  - [One/Few/Zero-shot learning](#onefewzero-shot-learning)
+  - [One/Few/Zero-shot learning or Meta-Learning](#onefewzero-shot-learning-or-meta-learning)
   - [Graph Processing](#graph-processing)
+  - [Semi-supervised learning](#semi-supervised-learning)
   - [Clustering](#clustering)
   - [Recommendation](#recommendation)
   - [Reinforcement Learning](#reinforcement-learning)
@@ -33,15 +34,20 @@ Reducing the labeling cost is a common need in many research fields.
   - [Positive and unlabeled (PU) learning](#positive-and-unlabeled-pu-learning)
   - [Human Learning](#human-learning)
   - [Sequence Labeling](#sequence-labeling)
-  - [Sample Selection for Optimization Problems](#sample-selection-for-optimization-problems)
+  - [Optimization Problems](#optimization-problems)
+    - [Multi-Objective Optimizations](#multi-objective-optimizations)
   - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
   - [Adversarial Attack Detection](#adversarial-attack-detection)
+  - [Algorithm Fairness](#algorithm-fairness)
 
 ## Computer Vision (CV)
 
 CV is quite a wide conception.
 Here we only post several subtypes in the fields.
+
+Image classification:
+- [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf)
 
 Image segmentation/Semantic Segmentation：
 - Geometry in active learning for binary and multi-class [2019, Computer vision and image understanding]
@@ -52,6 +58,10 @@ Image segmentation/Semantic Segmentation：
 - [Difficulty-aware Active Learning for Semantic Segmentation [2020]](https://arxiv.org/pdf/2010.08705.pdf)
 - Embodied Visual Active Learning for Semantic Segmentation [2020]
 - Active Learning with Bayesian UNet for Efﬁcient Semantic Image Segmentation [Journal of Imaging]
+- Active Image Segmentation Propagation [2016, CVPR]
+- [Reinforced active learning for image segmentation [2020, ICLR]](https://arxiv.org/pdf/2002.06583.pdf):
+  An agent learns a policy to select a subset of small informative image regions – opposed to entire images – to be labeled, from a pool of unlabeled data.
+- [ViewAL: Active Learning With Viewpoint Entropy for Semantic Segmentation [2020, CVPR]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)
 
 Object Detection: 
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
@@ -81,6 +91,7 @@ Here we only post several subtypes in the fields.
 Sentiment/text classification:
 - Active learning for imbalanced sentiment classification [2012, EMNLP-CoNLL]
 - [Deep Active Learning with Simulated Rationales for Text Classiﬁcation [2020, PRAI]](https://link.springer.com/chapter/10.1007/978-3-030-59830-3_32): Utilize auxiliary task to reduce the data scarce affect at the beginning of the AL process.
+- Active Learning via Membership Query Synthesis for Semi-supervised Sentence Classification [2019, CoNLL]
 
 Named entity recognition: 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
@@ -98,6 +109,9 @@ Neural Machine Translation:
 
 Sequence Tagging:
 - [Active Learning for Sequence Tagging with Deep Pre-trained Models and Bayesian Uncertainty Estimates [2021]](https://arxiv.org/pdf/2101.08133.pdf)
+
+Sequence Generation:
+- [Adversarial Active Learning for Sequence Labeling and Generation [2018, IJCAI]](https://www.ijcai.org/proceedings/2018/0558.pdf)
 
 Coreference Resolution：
 - [Adaptive Active Learning for Coreference Resolution [2021]](https://arxiv.org/pdf/2104.07611.pdf)
@@ -135,12 +149,16 @@ Transfer learning:
 - Batch Decorrelation for Active Metric Learning [2020, IJCAI]
 - Maximizing Conditional Entropy for Batch-Mode Active Learning of Perceptual Metrics [2021]
 
-## One/Few/Zero-shot learning
+## One/Few/Zero-shot learning or Meta-Learning
 
 One/few-shot learning is to learn a model on a new dataset with one for few available instances.
-AL could be used to select the instances in the new dataset.
+AL could be used to select the instances to build the support set.
 
+- For one/few-shot learning:
 - Active one-shot learning [2017, Arxiv]
+- A Meta-Learning Approach to One-Step Active-Learning [2017, Arxiv]
+- Learning Algorithms for Active Learning [2017, ICML]
+- Meta-learning for batch mode active learning [2018, ICLR Workshop]
 - Augmented Memory Networks for Streaming-Based Active One-Shot Learning [2019, Arxiv]
 - Active one-shot learning with Prototypical Networks [2019, ESANN]
 - Active one-shot learning by a deep Q-network strategy [2020, Neurocomputing]
@@ -156,6 +174,7 @@ Graph Embedding/Network representation learning:
 
 Graph node classification:
 - Active learning for streaming networked data [2014, ACM International Conference on Conference on Information and Knowledge Management]
+- Active Semi-Supervised Learning Using Sampling Theory for Graph Signals [2014, KDD]
 - MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning [2020, Arxiv]
 - Active Learning for Node Classiﬁcation: An Evaluation [2020, Entropy MDPI]
 - Active Learning for Node Classification: The Additional Learning Ability from Unlabelled Nodes [2020]
@@ -172,6 +191,15 @@ Graph transfer/Network Alignment:
 - [Active Domain Transfer on Network Embedding [2020, Proceedings of The Web Conference ]](https://arxiv.org/pdf/2007.11230.pdf)
 - [Active Learning on Graphs with Geodesically Convex Classes [2020, MLG]](http://www.mlgworkshop.org/2020/papers/MLG2020_paper_40.pdf)
 - [Attent: Active Attributed Network Alignment [2021, WWW]](https://idvxlab.com/papers/2021WWW_Attent_zhou.pdf)
+
+## Semi-supervised learning
+
+In semi-supervised learning, there also are limited labeled data.
+The goal of SSL is also utilizing the limited labeled data to achieve a good performance.
+This goal is similar to active learning.
+So the model parts of active learning could be switched to a SSL model.
+
+- [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2021, Springer]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58607-2_30.pdf)
 
 ## Clustering
 
@@ -263,13 +291,19 @@ A special case of binary classiﬁcation where a learner only has access to labe
 
 - [SeqMix: Augmenting Active Sequence Labeling via Sequence Mixup [2020]](https://arxiv.org/pdf/2010.02322.pdf): Not only provide the selected instance, but also provide a generated sequence according to the selected one.
 
-## Sample Selection for Optimization Problems
+## Optimization Problems
 
 The background is that simulation (for evaluation) is quite expensive in many optimization problem.
 Utilize active sampling to reduce the optimization cost.
 
+Works:
 - [Building energy optimization using surrogate model and active sampling [2020]](https://www.tandfonline.com/doi/pdf/10.1080/19401493.2020.1821094)
 - [ALGA: Active Learning-Based Genetic Algorithm for Accelerating Structural Optimization [2020, AIAA]](https://arc.aiaa.org/doi/pdf/10.2514/1.J059240)
+
+### Multi-Objective Optimizations
+
+Works:
+- [Active Learning for Multi-Objective Optimization [2013, ICML]](http://proceedings.mlr.press/v28/zuluaga13.pdf)
 
 ## Multi-Fidelity Machine Learning
 
@@ -283,3 +317,10 @@ AL could reduce the number of needed instances to train a GAN.
 ## Adversarial Attack Detection
 
 - [Active Machine Learning Adversarial Attack Detection in the User Feedback Process [2021, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9366529)
+
+## Algorithm Fairness
+
+Addressing fairness at the data collection and dataset preparation stages therefore becomes an essential part of training fairer algorithms.
+For example, the ImageNet was crawled from image databases without considering sensitive attributes such as race or gender. In consequence, models trained (or pre-trained) on this dataset are prone to mimic societal biases.
+
+- [Can Active Learning Preemptively Mitigate Fairness Issues [2021, ICLR-RAI]](https://arxiv.org/abs/2104.06879)

@@ -78,6 +78,8 @@ Works:
 - [Query learning strategies using boosting and bagging [1998, ICML]](https://www.researchgate.net/profile/Naoki_Abe2/publication/221345332_Query_Learning_Strategies_Using_Boosting_and_Bagging/links/5441464b0cf2e6f0c0f60abf.pdf): Avoid Gibbs algorithm in QBC. Ensemble learning with diversity query.  (433 citations)
 - [Diverse ensembles for active learning [ICML, 2004]](https://dl.acm.org/doi/10.1145/1015330.1015385): Previous QBC are hard to make classifiers very different from each other. This method use DECORATE to build classifiers. C4.5 as base learner. Outperform 4. Select the instance with the highest JS divergence. (339 citations)(Delete)
 - [Bayesian active learning for classification and preference learning [2011, Arxiv]](https://arxiv.xilesou.top/abs/1112.5745): Bayesian Active Learning by Disagreement (**BALD**). Seek the x for which the parameters under the posterior (output by using the parameters) disagree about the outcome (output by using the labeled dataset) the most. (149 citations)
+- [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf)
+- [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2021, Springer]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58607-2_30.pdf): A semi-supervised AL method.
 
 ## Expected Improvements
 
@@ -141,7 +143,7 @@ Works:
 
 ### Alignment-based sampling
 
-This type of works directly takes into account the measurement of distribution alignment between labeled and unlabeled data.
+This type of works directly takes into account the measurement of distribution alignment between labeled/selected data and unlabeled data.
 i.e. The labeled and the unlabeled instances should hard to be distinguished.
 There are adversarial works and non-adversarial works.
 
@@ -151,6 +153,8 @@ Types:
 
 Works:
 - [Exploring Representativeness and Informativeness for Active Learning [2017, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.xilesou.top/abstract/document/7329991): Optimization based. The representativeness is measured by fully investigating the triple similarities that include the similarities between a query sample and the unlabeled set, between a query sample and the labeled set, and between any two candidate query samples. For representativeness, our goal is also to find the sample that makes the distribution discrepancy of unlabeled data and labeled data small. For informativeness, use BvSB. (85 citations)
+- [Discriminative Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1907.06347.pdf):
+  Make the labeled and unlabeled pool indistinguishable.
 - Agreement-Discrepancy-Selection: Active Learning with Progressive Distribution Alignment [2021]
 
 ### Expected loss on unlabeled data
@@ -182,6 +186,7 @@ Works:
 - [Learning active learning from data [2017, NIPS]](http://papers.nips.cc/paper/7010-learning-active-learning-from-data): **LAL**. Train a random forest regressor that predicts the expected error reduction for a candidate sample in a particular learning state. Previous works they cannot go beyond combining pre-existing hand-designed heuristics. Random forest as basic classifiers. (Not clear how to get test classiﬁcation loss l. It is not explained in both the paper and the code.)(73 citations)
 - [Learning how to Active Learn: A Deep Reinforcement Learning Approach [2017, Arxiv]](https://arxiv.org/abs/1708.02383): **PAL**. Use RL to learn how to select instance. Even though the strategy is learned and applied in a stream manner, the stream is made by the data pool. So under my angle, it could be considered as a pool-based method. (92)
 - [Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]](https://www.aclweb.org/anthology/P18-1174.pdf): Learn an AL policy using imitation learning, mapping situations to most informative query datapoints. (8 citations)
+- Meta-Learning Transferable Active Learning Policies by Deep Reinforcement Learning [2018, Arxiv]
 - [Learning Loss for Active Learning [2019, CVPR]](https://openaccess.thecvf.com/content_CVPR_2019/html/Yoo_Learning_Loss_for_Active_Learning_CVPR_2019_paper.html): Attach a small parametric module, named “loss prediction module,” to a target network, and learn it to predict target losses of unlabeled inputs. 
 - [Learning to Rank for Active Learning: A Listwise Approach [2020]](https://arxiv.org/pdf/2008.00078.pdf): Have an additional loss prediction model to predict the loss of instances beside the classification model. Then the loss is calculated by the ranking instead of the ground truth loss of the classifier.
 - [Deep Reinforcement Active Learning for Medical Image Classiﬁcation [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.

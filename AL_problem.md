@@ -47,7 +47,7 @@ Different strategies calculate the scores in different ways.
 
 In pool-based scenario, batch mode selection is also important, i.e. select a batch of instances with the maximum information.
 Batch makes the query selection more efficient and avoids redundant information query.
-We summarize the idea of batch mode selection [**here**](subfields/batch_mode.md).
+We summarize the idea of **batch-mode** selection [**here**](subfields/batch_mode.md).
 
 ## Classification
 
@@ -104,3 +104,5 @@ This field is not well developed in the past years.
 <!-- TODO Fill this slot later. -->
 
 - Generative Adversarial Active Learning [2017, Arxiv]
+- Active Learning via Membership Query Synthesis for Semi-supervised Sentence Classification [2019, CoNLL]
+- [Adversarial Sampling for Active Learning [2020, WACV]](https://openaccess.thecvf.com/content_WACV_2020/papers/Mayer_Adversarial_Sampling_for_Active_Learning_WACV_2020_paper.pdf)

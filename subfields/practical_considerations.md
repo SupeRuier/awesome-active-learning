@@ -11,6 +11,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [Practical considerations](#practical-considerations)
 - [The considerations of the data](#the-considerations-of-the-data)
   - [Imbalanced data](#imbalanced-data)
+  - [Biased data](#biased-data)
   - [Cost-sensitive case](#cost-sensitive-case)
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
@@ -52,6 +53,12 @@ Works:
 - Active Learning for Skewed Data Sets [2020, Arxiv]
 - Balancing Exploration and Exploitation: A novel active learner for imbalanced data [2020, KBS]
 - [Identifying Wrongly Predicted Samples: A Method for Active Learning [2020]](https://arxiv.org/pdf/2010.06890.pdf): A type of expected loss reduction strategy. Identify wrongly predicted samples by accepting the model prediction and then judging its effect on the generalization error. Results are better than other method in imbalanced setting (Not specifically designed for imbalanced setting).
+
+## Biased data
+
+Distribution of unlabeled train data is not aligned with the test data.
+
+- [Deep Active Learning for Biased Datasets via Fisher Kernel Self-Supervision [2020, CVPR]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Gudovskiy_Deep_Active_Learning_for_Biased_Datasets_via_Fisher_Kernel_Self-Supervision_CVPR_2020_paper.pdf)
 
 ## Cost-sensitive case
 
@@ -137,6 +144,7 @@ However, they are more likely to provide noise labels, or they don't even sure a
 
 Works：
 - Get another label? improving data quality and data mining using multiple, noisy labelers [2008, KDD]: This paper addresses the repeated acquisition of labels for data items when the labeling is imperfect. 
+- [Active Learning from Crowds [2011, ICML]](https://icml.cc/2011/papers/596_icmlpaper.pdf): Multiple labelers, with varying expertise, are available for query- ing.
 - Active Learning from Crowds with Unsure Option [2015, IJCAI]: Allow the annotators to express that they are unsure about the assigned data instances by adding the “unsure” option.
 - Active learning with oracle epiphany [2016, NIPS]: The oracle could suddenly decide how to label by the accumulative effect of seeing multiple similar queries.
 - [Exploiting Context for Robustness to Label Noise in Active Learning [2020, TIP]](https://arxiv.org/pdf/2010.09066.pdf)
@@ -220,6 +228,8 @@ In other situations, oracles might provide more information than labels.
 So other interactions are allowed in active learning.
 
 Works:
+- [Ask Me Better Questions: Active Learning Queries Based on Rule Induction [2011, KDD]](https://dl.acm.org/doi/pdf/10.1145/2020408.2020559)
+- Active Decision Boundary Annotation with Deep Generative Models [2017, ICCV]
 - [Active Learning with n-ary Queries for Image Recognition [2019, WACV]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8658398): This work is under multi-classification setting. Providing the exact class label may be time consuming and error prone. The annotator merely needs to identify which of the selected n categories a given unlabeled sample belongs to (where n is much smaller than the actual number of classes).
 - [Active Learning++: Incorporating Annotator’s Rationale using Local Model Explanation [2020, Arxiv]](https://arxiv.org/pdf/2009.04568.pdf): Beside the label, oracles also need to provide the rationale. In this paper, the rationale is the importance rank of the features. The oracles not only provide the label of the selected instance but also an importance rank of the features on the selected instance.
 - [ALICE: Active Learning with Contrastive Natural Language Explanations [2020, arxiv]](https://arxiv.org/pdf/2009.10259.pdf): This is a work from Stanford. It use an class-based AL which the AL module selects most confusing class pairs instead of instances (select the b class pairs with the lowest JensenShannon Divergence distance). The expert would provide contrastive natural language explanations. The knowledge is extracted by semantic parsing. The architecture of the model contains an one-vs-rest global classifier and local classifier (conditional execution on the global classifier). The local classifiers are not only trained on the original figures but also the resized image patches obtained in the semantic examination grounding. An attention mechanism is used to train the local classifiers.
@@ -237,3 +247,6 @@ Works:
   Propose two approaches to analysis AL strategies.
   The first approach is based on the analysis of the area under learning curve and the rate of performance change. 
   The second approach considers the intermediate results derived from the active learning iterations.
+- [Rebuilding Trust in Active Learning with Actionable Metrics [2021, Arxiv]](https://arxiv.org/pdf/2012.11365.pdf):
+  This work states the limitations of AL in practice.
+  It evaluates AL strategies under different performance metrics.

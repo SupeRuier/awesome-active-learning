@@ -13,6 +13,8 @@ However, they might achieve this goal in different approaches.
 | Diverse the instances in the selected batch | Heuristic-diversity |
 |                                             | Optimization-based  |
 |                                             | Greedy Selection    |
+| Representativeness                          |                     |
+| Directly learn from the trajectories        |                     |
 
 ## Heuristic-diversity
 
@@ -37,6 +39,8 @@ Works:
   Batch-mode SVM-based method. 
   Not only consider the smallest distances to the decision hyperplanes but also take into account the distances to other hyperplanes. 
   Use kernel k-means to keep the diversity of the query batch. (43 citations)
+- [Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds [2020, ICLR]](https://arxiv.org/pdf/1906.03671.pdf):
+  Cluster over the gradient vectors for the last fully connect layer.
 
 ## Optimization-based
 
@@ -48,7 +52,7 @@ The optimization objective for the batch selection could be:
 -  The discrepancy of distributions (the batch selection set and a corresponding target set). 
 
 Works:
-- [Discriminative batch mode active learning [2008, NIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
+- [Discriminative batch mode active learning [2007, NIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
   Optimization based. 
   Formulate batch mode active learning as an optimization problem that aims to learn a good classiﬁer directly. 
   The optimization selects the best set of unlabeled instances and their labels to produce a classifier that attains maximum likelihood on labels of the labeled instances while attaining minimum uncertainty on labels of the unlabeled instances. (248 citations)
@@ -61,6 +65,8 @@ Works:
   Query the most informative samples while preserving the source distribution as much as possible, thus identifying the most uncertain and representative queries. 
   Try to minimize the difference between two distributions (maximum mean discrepancy between iid. samples from the dataset and the actively selected samples). 
   **Also could be extended to multi-class AL.** (82 citations)
+- [Bayesian Batch Active Learning as Sparse Subset Approximation [2019， NIPS]](https://proceedings.neurips.cc/paper/2019/file/84c2d4860a0fc27bcf854c444fb8b400-Paper.pdf):
+  The key idea is to re-cast batch construction as optimizing a sparse subset approximation to the log posterior induced by the full dataset.
 
 ## Greedy Selection
 
@@ -81,3 +87,16 @@ Works:
    Jointly score points by estimating the mutual information between a joint of multiple data points and the model parameters. 
    BALD overestimates the joint mutual information. 
    **BatchBALD**, however, takes the overlap between variables into account and will strive to acquire a better cover of ω.(5 citations)
+
+## Representativeness
+
+Make sure the selected instances are more consistent to the true distribution.
+Many works in the [representativeness-impart sampling](subfields/pb_classification.md#representativeness-impart-sampling) could be considered as this batch selection approach.
+
+## Directly learn from the trajectories
+
+Applying the non-batch selection multiple times would provide a trajectory with minimum information overlap.
+So several works try to directly learn from these trajectories. 
+
+- [Batch Active Learning via Coordinated Matching [2012, ICML]](https://arxiv.org/pdf/1206.6458.pdf):
+  Optimize the batch selection strategy as a distribution on the trajectories of non-batch selections. (36 citations)

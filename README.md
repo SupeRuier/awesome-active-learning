@@ -14,8 +14,8 @@ So if you have any comments and recommendations, pls let me know.)*
 
 - [Awesome Active Learning](#awesome-active-learning)
 - [At the Beginning (Reviews/Surveys)](#at-the-beginning-reviewssurveys)
-- [Problem-oriented approach](#problem-oriented-approach)
-  - [Basic Problem Settings](#basic-problem-settings)
+- [Problem-oriented approach (Problem settings)](#problem-oriented-approach-problem-settings)
+  - [Basic Problem Settings (Three basic scenarios)](#basic-problem-settings-three-basic-scenarios)
   - [Advanced Problem Settings](#advanced-problem-settings)
   - [Problem Settings from other AI Research Fields](#problem-settings-from-other-ai-research-fields)
 - [Technique-oriented Approach](#technique-oriented-approach)
@@ -48,11 +48,10 @@ They provided a good overview for the field.
 - [From Model-driven to Data-driven: A Survey on Active Deep Learning [2021]](https://arxiv.org/pdf/2101.09933.pdf)
 - [Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
 
-# Problem-oriented approach
+# Problem-oriented approach (Problem settings)
 
 Firstly, we summarized the previous works in a problem-oriented order.
-We note that, in this section we don't focus on what the algorithms look like.
-However, we try to identify the exact problem settings and list the applicable methods (or works) for the corresponding settings.
+We note that, in this section we try to identify the exact problem settings and list the methods (or works) for the corresponding settings.
 In other words, we need to understand what specific problems active learning is trying to solve.
 
 We divided the problem settings into three types:
@@ -62,9 +61,9 @@ We divided the problem settings into three types:
 2. Advanced Problem Settings
    - Under many variants of machine learning problem settings.
 3. Problem Settings from other Research Fields
-   - With more complex tasks or problem settings in other research fields
+   - With more complex tasks or problem settings from other research fields
 
-## Basic Problem Settings
+## Basic Problem Settings (Three basic scenarios)
 
 According to three types of scenarios and two basic tasks, almost all the AL works could be divided into the following sub-problems.
 Please check [**here**](AL_problem.md) for more details.
@@ -197,20 +196,25 @@ There already are several python AL projects:
 - [Google's active learning playground](https://github.com/google/active-learning)
 - [A modular active learning framework for Python](https://github.com/modAL-python/modAL)
 - [libact: Pool-based Active Learning in Python](https://github.com/ntucllab/libact)
-- [ALiPy](https://github.com/NUAA-AL/ALiPy): 
+- [ALiPy: Active Learning in Python](https://github.com/NUAA-AL/ALiPy): 
   An AL tool-box from NUAA. 
   The project is leaded by Shengjun Huang.
 - [pytorch_active_learning](https://github.com/rmunro/pytorch_active_learning)
 - [Deep-active-learning](https://github.com/ej0cl6/deep-active-learning)
-- [Paladin](https://www.aclweb.org/anthology/2021.eacl-demos.28.pdf): An anotation tool for creat- ing high-quality multi-label document-level datasets.
+- [BaaL: Bayesian Active Learning](https://github.com/ElementAI/baal/)
+- [Paladin](https://www.aclweb.org/anthology/2021.eacl-demos.28.pdf): An anotation tool for creating high-quality multi-label document-level datasets.
 
 ## Tutorials
 - [active-learning-workshop](https://github.com/Azure/active-learning-workshop): 
   KDD 2018 Hands-on Tutorial: Active learning and transfer learning at scale with R and Python
+- [Active Learning from Theory to Practice](https://www.youtube.com/watch?v=_Ql5vfOPxZU):
+- ICML 2019 Tutorial.
+- [Overview of Active Learning for Deep Learning](https://jacobgil.github.io/deeplearning/activelearning):
+  Jacob Gildenblat.
 
 # Groups/Scholars
 
-We also list several scholars who is currently contributing to this research direction.
+We also list several scholars who is currently heavily contributing to this research direction.
 
 <!-- TODO: need to be updated. -->
 
@@ -220,6 +224,9 @@ We also list several scholars who is currently contributing to this research dir
 4. Raymond Mooney
 5. [Yuchen Guo](http://ise.thss.tsinghua.edu.cn/MIG/gyc.html)
 
+
+And several young researchers:
+- Jamshid Sourati [University of Chicago]
 <!-- 
 
 # Our Subjective Opinions on AL

@@ -3,12 +3,15 @@
 In this chapter, we care about how to apply AL on specific models.
 
 # Models
+
 ## SVM/LR
 Most common models, we won't waste time here.
 Most of classic strategies are based on these models.
+
 ## Bayesian/Probabilistic
 - Employing EM and Pool-Based Active Learning for Text Classiﬁcation [[1998. ICML]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.10&rep=rep1&type=pdf): 
   EM + Query-by-Committee (QBC-with-EM)
+
 ## Gaussian Progress
 - Active instance sampling via matrix partition [2010, NIPS]: Gaussian Process. Maximizing a natural mutual information criterion between the labeled and unlabeled instances. No comparison with others.(69 citations)
 - [Bayesian active learning for classification and preference learning [Arxiv, 2011]](https://arxiv.org/abs/1112.5745):
@@ -20,12 +23,16 @@ Most of classic strategies are based on these models.
 - Safe active learning for time-series modeling with gaussian processes [2018, NIPS]
 - Actively learning gaussian process dynamics
 
+## Decision Trees
+- [Active Learning with Direct Query Construction [KDD, 2008]](https://dl.acm.org/doi/pdf/10.1145/1401890.1401950)
+
+
 ## Neural Network
 - A new active labeling method for deep learning [IJCNN, 2014]
 - Captcha recognition with active deep learning [Neural Computation, 2015]
 - [Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [ICML, 2015]](http://proceedings.mlr.press/v37/hernandez-lobatoc15.pdf):
   Use an active learning scenario which is necessary to produce accurate estimates of uncertainty for obtaining good performance to estimates of the posterior variance on the weights produced by PBP(the proposed methods for BNN).
-- [Cost-effective active learning for deep image classification [IEEE Transactions on Circuits and Systems for Video Technology, 2016]](https://ieeexplore.ieee.org/abstract/document/7508942): (180)
+- [Cost-effective active learning for deep image classification [IEEE TCSVT, 2016]](https://ieeexplore.ieee.org/abstract/document/7508942): (180)
   Besides AL, it also provide pseudo labels to the high confidence examples.
 - [Deep learning approach for active classification of electrocardiogram signals [2016, Information Science]](https://reader.elsevier.com/reader/sd/pii/S0020025516300184?token=EBB87D490BCDC26916121FCCCBAC34EFC879C7908C40ACF69667DCE1136B957C4608146ABABFCD7F438D7E7C8E4BA49C): (280 citations)
 - [Deep Bayesian Active Learning with Image Data [ICML, 2017]](https://dl.acm.org/doi/10.5555/3305381.3305504): (272)
@@ -94,12 +101,15 @@ Most of classic strategies are based on these models.
 - [Multi-criteria active deep learning for image classification [Knowledge-Based Systems, 2019]](https://www.sciencedirect.com/science/article/pii/S0950705119300747)3：
   Integrate different query strategies as well as make a performance balance among classes.
   The strategies are adapted.
+- [Parting with Illusions about Deep Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1912.05361.pdf):
+  Take into account the data augmentation and SSL in the literature.
+  It considers the an image classification task and a semantic segmentation task.
 - [Active and Incremental Learning with Weak Supervision [KI-Künstliche Intelligenz, 2020]](https://link.springer.com/article/10.1007/s13218-020-00631-4)0
 - [Accelerating the Training of Convolutional Neural Networks for Image Segmentation with Deep Active Learning [Dissertation, 2020]](https://uwspace.uwaterloo.ca/handle/10012/15537)
 - [QActor: On-line Active Learning for Noisy Labeled Stream Data [Arxiv, 2020]](https://arxiv.org/abs/2001.10399)0
 - [Diffusion-based Deep Active Learning[2020, Arxiv]](https://arxiv.org/pdf/2003.10339.pdf): Build graph by the first hidden layer in DNN. The selection is performed on the graph. 
   Consider a random walk as a mean to assign a label
-- [State-Relabeling Adversarial Active Learning [2020, Arxiv]](https://arxiv.org/pdf/2004.04943.pdf):
+- [State-Relabeling Adversarial Active Learning [2020, CVPR]](https://arxiv.org/pdf/2004.04943.pdf):
   Train a discriminator as AL strategy.
   The discriminator is trained by a combined representation (supervised & unsupervised embedding) and the uncertainty calculated from the supervised model.
   The final selection is operated on the combined representation with the discriminator.
@@ -111,3 +121,6 @@ Most of classic strategies are based on these models.
   In this paper, inspired by piece-wise linear interpretability in DNN, they introduce the linear separable regions of samples to the problem of active learning, and propose a novel Deep Active learning approach by Model Interpretability (DAMI).
 - [Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification [2020, Arxiv]](https://arxiv.org/pdf/2009.14448.pdf): Use kmeans++ on the learned gradient embeddings to select instances.
 - [Deep Adversarial Active Learning With Model Uncertainty For Image Classification [2020, ICIP]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190726&tag=1): Still distinguish between labeled and unlabeled data with a adversarial loss, but they try to use select instances dissimilar to the labeled data with higher prediction uncertainty. This work is inspired by *Variational adversarial active learning*.
+- [Towards Robust and Reproducible Active Learning Using Neural Networks [2020]](https://arxiv.org/pdf/2002.09564.pdf):
+  A comparative study over state-of-art Deep AL methods.
+  In short, it states that compared to the well-regularized RSB, state-of-the-art AL methods evaluated in this paper do not achieve any noticeable gain.
