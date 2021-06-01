@@ -6,5 +6,5 @@
 - [Feedback Coding for Active Learning](https://arxiv.org/pdf/2103.00654.pdf): Formulate general active learning problems in terms of a feedback coding system, and a demonstration of this approach through the application and analysis of active learning in logistic regression.
 
 ### Agnostic Active Learning
-- Beyond Disagreement-based Agnostic Active Learning [2014, NIPS]
+- Beyond Disagreement-based Agnostic Active Learning [2014, NeurIPS]
 

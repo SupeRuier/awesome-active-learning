@@ -11,17 +11,17 @@ Most of classic strategies are based on these models.
 ## Bayesian/Probabilistic
 - Employing EM and Pool-Based Active Learning for Text Classiﬁcation [[1998. ICML]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.10&rep=rep1&type=pdf): 
   EM + Query-by-Committee (QBC-with-EM)
-- Active Learning for Probabilistic Hypotheses Using the Maximum Gibbs Error Criterion [2013, NIPS]
+- Active Learning for Probabilistic Hypotheses Using the Maximum Gibbs Error Criterion [2013, NeurIPS]
 
 ## Gaussian Progress
-- Active instance sampling via matrix partition [2010, NIPS]: Gaussian Process. Maximizing a natural mutual information criterion between the labeled and unlabeled instances. No comparison with others.(69 citations)
+- Active instance sampling via matrix partition [2010, NeurIPS]: Gaussian Process. Maximizing a natural mutual information criterion between the labeled and unlabeled instances. No comparison with others.(69 citations)
 - [Bayesian active learning for classification and preference learning [Arxiv, 2011]](https://arxiv.org/abs/1112.5745):
   Propose an approach that expresses information gain in terms of predictive entropies, and apply this method to the Gaussian Process Classifier (GPC).
   This method is referred as *BALD*.
   Capture how strongly the model predictions for a given data point and the model parameters are coupled, implying that ﬁnding out about the true label of data points with high mutual information would also inform us about the true model parameters.
 - Adaptive active learning for image classiﬁcation [CVPR, 2013]
 - [Active learning with Gaussian Processes for object categorization [2007, ICCV]](https://ieeexplore.ieee.org/abstract/document/4408844): Consider both the distance from the boundary as well as the variance in selecting the points; this is only possible due to the availability of the predictive distribution in GP regression. A significant boost in classification performance is possible, especially when the amount of training data for a category is ultimately very small.(303 citations)
-- Safe active learning for time-series modeling with gaussian processes [2018, NIPS]
+- Safe active learning for time-series modeling with gaussian processes [2018, NeurIPS]
 - Actively learning gaussian process dynamics
 
 ## Decision Trees
@@ -82,7 +82,7 @@ Most of classic strategies are based on these models.
 - [Deep Active Learning with Adaptive Acquisition [Arxiv, 2019]](https://arxiv.org/abs/1906.11471)1
 - [Towards Better Uncertainty Sampling: Active Learning with Multiple Views for Deep Convolutional Neural Network [ICME, 2019]](https://ieeexplore.ieee.org/abstract/document/8784806/)0
 - [Active Deep Learning for Activity Recognition with Context Aware Annotator Selection [SIGKDD, 2019]](https://dl.acm.org/doi/abs/10.1145/3292500.3330688)1
-- [BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning [NIPS, 2019]](http://papers.nips.cc/paper/8925-batchbald-efficient-and-diverse-batch-acquisition-for-deep-bayesian-active-learning)3:
+- [BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning [NeurIPS, 2019]](http://papers.nips.cc/paper/8925-batchbald-efficient-and-diverse-batch-acquisition-for-deep-bayesian-active-learning)3:
   Batch acquisition with diverse but informative instances for deep bayesian network.
   Use a tractable approximation to the mutual information between a batch of points and model parameters as an acquisition function
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)0

@@ -27,7 +27,7 @@
 - Representative based sampling
 - Learn how to sanpling:
   - **ALBL** 2015: Hsu & Lin 2015, Active Learning by Learning. 
-  - LAL (NIPS 2017), 
+  - LAL (NeurIPS 2017), 
 - Not sure
   - **Hierarchical cluster AL method** 2008: Hierarchical Sampling for Active Learning.
   - BMDR (KDD 2013), 
@@ -100,7 +100,7 @@
 - Query By Committee (ICML 1998), 
 - Random, 
 - BMDR (KDD 2013), 
-- LAL (NIPS 2017), 
+- LAL (NeurIPS 2017), 
 - Expected Error Reduction (ICML 2001)
 
 ## AL for Multi-Label Data

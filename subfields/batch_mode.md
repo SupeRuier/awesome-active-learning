@@ -52,7 +52,7 @@ The optimization objective for the batch selection could be:
 -  The discrepancy of distributions (the batch selection set and a corresponding target set). 
 
 Works:
-- [Discriminative batch mode active learning [2007, NIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
+- [Discriminative batch mode active learning [2007, NeurIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
   Optimization based. 
   Formulate batch mode active learning as an optimization problem that aims to learn a good classiﬁer directly. 
   The optimization selects the best set of unlabeled instances and their labels to produce a classifier that attains maximum likelihood on labels of the labeled instances while attaining minimum uncertainty on labels of the unlabeled instances. (248 citations)
@@ -65,7 +65,7 @@ Works:
   Query the most informative samples while preserving the source distribution as much as possible, thus identifying the most uncertain and representative queries. 
   Try to minimize the difference between two distributions (maximum mean discrepancy between iid. samples from the dataset and the actively selected samples). 
   **Also could be extended to multi-class AL.** (82 citations)
-- [Bayesian Batch Active Learning as Sparse Subset Approximation [2019， NIPS]](https://proceedings.neurips.cc/paper/2019/file/84c2d4860a0fc27bcf854c444fb8b400-Paper.pdf):
+- [Bayesian Batch Active Learning as Sparse Subset Approximation [2019， NeurIPS]](https://proceedings.neurips.cc/paper/2019/file/84c2d4860a0fc27bcf854c444fb8b400-Paper.pdf):
   The key idea is to re-cast batch construction as optimizing a sparse subset approximation to the log posterior induced by the full dataset.
 
 ## Greedy Selection
@@ -83,7 +83,7 @@ Works:
   We need to note that this work doesn't need the feedback of the current model to guide selection. 
   So there is no training during the selecting process.
   Therefore this kind of works would be easily extended to batch mode. (128 citations)
-3. [BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning [2019, NIPS]](http://papers.nips.cc/paper/8925-batchbald-efficient-and-diverse-batch-acquisition-for-deep-bayesian-active-learning): 
+3. [BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning [2019, NeurIPS]](http://papers.nips.cc/paper/8925-batchbald-efficient-and-diverse-batch-acquisition-for-deep-bayesian-active-learning): 
    Jointly score points by estimating the mutual information between a joint of multiple data points and the model parameters. 
    BALD overestimates the joint mutual information. 
    **BatchBALD**, however, takes the overlap between variables into account and will strive to acquire a better cover of ω.(5 citations)

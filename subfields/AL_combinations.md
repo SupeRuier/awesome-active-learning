@@ -285,7 +285,7 @@ A special case of binary classiﬁcation where a learner only has access to labe
 
 ## Human Learning
 
-- [Human Active Learning [2008, NIPS]](http://papers.nips.cc/paper/3456-human-active-learning)
+- [Human Active Learning [2008, NeurIPS]](http://papers.nips.cc/paper/3456-human-active-learning)
 - [Human Active Learning [2018]](https://www.intechopen.com/books/active-learning-beyond-the-future/human-active-learning)
 
 ## Sequence Labeling

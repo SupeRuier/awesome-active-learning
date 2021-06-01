@@ -208,7 +208,7 @@ There already are several python AL projects:
 - [active-learning-workshop](https://github.com/Azure/active-learning-workshop): 
   KDD 2018 Hands-on Tutorial: Active learning and transfer learning at scale with R and Python
 - [Active Learning from Theory to Practice](https://www.youtube.com/watch?v=_Ql5vfOPxZU):
-- ICML 2019 Tutorial.
+  ICML 2019 Tutorial.
 - [Overview of Active Learning for Deep Learning](https://jacobgil.github.io/deeplearning/activelearning):
   Jacob Gildenblat.
 

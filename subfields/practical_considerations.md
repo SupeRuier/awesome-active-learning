@@ -146,7 +146,7 @@ Works：
 - Get another label? improving data quality and data mining using multiple, noisy labelers [2008, KDD]: This paper addresses the repeated acquisition of labels for data items when the labeling is imperfect. 
 - [Active Learning from Crowds [2011, ICML]](https://icml.cc/2011/papers/596_icmlpaper.pdf): Multiple labelers, with varying expertise, are available for query- ing.
 - Active Learning from Crowds with Unsure Option [2015, IJCAI]: Allow the annotators to express that they are unsure about the assigned data instances by adding the “unsure” option.
-- Active learning with oracle epiphany [2016, NIPS]: The oracle could suddenly decide how to label by the accumulative effect of seeing multiple similar queries.
+- Active learning with oracle epiphany [2016, NeurIPS]: The oracle could suddenly decide how to label by the accumulative effect of seeing multiple similar queries.
 - [Exploiting Context for Robustness to Label Noise in Active Learning [2020, TIP]](https://arxiv.org/pdf/2010.09066.pdf)
 
 ## Multiple/Diverse labeler (ability/price) 
@@ -157,8 +157,8 @@ They might bring different levels of noise and ask different levels of pay.
 
 Works:
 - Knowledge transfer for multi-labeler active learning [2013, ECMLPKDD]: Model each labeler's expertise and only to query an instance’s label from the labeler with the best expertise.
-- Active learning from weak and strong labelers [2015, NIPS]: Learn a classifier with low error on data labeled by the oracle, while using the weak labeler to reduce the number of label queries made to this labeler.
-- Active Learning from Imperfect Labelers [2016, NIPS]:
+- Active learning from weak and strong labelers [2015, NeurIPS]: Learn a classifier with low error on data labeled by the oracle, while using the weak labeler to reduce the number of label queries made to this labeler.
+- Active Learning from Imperfect Labelers [2016, NeurIPS]:
   Theoretical work.
 - Cost-effective active learning from diverse labelers [2017, AAAI]: The cost of a labeler is proportional to its overall labeling quality. But different labelers usually have diverse expertise, and thus it is likely that labelers with a low overall quality can provide accurate labels on some speciﬁc instances. Select labeler can provide an accurate label for the instance with a relative low cost.
 - An Interactive Multi-Label Consensus Labeling Model for Multiple Labeler Judgments [2018, AAAI]: The premise is that labels inferred with high consensus among labelers, might be closer to the ground truth. Proposed  a novel formulation that aims to collectively optimize the cost of labeling, labeler reliability, label-label correlation and inter-labeler consensus.
@@ -180,7 +180,7 @@ In AL, we normally need to evaluate each unlabeled instance.
 However, when the scale is very large, the evaluation process would be costly.
 
 Works:
-- Hashing hyperplane queries to near points with applications to large-scale active learning [2010, NIPS]: We consider the problem of retrieving the database points nearest to a given hyperplane query without exhaustively scanning the database. (85)
+- Hashing hyperplane queries to near points with applications to large-scale active learning [2010, NeurIPS]: We consider the problem of retrieving the database points nearest to a given hyperplane query without exhaustively scanning the database. (85)
 - Scaling Up Crowd-Sourcing to Very Large Datasets: A Case for Active Learning [2014, VLDB]: (161)
 - Scalable active learning for multiclass image classification [2012, TPAMI]: Use locality sensitive hashing to provide a very fast approximation to active learning, which gives sublinear time scaling, allowing application to very large datasets. (107)
 - Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.(8)
