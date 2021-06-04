@@ -143,6 +143,8 @@ Model list:
 - Neural Network
 
 Please check [**here**](AL_technique_models.md) form more details (Not finished yet).
+Besides, for the popular neural networks, we also reviewed the related AL works.
+Please see the details [**here**](/subfields/deep_AL.md).
 
 # Theoretical Support for Active Learning
 
