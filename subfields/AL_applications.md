@@ -23,6 +23,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Medical Image Classification / Image Annotation](#medical-image-classification--image-annotation)
     - [Medical Image Segmentation](#medical-image-segmentation)
     - [Medical Symptom Recognition from Text](#medical-symptom-recognition-from-text)
+    - [ECG classification](#ecg-classification)
   - [Drug Discovery](#drug-discovery)
   - [Spam Detection](#spam-detection)
   - [Person Re-identification](#person-re-identification)
@@ -124,6 +125,7 @@ Several surveys of AL for remote sensing:
 - A Survey of Active Learning for Quantifying Vegetation Traits from Terrestrial Earth Observation Data [2021]
 
 Papers:
+- [An Active Deep Learning Approach for Minimally Supervised PolSAR Image Classification [IEEE Transactions on Geoscience and Remote Sensing, 2019]](https://ieeexplore.ieee.org/abstract/document/8784406)4
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
 - Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
@@ -136,6 +138,10 @@ Papers:
 
 ### Medical Image Classification / Image Annotation
 
+- [Fine-tuning Convolutional Neural Networks for Biomedical Image Analysis: Actively and Incrementally [CVPR, 2017]](http://openaccess.thecvf.com/content_cvpr_2017/html/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.html):
+  The CNN is fine-tuned in each active learning iteration **incrementally**.
+  Assume that each candidate (predefined) takes one of possible labels Y.
+  This assumption might make it more difficult to generalize.
 - [Semi-Supervised Active Learning for COVID-19 Lung Ultrasound Multi-symptom Classification [2020]](https://arxiv.org/pdf/2009.05436.pdf): Multi-label classification network (MSML) is proposed, and a human-machine interaction is exploited to confirm the final annotations that are used to fine-tune MSML with progressively labeled data. Still pool based.
 - [An Adaptive Low-Rank Modeling-Based Active Learning Method for Medical Image Annotation [2020, IRBM]](https://www.sciencedirect.com/science/article/pii/S1959031820301056): Medical images: the intrinsic presence of noise in medical images, the large number of images, and the variety of imaging modalities. Low-rank modeling-based multi-label active learning (LRMMAL) method.
 - A Transfer Learning Based Active Learning Framework for Brain Tumor Classification [2020]
@@ -145,11 +151,18 @@ Papers:
 
 ### Medical Image Segmentation
 
+- Suggestive annotation: A deep active learning framework for biomedical image segmentation [2017, MICCAI]
 - [Diminishing Uncertainty within the Training Pool: Active Learning for Medical Image Segmentation [2020, IEEE TRANSACTIONS ON MEDICAL IMAGING]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9310359)
+- Efficient Active Learning for Image Classification and Segmentation Using a Sample Selection and Conditional Generative Adversarial Network [2018, MICCAI]
+- [Deep Active Learning for Axon-Myelin Segmentation on Histology Data [Arxiv, 2019]](https://arxiv.org/abs/1907.05143)
 
 ### Medical Symptom Recognition from Text
 
 - Medical symptom recognition from patient text: An active learning approach for long-tailed multilabel distributions [2020, ML4H]
+
+### ECG classification
+
+- [Deep learning approach for active classification of electrocardiogram signals [2016, Information Science]](https://reader.elsevier.com/reader/sd/pii/S0020025516300184?token=EBB87D490BCDC26916121FCCCBAC34EFC879C7908C40ACF69667DCE1136B957C4608146ABABFCD7F438D7E7C8E4BA49C): (280 citations)
 
 ## Drug Discovery
 

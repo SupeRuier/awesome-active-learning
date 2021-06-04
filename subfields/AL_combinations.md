@@ -48,11 +48,13 @@ CV is quite a wide conception.
 Here we only post several subtypes in the fields.
 
 Image classification:
+- [Deep active learning for image classification [ICIP, 2017]](https://ieeexplore.ieee.org/abstract/document/8297020).
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf)
 
 Image segmentation/Semantic Segmentation：
 - Geometry in active learning for binary and multi-class [2019, Computer vision and image understanding]
 - Contextual Diversity for Active Learning [2020, Arxiv]
+- [Accelerating the Training of Convolutional Neural Networks for Image Segmentation with Deep Active Learning [2020, Dissertation]](https://uwspace.uwaterloo.ca/handle/10012/15537)
 - Semi-supervised Active Learning for Instance Segmentation via Scoring Predictions
 - [Attention, Suggestion and Annotation: A Deep Active Learning Framework for Biomedical Image Segmentation [2020, MICCAI]](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_1)
 - [Deep Active Learning for Joint Classification & Segmentation with Weak Annotator [2020]](https://arxiv.org/pdf/2010.04889.pdf): Leverage the unlabeled images to improve model accuracy with less oracle-annotation. AL for segmentation of images selected for pixel-level annotation.
@@ -65,9 +67,11 @@ Image segmentation/Semantic Segmentation：
 - [ViewAL: Active Learning With Viewpoint Entropy for Semantic Segmentation [2020, CVPR]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)
 
 Object Detection: 
+- [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
 - Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
 - [Active Object Detection in Sonar Images [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9106398)
 - [Importance of Self-Consistency in Active Learning for Semantic Segmentation [2020, Arxiv]](https://arxiv.org/pdf/2008.01860.pdf)
+- [Active and Incremental Learning with Weak Supervision [KI-Künstliche Intelligenz, 2020]](https://link.springer.com/article/10.1007/s13218-020-00631-4)0
 - [Localization head Localization Active Learning for Deep Object Detection via Probabilistic Modeling [2021, Arxiv]](https://arxiv.org/pdf/2103.16130.pdf)
 - [Multiple Instance Active Learning for Object Detection [2021]](https://arxiv.org/pdf/2104.02324.pdf)
 
@@ -96,6 +100,10 @@ Sentiment/text classification:
 
 Named entity recognition: 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
+- [Deep active learning for named entity recognition [ICLR, 2018]](https://arxiv.org/abs/1707.05928):
+  Incremental manner.
+  Uncertainty-based heuristic, select those sentences for which the length-normalized log probability of the current prediction is the lowest.
+- [Overcoming Practical Issues of Deep Active Learning and its Applications on Named Entity Recognition [Arxiv, 2019]](https://arxiv.org/abs/1911.07335)
 - LTP: A New Active Learning Strategy for CRF-Based Named Entity Recognition [2020, Arxiv]
 
 Parsing:
@@ -192,6 +200,9 @@ Graph transfer/Network Alignment:
 - [Active Domain Transfer on Network Embedding [2020, Proceedings of The Web Conference ]](https://arxiv.org/pdf/2007.11230.pdf)
 - [Active Learning on Graphs with Geodesically Convex Classes [2020, MLG]](http://www.mlgworkshop.org/2020/papers/MLG2020_paper_40.pdf)
 - [Attent: Active Attributed Network Alignment [2021, WWW]](https://idvxlab.com/papers/2021WWW_Attent_zhou.pdf)
+
+Anchor user prediction:
+- [Deep Active Learning for Anchor User Prediction [IJCAI, 2019]](https://arxiv.org/abs/1906.07318)
 
 ## Semi-supervised learning
 
