@@ -140,6 +140,7 @@ Domain adaptation:
 - Active learning for cross-domain sentiment classification [2013, IJCAI]
 - Transfer Learning with Active Queries from Source Domain [2016, IJCAI]
 - Active Sentiment Domain Adaptation [2017, ACL]
+- On Gleaning Knowledge from Multiple Domains for Active Learning [2017, IJCAI]
 - Active Adversarial Domain Adaptation [2020, WACV]
 - Transferable Query Selection for Active Domain Adaptation [2021]:
   Point out that the strategy of previous works are not transferable (they use the criteria from the source domain to guide the target domain selection).
