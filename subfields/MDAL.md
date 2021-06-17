@@ -13,3 +13,4 @@ Works:
    Use the Rating-Matrix Generative Model (RMGM) for multi-domain recommendation problem.
    The strategy select the instance which would induce the maximum expected generalization error.
    The error was approximately divided into domain-shared part, user part and the item part.
+3. [Active learning in multi-domain collaborative filtering recommender systems [2018, SAC]](https://dl.acm.org/doi/10.1145/3167132.3167277)

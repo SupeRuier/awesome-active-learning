@@ -41,6 +41,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
   - [Adversarial Attack Detection](#adversarial-attack-detection)
   - [Algorithm Fairness](#algorithm-fairness)
+  - [Reliability Analysis](#reliability-analysis)
 
 ## Computer Vision (CV)
 
@@ -74,6 +75,7 @@ Object Detection:
 - [Active and Incremental Learning with Weak Supervision [KI-Künstliche Intelligenz, 2020]](https://link.springer.com/article/10.1007/s13218-020-00631-4)0
 - [Localization head Localization Active Learning for Deep Object Detection via Probabilistic Modeling [2021, Arxiv]](https://arxiv.org/pdf/2103.16130.pdf)
 - [Multiple Instance Active Learning for Object Detection [2021]](https://arxiv.org/pdf/2104.02324.pdf)
+- Active learning for annotation and recognition of faces in video [2021, Master's Thesis]
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
@@ -105,6 +107,7 @@ Named entity recognition:
   Uncertainty-based heuristic, select those sentences for which the length-normalized log probability of the current prediction is the lowest.
 - [Overcoming Practical Issues of Deep Active Learning and its Applications on Named Entity Recognition [Arxiv, 2019]](https://arxiv.org/abs/1911.07335)
 - LTP: A New Active Learning Strategy for CRF-Based Named Entity Recognition [2020, Arxiv]
+- Subsequence Based Deep Active Learning for Named Entity Recognition [2021]
 
 Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
@@ -231,6 +234,9 @@ Review:
 Review:
 - A survey of active learning in collaborative filtering recommender systems
 
+Transfer Learning for Recommendation System:
+- Active Transfer Learning for Recommendation System [2020, PhD Dissertation]
+
 ## Reinforcement Learning
 
 Active exploration
@@ -342,3 +348,7 @@ Addressing fairness at the data collection and dataset preparation stages theref
 For example, the ImageNet was crawled from image databases without considering sensitive attributes such as race or gender. In consequence, models trained (or pre-trained) on this dataset are prone to mimic societal biases.
 
 - [Can Active Learning Preemptively Mitigate Fairness Issues [2021, ICLR-RAI]](https://arxiv.org/abs/2104.06879)
+
+## Reliability Analysis
+
+- Sequential active learning of low-dimensional model representations for reliability analysis [2021, Arxiv]

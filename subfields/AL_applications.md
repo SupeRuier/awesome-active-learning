@@ -24,6 +24,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Medical Image Segmentation](#medical-image-segmentation)
     - [Medical Symptom Recognition from Text](#medical-symptom-recognition-from-text)
     - [ECG classification](#ecg-classification)
+    - [Retinal image analysis](#retinal-image-analysis)
   - [Drug Discovery](#drug-discovery)
   - [Spam Detection](#spam-detection)
   - [Person Re-identification](#person-re-identification)
@@ -90,6 +91,7 @@ Model checking:
 
 Lithology Identification:
 - [Active Domain Adaptation With Application to Intelligent Logging Lithology Identification [IEEE TCYB]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9357423&tag=1)
+- Evaluation of active learning algorithms for formation lithology identification [2021, Journal of Petroleum Science and Engineering]
 
 ## Experiment Design/Experimental Condition Selection
 
@@ -97,8 +99,6 @@ Lithology Identification:
 - [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
 - Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
 - AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
-
-
 
 # Industrial Applications
 
@@ -148,6 +148,7 @@ Papers:
 - An Active Learning Method for Diabetic Retinopathy Classification with Uncertainty Quantification [2020]
 - Deep Reinforcement Active Learning for Medical Image Classification [2020]
 - MedSelect: Selective Labeling for Medical Image Classification Combining Meta-Learning with Deep Reinforcement Learning [2021]
+- Representative Region Based Active Learning For Histological Classification Of Colorectal Cancer [2021, ISBI]
 
 ### Medical Image Segmentation
 
@@ -155,6 +156,8 @@ Papers:
 - [Diminishing Uncertainty within the Training Pool: Active Learning for Medical Image Segmentation [2020, IEEE TRANSACTIONS ON MEDICAL IMAGING]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9310359)
 - Efficient Active Learning for Image Classification and Segmentation Using a Sample Selection and Conditional Generative Adversarial Network [2018, MICCAI]
 - [Deep Active Learning for Axon-Myelin Segmentation on Histology Data [Arxiv, 2019]](https://arxiv.org/abs/1907.05143)
+- Labeling Cost Sensitive Batch Active Learning For Brain Tumor Segmentation [2021, ISBI]
+- U-Net-Based Active Learning Framework for Enhancing Cancer Immunotherapy [2021, Master's Thesis]
 
 ### Medical Symptom Recognition from Text
 
@@ -163,6 +166,10 @@ Papers:
 ### ECG classification
 
 - [Deep learning approach for active classification of electrocardiogram signals [2016, Information Science]](https://reader.elsevier.com/reader/sd/pii/S0020025516300184?token=EBB87D490BCDC26916121FCCCBAC34EFC879C7908C40ACF69667DCE1136B957C4608146ABABFCD7F438D7E7C8E4BA49C): (280 citations)
+
+### Retinal image analysis
+
+- Human-in-the-loop for efficient training of retinal image analysis methods [2021, Master's Thesis]
 
 ## Drug Discovery
 

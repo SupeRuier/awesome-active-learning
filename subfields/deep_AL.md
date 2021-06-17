@@ -111,6 +111,7 @@ Diversity-based sampling (batch mode):
   Capture uncertainty and diversity.
   Measure uncertainty through the magnitude of the resulting gradient with respect to parameters of the ﬁnal (output) layer.
   To capture diversity, we collect a batch of examples where these gradients span a diverse set of directions by use k-means++ (made to produce a good initialization for k-means clustering).
+- Density Weighted Diversity Based Query Strategy for Active Learning [2021, CSCWD]
 
 Discriminator guided Sampling:
 - [Variational Adversarial Active Learning [ICCV, 2019]](http://openaccess.thecvf.com/content_ICCV_2019/html/Sinha_Variational_Adversarial_Active_Learning_ICCV_2019_paper.html): 
@@ -165,6 +166,7 @@ Data Augmentation:
 
 Labeled-unlabeled data indistinguishable:
 - [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162)
+- [Visual Transformer for Task-aware Active Learning [2021]](https://arxiv.org/pdf/2106.03801.pdf)
 
 # Criticism on Deep AL
 
