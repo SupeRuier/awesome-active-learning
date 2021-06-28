@@ -50,11 +50,14 @@ The scientific applications of AL are about biology, chemistry, physics or thing
 
 ## Biology
 
-Structural Biology
+Structural Biology:
 - Active machine learning for transmembrane helix prediction [2010, BMC Bioinform]
 - Investigating Active Learning and Meta-Learning for Iterative Peptide Design [2020, JCM]
 - Large scale active-learning-guided exploration for in vitro protein production optimization [2020, Nature Communications]
 - Active learning to classify macromolecular structures in situ for less supervision in cryo-electron tomography [Bioinformatics]
+
+Cell Classification:
+- Active feature selection discovers minimal gene-sets for classifying cell-types and disease states in single-cell mRNA-seq data [2021]
 
 ## Materials
 
@@ -221,10 +224,11 @@ API Misuse Detection
 
 ## Communication
 
-Eg. 5g
+Eg. 5g, Traffic Classification
 
 - [Active Popularity Learning with Cache Hit Ratio Guarantees using a Matrix Completion Committee [2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217322&tag=1): The object is modeling the optimal cache strategy in 5g wireless communication. AL is to learn the content popularities (criterion for determining whether cached or not) since it allows the system to leverage the trade-off between exploration (caching new files) and exploitation (use known files to cache). Specifically, AL is used to do matrix completion on the missing entries of the demand matrix.
 - [Active content popularity learning and caching optimization with hit ratio guarantees [2020, IEEE Access]](https://ieeexplore.ieee.org/abstract/document/9159587): Similar to the last one but with more details. A query is defined as the response received from the user terminal to the system.
+- [Active Learning for Network Traffic Classification: A Technical Survey [2021, Arxiv]](https://arxiv.org/pdf/2106.06933.pdf)
 
 ## Brain Mapping in a High Performance Computing Environment
 

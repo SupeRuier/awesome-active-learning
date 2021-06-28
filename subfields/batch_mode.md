@@ -87,6 +87,7 @@ Works:
    Jointly score points by estimating the mutual information between a joint of multiple data points and the model parameters. 
    BALD overestimates the joint mutual information. 
    **BatchBALD**, however, takes the overlap between variables into account and will strive to acquire a better cover of ω.(5 citations)
+4. [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, Arxiv]](https://arxiv.org/pdf/2106.09675.pdf)
 
 ## Representativeness
 

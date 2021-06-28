@@ -66,6 +66,7 @@ Image segmentation/Semantic Segmentation：
 - [Reinforced active learning for image segmentation [2020, ICLR]](https://arxiv.org/pdf/2002.06583.pdf):
   An agent learns a policy to select a subset of small informative image regions – opposed to entire images – to be labeled, from a pool of unlabeled data.
 - [ViewAL: Active Learning With Viewpoint Entropy for Semantic Segmentation [2020, CVPR]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)
+- [Revisiting Superpixels for Active Learning in Semantic Segmentation with Realistic Annotation Costs [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -192,6 +193,7 @@ Graph node classification:
 - Active Learning for Node Classiﬁcation: An Evaluation [2020, Entropy MDPI]
 - Active Learning for Node Classification: The Additional Learning Ability from Unlabelled Nodes [2020]
 - Active Learning for Attributed Graphs [2020, Master Dissertation]
+- [ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks [2021, SIGMOD]](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]
@@ -245,6 +247,9 @@ Active exploration
 
 
 ## Robotics
+
+Review:
+- [Active learning in robotics: A review of control principles [2021, Mechatronics]](https://www.sciencedirect.com/science/article/pii/S0957415821000659)
 
 Human-Robot Interaction:
 - [Teacher-Learner Interaction for Robot Active Learning [2020, Thesis]](https://aaltodoc.aalto.fi/bitstream/handle/123456789/46843/isbn9789526400556.pdf?sequence=1&isAllowed=y)

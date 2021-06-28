@@ -61,6 +61,7 @@ The equations and details could see [here](https://minds.wisconsin.edu/handle/17
 Works:
 - [Heterogeneous uncertainty sampling for supervised learning [1994, ICML]](https://www.sciencedirect.com/science/article/pii/B978155860335650026X): Most basic **Uncertainty** strategy. Could be used with probabilistic classifiers. (1071 citations)
 - [Support Vector Machine Active Learning with Applications to Text Classification [2001, JMLR]](http://www.jmlr.org/papers/v2/tong01a.html): Version space reduction with SVM. （2643 citations）
+- [How to measure uncertainty in uncertainty sampling for active learning [2021, Machine Learning]](https://link.springer.com/content/pdf/10.1007/s10994-021-06003-9.pdf)
 
 ### Disagreement-based sampling
 

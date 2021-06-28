@@ -24,12 +24,12 @@ Here we only list the ones focused on the strategies or the framework design.
 The taxonomy here is similar to the taxonomy [here](pb_classification.md).
 However, due to the outstanding performance of semi-supervised learning in the deep learning literature, there are works include SSL into the AL framework.
 
-| SL or SSL | Strategy Types                               | Description                            | Famous Works                  |
-| --------- | -------------------------------------------- | -------------------------------------- | ----------------------------- |
-| SL-based  | Informativeness                              | Uncertainty by the model prediction    | EGL/MC-Dropout/ENS            |
-|           | Representativeness-impart                    | Represent the underlying distribution  | Core-set/BatchBALD/BADGE/VAAL |
-|           | Learn to score                               | Learn a evaluation function directly.  | LL                            |
-| SSL-based | (We didn't specify the strategy types here.) | The SSL is conclude into the framework |                               |
+| SL or SSL | Strategy Types                               | Description                                  | Famous Works                  |
+| --------- | -------------------------------------------- | -------------------------------------------- | ----------------------------- |
+| SL-based  | Informativeness                              | Measure the informativeness of each instance | EGL/MC-Dropout/ENS/BAIT       |
+|           | Representativeness-impart                    | Represent the underlying distribution        | Core-set/BatchBALD/BADGE/VAAL |
+|           | Learn to score                               | Learn a evaluation function directly.        | LL                            |
+| SSL-based | (We didn't specify the strategy types here.) | The SSL is conclude into the framework       |                               |
 
 ## Supervised learning based
 
@@ -68,6 +68,11 @@ Uncertainty-based:
 Disagreement-based:
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf):
   **ENS**.
+
+Fisher information:
+- [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, Arxiv]](https://arxiv.org/pdf/2106.09675.pdf): 
+  **BAIT**.
+  This work also utilize greedy selection to build an AL batch.
 
 ### Representativeness-impart
 
