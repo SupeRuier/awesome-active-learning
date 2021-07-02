@@ -216,7 +216,7 @@ There already are several python AL projects:
 
 # Groups/Scholars
 
-We also list several scholars who is currently heavily contributing to this research direction.
+We also list several scholars who are currently heavily contributing to this research direction.
 
 <!-- TODO: need to be updated. -->
 

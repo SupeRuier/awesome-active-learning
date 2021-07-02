@@ -85,7 +85,7 @@ There are following sub-categories:
 - Diversity-based sampling (batch mode)
 - Discriminator guided Sampling
 - Expected loss on unlabeled data
-
+- Graph-based
 
 Density-based sampling:
 - [Active learning for convolutional neural networks: A core-set approach [ICLR, 2018]](https://arxiv.org/abs/1708.00489):
@@ -124,7 +124,7 @@ Discriminator guided Sampling:
   **VAAL**.
   The intuition is to train a discriminator to decide which instance is least similar the labeled instance.
   This discriminator works as the selector.
-  (The VAE is trained to fool the adversarial network to believe that all the examples are from the labeled data while the adversarial classifier is trained to differentiate labeled from unlabeled samples.) 52
+  (The VAE is trained to fool the adversarial network to believe that all the examples are from the labeled data while the adversarial classifier is trained to differentiate labeled from unlabeled samples.) 
 - [Deep Adversarial Active Learning With Model Uncertainty For Image Classification [2020, ICIP]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9190726&tag=1): 
   Still distinguish between labeled and unlabeled data with a adversarial loss, but they try to use select instances dissimilar to the labeled data with higher prediction uncertainty. 
   This work is inspired by *Variational adversarial active learning*.
@@ -132,12 +132,18 @@ Discriminator guided Sampling:
   Train a discriminator as AL strategy.
   The discriminator is trained by a combined representation (supervised & unsupervised embedding) and the uncertainty calculated from the supervised model.
   The final selection is operated on the combined representation with the discriminator.
+- [Task-Aware Variational Adversarial Active Learning [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_Task-Aware_Variational_Adversarial_Active_Learning_CVPR_2021_paper.pdf)：
+  Add a loss predictor upon VAAL.
+  The intuition of loss predictor is similar to *Learning loss for active learning*.
 
 Expected loss on unlabeled data:
 - [Deep Active Learning Explored Across Diverse Label Spaces [Dissertation, 2018]](https://repository.asu.edu/attachments/201065/content/Ranganathan_asu_0010E_17759.pdf):
   Deep belief networks + AL with the most informative batch of unlabeled data points.
   The DBN is trained by combining both the labeled and unlabeled data with the aim to obtain least entropy on the unlabeled data and also least cross-entropy on the labeled data.
   CNN + AL in the paper.
+
+Graph-based:
+- [Sequential Graph Convolutional Network for Active Learning [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Caramalau_Sequential_Graph_Convolutional_Network_for_Active_Learning_CVPR_2021_paper.pdf)
 
 ### Learn to score
 

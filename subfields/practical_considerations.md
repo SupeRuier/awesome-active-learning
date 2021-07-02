@@ -53,6 +53,8 @@ Works:
 - Active Learning for Skewed Data Sets [2020, Arxiv]
 - Balancing Exploration and Exploitation: A novel active learner for imbalanced data [2020, KBS]
 - [Identifying Wrongly Predicted Samples: A Method for Active Learning [2020]](https://arxiv.org/pdf/2010.06890.pdf): A type of expected loss reduction strategy. Identify wrongly predicted samples by accepting the model prediction and then judging its effect on the generalization error. Results are better than other method in imbalanced setting (Not specifically designed for imbalanced setting).
+- [VaB-AL: Incorporating Class Imbalance and Difficulty with Variational Bayes for Active Learning [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_VaB-AL_Incorporating_Class_Imbalance_and_Difficulty_With_Variational_Bayes_for_CVPR_2021_paper.pdf): 
+  Assume that the probability of a model making a mistake is highly related to the label.
 
 ## Biased data
 

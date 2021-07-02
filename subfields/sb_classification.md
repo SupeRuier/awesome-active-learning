@@ -41,3 +41,4 @@
    Selecting instances for label query by measuring the increase in generalization capabilities of the classifier according to a metric m on a separate validation set V.
    (3)
 - [QActor: On-line Active Learning for Noisy Labeled Stream Data [Arxiv, 2020]](https://arxiv.org/abs/2001.10399)
+- Active Learning for Deep Neural Networks on Edge Devices [2021, Arxiv]

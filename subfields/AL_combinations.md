@@ -67,6 +67,7 @@ Image segmentation/Semantic Segmentation：
   An agent learns a policy to select a subset of small informative image regions – opposed to entire images – to be labeled, from a pool of unlabeled data.
 - [ViewAL: Active Learning With Viewpoint Entropy for Semantic Segmentation [2020, CVPR]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)
 - [Revisiting Superpixels for Active Learning in Semantic Segmentation with Realistic Annotation Costs [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)
+- MEAL: Manifold Embedding-based Active Learning [2021, Arxiv]
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -77,6 +78,7 @@ Object Detection:
 - [Localization head Localization Active Learning for Deep Object Detection via Probabilistic Modeling [2021, Arxiv]](https://arxiv.org/pdf/2103.16130.pdf)
 - [Multiple Instance Active Learning for Object Detection [2021]](https://arxiv.org/pdf/2104.02324.pdf)
 - Active learning for annotation and recognition of faces in video [2021, Master's Thesis]
+- Multiple Instance Active Learning for Object Detection [2021, CVPR]
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]

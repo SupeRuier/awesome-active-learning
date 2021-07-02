@@ -9,3 +9,7 @@
 - Agnostic Active Learning [2006, ICML]
 - Beyond Disagreement-based Agnostic Active Learning [2014, NeurIPS]
 
+### Adversarial Label Corruptions
+
+- [Corruption Robust Active Learning [2021, Arxiv]](https://arxiv.org/pdf/2106.11220.pdf): 
+  Under a streaming-based active learning for binary classification setting.
