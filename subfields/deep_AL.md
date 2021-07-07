@@ -165,6 +165,7 @@ Pseudo-labels：
 - [Cost-effective active learning for deep image classification [IEEE TCSVT, 2016]](https://ieeexplore.ieee.org/abstract/document/7508942): (180)
   Besides AL, it also provide pseudo labels to the high confidence examples.
 - [Rethinking deep active learning: Using unlabeled data at model training [2020, ICPR]](https://arxiv.org/abs/1911.08177)
+- [AdaReNet: Adaptive Reweighted Semi-supervised Active Learning to Accelerate Label Acquisition [2021, PETRA]](https://dl.acm.org/doi/pdf/10.1145/3453892.3461321)
 
 Data Augmentation:
 - [Parting with Illusions about Deep Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1912.05361.pdf):
@@ -179,7 +180,7 @@ Labeled-unlabeled data indistinguishable:
 - [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162)
 - [Visual Transformer for Task-aware Active Learning [2021]](https://arxiv.org/pdf/2106.03801.pdf)
 
-# Criticism on Deep AL
+# Criticism/Discovery on Deep AL
 
 Several works compare the current DeepAL methods, and state that their experiments are flawed.
 We think these papers are very interesting.
@@ -221,6 +222,9 @@ Results from image classification task:
 - Models trained with RA and SWA consistently achieve signiﬁcant performance gains across all AL iterations and exhibit appreciablysmaller variance across multiple runs of the experiments.
 - Consider the selected instances from VGG16 to ResNet18 and WRN-28-2, the performance varies. RS still performs well.
 
+## 3. Consistency-based semi-supervised active learning: Towards minimizing labeling budget [2020]
 
-Consistency-based semi-supervised active learning: Towards minimizing labeling budget
-Rethinking deep active learning: Using unlabeled data at model training
+## 4. Effective Evaluation of Deep Active Learning on Image Classification Tasks [2021]
+
+## 5. Rethinking deep active learning: Using unlabeled data at model training [2021, ICPR]
+

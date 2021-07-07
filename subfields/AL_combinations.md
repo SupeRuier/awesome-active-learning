@@ -241,6 +241,9 @@ Review:
 Transfer Learning for Recommendation System:
 - Active Transfer Learning for Recommendation System [2020, PhD Dissertation]
 
+Positive Unlabeled learning:
+- PU Active Learning for Recommender Systems [2021, Neural Processing Letters]
+
 ## Reinforcement Learning
 
 Active exploration
