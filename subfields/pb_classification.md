@@ -141,6 +141,7 @@ Works:
 - [Active learning for convolutional neural networks: A core-set approach [ICLR, 2018]](https://arxiv.org/abs/1708.00489):
   Core-set loss is simply the difference between average empirical loss over the set of points which have labels for and the average empirical loss over the entire dataset including unlabelled points. Optimize the upper bound of core-set loss could be considered as a k-center problem in practice. Doesn't need to know the out put of the current model.
 - [Minimax Active Learning [2020]](https://arxiv.org/pdf/2012.10467.pdf): Develop a semi-supervised minimax entropy-based active learning algorithm that leverages both uncertainty and diversity in an adversarial manner.
+- [Multiple-criteria Based Active Learning with Fixed-size Determinantal Point Processes [2021]](https://arxiv.org/pdf/2107.01622.pdf)
 
 ### Alignment-based sampling
 

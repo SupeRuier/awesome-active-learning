@@ -145,6 +145,9 @@ Expected loss on unlabeled data:
 Graph-based:
 - [Sequential Graph Convolutional Network for Active Learning [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Caramalau_Sequential_Graph_Convolutional_Network_for_Active_Learning_CVPR_2021_paper.pdf)
 
+Submodular-based:
+- SIMILAR: Submodular Information Measures Based Active Learning In Realistic Scenarios [2021, Arxiv]
+
 ### Learn to score
 
 - [Multi-criteria active deep learning for image classification [Knowledge-Based Systems, 2019]](https://www.sciencedirect.com/science/article/pii/S0950705119300747)3：

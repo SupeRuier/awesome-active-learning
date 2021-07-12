@@ -90,6 +90,9 @@ Video Object Detection:
 - [Temporal Coherence for Active Learning in Videos [2019, ICCVW]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9022609&tag=1)
 - [Active learning method for temporal action localization in untrimmed videos [2020, US Patent]](https://patents.google.com/patent/US20190325275A1/en)
 
+Visual Question Answering:
+- Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering [2021]
+
 ## Natural Language Processing (NLP)
 
 NLP is also quite a wide conception.
@@ -111,6 +114,8 @@ Named entity recognition:
 - [Overcoming Practical Issues of Deep Active Learning and its Applications on Named Entity Recognition [Arxiv, 2019]](https://arxiv.org/abs/1911.07335)
 - LTP: A New Active Learning Strategy for CRF-Based Named Entity Recognition [2020, Arxiv]
 - Subsequence Based Deep Active Learning for Named Entity Recognition [2021]
+- Deep Active Learning for Swedish Named Entity Recognition [2021, Master Thesis]
+
 
 Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
