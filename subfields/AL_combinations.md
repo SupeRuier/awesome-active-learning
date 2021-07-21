@@ -27,6 +27,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Model Interpretability](#model-interpretability)
   - [Causal Analysis](#causal-analysis)
   - [Anomaly Detection](#anomaly-detection)
+  - [Speech Recognition](#speech-recognition)
   - [Ordinal Regression/Classification](#ordinal-regressionclassification)
   - [Label De-noising](#label-de-noising)
   - [Model Selection](#model-selection)
@@ -155,6 +156,7 @@ Domain adaptation:
 - Active Adversarial Domain Adaptation [2020, WACV]
 - Transferable Query Selection for Active Domain Adaptation [2021]:
   Point out that the strategy of previous works are not transferable (they use the criteria from the source domain to guide the target domain selection).
+- Zero-Round Active Learning [2021, Arxiv]: Cold-start.
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -285,6 +287,10 @@ Demonstrate Robots:
 ## Anomaly Detection
 
 - Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning [2020, Arxiv]
+
+## Speech Recognition
+
+- [Loss Prediction: End-to-End Active Learning Approach For Speech Recognition [2021, Arxiv]](https://arxiv.org/pdf/2107.04289.pdf)
 
 ## Ordinal Regression/Classification
 
