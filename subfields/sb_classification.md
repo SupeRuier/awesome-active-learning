@@ -42,3 +42,4 @@
    (3)
 - [QActor: On-line Active Learning for Noisy Labeled Stream Data [Arxiv, 2020]](https://arxiv.org/abs/2001.10399)
 - Active Learning for Deep Neural Networks on Edge Devices [2021, Arxiv]
+- [Online Active Learning for Drifting Data Streams [2021, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9492291)

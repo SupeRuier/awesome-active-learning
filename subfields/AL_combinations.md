@@ -20,6 +20,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [One/Few/Zero-shot learning or Meta-Learning](#onefewzero-shot-learning-or-meta-learning)
   - [Graph Processing](#graph-processing)
   - [Semi-supervised learning](#semi-supervised-learning)
+  - [Online Learning System](#online-learning-system)
   - [Clustering](#clustering)
   - [Recommendation](#recommendation)
   - [Reinforcement Learning](#reinforcement-learning)
@@ -29,7 +30,9 @@ Reducing the labeling cost is a common need in many research fields.
   - [Anomaly Detection](#anomaly-detection)
   - [Speech Recognition](#speech-recognition)
   - [Ordinal Regression/Classification](#ordinal-regressionclassification)
-  - [Label De-noising](#label-de-noising)
+  - [Label Enhancement](#label-enhancement)
+    - [Label De-noising](#label-de-noising)
+    - [Clean Label Uncertainties](#clean-label-uncertainties)
   - [Model Selection](#model-selection)
   - [Software Engineering](#software-engineering)
   - [Positive and unlabeled (PU) learning](#positive-and-unlabeled-pu-learning)
@@ -228,6 +231,10 @@ So the model parts of active learning could be switched to a SSL model.
 
 - [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2021, Springer]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58607-2_30.pdf)
 
+## Online Learning System
+
+- [Active learning for online training in imbalanced data streams under cold start [2021, In Workshop on Machine Learning in Finance (KDD ’21)]](https://arxiv.org/pdf/2107.07724.pdf)
+
 ## Clustering
 
 AL could support clustering by provide supervised information.
@@ -266,6 +273,9 @@ Review:
 Human-Robot Interaction:
 - [Teacher-Learner Interaction for Robot Active Learning [2020, Thesis]](https://aaltodoc.aalto.fi/bitstream/handle/123456789/46843/isbn9789526400556.pdf?sequence=1&isAllowed=y)
 
+Object Detection Learning:
+- [Weakly-Supervised Object Detection Learning through Human-Robot Interaction [2021, Arxiv]](https://arxiv.org/pdf/2107.07901.pdf)
+
 Robot motion planning:
 - [Active Learning of Signal Temporal Logic Specifications](https://people.kth.se/~linard/publications/active_learn_stl.pdf)
 - [Online Body Schema Adaptation through Cost-Sensitive Active Learning](https://arxiv.org/pdf/2101.10892.pdf)
@@ -299,9 +309,17 @@ Could be consider as a regression where the relative orders of the instances mat
 - [Active Learning for Imbalanced Ordinal Regression [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208667)
 - [Supervised Anomaly Detection via Conditional Generative Adversarial Network and Ensemble Active Learning [2021]](https://arxiv.org/pdf/2104.11952.pdf)
 
-## Label De-noising
+## Label Enhancement
+
+### Label De-noising
 
 - Active Deep Learning to Tune Down the Noise in Labels [2018, KDD]
+
+### Clean Label Uncertainties
+
+Enhance the quality of generated from weakly supervised model.
+
+- [CHEF: A Cheap and Fast Pipeline for Iteratively Cleaning Label Uncertainties [2021, Arxiv]](https://arxiv.org/pdf/2107.08588.pdf)
 
 ## Model Selection
 

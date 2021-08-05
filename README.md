@@ -205,6 +205,8 @@ There already are several python AL projects:
 - [Deep-active-learning](https://github.com/ej0cl6/deep-active-learning)
 - [BaaL: Bayesian Active Learning](https://github.com/ElementAI/baal/)
 - [Paladin](https://www.aclweb.org/anthology/2021.eacl-demos.28.pdf): An anotation tool for creating high-quality multi-label document-level datasets.
+- [lrtc](https://github.com/IBM/low-resource-text-classification-framework): experimenting with text classification tasks
+- [Small-text: Active Learning for Text Classification in Python](https://github.com/webis-de/small-text): State-of-the-art active learning for text classification
 
 ## Tutorials
 - [active-learning-workshop](https://github.com/Azure/active-learning-workshop): 
