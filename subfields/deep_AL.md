@@ -45,7 +45,7 @@ Uncertainty-based:
 - [Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [ICML, 2015]](http://proceedings.mlr.press/v37/hernandez-lobatoc15.pdf):
   Use an active learning scenario which is necessary to produce accurate estimates of uncertainty for obtaining good performance to estimates of the posterior variance on the weights produced by PBP(the proposed methods for BNN).
 - [Active Discriminative Text Representation Learning [AAAI, 2017]](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14174):
-  Propose a new active learning (AL) method for text classiﬁcation with convolutional neural networks (CNNs).
+  Propose a new active learning (AL) method for text classification with convolutional neural networks (CNNs).
   Select instances that contain words likely to most affect the embeddings.
   Achieve this by calculating the expected gradient length (**EGL**) with respect to the embeddings for each word comprising the remaining unlabeled sentences.
 - [Deep Bayesian Active Learning with Image Data [ICML, 2017]](https://dl.acm.org/doi/10.5555/3305381.3305504): (272)
@@ -93,7 +93,7 @@ Density-based sampling:
   The empirical analysis suggests that they (Deep Bayesian Active Learning with Image Data [ICML, 2017]) do not scale to large-scale datasets because of batch sampling.
   Provide a rigorous bound between an average loss over any given subset of the dataset and the remaining data points via the geometry of the data points.
   And choose a subset such that this bound is minimized (loss minimization).
-  Try to ﬁnd a set of points to query labels such that when we learn a model, the performance of the model on the labelled subset and that on the whole dataset will be as close as possible.
+  Try to find a set of points to query labels such that when we learn a model, the performance of the model on the labelled subset and that on the whole dataset will be as close as possible.
   Batch active learning.
 - [Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification [2020, Arxiv]](https://arxiv.org/pdf/2009.14448.pdf): 
   Use kmeans++ on the learned gradient embeddings to select instances.
@@ -114,7 +114,7 @@ Diversity-based sampling (batch mode):
   Good paper, compared many previous Deep AL.
   Very representative for Deep AL.
   Capture uncertainty and diversity.
-  Measure uncertainty through the magnitude of the resulting gradient with respect to parameters of the ﬁnal (output) layer.
+  Measure uncertainty through the magnitude of the resulting gradient with respect to parameters of the final (output) layer.
   To capture diversity, we collect a batch of examples where these gradients span a diverse set of directions by use k-means++ (made to produce a good initialization for k-means clustering).
 - Density Weighted Diversity Based Query Strategy for Active Learning [2021, CSCWD]
 
@@ -183,6 +183,9 @@ Labeled-unlabeled data indistinguishable:
 - [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162)
 - [Visual Transformer for Task-aware Active Learning [2021]](https://arxiv.org/pdf/2106.03801.pdf)
 
+Consistency (stay same after a distortion):
+- [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2020, ECCV]](https://link.springer.com/chapter/10.1007/978-3-030-58607-2_30): the selection is based on the consistency-task instead of the classification task.
+
 # Criticism/Discovery on Deep AL
 
 Several works compare the current DeepAL methods, and state that their experiments are flawed.
@@ -222,12 +225,34 @@ Results from image classification task:
 - The performance of RS is significantly better than what they state in the other works. And there is no strategy performs clearly better than RS.
 - With different AL batch size, the performance of strategies is inconsistent.
 - AL methods do not outperform RS, and it isn't robust on class imbalanced setting.
-- Models trained with RA and SWA consistently achieve signiﬁcant performance gains across all AL iterations and exhibit appreciablysmaller variance across multiple runs of the experiments.
+- Models trained with RA and SWA consistently achieve significant performance gains across all AL iterations and exhibit appreciably smaller variance across multiple runs of the experiments.
 - Consider the selected instances from VGG16 to ResNet18 and WRN-28-2, the performance varies. RS still performs well.
 
-## 3. Consistency-based semi-supervised active learning: Towards minimizing labeling budget [2020]
+## 3. Effective Evaluation of Deep Active Learning on Image Classification Tasks [2021, Open Review]
 
-## 4. Effective Evaluation of Deep Active Learning on Image Classification Tasks [2021]
+Point out four issues for current AL works:
+1. Contradictory observations on the performance of different AL algorithms
+2. Unintended exclusion of important generalization approaches such as data augmentation and SGD for optimization
+3. A lack of study of evaluation facets like the labeling efficiency of AL
+4. Little or no clarity on the scenarios in which AL outperforms random sampling (RS).
 
-## 5. Rethinking deep active learning: Using unlabeled data at model training [2021, ICPR]
+They presented a unified re-implementation of state-of-the-art AL algorithms in the context of image classification.
+Besides, they did a careful analysis of how existing approaches perform with varying amounts of redundancy and number of examples per class.
 
+Point out some important details are not clear:
+> - Should model training be restarted after every round, or can one fine-tune the current model? 
+> - What is the effect of using carefully crafted seed sets in AL? 
+> - Is there an ideal AL batch size, or does the batch size actually matter? 
+> - When is AL more effective than random sampling, and what are the factors that affect the labeling efficiency of AL algorithms? Lastly, 
+> - How scalable are AL algorithms; specifically, what is the amount of time taken by model training versus that taken by AL selection, and can this be made more compute and energy-efficient?
+
+Key finding and takeaways:
+> - Data augmentation and other generalization approaches have a considerable impact on the test performance as well as on the labeling efficiency.
+> - SGD performs and generalizes better than Adam consistently in AL.
+> - In the presence of data augmentation and the SGD optimizer, there is no significant advantage of diversity over very simple uncertainty sampling (at least in most standard academic data sets).
+> - When we make the data set artificially redundant (either by repeating data points or by using near repetitions through augmentations), we see that BADGE starts outperforming uncertainty sampling.
+> - The number of instances per class has an important impact on the performance of AL algorithms: The fewer the examples there are per class, the smaller the room there is for AL to improve over random sampling
+> - The initialization of the labeled seed set (e.g., a random versus a more diverse or representative seed set) has little to no impact on the performance of AL after a few rounds; 
+> - Reasonably sized choices of the AL batch size also have little to no impact.
+> - Updating the models from previous rounds (fine-tuning) versus retraining the models from scratch negatively impacts the performance of AL only in the early selection rounds
+> - The most time-consuming and energy-inefficient part of the AL loop is the model (re)training.
