@@ -25,6 +25,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Recommendation](#recommendation)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Robotics](#robotics)
+  - [Curriculum Learning](#curriculum-learning)
   - [Model Interpretability](#model-interpretability)
   - [Causal Analysis](#causal-analysis)
   - [Anomaly Detection](#anomaly-detection)
@@ -222,6 +223,9 @@ Graph transfer/Network Alignment:
 Anchor user prediction:
 - [Deep Active Learning for Anchor User Prediction [IJCAI, 2019]](https://arxiv.org/abs/1906.07318)
 
+Entity resolution:
+- [Graph-boosted Active Learning for Multi-Source Entity Resolution [2021]](https://www.uni-mannheim.de/media/Einrichtungen/dws/Files_Research/Web-based_Systems/pub/Primpeli-Bizer-ALMSER-ISWC2021-Preprint.pdf)
+
 ## Semi-supervised learning
 
 In semi-supervised learning, there also are limited labeled data.
@@ -243,6 +247,7 @@ AL could support clustering by provide supervised information.
 - Active Learning for Constrained Document Clustering with Uncertainty Region [Complexity, 2020]: Must link & cannot link.
 - Cautious Active Clustering [2020]
 - Improving evolutionary constrained clustering using Active Learning [2020, Knowledge-Based Systems]
+- An Active Learning Method Based on Variational Autoencoder and DBSCAN Clustering [2021]
 
 Review:
 - Interactive clustering: a scoping review [2020, Artificial Intelligence Review]
@@ -264,6 +269,8 @@ Active exploration
 - Model-Based Active Exploration
 - [SAMBA: Safe Model-Based & Active Reinforcement Learning [2020, Arxiv]](https://arxiv.org/pdf/2006.09436.pdf)
 
+Save training cost in the measure of time:
+- [Active Reinforcement Learning over MDPs [2021]](https://arxiv.org/pdf/2108.02323.pdf)
 
 ## Robotics
 
@@ -282,6 +289,9 @@ Robot motion planning:
 
 Demonstrate Robots:
 - Active Learning of Bayesian Probabilistic Movement Primitives [2021, IEEE ROBOTICS AND AUTOMATION LETTERS]
+
+## Curriculum Learning
+- [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page=52)
 
 ## Model Interpretability
 

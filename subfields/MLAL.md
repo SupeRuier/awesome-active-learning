@@ -116,3 +116,4 @@ In this case, the task is to predict the labels of bags of instances.
 The number of labels would be more than two.
 
 - [Active Learning in Incomplete Label Multiple Instance Multiple Label Learning [2021, Arxiv]](https://arxiv.org/pdf/2107.10804.pdf)
+- Cost-effective multi-instance multilabel active learning [2021]

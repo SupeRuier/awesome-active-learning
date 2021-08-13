@@ -13,3 +13,7 @@
 
 - [Corruption Robust Active Learning [2021, Arxiv]](https://arxiv.org/pdf/2106.11220.pdf): 
   Under a streaming-based active learning for binary classification setting.
+
+### Active Class Selection
+
+- Certification of Model Robustness in Active Class Selection [2021]

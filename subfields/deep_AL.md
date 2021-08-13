@@ -185,6 +185,7 @@ Labeled-unlabeled data indistinguishable:
 
 Consistency (stay same after a distortion):
 - [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2020, ECCV]](https://link.springer.com/chapter/10.1007/978-3-030-58607-2_30): the selection is based on the consistency-task instead of the classification task.
+- [Semi-Supervised Active Learning with Temporal Output Discrepancy [2021, Arxiv]](https://arxiv.org/pdf/2107.14153.pdf)
 
 # Criticism/Discovery on Deep AL
 
