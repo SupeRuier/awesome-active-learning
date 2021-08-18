@@ -13,6 +13,7 @@ However, they might achieve this goal in different approaches.
 | Diverse the instances in the selected batch | Heuristic-diversity |
 |                                             | Optimization-based  |
 |                                             | Greedy Selection    |
+|                                             | Ensemble-based      |
 | Representativeness                          |                     |
 | Directly learn from the trajectories        |                     |
 
@@ -89,6 +90,12 @@ Works:
    BALD overestimates the joint mutual information. 
    **BatchBALD**, however, takes the overlap between variables into account and will strive to acquire a better cover of ω.(5 citations)
 4. [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, Arxiv]](https://arxiv.org/pdf/2106.09675.pdf)
+
+## Ensemble-based
+
+Utilize the diversity of models to construct the diversity of items in a batch.
+
+- [Bootstrapping for Batch Active Sampling [2021, KDD]](https://dl.acm.org/doi/pdf/10.1145/3447548.3467076)
 
 ## Representativeness
 
