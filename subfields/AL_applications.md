@@ -72,6 +72,8 @@ Materials Design and Discovery
 - [Active Discovery of Catalysts for Sustainable Energy Storage [2021]](https://www.proquest.com/openview/660c2b7aa14e0b9228240134af6e089e/1?cbl=18750&diss=y&pq-origsite=gscholar)
 - [Active discovery of organic semiconductors [2021, Nature communications]](https://www.nature.com/articles/s41467-021-22611-4)
 
+Transition State Calculation:
+- Active Learning for Transition State Calculation
 
 ## Astronomy
 
@@ -161,6 +163,7 @@ Papers:
 - [Deep Active Learning for Axon-Myelin Segmentation on Histology Data [Arxiv, 2019]](https://arxiv.org/abs/1907.05143)
 - Labeling Cost Sensitive Batch Active Learning For Brain Tumor Segmentation [2021, ISBI]
 - U-Net-Based Active Learning Framework for Enhancing Cancer Immunotherapy [2021, Master's Thesis]
+- Reducing Annotating Load: Active Learning with Synthetic Images in Surgical Instrument Segmentation
 
 ### Medical Symptom Recognition from Text
 
