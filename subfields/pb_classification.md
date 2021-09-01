@@ -99,6 +99,7 @@ Works:
 - [Combining active learning and semisupervised learning using Gaussian fields and harmonic functions [2003, ICML]](http://mlg.eng.cam.ac.uk/zoubin/papers/zglactive.pdf): Greedily select queries from the unlabeled data to minimize the estimated expected classification error. GRF as basic model. This is also the most computationally expensive query framework since it needs to iterate over the whole unlabeled pool. (517 citations)
 - [Active learning for logistic regression: an evaluation [2007, Machine Learning]](https://link.springer.com/article/10.1007/s10994-007-5019-5): Variance Reduction
 - [An analysis of active learning strategies for sequence labeling tasks [2008, CEMNL]](https://www.aclweb.org/anthology/D08-1112.pdf): Expected gradient change in gradient based optimization.(659 citations)
+- [Influence Selection for Active Learning [2021]](https://arxiv.org/pdf/2108.09331.pdf): Select instances with the most positive influence on the model. It was divided to an expected gradient length and another term.
 
 ## Representativeness-impart sampling
 
@@ -192,6 +193,7 @@ Works:
 - [Learning Loss for Active Learning [2019, CVPR]](https://openaccess.thecvf.com/content_CVPR_2019/html/Yoo_Learning_Loss_for_Active_Learning_CVPR_2019_paper.html): Attach a small parametric module, named “loss prediction module,” to a target network, and learn it to predict target losses of unlabeled inputs. 
 - [Learning to Rank for Active Learning: A Listwise Approach [2020]](https://arxiv.org/pdf/2008.00078.pdf): Have an additional loss prediction model to predict the loss of instances beside the classification model. Then the loss is calculated by the ranking instead of the ground truth loss of the classifier.
 - [Deep Reinforcement Active Learning for Medical Image Classiﬁcation [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.
+- [ImitAL: Learning Active Learning Strategies from Synthetic Data [2021]](https://arxiv.org/pdf/2108.07670.pdf): An imitation learning approach.
 
 ## Others
 There still are other works uses innovative heuristics.

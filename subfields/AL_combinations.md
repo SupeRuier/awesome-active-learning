@@ -69,7 +69,7 @@ Image segmentation/Semantic Segmentation：
 - Active Learning with Bayesian UNet for Efﬁcient Semantic Image Segmentation [Journal of Imaging]
 - Active Image Segmentation Propagation [2016, CVPR]
 - [Reinforced active learning for image segmentation [2020, ICLR]](https://arxiv.org/pdf/2002.06583.pdf):
-  An agent learns a policy to select a subset of small informative image regions – opposed to entire images – to be labeled, from a pool of unlabeled data.
+  An agent learns a policy to select a subset of small informative image regions (opposed to entire images) to be labeled, from a pool of unlabeled data.
 - [ViewAL: Active Learning With Viewpoint Entropy for Semantic Segmentation [2020, CVPR]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)
 - [Revisiting Superpixels for Active Learning in Semantic Segmentation with Realistic Annotation Costs [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)
 - MEAL: Manifold Embedding-based Active Learning [2021, Arxiv]
@@ -84,6 +84,7 @@ Object Detection:
 - [Multiple Instance Active Learning for Object Detection [2021]](https://arxiv.org/pdf/2104.02324.pdf)
 - Active learning for annotation and recognition of faces in video [2021, Master's Thesis]
 - Multiple Instance Active Learning for Object Detection [2021, CVPR]
+- Region-level Active Learning for Cluttered Scenes [2021]
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
@@ -98,6 +99,9 @@ Video Object Detection:
 Visual Question Answering:
 - Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering [2021]
 
+Pose Estimation:
+- Deep Active Learning For Human Pose Estimation Via Consistency Weighted Core-Set Approach [2021, ICIP]
+
 ## Natural Language Processing (NLP)
 
 NLP is also quite a wide conception.
@@ -110,6 +114,7 @@ Sentiment/text classification:
 - Active learning for imbalanced sentiment classification [2012, EMNLP-CoNLL]
 - [Deep Active Learning with Simulated Rationales for Text Classiﬁcation [2020, PRAI]](https://link.springer.com/chapter/10.1007/978-3-030-59830-3_32): Utilize auxiliary task to reduce the data scarce affect at the beginning of the AL process.
 - Active Learning via Membership Query Synthesis for Semi-supervised Sentence Classification [2019, CoNLL]
+- Deep Active Learning for Text Classification with Diverse Interpretations [2021, CIKM]
 
 Named entity recognition: 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
@@ -131,6 +136,7 @@ Classifier Pruning:
 
 Neural Machine Translation:
 - [Active Learning Approaches to Enhancing Neural Machine Translation [2020, EMNLP]](https://www.aclweb.org/anthology/2020.findings-emnlp.162.pdf): The first to do a large-scale study on actively training Transformer for NMT.
+- Active Learning for Massively Parallel Translation of Constrained Text into Low Resource Languages [2021, Arxiv]
 
 Sequence Tagging:
 - [Active Learning for Sequence Tagging with Deep Pre-trained Models and Bayesian Uncertainty Estimates [2021]](https://arxiv.org/pdf/2101.08133.pdf)

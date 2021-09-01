@@ -257,3 +257,8 @@ Key finding and takeaways:
 > - Reasonably sized choices of the AL batch size also have little to no impact.
 > - Updating the models from previous rounds (fine-tuning) versus retraining the models from scratch negatively impacts the performance of AL only in the early selection rounds
 > - The most time-consuming and energy-inefficient part of the AL loop is the model (re)training.
+
+## 4. Reducing Label Effort: Self-Supervised meets Active Learning [2021]
+
+It shows that the improvements brought from AL are far less than that from self-training.
+Only when the number of labeled instances approaches 50%, the gap could disappear.

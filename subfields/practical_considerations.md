@@ -27,11 +27,14 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The consideration of the workflow](#the-consideration-of-the-workflow)
   - [Cold start problem](#cold-start-problem)
   - [Stop criteria](#stop-criteria)
+  - [Asynchronous Training](#asynchronous-training)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train](#incrementally-train)
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
+- [The Considerations of More Assumptions](#the-considerations-of-more-assumptions)
+  - [The Assumption Change on the Single Model](#the-assumption-change-on-the-single-model)
 
 
 # The considerations of the data
@@ -56,6 +59,7 @@ Works:
 - [VaB-AL: Incorporating Class Imbalance and Difficulty with Variational Bayes for Active Learning [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_VaB-AL_Incorporating_Class_Imbalance_and_Difficulty_With_Variational_Bayes_for_CVPR_2021_paper.pdf): 
   Assume that the probability of a model making a mistake is highly related to the label.
 - SIMILAR: Submodular Information Measures Based Active Learning In Realistic Scenarios [2021, Arxiv]
+- Active learning with extreme learning machine for online imbalanced multiclass classification [2021, KBS]: Base on extreme learning machine.
 
 ## Biased data
 
@@ -209,6 +213,11 @@ If the performance barely improves, the running learning process would waste the
 
 - Rebuilding Trust in Active Learning with Actionable Metrics [2020]: Use a contradiction metric as a proxy on model improvement.
 
+## Asynchronous Training
+
+Make the selection phase keep running during the model training.
+
+- [Asynchronous Active Learning with Distributed Label Querying [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0354.pdf)
 
 # The considerations of the model training cost
 
@@ -257,3 +266,13 @@ Works:
 - [Rebuilding Trust in Active Learning with Actionable Metrics [2021, Arxiv]](https://arxiv.org/pdf/2012.11365.pdf):
   This work states the limitations of AL in practice.
   It evaluates AL strategies under different performance metrics.
+
+# The Considerations of More Assumptions
+
+## The Assumption Change on the Single Model
+
+Not only select instance but also select models.
+
+- Active learning with model selection [2014, AAAI]
+- Deep active learning with a neural architecture search [2019, Neural IPS]
+- [Dual Active Learning for Both Model and Data Selection [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0420.pdf)

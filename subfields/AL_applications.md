@@ -64,6 +64,7 @@ Cell Classification:
 Molecular Dynamics
 - [Active learning accelerates ab initio molecular dynamics on reactive energy surfaces [2020, Chem]
 - [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020. KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
+- Active Learning in Bayesian Neural Networks for Bandgap Predictions of Novel Van der Waals Heterostructures [2021, Advanced Intelligent Systems]
 
 Materials Design and Discovery
 
@@ -154,6 +155,7 @@ Papers:
 - Deep Reinforcement Active Learning for Medical Image Classification [2020]
 - MedSelect: Selective Labeling for Medical Image Classification Combining Meta-Learning with Deep Reinforcement Learning [2021]
 - Representative Region Based Active Learning For Histological Classification Of Colorectal Cancer [2021, ISBI]
+- Su-Sampling Based Active Learning For Large-Scale Histopathology Image [2021, ICIP]
 
 ### Medical Image Segmentation
 
