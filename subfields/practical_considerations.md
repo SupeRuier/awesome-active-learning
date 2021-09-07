@@ -155,6 +155,7 @@ Works：
 - Active Learning from Crowds with Unsure Option [2015, IJCAI]: Allow the annotators to express that they are unsure about the assigned data instances by adding the “unsure” option.
 - Active learning with oracle epiphany [2016, NeurIPS]: The oracle could suddenly decide how to label by the accumulative effect of seeing multiple similar queries.
 - [Exploiting Context for Robustness to Label Noise in Active Learning [2020, TIP]](https://arxiv.org/pdf/2010.09066.pdf)
+- Evidential Nearest Neighbours in Active Learning [2021, IAL-ECML-PKDD]
 
 ## Multiple/Diverse labeler (ability/price) 
 
