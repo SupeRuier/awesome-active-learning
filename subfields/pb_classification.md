@@ -21,6 +21,7 @@ There also are some works focus on multi-class classification settings, please c
     - [Density-based sampling](#density-based-sampling)
     - [Alignment-based sampling](#alignment-based-sampling)
     - [Expected loss on unlabeled data](#expected-loss-on-unlabeled-data)
+    - [Inconsistency of the neighbors](#inconsistency-of-the-neighbors)
   - [Learn to Score](#learn-to-score)
   - [Others](#others)
 
@@ -162,7 +163,7 @@ Works:
 
 ### Expected loss on unlabeled data
 
-Many works only score the instance by the expected performance on the labeled data and the selected date.
+Many works only score the instance by the expected performance on the labeled data and the selected data.
 Some other works also take into account the expected loss on the rest unlabeled data as a measurement of representativeness.
 
 - Expected loss on unlabeled data: 
@@ -172,6 +173,16 @@ Some other works also take into account the expected loss on the rest unlabeled 
 Works:
 - [Active Learning by Querying Informative and Representative Examples [2010, NeurIPS]](http://papers.nips.cc/paper/4176-active-learning-by-querying-informative-and-representative-examples): **QUIRE**. Optimization based. Not only consider the loss in the labeled data (uncertainty) but also consider the loss in the unlabeled data (representations, correct labels would leads small value of overall evaluation function.). This methods is very computationally expensive. (370 citations)
 - [Efﬁcient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
+
+### Inconsistency of the neighbors
+
+Some works believe the data points that are similar in the model feature space and yet the model outputs maximally different predictive likelihoods should be quired.
+
+- Inconsistency of the neighbors
+  - ** CAL**
+
+Works:
+- Active Learning by Acquiring Contrastive Examples [2021, Arxiv]
 
 ## Learn to Score
 

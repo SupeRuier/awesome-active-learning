@@ -85,6 +85,7 @@ Object Detection:
 - Active learning for annotation and recognition of faces in video [2021, Master's Thesis]
 - Multiple Instance Active Learning for Object Detection [2021, CVPR]
 - Region-level Active Learning for Cluttered Scenes [2021]
+- Deep active learning for object detection [2021, Information Sciences]
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
@@ -181,6 +182,8 @@ Transfer learning:
 - [Active Ordinal Querying for Tuplewise Similarity Learning [2020 AAAI]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-CanalG.9650.pdf): Introduce AL to their new similarity methods (InfoTuple). Active Sampling for Pairwise Comparisons via Approximate Message Passing and Information Gain Maximization.
 - Batch Decorrelation for Active Metric Learning [2020, IJCAI]
 - Maximizing Conditional Entropy for Batch-Mode Active Learning of Perceptual Metrics [2021]
+- A Unified Batch Selection Policy for Active Metric Learning [2021, ECML PKDD]
+
 
 ## One/Few/Zero-shot learning or Meta-Learning
 

@@ -13,6 +13,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Imbalanced data](#imbalanced-data)
   - [Biased data](#biased-data)
   - [Cost-sensitive case](#cost-sensitive-case)
+  - [Noised data](#noised-data)
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
   - [Multiple Correct Outputs](#multiple-correct-outputs)
@@ -76,6 +77,14 @@ So the AL strategy should take these into account and try to reduce the overall 
 Works:
 - Learning cost-sensitive active classifiers [2002, Artificial Intelligence] (206)
 - Active learning for cost-sensitive classification [2017, ICML] (25)
+
+## Noised data
+
+In classification, mislabeled or very ambiguous samples – like five that looks like six in MNIST – can be detrimental to the model.
+These data should be avoided in the selection.
+
+Works:
+- Sample Noise Impact on Active Learning [2021]
 
 ## Logged data 
 
@@ -156,6 +165,7 @@ Works：
 - Active learning with oracle epiphany [2016, NeurIPS]: The oracle could suddenly decide how to label by the accumulative effect of seeing multiple similar queries.
 - [Exploiting Context for Robustness to Label Noise in Active Learning [2020, TIP]](https://arxiv.org/pdf/2010.09066.pdf)
 - Evidential Nearest Neighbours in Active Learning [2021, IAL-ECML-PKDD]
+- Rethinking Crowdsourcing Annotation: Partial Annotation with Salient Labels for Multi-Label Image Classification [2021]
 
 ## Multiple/Diverse labeler (ability/price) 
 
