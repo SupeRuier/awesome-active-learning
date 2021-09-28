@@ -69,6 +69,7 @@ Works:
 - [Bayesian Batch Active Learning as Sparse Subset Approximation [2019， NeurIPS]](https://proceedings.neurips.cc/paper/2019/file/84c2d4860a0fc27bcf854c444fb8b400-Paper.pdf):
   The key idea is to re-cast batch construction as optimizing a sparse subset approximation to the log posterior induced by the full dataset.
 - SIMILAR: Submodular Information Measures Based Active Learning In Realistic Scenarios [2021, Arxiv]
+- SABAL: Sparse Approximation-based Batch Active Learning [2021, Arxiv]
 
 ## Greedy Selection
 

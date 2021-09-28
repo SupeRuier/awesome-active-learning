@@ -35,6 +35,7 @@ Reducing the labeling cost is a common need in many research fields.
     - [Label De-noising](#label-de-noising)
     - [Clean Label Uncertainties](#clean-label-uncertainties)
   - [Model Selection](#model-selection)
+  - [Information Retrieval](#information-retrieval)
   - [Software Engineering](#software-engineering)
   - [Positive and unlabeled (PU) learning](#positive-and-unlabeled-pu-learning)
   - [Human Learning](#human-learning)
@@ -347,6 +348,10 @@ As active model selection, both pool based and stream based.
 Normally there only is model selection without training.
 
 - Online Active Model Selection for Pre-trained Classifiers [2020]
+
+## Information Retrieval
+
+- Efficient Test Collection Construction via Active Learning [2021, ICTIR]: The active selection here is for IR evaluation.
 
 ## Software Engineering
 

@@ -35,7 +35,8 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
 - [The Considerations of More Assumptions](#the-considerations-of-more-assumptions)
-  - [The Assumption Change on the Single Model](#the-assumption-change-on-the-single-model)
+  - [Include Model Selection](#include-model-selection)
+  - [Select for Evaluation](#select-for-evaluation)
 
 
 # The considerations of the data
@@ -280,10 +281,17 @@ Works:
 
 # The Considerations of More Assumptions
 
-## The Assumption Change on the Single Model
+## Include Model Selection
 
 Not only select instance but also select models.
 
 - Active learning with model selection [2014, AAAI]
 - Deep active learning with a neural architecture search [2019, Neural IPS]
 - [Dual Active Learning for Both Model and Data Selection [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0420.pdf)
+
+## Select for Evaluation
+
+The selected data are not for training but for evaluation.
+
+- Efficient Test Collection Construction via Active Learning [2021, ICTIR]: The active selection here is for IR evaluation.
+- Low-Shot Validation: Active Importance Sampling for Estimating Classifier Performance on Rare Categories [2021, Arxiv]

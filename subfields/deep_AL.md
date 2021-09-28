@@ -158,7 +158,7 @@ Submodular-based:
   Predict the loss after selecting each instance.
 - [Deep Active Learning with Adaptive Acquisition [Arxiv, 2019]](https://arxiv.org/abs/1906.11471)
 
-## Semi-supervised learning based
+## Semi/self-supervised learning imparted
 
 Most of works only use the labeled instances to train the model.
 There are several works utilize the unlabeled instances and use a semi-supervised training paradigm to build the framework.
@@ -186,6 +186,9 @@ Labeled-unlabeled data indistinguishable:
 Consistency (stay same after a distortion):
 - [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2020, ECCV]](https://link.springer.com/chapter/10.1007/978-3-030-58607-2_30): the selection is based on the consistency-task instead of the classification task.
 - [Semi-Supervised Active Learning with Temporal Output Discrepancy [2021, Arxiv]](https://arxiv.org/pdf/2107.14153.pdf)
+
+Contrastive Loss:
+- [Improving Robustness and Efficiency in Active Learning with Contrastive Loss [2021, Arxiv]](https://arxiv.org/pdf/2109.06873.pdf): Select instances least similar to the labeled ones with the same class.
 
 # Criticism/Discovery on Deep AL
 
