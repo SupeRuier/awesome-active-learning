@@ -164,6 +164,9 @@ Most of works only use the labeled instances to train the model.
 There are several works utilize the unlabeled instances and use a semi-supervised training paradigm to build the framework.
 Here the works are categorized by how the SSL accomplished.
 
+General work:
+- Towards Good Practices for Efficiently Annotating Large-Scale Image Classification Datasets [2021, CVPR]
+
 Pseudo-labels：
 - [Cost-effective active learning for deep image classification [IEEE TCSVT, 2016]](https://ieeexplore.ieee.org/abstract/document/7508942): (180)
   Besides AL, it also provide pseudo labels to the high confidence examples.

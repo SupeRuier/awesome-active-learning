@@ -217,6 +217,7 @@ Usually, a portion of data are randomly selected at the beginning to train a sup
 
 Transfer an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
+- [On Initial Pools for Deep Active Learning [2020, NeurIPS Preregistration Workshop]](http://proceedings.mlr.press/v148/chandra21a/chandra21a.pdf)
 
 ## Stop criteria
 

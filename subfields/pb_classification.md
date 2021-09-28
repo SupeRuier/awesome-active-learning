@@ -160,6 +160,7 @@ Works:
 - [Discriminative Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1907.06347.pdf):
   Make the labeled and unlabeled pool indistinguishable.
 - Agreement-Discrepancy-Selection: Active Learning with Progressive Distribution Alignment [2021]
+- Dual Adversarial Network for Deep Active Learning [2021, ECCV]: DAAL.
 
 ### Expected loss on unlabeled data
 
