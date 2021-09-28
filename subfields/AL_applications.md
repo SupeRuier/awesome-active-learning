@@ -105,6 +105,7 @@ Lithology Identification:
 - [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
 - Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
 - AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
+- Active Learning for the Optimal Design of Multinomial Classification in Physics [2021]
 
 # Industrial Applications
 
