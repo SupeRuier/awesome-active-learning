@@ -180,10 +180,10 @@ Works:
 Some works believe the data points that are similar in the model feature space and yet the model outputs maximally different predictive likelihoods should be quired.
 
 - Inconsistency of the neighbors
-  - ** CAL**
+  - CAL
 
 Works:
-- Active Learning by Acquiring Contrastive Examples [2021, Arxiv]
+- Active Learning by Acquiring Contrastive Examples [2021, Arxiv]: CAL
 
 ## Learn to Score
 
@@ -206,6 +206,7 @@ Works:
 - [Learning to Rank for Active Learning: A Listwise Approach [2020]](https://arxiv.org/pdf/2008.00078.pdf): Have an additional loss prediction model to predict the loss of instances beside the classification model. Then the loss is calculated by the ranking instead of the ground truth loss of the classifier.
 - [Deep Reinforcement Active Learning for Medical Image Classiﬁcation [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.
 - [ImitAL: Learning Active Learning Strategies from Synthetic Data [2021]](https://arxiv.org/pdf/2108.07670.pdf): An imitation learning approach.
+- Cartography Active Learning [2021]: CAL. Select the instances that are the closest to the decision boundary between ambiguous and hard-to-learn instances.
 
 ## Others
 There still are other works uses innovative heuristics.

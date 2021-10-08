@@ -48,6 +48,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Adversarial Attack Detection](#adversarial-attack-detection)
   - [Algorithm Fairness](#algorithm-fairness)
   - [Reliability Analysis](#reliability-analysis)
+  - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
 
 ## Computer Vision (CV)
 
@@ -87,6 +88,7 @@ Object Detection:
 - Multiple Instance Active Learning for Object Detection [2021, CVPR]
 - Region-level Active Learning for Cluttered Scenes [2021]
 - Deep active learning for object detection [2021, Information Sciences]
+- [QBox: Partial Transfer Learning With Active Querying for Object Detection [2021, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9548667&tag=1)
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
@@ -128,7 +130,6 @@ Named entity recognition:
 - Subsequence Based Deep Active Learning for Named Entity Recognition [2021]
 - Deep Active Learning for Swedish Named Entity Recognition [2021, Master Thesis]
 
-
 Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
 - [Diversity-Aware Batch Active Learning for Dependency Parsing [2021]](https://arxiv.org/pdf/2104.13936.pdf)
@@ -154,6 +155,9 @@ Fine-Tuning for Downstream NLP Tasks:
 - Bayesian Active Learning with Pretrained Language Models
 - Multi-class Text Classification using BERT-based Active Learning
 
+Question Answering:
+- Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
+
 ## Domain adaptation/Transfer learning
 
 Normally when we use AL in domain adaptation, we can obtain several true labels of the unlabeled instances on source/target domain.
@@ -169,6 +173,7 @@ Domain adaptation:
 - Transferable Query Selection for Active Domain Adaptation [2021]:
   Point out that the strategy of previous works are not transferable (they use the criteria from the source domain to guide the target domain selection).
 - Zero-Round Active Learning [2021, Arxiv]: Cold-start.
+- S3VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation [2021]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -236,6 +241,9 @@ Anchor user prediction:
 Entity resolution:
 - [Graph-boosted Active Learning for Multi-Source Entity Resolution [2021]](https://www.uni-mannheim.de/media/Einrichtungen/dws/Files_Research/Web-based_Systems/pub/Primpeli-Bizer-ALMSER-ISWC2021-Preprint.pdf)
 
+Entity Alignment:
+- ActiveEA: Active Learning for Neural Entity Alignment [2021]
+
 ## Semi-supervised learning
 
 In semi-supervised learning, there also are limited labeled data.
@@ -281,6 +289,9 @@ Active exploration
 
 Save training cost in the measure of time:
 - [Active Reinforcement Learning over MDPs [2021]](https://arxiv.org/pdf/2108.02323.pdf)
+
+Atari games:
+- Width-Based Planning and Active Learning for Atari [2021]
 
 ## Robotics
 
@@ -416,3 +427,7 @@ For example, the ImageNet was crawled from image databases without considering s
 ## Reliability Analysis
 
 - Sequential active learning of low-dimensional model representations for reliability analysis [2021, Arxiv]
+
+## Learning from Label Proportions (LLP)
+
+- Active learning from label proportions via pSVM [2021, Neurocomputing]

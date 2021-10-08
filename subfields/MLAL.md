@@ -92,13 +92,6 @@ There are also few works on this topic.
 - [Multiview Multi-Instance Multilabel Active Learning [2021, TNNLS]](https://repository.kaust.edu.sa/bitstream/handle/10754/667375/TNNLS-2020-P-14015%20%281%29.pdf?sequence=1&isAllowed=y)
 - [Cost-effective Batch-mode Multi-label Active Learning [2021, Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231221012534)
 
-### Others
-- [Multi-Label Active Learning: Query Type Matters [2015, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10995):
-  **AURO**.
-  AL strategies that select example-label pairs avoid information redundancy, but they may ignore the interaction between labels and can obtain a limited supervision from each query.
-  They iteratively select one instance along with a pair of labels, and then query their relevance ordering, i.e., ask the oracle which of the two labels is more relevant to the instance.
-  (42)
-
 ### MLAL with pre-defined constrains
 - [Multi-Task Active Learning with Output Constraints [2010, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewPaper/1947):
   Not like a conventional AL, it design a reward function to calculate VOI (value of information).
@@ -110,6 +103,13 @@ There are also few works on this topic.
   A label hierarchy is pre-defined.
   The informativeness of instance-label pair is counted in the contribution of ancestor and dependent. 
   (7)
+
+### Others
+- [Multi-Label Active Learning: Query Type Matters [2015, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10995):
+  **AURO**.
+  AL strategies that select example-label pairs avoid information redundancy, but they may ignore the interaction between labels and can obtain a limited supervision from each query.
+  They iteratively select one instance along with a pair of labels, and then query their relevance ordering, i.e., ask the oracle which of the two labels is more relevant to the instance.
+- Active Refinement for Multi-Label Learning: A Pseudo-Label Approach [2021]
 
 # Multi-Instance-Multi-Label Active Learning
 
