@@ -90,6 +90,10 @@ Object Detection:
 - Deep active learning for object detection [2021, Information Sciences]
 - [QBox: Partial Transfer Learning With Active Querying for Object Detection [2021, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9548667&tag=1)
 
+Point Cloud Semantic Segmentation：
+- Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
+- ReDAL: Region-based and Diversity-aware Active Learning for Point Cloud Semantic Segmentation [2021, ICCV]
+
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
 
