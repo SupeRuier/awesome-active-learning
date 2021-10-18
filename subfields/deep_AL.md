@@ -162,7 +162,7 @@ Submodular-based:
 
 Most of works only use the labeled instances to train the model.
 There are several works utilize the unlabeled instances and use a semi-supervised training paradigm to build the framework.
-Here the works are categorized by how the SSL accomplished.
+Here the works are categorized by **how the SSL accomplished**.
 
 General work:
 - Towards Good Practices for Efficiently Annotating Large-Scale Image Classification Datasets [2021, CVPR]
@@ -172,6 +172,7 @@ Pseudo-labels：
   Besides AL, it also provide pseudo labels to the high confidence examples.
 - [Rethinking deep active learning: Using unlabeled data at model training [2020, ICPR]](https://arxiv.org/abs/1911.08177)
 - [AdaReNet: Adaptive Reweighted Semi-supervised Active Learning to Accelerate Label Acquisition [2021, PETRA]](https://dl.acm.org/doi/pdf/10.1145/3453892.3461321)
+- [Semi-supervised Active Learning for Semi-supervised Models: Exploit Adversarial Examples with Graph-based Virtual Labels [2021, ICCV]](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Semi-Supervised_Active_Learning_for_Semi-Supervised_Models_Exploit_Adversarial_Examples_With_ICCV_2021_paper.pdf): Take into account the stability of the pseudo-labels inferred by a GCN label propagator.
 
 Data Augmentation:
 - [Parting with Illusions about Deep Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1912.05361.pdf):

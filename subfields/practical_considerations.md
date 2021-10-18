@@ -20,6 +20,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Unknown input classes](#unknown-input-classes)
   - [Different data types](#different-data-types)
   - [Data with Perturbation](#data-with-perturbation)
+  - [Class mismatch](#class-mismatch)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on single oracles (Noise/Special behaviors)](#the-assumption-change-on-single-oracles-noisespecial-behaviors)
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
@@ -62,6 +63,7 @@ Works:
   Assume that the probability of a model making a mistake is highly related to the label.
 - SIMILAR: Submodular Information Measures Based Active Learning In Realistic Scenarios [2021, Arxiv]
 - Active learning with extreme learning machine for online imbalanced multiclass classification [2021, KBS]: Base on extreme learning machine.
+- Class-Balanced Active Learning for Image Classification [2021]
 
 ## Biased data
 
@@ -145,6 +147,13 @@ Sometimes, AL need to be used to handle several unusual data types.
   To create the dataset, the different noise level should be assigned to each instance, this is costly.
   Here use active selection to assign the noise to the most valuable instance (could be least or most perturbed).
 
+## Class mismatch
+
+The initial labeled set doesn't contain all the classes.
+There are unknown classes in the unlabeled data.
+
+- Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV]
+
 # The considerations of the oracles
 
 The oracle is one of the important part in AL loop.
@@ -225,6 +234,7 @@ When to stop the active learning process is important.
 If the performance barely improves, the running learning process would waste the budget.
 
 - Rebuilding Trust in Active Learning with Actionable Metrics [2020]: Use a contradiction metric as a proxy on model improvement.
+- Hitting the Target: Stopping Active Learning at the Cost-Based Optimum [2021]
 
 ## Asynchronous Training
 

@@ -43,6 +43,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
+  - [Autonomous Driving](#autonomous-driving)
 
 # Scientific Applications 
 
@@ -261,3 +262,8 @@ About neuron segmentation and tracing at scale.
 ## Gas Reservoir Prediction
 
 - [Reservoir prediction through cost⁃sensitive active learning [2020, JOURNAL OF NANJING UNIVERSITY]](https://jns.nju.edu.cn/CN/10.13232/j.cnki.jnju.2020.04.014)
+
+## Autonomous Driving
+
+Line detection:
+- Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.

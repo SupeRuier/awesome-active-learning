@@ -59,7 +59,7 @@ Image classification:
 - [Deep active learning for image classification [ICIP, 2017]](https://ieeexplore.ieee.org/abstract/document/8297020).
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf)
 
-Image segmentation/Semantic Segmentation：
+Image Semantic Segmentation：
 - Geometry in active learning for binary and multi-class [2019, Computer vision and image understanding]
 - Contextual Diversity for Active Learning [2020, Arxiv]
 - [Accelerating the Training of Convolutional Neural Networks for Image Segmentation with Deep Active Learning [2020, Dissertation]](https://uwspace.uwaterloo.ca/handle/10012/15537)
@@ -75,6 +75,11 @@ Image segmentation/Semantic Segmentation：
 - [ViewAL: Active Learning With Viewpoint Entropy for Semantic Segmentation [2020, CVPR]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)
 - [Revisiting Superpixels for Active Learning in Semantic Segmentation with Realistic Annotation Costs [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)
 - MEAL: Manifold Embedding-based Active Learning [2021, Arxiv]
+- Joint Semi-supervised and Active Learning for Segmentation of Gigapixel Pathology Images with Cost-Effective Labeling [2021, ICCV]
+
+Semantic Segmentation with domain adaptation：
+- Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
+  One time selection, not in the conventional loop manner.
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -82,7 +87,7 @@ Object Detection:
 - [Active Object Detection in Sonar Images [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9106398)
 - [Importance of Self-Consistency in Active Learning for Semantic Segmentation [2020, Arxiv]](https://arxiv.org/pdf/2008.01860.pdf)
 - [Active and Incremental Learning with Weak Supervision [KI-Künstliche Intelligenz, 2020]](https://link.springer.com/article/10.1007/s13218-020-00631-4)0
-- [Localization head Localization Active Learning for Deep Object Detection via Probabilistic Modeling [2021, Arxiv]](https://arxiv.org/pdf/2103.16130.pdf)
+- [Active Learning for Deep Object Detection via Probabilistic Modeling [2021, ICCV]](https://openaccess.thecvf.com/content/ICCV2021/papers/Choi_Active_Learning_for_Deep_Object_Detection_via_Probabilistic_Modeling_ICCV_2021_paper.pdf)
 - [Multiple Instance Active Learning for Object Detection [2021]](https://arxiv.org/pdf/2104.02324.pdf)
 - Active learning for annotation and recognition of faces in video [2021, Master's Thesis]
 - Multiple Instance Active Learning for Object Detection [2021, CVPR]
@@ -177,7 +182,9 @@ Domain adaptation:
 - Transferable Query Selection for Active Domain Adaptation [2021]:
   Point out that the strategy of previous works are not transferable (they use the criteria from the source domain to guide the target domain selection).
 - Zero-Round Active Learning [2021, Arxiv]: Cold-start.
-- S3VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation [2021]
+- S3VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation [2021, ICCV]
+- Active Domain Adaptation via Clustering Uncertainty-weighted Embeddings [2021, ICCV]
+- Active Universal Domain Adaptation [2021, ICCV]: There are unknown class in the target domain.
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
