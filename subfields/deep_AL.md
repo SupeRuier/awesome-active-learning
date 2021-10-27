@@ -74,6 +74,9 @@ Fisher information:
   **BAIT**.
   This work also utilize greedy selection to build an AL batch.
 
+Performance gain:
+- Deep Active Learning by Leveraging Training Dynamics [2021]
+
 ### Representativeness-impart
 
 Take into account the representativeness of the data.

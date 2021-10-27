@@ -101,6 +101,7 @@ Works:
 - [Active learning for logistic regression: an evaluation [2007, Machine Learning]](https://link.springer.com/article/10.1007/s10994-007-5019-5): Variance Reduction
 - [An analysis of active learning strategies for sequence labeling tasks [2008, CEMNL]](https://www.aclweb.org/anthology/D08-1112.pdf): Expected gradient change in gradient based optimization.(659 citations)
 - [Influence Selection for Active Learning [2021]](https://arxiv.org/pdf/2108.09331.pdf): Select instances with the most positive influence on the model. It was divided to an expected gradient length and another term.
+- Model-Change Active Learning in Graph-Based Semi-Supervised Learning [2021]
 
 ## Representativeness-impart sampling
 

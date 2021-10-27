@@ -44,6 +44,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
   - [Autonomous Driving](#autonomous-driving)
+  - [Additive Manufacturing](#additive-manufacturing)
 
 # Scientific Applications 
 
@@ -267,3 +268,7 @@ About neuron segmentation and tracing at scale.
 
 Line detection:
 - Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.
+
+## Additive Manufacturing
+
+- Active learning via adaptive weighted uncertainty sampling applied to additive manufacturing [2021, Additive Manufacturing]

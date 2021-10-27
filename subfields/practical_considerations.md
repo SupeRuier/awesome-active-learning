@@ -35,6 +35,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Incrementally Train](#incrementally-train)
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
+- [The consideration of the robustness](#the-consideration-of-the-robustness)
 - [The Considerations of More Assumptions](#the-considerations-of-more-assumptions)
   - [Include Model Selection](#include-model-selection)
   - [Select for Evaluation](#select-for-evaluation)
@@ -290,6 +291,11 @@ Works:
 - [Rebuilding Trust in Active Learning with Actionable Metrics [2021, Arxiv]](https://arxiv.org/pdf/2012.11365.pdf):
   This work states the limitations of AL in practice.
   It evaluates AL strategies under different performance metrics.
+
+# The consideration of the robustness
+
+- Towards Exploring the Limitations of Active Learning: An Empirical Study [2021]:
+  They discovered the robustness to adversarial attacks and model compressions.
 
 # The Considerations of More Assumptions
 

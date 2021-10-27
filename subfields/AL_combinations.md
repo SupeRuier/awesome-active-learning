@@ -111,6 +111,7 @@ Video Object Detection:
 
 Visual Question Answering:
 - Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering [2021]
+- Single-Modal Entropy based Active Learning for Visual Question Answering [2021]
 
 Pose Estimation:
 - Deep Active Learning For Human Pose Estimation Via Consistency Weighted Core-Set Approach [2021, ICIP]
