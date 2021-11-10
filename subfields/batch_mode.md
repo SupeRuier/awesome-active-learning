@@ -103,6 +103,9 @@ Utilize the diversity of models to construct the diversity of items in a batch.
 Make sure the selected instances are more consistent to the true distribution.
 Many works in the [representativeness-impart sampling](subfields/pb_classification.md#representativeness-impart-sampling) could be considered as this batch selection approach.
 
+- Information Condensing Active Learning [2021]: 
+  Measure the strength of the dependency between a candidate batch of points and the unlabeled set.
+
 ## Directly learn from the trajectories
 
 Applying the non-batch selection multiple times would provide a trajectory with minimum information overlap.

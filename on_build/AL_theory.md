@@ -25,3 +25,8 @@
 ### Representative-Based Approach
 
 - Robust active representation via $l_{2,p}$-norm constraints [2021, KBS]
+
+### Sampling Bias
+
+- [On Statistical Bias In Active Learning: How and When to Fix It [2021, ICLR]](https://openreview.net/pdf?id=JiYq3eqTKY):
+  Active learning can be helpful not only as a mechanism to reduce variance as it was originally designed, but also because it introduces a bias that can be actively helpful by regularizing the model.
