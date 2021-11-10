@@ -271,4 +271,4 @@ Line detection:
 
 ## Additive Manufacturing
 
-- Active learning via adaptive weighted uncertainty sampling applied to additive manufacturing [2021, Additive Manufacturing]
+]

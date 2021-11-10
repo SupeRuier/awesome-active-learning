@@ -49,6 +49,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Algorithm Fairness](#algorithm-fairness)
   - [Reliability Analysis](#reliability-analysis)
   - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
+  - [Instance Search (INS)](#instance-search-ins)
 
 ## Computer Vision (CV)
 
@@ -108,6 +109,9 @@ Action Recognition:
 Video Object Detection:
 - [Temporal Coherence for Active Learning in Videos [2019, ICCVW]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9022609&tag=1)
 - [Active learning method for temporal action localization in untrimmed videos [2020, US Patent]](https://patents.google.com/patent/US20190325275A1/en)
+
+Visual Tracking:
+- Active Learning for Deep Visual Tracking [2021]
 
 Visual Question Answering:
 - Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering [2021]
@@ -443,3 +447,7 @@ For example, the ImageNet was crawled from image databases without considering s
 ## Learning from Label Proportions (LLP)
 
 - Active learning from label proportions via pSVM [2021, Neurocomputing]
+
+## Instance Search (INS)
+
+- Confidence-Aware Active Feedback for Efficient Instance Search [2021]

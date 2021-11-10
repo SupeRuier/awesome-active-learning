@@ -21,3 +21,7 @@
 ### Active Class Selection
 
 - Certification of Model Robustness in Active Class Selection [2021]
+
+### Representative-Based Approach
+
+- Robust active representation via $l_{2,p}$-norm constraints [2021, KBS]
