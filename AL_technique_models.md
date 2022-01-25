@@ -15,7 +15,7 @@ Most of classic strategies are based on these models.
 
 ## Gaussian Progress
 - Active instance sampling via matrix partition [2010, NeurIPS]: Gaussian Process. Maximizing a natural mutual information criterion between the labeled and unlabeled instances. No comparison with others.(69 citations)
-- [Bayesian active learning for classification and preference learning [Arxiv, 2011]](https://arxiv.org/abs/1112.5745):
+- [Bayesian active learning for classification and preference learning [stat, 2011]](https://arxiv.org/abs/1112.5745):
   Propose an approach that expresses information gain in terms of predictive entropies, and apply this method to the Gaussian Process Classifier (GPC).
   This method is referred as *BALD*.
   Capture how strongly the model predictions for a given data point and the model parameters are coupled, implying that ﬁnding out about the true label of data points with high mutual information would also inform us about the true model parameters.

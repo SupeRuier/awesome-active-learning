@@ -58,6 +58,8 @@ There are also few works on this topic.
   (19)
 - [Granular Multilabel Batch Active Learning With Pairwise Label Correlation [2021, TSMC]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9377714): 
   Granular batch mode-based ranking active model for the multilabel (GBRAML).
+- A Gaussian Process-Bayesian Bernoulli Mixture Model for Multi-Label Active Learning [2021, NeuraIPS]:
+  **GP-B2M**
 
 ### Instance-label pair query
 

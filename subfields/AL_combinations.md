@@ -50,6 +50,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Reliability Analysis](#reliability-analysis)
   - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
   - [Instance Search (INS)](#instance-search-ins)
+  - [Treatment Effect](#treatment-effect)
 
 ## Computer Vision (CV)
 
@@ -327,6 +328,9 @@ Robot motion planning:
 Demonstrate Robots:
 - Active Learning of Bayesian Probabilistic Movement Primitives [2021, IEEE ROBOTICS AND AUTOMATION LETTERS]
 
+Active Exploration:
+- SEAL: Self-supervised Embodied Active Learning using Exploration and 3D Consistency [2021, NeuraIPS]
+
 ## Curriculum Learning
 - [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page=52)
 
@@ -451,3 +455,7 @@ For example, the ImageNet was crawled from image databases without considering s
 ## Instance Search (INS)
 
 - Confidence-Aware Active Feedback for Efficient Instance Search [2021]
+
+## Treatment Effect
+
+- Causal-BALD: Deep Bayesian Active Learning of Outcomes to Infer Treatment-Effects from Observational Data [2021, NeuraIPS]

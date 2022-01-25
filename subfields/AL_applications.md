@@ -44,7 +44,6 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
   - [Autonomous Driving](#autonomous-driving)
-  - [Additive Manufacturing](#additive-manufacturing)
 
 # Scientific Applications 
 
@@ -187,6 +186,7 @@ Papers:
 - Active-learning strategies in computer-assisted drug discovery. [2015, Drug Discov.]
 - Active learning for computational chemogenomics [2017, Future Medicinal Chemistry]
 - Evaluation of Categorical Matrix Completion Algorithms: Towards Improved Active Learning for Drug Discovery [2021, System Biology]
+- Active Learning for Drug Design: A Case Study on the Plasma Exposure of Orally Administered Drugs [2021, J MED CHEM]
 
 ## Spam Detection
 
@@ -268,7 +268,3 @@ About neuron segmentation and tracing at scale.
 
 Line detection:
 - Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.
-
-## Additive Manufacturing
-
-]

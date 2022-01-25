@@ -30,3 +30,14 @@
 
 - [On Statistical Bias In Active Learning: How and When to Fix It [2021, ICLR]](https://openreview.net/pdf?id=JiYq3eqTKY):
   Active learning can be helpful not only as a mechanism to reduce variance as it was originally designed, but also because it introduces a bias that can be actively helpful by regularizing the model.
+
+### Stream-Based AL
+
+- Neural Active Learning with Performance Guarantees [2021, NeuraIPS]:
+  Non-parametric regimes.
+- learning with Labeling Induced Abstentions [2021, NeuraIPS]:
+  The performance should only be evaluated on the rest unlabeled instances.
+
+### Deep AL 
+
+- Investigating the Consistency of Uncertainty Sampling in Deep Active Learning [2021, DAGM-GCPR]

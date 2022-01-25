@@ -197,6 +197,10 @@ Consistency (stay same after a distortion):
 Contrastive Loss:
 - [Improving Robustness and Efficiency in Active Learning with Contrastive Loss [2021, Arxiv]](https://arxiv.org/pdf/2109.06873.pdf): Select instances least similar to the labeled ones with the same class.
 
+Both self and semi-supervised imparted:
+- Self-supervised Semi-supervised Learning for Data Labeling and Quality Evaluation [2021, Arxiv]: Use random selection with BYOL and Label Propagation.
+
+
 # Criticism/Discovery on Deep AL
 
 Several works compare the current DeepAL methods, and state that their experiments are flawed.
@@ -272,3 +276,6 @@ Key finding and takeaways:
 
 It shows that the improvements brought from AL are far less than that from self-training.
 Only when the number of labeled instances approaches 50%, the gap could disappear.
+
+### 5.  On the marginal benefit of active learning: Does self-supervision eat its cake? [2021, ICASSP]: 
+Fail to observe any additional benefit of state-of-the-art active learning algorithms when combined with state-of-the-art S4L techniques.

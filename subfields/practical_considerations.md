@@ -66,7 +66,7 @@ Works:
   Assume that the probability of a model making a mistake is highly related to the label.
 - SIMILAR: Submodular Information Measures Based Active Learning In Realistic Scenarios [2021, Arxiv]
 - Active learning with extreme learning machine for online imbalanced multiclass classification [2021, KBS]: Base on extreme learning machine.
-- Class-Balanced Active Learning for Image Classification [2021]
+- Class-Balanced Active Learning for Image Classification [2021, WACV]
 
 ## Biased data
 
@@ -117,7 +117,6 @@ Works:
 - Active feature-value acquisition [2009, Management Science] (100)
 - Learning by Actively Querying Strong Modal Features [2016, IJCAI] (3)
 - Active Feature Acquisition with Supervised Matrix Completion [2018, KDD] (16)
-- Joint Active Learning with Feature Selection via CUR Matrix Decomposition [2019, TPAMI] (25)
 - Active Feature Acquisition for Opinion Stream Classiﬁcation under Drift [2020, CEUR Workshop]
 - Active feature acquisition on data streams under feature drift [2020, Annals of Telecommunications]
 

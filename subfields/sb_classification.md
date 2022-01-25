@@ -43,3 +43,8 @@
 - [QActor: On-line Active Learning for Noisy Labeled Stream Data [Arxiv, 2020]](https://arxiv.org/abs/2001.10399)
 - Active Learning for Deep Neural Networks on Edge Devices [2021, Arxiv]
 - [Online Active Learning for Drifting Data Streams [2021, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9492291)
+- Stream‐based active learning for sliding windows under the influence of verification latency [2021, Machine Learning]
+- Online Active Learning with Surrogate Loss Functions [2021, NeuraIPS]:
+  **ALPS**.
+  Query the current instance based on the disagreement between hypotheses and to construct pseudo-labels fot the non-queried instance.
+  The models are trained on both labeled and pseudo-labeled data.
