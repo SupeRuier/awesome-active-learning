@@ -45,7 +45,9 @@ Reducing the labeling cost is a common need in many research fields.
     - [Influence Maximization in Network](#influence-maximization-in-network)
   - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
-  - [Adversarial Attack Detection](#adversarial-attack-detection)
+  - [Adversarial Attack](#adversarial-attack)
+    - [Detection](#detection)
+    - [Training](#training)
   - [Algorithm Fairness](#algorithm-fairness)
   - [Reliability Analysis](#reliability-analysis)
   - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
@@ -96,6 +98,9 @@ Object Detection:
 - Region-level Active Learning for Cluttered Scenes [2021]
 - Deep active learning for object detection [2021, Information Sciences]
 - [QBox: Partial Transfer Learning With Active Querying for Object Detection [2021, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9548667&tag=1)
+- Towards Dynamic and Scalable Active Learning with Neural Architecture Adaption for Object Detection [2021, BMVC]:
+  Add NAS into the AL loops.
+- TALISMAN: Targeted Active Learning for Object Detection with Rare Classes and Slices using Submodular Mutual Information [2021]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -173,6 +178,9 @@ Fine-Tuning for Downstream NLP Tasks:
 Question Answering:
 - Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
 
+Event extraction:
+- Active Learning for Event Extraction with Memory-based Loss Prediction Model [2021]
+
 ## Domain adaptation/Transfer learning
 
 Normally when we use AL in domain adaptation, we can obtain several true labels of the unlabeled instances on source/target domain.
@@ -191,6 +199,7 @@ Domain adaptation:
 - S3VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation [2021, ICCV]
 - Active Domain Adaptation via Clustering Uncertainty-weighted Embeddings [2021, ICCV]
 - Active Universal Domain Adaptation [2021, ICCV]: There are unknown class in the target domain.
+- Active Learning for Domain Adaptation: An Energy-based Approach [2021]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -433,9 +442,15 @@ Works:
 AL could reduce the number of needed instances to train a GAN.
 - Learning Class-Conditional GANs with Active Sampling [2019, SIGKDD]
 
-## Adversarial Attack Detection
+## Adversarial Attack 
 
+### Detection
 - [Active Machine Learning Adversarial Attack Detection in the User Feedback Process [2021, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9366529)
+- Robust Active Learning: Sample-Efficient Training of Robust Deep Learning Models [2021]
+
+### Training
+
+- Models in the Loop: Aiding Crowdworkers with Generative Annotation Assistants [2021]
 
 ## Algorithm Fairness
 

@@ -12,6 +12,7 @@ Most of classic strategies are based on these models.
 - Employing EM and Pool-Based Active Learning for Text Classiﬁcation [[1998. ICML]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.10&rep=rep1&type=pdf): 
   EM + Query-by-Committee (QBC-with-EM)
 - Active Learning for Probabilistic Hypotheses Using the Maximum Gibbs Error Criterion [2013, NeurIPS]
+- Depth Uncertainty Networks for Active Learning [2021, NeurIPS]
 
 ## Gaussian Progress
 - Active instance sampling via matrix partition [2010, NeurIPS]: Gaussian Process. Maximizing a natural mutual information criterion between the labeled and unlabeled instances. No comparison with others.(69 citations)

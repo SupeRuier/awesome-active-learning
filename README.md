@@ -204,7 +204,7 @@ There already are several python AL projects:
   An AL tool-box from NUAA. 
   The project is leaded by Shengjun Huang.
 - [pytorch_active_learning](https://github.com/rmunro/pytorch_active_learning)
-- [Deep-active-learning](https://github.com/ej0cl6/deep-active-learning)
+- [DeepAL](https://github.com/ej0cl6/deep-active-learning): [Here](https://arxiv.org/abs/2111.15258) for the introductions.
 - [BaaL: Bayesian Active Learning](https://github.com/ElementAI/baal/)
 - [Paladin](https://www.aclweb.org/anthology/2021.eacl-demos.28.pdf): An anotation tool for creating high-quality multi-label document-level datasets.
 - [lrtc](https://github.com/IBM/low-resource-text-classification-framework): experimenting with text classification tasks

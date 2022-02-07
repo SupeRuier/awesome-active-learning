@@ -176,6 +176,7 @@ Pseudo-labels：
 - [Rethinking deep active learning: Using unlabeled data at model training [2020, ICPR]](https://arxiv.org/abs/1911.08177)
 - [AdaReNet: Adaptive Reweighted Semi-supervised Active Learning to Accelerate Label Acquisition [2021, PETRA]](https://dl.acm.org/doi/pdf/10.1145/3453892.3461321)
 - [Semi-supervised Active Learning for Semi-supervised Models: Exploit Adversarial Examples with Graph-based Virtual Labels [2021, ICCV]](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Semi-Supervised_Active_Learning_for_Semi-Supervised_Models_Exploit_Adversarial_Examples_With_ICCV_2021_paper.pdf): Take into account the stability of the pseudo-labels inferred by a GCN label propagator.
+- ATM: An Uncertainty-aware Active Self-training Framework for Label-efficient Text Classification [2021]
 
 Data Augmentation:
 - [Parting with Illusions about Deep Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1912.05361.pdf):
@@ -196,6 +197,7 @@ Consistency (stay same after a distortion):
 
 Contrastive Loss:
 - [Improving Robustness and Efficiency in Active Learning with Contrastive Loss [2021, Arxiv]](https://arxiv.org/pdf/2109.06873.pdf): Select instances least similar to the labeled ones with the same class.
+- Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]: Self-supervised representation learning with a multi-class GP classifier.
 
 Both self and semi-supervised imparted:
 - Self-supervised Semi-supervised Learning for Data Labeling and Quality Evaluation [2021, Arxiv]: Use random selection with BYOL and Label Propagation.

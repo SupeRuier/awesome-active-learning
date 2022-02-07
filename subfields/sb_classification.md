@@ -48,3 +48,4 @@
   **ALPS**.
   Query the current instance based on the disagreement between hypotheses and to construct pseudo-labels fot the non-queried instance.
   The models are trained on both labeled and pseudo-labeled data.
+- Mining Drifting Data Streams on a Budget: Combining Active Learning with Self-Labeling [2021]

@@ -33,6 +33,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Dataset Engineering](#dataset-engineering)
     - [Dataset Building/ Data Annotation](#dataset-building-data-annotation)
     - [Data Enrichment](#data-enrichment)
+    - [Design for Crowdworkers](#design-for-crowdworkers)
   - [Software Engineering](#software-engineering)
   - [Answer Selection](#answer-selection)
   - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
@@ -44,6 +45,8 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
   - [Autonomous Driving](#autonomous-driving)
+  - [Semiconductor Manufacturing](#semiconductor-manufacturing)
+  - [Simulation](#simulation)
 
 # Scientific Applications 
 
@@ -158,6 +161,7 @@ Papers:
 - MedSelect: Selective Labeling for Medical Image Classification Combining Meta-Learning with Deep Reinforcement Learning [2021]
 - Representative Region Based Active Learning For Histological Classification Of Colorectal Cancer [2021, ISBI]
 - Su-Sampling Based Active Learning For Large-Scale Histopathology Image [2021, ICIP]
+- PathAL: An Active Learning Framework for Histopathology Image Analysis [2021, T-MI]
 
 ### Medical Image Segmentation
 
@@ -217,6 +221,10 @@ Papers:
 
 - [ActiveDeeper: A Model-based Active Data Enrichment System](http://www.vldb.org/pvldb/vol13/p2885-zhao.pdf): Use keywords provide by the oracles to search in a database to build a dataset for the current task.
 
+### Design for Crowdworkers
+
+- Models in the Loop: Aiding Crowdworkers with Generative Annotation Assistants [2021]
+
 ## Software Engineering
 
 API Misuse Detection
@@ -237,6 +245,7 @@ Eg. 5g, Traffic Classification
 - [Active Popularity Learning with Cache Hit Ratio Guarantees using a Matrix Completion Committee [2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217322&tag=1): The object is modeling the optimal cache strategy in 5g wireless communication. AL is to learn the content popularities (criterion for determining whether cached or not) since it allows the system to leverage the trade-off between exploration (caching new files) and exploitation (use known files to cache). Specifically, AL is used to do matrix completion on the missing entries of the demand matrix.
 - [Active content popularity learning and caching optimization with hit ratio guarantees [2020, IEEE Access]](https://ieeexplore.ieee.org/abstract/document/9159587): Similar to the last one but with more details. A query is defined as the response received from the user terminal to the system.
 - [Active Learning for Network Traffic Classification: A Technical Survey [2021, Arxiv]](https://arxiv.org/pdf/2106.06933.pdf)
+- Active Sensing for Communications by Learning [2021]
 
 ## Brain Mapping in a High Performance Computing Environment
 
@@ -268,3 +277,12 @@ About neuron segmentation and tracing at scale.
 
 Line detection:
 - Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.
+
+## Semiconductor Manufacturing
+
+- Domain-adaptive active learning for cost-effective virtual metrology modeling [2021, Computers in Industry]
+
+## Simulation
+
+Air Traffic Management (ATM) modeling:
+- Active Learning Metamodels for ATM Simulation Modeling [2021, SESAR ]

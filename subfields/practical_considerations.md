@@ -31,6 +31,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Cold start problem](#cold-start-problem)
   - [Stop criteria](#stop-criteria)
   - [Asynchronous Training](#asynchronous-training)
+  - [Without Supervision](#without-supervision)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train](#incrementally-train)
@@ -67,6 +68,8 @@ Works:
 - SIMILAR: Submodular Information Measures Based Active Learning In Realistic Scenarios [2021, Arxiv]
 - Active learning with extreme learning machine for online imbalanced multiclass classification [2021, KBS]: Base on extreme learning machine.
 - Class-Balanced Active Learning for Image Classification [2021, WACV]
+- Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]: Self-supervised representation learning with a multi-class GP classifier.
+- Active Learning at the ImageNet Scale [2021, Arxiv]: On ImageNet. Self-supervised learning + AL. It reveals the imbalance ratio with different AL strategies (usually the ratio goes up while the budget is consuming).
 
 ## Biased data
 
@@ -249,6 +252,11 @@ If the performance barely improves, the running learning process would waste the
 Make the selection phase keep running during the model training.
 
 - [Asynchronous Active Learning with Distributed Label Querying [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0354.pdf)
+
+## Without Supervision
+
+- Towards General and Efficient Active Learning [2021]:
+  Utilize the knowledge clusters by using the pre-trained encoder.
 
 # The considerations of the model training cost
 
