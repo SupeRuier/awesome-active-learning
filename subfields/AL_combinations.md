@@ -125,6 +125,7 @@ Visual Question Answering:
 
 Pose Estimation:
 - Deep Active Learning For Human Pose Estimation Via Consistency Weighted Core-Set Approach [2021, ICIP]
+- Active Learning with Pseudo-Labels for Multi-View 3D Pose Estimation [2021]
 
 ## Natural Language Processing (NLP)
 
@@ -200,6 +201,7 @@ Domain adaptation:
 - Active Domain Adaptation via Clustering Uncertainty-weighted Embeddings [2021, ICCV]
 - Active Universal Domain Adaptation [2021, ICCV]: There are unknown class in the target domain.
 - Active Learning for Domain Adaptation: An Energy-based Approach [2021]
+- Active Learning Over Multiple Domains in Natural Language Tasks [2021]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -222,7 +224,7 @@ Transfer learning:
 One/few-shot learning is to learn a model on a new dataset with one for few available instances.
 AL could be used to select the instances to build the support set.
 
-- For one/few-shot learning:
+For one/few-shot learning:
 - Active one-shot learning [2017, Arxiv]
 - A Meta-Learning Approach to One-Step Active-Learning [2017, Arxiv]
 - Learning Algorithms for Active Learning [2017, ICML]
@@ -231,6 +233,7 @@ AL could be used to select the instances to build the support set.
 - Active one-shot learning with Prototypical Networks [2019, ESANN]
 - Active one-shot learning by a deep Q-network strategy [2020, Neurocomputing]
 - On the Utility of Active Instance Selection for Few-Shot Learning [2020]: Show via these “upper bounds” that we do not have a significant room for improving few-shot models through actively selecting instances.
+- Beyond Simple Meta-Learning: Multi-Purpose Models for Multi-Domain, Active and Continual Few-Shot Learning [2022]
 
 There are also works about zero-shot learning:
 - Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]
@@ -248,6 +251,7 @@ Graph node classification:
 - Active Learning for Node Classification: The Additional Learning Ability from Unlabelled Nodes [2020]
 - Active Learning for Attributed Graphs [2020, Master Dissertation]
 - [ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks [2021, SIGMOD]](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)
+- Partition-Based Active Learning for Graph Neural Networks [2022]
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]

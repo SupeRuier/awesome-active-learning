@@ -19,6 +19,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Multiple Correct Outputs](#multiple-correct-outputs)
   - [Unknown input classes](#unknown-input-classes)
   - [Different data types](#different-data-types)
+    - [Time Series Data](#time-series-data)
   - [Data with Perturbation](#data-with-perturbation)
   - [Class mismatch](#class-mismatch)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
@@ -70,6 +71,7 @@ Works:
 - Class-Balanced Active Learning for Image Classification [2021, WACV]
 - Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]: Self-supervised representation learning with a multi-class GP classifier.
 - Active Learning at the ImageNet Scale [2021, Arxiv]: On ImageNet. Self-supervised learning + AL. It reveals the imbalance ratio with different AL strategies (usually the ratio goes up while the budget is consuming).
+- Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeuraIPS]
 
 ## Biased data
 
@@ -143,6 +145,7 @@ AL strategies should detect and make responses to these instances.
 We usually deal with normal data vectors in conventional learning.
 Sometimes, AL need to be used to handle several unusual data types.
 
+### Time Series Data
 - [Cost-Effective Active Semi-Supervised Learning on Multivariate Time Series Data With Crowds [2020, TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9199304)
 
 ## Data with Perturbation
@@ -158,6 +161,12 @@ The initial labeled set doesn't contain all the classes.
 There are unknown classes in the unlabeled data.
 
 - Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV]
+
+## Open-set
+
+The unlabeled pool contains irrelevant unknown classes.
+
+- Active Learning for Open-set Annotation [2022]
 
 # The considerations of the oracles
 
@@ -239,6 +248,9 @@ Transfer an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
 - [On Initial Pools for Deep Active Learning [2020, NeurIPS Preregistration Workshop]](http://proceedings.mlr.press/v148/chandra21a/chandra21a.pdf)
 
+Unsupervised Selection:
+- Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.
+
 ## Stop criteria
 
 When to stop the active learning process is important.
@@ -246,6 +258,8 @@ If the performance barely improves, the running learning process would waste the
 
 - Rebuilding Trust in Active Learning with Actionable Metrics [2020]: Use a contradiction metric as a proxy on model improvement.
 - Hitting the Target: Stopping Active Learning at the Cost-Based Optimum [2021]
+- Impact of Stop Sets on Stopping Active Learning for Text Classification [2022, ICSC]:
+  This work provides a good review of the previous stop criteria.
 
 ## Asynchronous Training
 

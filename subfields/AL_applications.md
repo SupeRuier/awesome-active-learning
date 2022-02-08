@@ -10,6 +10,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [AL Applications](#al-applications)
 - [Scientific Applications](#scientific-applications)
   - [Biology](#biology)
+  - [Quantum Physics](#quantum-physics)
   - [Materials](#materials)
   - [Astronomy](#astronomy)
   - [Chemistry](#chemistry)
@@ -63,12 +64,17 @@ Structural Biology:
 Cell Classification:
 - Active feature selection discovers minimal gene-sets for classifying cell-types and disease states in single-cell mRNA-seq data [2021]
 
+## Quantum Physics
+
+- Active Learning of Quantum System Hamiltonians yields Query Advantage [2021]
+
 ## Materials
 
 Molecular Dynamics
 - [Active learning accelerates ab initio molecular dynamics on reactive energy surfaces [2020, Chem]
 - [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020. KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
 - Active Learning in Bayesian Neural Networks for Bandgap Predictions of Novel Van der Waals Heterostructures [2021, Advanced Intelligent Systems]
+- Nanohardness from First Principles with Active Learning on Atomic Environments [2022, JCTC]
 
 Materials Design and Discovery
 
@@ -144,6 +150,8 @@ Papers:
 - [Hyperspectral Image Classiﬁcation with Feature-Oriented Adversarial Active Learning [2020, Remote Sensing]](https://www.mdpi.com/2072-4292/12/23/3879)
 - Adversarial Discriminative Active Deep Learning for Domain Adaptation in Hyperspectral Images Classification [2021, INTERNATIONAL JOURNAL OF REMOTE SENSING]
 - Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning [2021,Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning]
+- Active Learning for Improved Semi-Supervised Semantic Segmentation in Satellite Images [2022, WACV]
+- DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing [2021]
 
 ## Medical Research 
 
