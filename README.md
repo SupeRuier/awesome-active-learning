@@ -74,16 +74,17 @@ The methods are categorized for the corresponding settings in the subpage.
 
 ## 3.1. Basic Problem Settings (Three basic scenarios)
 
-According to three types of scenarios and two basic tasks, almost all the AL works could be divided into the following sub-problems.
-(The scenarios are different in where the queried instances are from.)
+There are three basic types of scenarios, almost all the AL works are build on these scenarios.
+The scenarios are different in where the queried instances are from:
+- pool-based: select from a pre-collected data pool
+- stream-based: select from a steam of incoming data
+- query synthesis: generate query instead of selecting data
+
+For the most basic AL researches, they usually study on two basic tasks:
+- classification
+- regression
+
 **The details and the list of works could see [**here**](AL_problem.md).**
-
-|                     |         Classification         |  Regression   |                 Comments                 |
-| :-----------------: | :----------------------------: | :-----------: | :--------------------------------------: |
-|   **pool-based**    | PB-classification (most works) | PB-regression |  Select from a pre-collected data pool   |
-|  **stream-based**   |       SB-classification        | SB-regression |   Select from a steam of incoming data   |
-| **query synthesis** |               -                |       -       | Generate query instead of selecting data |
-
 
 ## 3.2. Advanced Problem Settings
 
