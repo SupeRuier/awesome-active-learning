@@ -1,35 +1,24 @@
 # Awesome Active Learning
 
-In this repository, previous works of active learning were categorized. 
-We try to summarize the current AL works in both **problem-orientated** and **technique-orientated** approaches.
-Except the research papers, we also include many real-world applications of AL in this repository.
-The open-source software resources and the information of relevant scholars are listed.
+<span style="color:red">**Hope you can find everything you need about active learning in this repository.**</span>
+This is not only a curated list, but also a well-structured library for active learning.
+This repository is constructed in a **problem-orientated** approach, the techniques are discussed under the corresponding problem settings.
 
-**We assume the readers already have the basic knowledge of active learning.**
+Specifically, this repository includes:
+- Reviews/Surveys of AL
+- Definition of AL
+- Problem Settings (Basic/Advanced/Other AI Fields)
+- Theoretical Support
+- Practical Considerations
+- Real-World Applications
+- Resources of Using/Learning AL
+- Scholars/Groups
 
-*(I can't ensure this summary covers all the representative works and ideas.
-So if you have any comments and recommendations, pls let me know.)*
+### Contributing
+If you find any valuable researches, please feel free to pull request or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
+Comments and suggestions are also welcome!
 
-![Overview](figures/structure-mindnode.png)
-
-- [Awesome Active Learning](#awesome-active-learning)
-- [At the Beginning (Reviews/Surveys)](#at-the-beginning-reviewssurveys)
-- [Problem-oriented approach (Problem settings)](#problem-oriented-approach-problem-settings)
-  - [Basic Problem Settings (Three basic scenarios)](#basic-problem-settings-three-basic-scenarios)
-  - [Advanced Problem Settings](#advanced-problem-settings)
-  - [Problem Settings from other AI Research Fields](#problem-settings-from-other-ai-research-fields)
-- [Technique-oriented Approach](#technique-oriented-approach)
-  - [Taxonomy for AL Strategies (Pool-based Classification)](#taxonomy-for-al-strategies-pool-based-classification)
-  - [AL Strategies with specific models](#al-strategies-with-specific-models)
-- [Theoretical Support for Active Learning](#theoretical-support-for-active-learning)
-- [Practical Considerations when Applying AL](#practical-considerations-when-applying-al)
-- [Real-World Applications of AL](#real-world-applications-of-al)
-- [Resources:](#resources)
-  - [Software Packages/Libraries](#software-packageslibraries)
-  - [Tutorials](#tutorials)
-- [Groups/Scholars](#groupsscholars)
-
-# At the Beginning (Reviews/Surveys)
+# At the Beginning (Reviews/Surveys/Benchmarks)
 
 Active learning is used to reduce the annotation cost in machine learning process.
 It is under the assumption that some samples are more important for a given task than other samples.
@@ -45,12 +34,14 @@ They provided a good overview for the field.
 - A Survey of Deep Active Learning [[2020]](https://arxiv.org/pdf/2009.00236.pdf)
 - ALdataset: a benchmark for pool-based active learning [[2020]](https://arxiv.org/pdf/2010.08161.pdf)
 - Active Learning: Problem Settings and Recent Developments [[2020]](https://arxiv.org/pdf/2012.04225.pdf)
-- [From Model-driven to Data-driven: A Survey on Active Deep Learning [2021]](https://arxiv.org/pdf/2101.09933.pdf)
-- [Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
-- [A Comparative Survey: Benchmarking for Pool-based Active Learning [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0634.pdf)
-- [A Survey on Cost Types, Interaction Schemes, and Annotator Performance Models in Selection Algorithms for Active Learning in Classification [2021]](https://arxiv.org/pdf/2109.11301.pdf)
+- From Model-driven to Data-driven: A Survey on Active Deep Learning [[2021]](https://arxiv.org/pdf/2101.09933.pdf)
+- [Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [[2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
+- A Comparative Survey: Benchmarking for Pool-based Active Learning [[2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0634.pdf)
+- A Survey on Cost Types, Interaction Schemes, and Annotator Performance Models in Selection Algorithms for Active Learning in Classification [[2021]](https://arxiv.org/pdf/2109.11301.pdf)
 
-# Problem-oriented approach (Problem settings)
+# What is Active Learning?
+
+# Problem settings
 
 Firstly, we summarized the previous works in a problem-oriented order.
 We note that, in this section we try to identify the exact problem settings and list the methods (or works) for the corresponding settings.
@@ -104,56 +95,12 @@ Here we summarized several research fields which use AL to reduce the cost of an
 
 The full list of works could see [**here**](subfields/AL_combinations.md)
 
-# Technique-oriented Approach
-
-This section contains two parts：
-- Taxonomy for AL strategies
-- AL strategies under different models
-
-There might be overlaps between these two parts. 
-Here we just provide two different dimensions for you to find the information you need.
-
-## Taxonomy for AL Strategies (Pool-based Classification)
-
-In this section, we provide our taxonomy in the current AL strategies.
-We hope this can bring you a intuition to design your own strategy or just choose the most appropriate strategy.
-We note that the taxonomy we used here is focusing on **pool-based classification**.
-We summarized the way to calculate the score of instances into the following categories.
-
-| Score                     | Description                                       | Comments                                                                                              |
-| ------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Informativeness           | Uncertainty by the model prediction               | Neglect the underlying distribution.                                                                  |
-| Representativeness-impart | Represent the underlying distribution             | Normally used with informativeness. This type of methods may have overlaps with batch-mode selection. |
-| Expected Improvements     | The improvement of the model's performance        | The evaluations usually take time.                                                                    |
-| Learn to score            | Learn a evaluation function directly.             |                                                                                                       |
-| Others                    | Could not classified into the previous categories |                                                                                                       |
-
-For more details, the list of works with short introductions could see [**here**](subfields/pb_classification.md).
-
-## AL Strategies with specific models
-
-There are model-free AL strategies and model-dependent AL strategies.
-However, even the same strategy might be implement differently on different models.
-Different strategies are also designed for different models by take into account the models' characteristic.
-So we summarized the previous works for several models.
-Hopefully this could help you easily find a appropriate AL strategy for your current model.
-
-Model list:
-- SVM/LR
-- Bayesian/Probabilistic Models
-- Gaussian Progress
-- Neural Network
-
-Please check [**here**](AL_technique_models.md) form more details (Not finished yet).
-Besides, for the popular neural networks, we also reviewed the related AL works.
-Please see the details [**here**](/subfields/deep_AL.md).
-
 # Theoretical Support for Active Learning
 
 <!-- TODO: Might fill this slot later. -->
 (Not finished yet)
 
-# Practical Considerations when Applying AL
+# Practical Considerations to Apply AL
 
 When we use AL in real life scenarios, the practical situations usually are not perfectly matching our problem settings which are introduced above.
 The data, the oracle, the scale and many other situations could be really different to the experimental settings.
@@ -193,7 +140,7 @@ But we can still find many applications from several published papers and websit
 Basically, there are two types of applications: **scientific applications** & **industrial applications**.
 We summarized a list of works [**here**](subfields/AL_applications.md).
 
-# Resources:
+# Resources
 
 ## Software Packages/Libraries
 There already are several python AL projects:
@@ -222,33 +169,11 @@ There already are several python AL projects:
 
 We also list several scholars who are currently heavily contributing to this research direction.
 
-<!-- TODO: need to be updated. -->
-
 1. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
 4. Raymond Mooney
 5. [Yuchen Guo](http://ise.thss.tsinghua.edu.cn/MIG/gyc.html)
 
-
 And several young researchers:
 - Jamshid Sourati [University of Chicago]
-<!-- 
-
-# Our Subjective Opinions on AL
-
-Active learning has been researched over 3 decades, the fundamental theories and ideas are quite complete.
-Current works are more focusing on apply AL on other research fields or looking for new applications of AL.
-
-In my point of view, there are several directions which are promising but not fully discovered:
-- Deep active learning: Because of the popularity of the deep models.
-  - Cold start
-  - Uncertainty measurement
-  - Efficiently update model in AL process
-- Stream based active learning: Most works are about pool-based AL, but the data steam is also heavily-used in daily life.
-  - Selection strategy.
-- Large scale active learning: AL is invented for high labeling cost situation. However, most works are just try their algorithms on a relatively small dataset.
-- Practical considerations: Before utilize AL into realistic situation, there still are many technical problems.
-- Application scenarios 
-
--->
