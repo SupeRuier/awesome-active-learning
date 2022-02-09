@@ -222,6 +222,7 @@ Papers:
 
 - Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop [2015, Arxiv]
 - A Simple Yet Brisk And Efficient Active Learning Platform For Text Classification
+- Paladin: an annotation tool based on active and proactive learning [2021]
 - [Scale AI](https://scale.com)
 - [Appen (Figure-Eight)](https://appen.com)
 
