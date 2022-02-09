@@ -6,20 +6,23 @@ The whole repository is constructed in a **problem-orientated** approach, which 
 At the mean time, the techniques are discussed under the corresponding problem settings.
 
 Specifically, this repository includes:
-- What is AL?
-- Reviews/Surveys/Benchmarks
-- Problem Settings (Basic/Advanced/Other AI Fields)
-- Practical Considerations
-- Theoretical Supports
-- Real-World Applications
-- Resources for Using/Studying AL
-- Scholars/Groups
+- [1. What is Active Learning?](#1-what-is-active-learning) 
+- [2. Reviews/Surveys/Benchmarks](#2-reviewssurveysbenchmarks)
+- [3. Problem Settings](#3-problem-settings)
+  - [3.1. Basic Problem Settings (Three basic scenarios)](#31-basic-problem-settings-three-basic-scenarios)
+  - [3.2. Advanced Problem Settings](#32-advanced-problem-settings)
+  - [3.3. Tasks in other AI Research Fields](#33-tasks-in-other-ai-research-fields)
+- [4. Theoretical Support for Active Learning](#4-theoretical-support-for-active-learning)
+- [5. Practical Considerations to Apply AL](#5-practical-considerations-to-apply-al)
+- [6. Real-World Applications of AL](#6-real-world-applications-of-al)
+- [7. Resources](#7-resources)
+- [8. Groups/Scholars](#8-groupsscholars)
 
 ### Contributing
 If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
 Comments and suggestions are also very welcome!
 
-# 1. What is Active Learning?
+# 1. What is AL?
 
 High labeling cost is common in machine learning community.
 Acquiring a heavy number of annotations hindering the application of machine learning methods.
@@ -32,7 +35,7 @@ Hence, we only point out the essences of AL in this section.
 **When we talk about active learning, we talk about**:
 - an approach to reduce the annotation cost in machine learning.
 - the ways to select the most important instances for the corresponding tasks.
-- in most cases, an interactive labeling manner between algorithms and oracles.
+- (in most cases) an interactive labeling manner between algorithms and oracles.
 - a machine learning setting where human experts could be involved.
 
 # 2. Reviews/Surveys/Benchmarks
@@ -41,7 +44,7 @@ There have been several reviews/surveys/benchmarks for this topic.
 They provided a good overview for the field.
 
 - Active learning: theory and applications [[2001]](https://ai.stanford.edu/~koller/Papers/Tong:2001.pdf.gz)
-- **Active Learning Literature Survey (Recommend to read)**[[2009]](https://minds.wisconsin.edu/handle/1793/60660)
+- Active Learning Literature Survey **(Recommend to read)**[[2009]](https://minds.wisconsin.edu/handle/1793/60660)
 - A survey on instance selection for active learning [[2012]](https://link.springer.com/article/10.1007/s10115-012-0507-8)
 - Active Learning: A Survey [[2014]](https://www.taylorfrancis.com/books/e/9780429102639/chapters/10.1201/b17320-27)
 - Active Learning Query Strategies for Classification, Regression, and Clustering: A Survey [[2020]](https://link.springer.com/article/10.1007/s11390-020-9487-4)[Journal of Computer Science and Technology]
@@ -73,7 +76,7 @@ The methods are categorized for the corresponding settings in the subpage.
 
 According to three types of scenarios and two basic tasks, almost all the AL works could be divided into the following sub-problems.
 (The scenarios are different in where the queried instances are from.)
-The details and the list of works could see [**here**](AL_problem.md).
+**The details and the list of works could see [**here**](AL_problem.md).**
 
 |                     |         Classification         |  Regression   |                 Comments                 |
 | :-----------------: | :----------------------------: | :-----------: | :--------------------------------------: |
@@ -121,7 +124,7 @@ Many researches of AL are built on very idealized experimental setting.
 When AL is used to real life scenarios, the practical situations usually do not perfectly match the assumptions in the experiments.
 These changes of assumptions lead issues which hinders the application of AL.
 In this section, the practical considerations are reviewed for the assumptions.
-The details and the list of works could see [**here**](subfields/practical_considerations.md).
+**The details and the list of works could see [**here**](subfields/practical_considerations.md).**
 
 | Assumption Type    | Practical Considerations                                         |
 | ------------------ | ---------------------------------------------------------------- |
@@ -163,19 +166,19 @@ We summarized a list of works [**here**](subfields/AL_applications.md).
 | [modAL](https://github.com/modAL-python/modAL)                               | Python(scikit-learn)             | Tivadar Danka             | Keep updating                                    |
 | [libact](https://github.com/ntucllab/libact)                                 | Python(scikit-learn)             | NTU(Hsuan-Tien Lin group) |                                                  |
 | [ALiPy](https://github.com/NUAA-AL/ALiPy)                                    | Python(scikit-learn)             | NUAA(Shengjun Huang)      | Include MLAL                                     |
-| [pytorch_active_learning](https://github.com/rmunro/pytorch_active_learning) | Python(pytorch)                  | Robert Monarch            | Keep updating & Include active transfer learning |
-| [DeepAL](https://github.com/ej0cl6/deep-active-learning)                     | Python(scikit-learn, pytorch)    | Kuan-Hao Huang            | Keep updating & Deep Neural Networks             |
-| [BaaL](https://github.com/ElementAI/baal/)                                   | Python(scikit-learn, pytorch)    | ElementAI                 | Keep updating & Bayesian Active Learning         |
+| [pytorch_active_learning](https://github.com/rmunro/pytorch_active_learning) | Python(pytorch)                  | Robert Monarch            | Keep updating & include active transfer learning |
+| [DeepAL](https://github.com/ej0cl6/deep-active-learning)                     | Python(scikit-learn, pytorch)    | Kuan-Hao Huang            | Keep updating & deep neural networks             |
+| [BaaL](https://github.com/ElementAI/baal/)                                   | Python(scikit-learn, pytorch)    | ElementAI                 | Keep updating & bayesian active learning         |
 | [lrtc](https://github.com/IBM/low-resource-text-classification-framework)    | Python(scikit-learn, tensorflow) | IBM                       | Text classification                              |
 | [Small-text](https://github.com/webis-de/small-text)                         | Python(scikit-learn, pytorch)    | Christopher Schröder      | Text classification                              |
 
 ## 7.2. Tutorials
 
-| Title                                                                                                   | Year |           Lecturer           | Occasion      | Notes                                                            |
-| ------------------------------------------------------------------------------------------------------- | ---- | :--------------------------: | ------------- | ---------------------------------------------------------------- |
-| [active-learning-workshop](https://github.com/Azure/active-learning-workshop)                           | 2018 |              -               | KDD           | Active learning and transfer learning at scale with R and Python |
-| [Active Learning from Theory to Practice](https://www.youtube.com/watch?v=_Ql5vfOPxZU)                  | 2019 | Robert Nowak & Steve Hanneke | ICML          |                                                                  |
-| [Overview of Active Learning for Deep Learning](https://jacobgil.github.io/deeplearning/activelearning) | 2021 |       Jacob Gildenblat       | Personal Blog |                                                                  |
+| Title                                                                                                                 | Year |           Lecturer           | Occasion      | Notes |
+| --------------------------------------------------------------------------------------------------------------------- | ---- | :--------------------------: | ------------- | ----- |
+| [Active learning and transfer learning at scale with R and Python](https://github.com/Azure/active-learning-workshop) | 2018 |              -               | KDD           |       |
+| [Active Learning from Theory to Practice](https://www.youtube.com/watch?v=_Ql5vfOPxZU)                                | 2019 | Robert Nowak & Steve Hanneke | ICML          |       |
+| [Overview of Active Learning for Deep Learning](https://jacobgil.github.io/deeplearning/activelearning)               | 2021 |       Jacob Gildenblat       | Personal Blog |       |
 
 # 8. Groups/Scholars
 
