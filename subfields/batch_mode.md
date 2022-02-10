@@ -28,6 +28,7 @@ Define a heuristic way to evaluate the diversity.
   Evaluate the induced models for each unlabeled instance.
   The diversity of instances are revealed by the diversity of the models or model changes.
   For example, for neural networks, the diversity could measured by the diversity of vectors in gradient descent.
+- Diversity of the loss on the auxiliary task
 
 Works:
 - [Representative sampling for text classiﬁcation using support vector machines [2003, ECIR]](https://link.springer.xilesou.top/chapter/10.1007/3-540-36618-0_28): 
@@ -42,6 +43,7 @@ Works:
   Use kernel k-means to keep the diversity of the query batch. (43 citations)
 - [Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds [2020, ICLR]](https://arxiv.org/pdf/1906.03671.pdf):
   Cluster over the gradient vectors for the last fully connect layer.
+- Using Self-Supervised Pretext Tasks for Active Learning [2022]
 
 ## Optimization-based
 
