@@ -99,7 +99,7 @@ Works:
 
 ## Logged data 
 
-The learner has access to a logged labeled dataset that has been collected according to a known pre-determined policy, and the goal is to learn a classiﬁer that predicts the labels accurately over the entire population, not just conditioned on the logging policy.
+The learner has access to a logged labeled dataset that has been collected according to a known pre-determined policy, and the goal is to learn a classifier that predicts the labels accurately over the entire population, not just conditioned on the logging policy.
 
 Works:
 - Active Learning with Logged Data [2018, Arxiv]
@@ -122,7 +122,7 @@ Works:
 - Active feature-value acquisition [2009, Management Science] (100)
 - Learning by Actively Querying Strong Modal Features [2016, IJCAI] (3)
 - Active Feature Acquisition with Supervised Matrix Completion [2018, KDD] (16)
-- Active Feature Acquisition for Opinion Stream Classiﬁcation under Drift [2020, CEUR Workshop]
+- Active Feature Acquisition for Opinion Stream Classification under Drift [2020, CEUR Workshop]
 - Active feature acquisition on data streams under feature drift [2020, Annals of Telecommunications]
 
 ## Multiple Correct Outputs
@@ -202,7 +202,7 @@ Works:
 - Active learning from weak and strong labelers [2015, NeurIPS]: Learn a classifier with low error on data labeled by the oracle, while using the weak labeler to reduce the number of label queries made to this labeler.
 - Active Learning from Imperfect Labelers [2016, NeurIPS]:
   Theoretical work.
-- Cost-effective active learning from diverse labelers [2017, AAAI]: The cost of a labeler is proportional to its overall labeling quality. But different labelers usually have diverse expertise, and thus it is likely that labelers with a low overall quality can provide accurate labels on some speciﬁc instances. Select labeler can provide an accurate label for the instance with a relative low cost.
+- Cost-effective active learning from diverse labelers [2017, AAAI]: The cost of a labeler is proportional to its overall labeling quality. But different labelers usually have diverse expertise, and thus it is likely that labelers with a low overall quality can provide accurate labels on some specific instances. Select labeler can provide an accurate label for the instance with a relative low cost.
 - An Interactive Multi-Label Consensus Labeling Model for Multiple Labeler Judgments [2018, AAAI]: The premise is that labels inferred with high consensus among labelers, might be closer to the ground truth. Proposed  a novel formulation that aims to collectively optimize the cost of labeling, labeler reliability, label-label correlation and inter-labeler consensus.
 - [Active Deep Learning for Activity Recognition with Context Aware Annotator Selection [SIGKDD, 2019]](https://dl.acm.org/doi/abs/10.1145/3292500.3330688)
 - Interactive Learning with Proactive Cognition Enhancement for Crowd Workers [2020, AAAI]: Try to help workers improve their reliability. Add a machine teaching part. Generate exemplars for human learners with the help of the ground truth inference algorithms.

@@ -8,50 +8,56 @@ Besides, I can't ensure the works are representative in the fields.
 So if you have any comments and recommendations, pls let me know.)*
 
 - [AL Applications](#al-applications)
-- [Scientific Applications](#scientific-applications)
-  - [Biology](#biology)
-  - [Quantum Physics](#quantum-physics)
-  - [Materials](#materials)
+- [Scientific Applications (alphabetical order)](#scientific-applications-alphabetical-order)
   - [Astronomy](#astronomy)
+  - [Biology](#biology)
   - [Chemistry](#chemistry)
-  - [Math and Statistics](#math-and-statistics)
-  - [Geology](#geology)
   - [Experiment Design/Experimental Condition Selection](#experiment-designexperimental-condition-selection)
-- [Industrial Applications](#industrial-applications)
+  - [Geology](#geology)
+  - [Materials](#materials)
+  - [Math and Statistics](#math-and-statistics)
+  - [Quantum Physics](#quantum-physics)
+- [Industrial Applications (alphabetical order)](#industrial-applications-alphabetical-order)
+  - [Answer Selection](#answer-selection)
+  - [Autonomous Driving](#autonomous-driving)
+  - [Brain Mapping in a High Performance Computing Environment](#brain-mapping-in-a-high-performance-computing-environment)
+  - [Communication](#communication)
+  - [Crowd Counting](#crowd-counting)
+  - [Dataset Engineering](#dataset-engineering)
+    - [Dataset Building/ Data Annotation](#dataset-building-data-annotation)
+    - [Data Enrichment](#data-enrichment)
+    - [Design for Crowdworkers](#design-for-crowdworkers)
+  - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
+  - [Disguised Faces Recognition](#disguised-faces-recognition)
+  - [Drug Discovery](#drug-discovery)
+  - [Gas Reservoir Prediction](#gas-reservoir-prediction)
   - [Labeling System](#labeling-system)
-  - [Remote Sensing](#remote-sensing)
+  - [Malware Detection](#malware-detection)
   - [Medical Research](#medical-research)
     - [Medical Image Classification / Image Annotation](#medical-image-classification--image-annotation)
     - [Medical Image Segmentation](#medical-image-segmentation)
     - [Medical Symptom Recognition from Text](#medical-symptom-recognition-from-text)
     - [ECG classification](#ecg-classification)
     - [Retinal image analysis](#retinal-image-analysis)
-  - [Drug Discovery](#drug-discovery)
-  - [Spam Detection](#spam-detection)
-  - [Person Re-identification](#person-re-identification)
   - [Mobile Health Monitoring / Disease detection](#mobile-health-monitoring--disease-detection)
+  - [Person Re-identification](#person-re-identification)
   - [Privacy Policy Classification](#privacy-policy-classification)
-  - [Dataset Engineering](#dataset-engineering)
-    - [Dataset Building/ Data Annotation](#dataset-building-data-annotation)
-    - [Data Enrichment](#data-enrichment)
-    - [Design for Crowdworkers](#design-for-crowdworkers)
-  - [Software Engineering](#software-engineering)
-  - [Answer Selection](#answer-selection)
-  - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
-  - [Communication](#communication)
-  - [Brain Mapping in a High Performance Computing Environment](#brain-mapping-in-a-high-performance-computing-environment)
-  - [Crowd Counting](#crowd-counting)
-  - [Malware Detection](#malware-detection)
-  - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
-  - [Disguised Faces Recognition](#disguised-faces-recognition)
-  - [Gas Reservoir Prediction](#gas-reservoir-prediction)
-  - [Autonomous Driving](#autonomous-driving)
+  - [Remote Sensing](#remote-sensing)
   - [Semiconductor Manufacturing](#semiconductor-manufacturing)
   - [Simulation](#simulation)
+  - [Software Engineering](#software-engineering)
+  - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
+  - [Spam Detection](#spam-detection)
 
-# Scientific Applications 
+# Scientific Applications (alphabetical order)
 
 The scientific applications of AL are about biology, chemistry, physics or things about experiment design and analysis.
+
+## Astronomy
+
+Spectroscopic Surveys
+- [Active deep learning method for the discovery of objects of interest in large spectroscopic surveys](https://arxiv.org/pdf/2009.03219.pdf): We apply active learning classification methods supported by deep convolutional neural networks to automatically identify complex emission-line shapes in multi-million spectra archives.
+- [Active learning with RESSPECT: Resource allocation for extragalactic astronomical transients [2020]](https://arxiv.org/pdf/2010.05941.pdf): The Recommendation System for Spectroscopic follow- up (RESSPECT) project aims to enable the construction of optimized training samples for the Rubin Observatory Legacy Survey of Space and Time (LSST), taking into account a realistic description of the astronomical data environment.
 
 ## Biology
 
@@ -64,9 +70,24 @@ Structural Biology:
 Cell Classification:
 - Active feature selection discovers minimal gene-sets for classifying cell-types and disease states in single-cell mRNA-seq data [2021]
 
-## Quantum Physics
+## Chemistry
 
-- Active Learning of Quantum System Hamiltonians yields Query Advantage [2021]
+Chemical natural language processing
+- Active Learning Yields Better Training Data for Scientific Named Entity Recognition [2020]
+
+## Experiment Design/Experimental Condition Selection
+
+- Active machine learning-driven experimentation to determine compound effects on protein patterns [2016, Elife]
+- [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
+- Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
+- AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
+- Active Learning for the Optimal Design of Multinomial Classification in Physics [2021]
+
+## Geology
+
+Lithology Identification:
+- [Active Domain Adaptation With Application to Intelligent Logging Lithology Identification [IEEE TCYB]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9357423&tag=1)
+- Evaluation of active learning algorithms for formation lithology identification [2021, Journal of Petroleum Science and Engineering]
 
 ## Materials
 
@@ -86,40 +107,83 @@ Materials Design and Discovery
 Transition State Calculation:
 - Active Learning for Transition State Calculation
 
-## Astronomy
-
-Spectroscopic Surveys
-- [Active deep learning method for the discovery of objects of interest in large spectroscopic surveys](https://arxiv.org/pdf/2009.03219.pdf): We apply active learning classification methods supported by deep convolutional neural networks to automatically identify complex emission-line shapes in multi-million spectra archives.
-- [Active learning with RESSPECT: Resource allocation for extragalactic astronomical transients [2020]](https://arxiv.org/pdf/2010.05941.pdf): The Recommendation System for Spectroscopic follow- up (RESSPECT) project aims to enable the construction of optimized training samples for the Rubin Observatory Legacy Survey of Space and Time (LSST), taking into account a realistic description of the astronomical data environment.
-
-## Chemistry
-
-Chemical natural language processing
-- Active Learning Yields Better Training Data for Scientific Named Entity Recognition [2020]
-
-
 ## Math and Statistics
 
 Model checking:
 - [Active and sparse methods in smoothed model checking](https://arxiv.org/pdf/2104.09940.pdf)
 
-## Geology
+## Quantum Physics
 
-Lithology Identification:
-- [Active Domain Adaptation With Application to Intelligent Logging Lithology Identification [IEEE TCYB]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9357423&tag=1)
-- Evaluation of active learning algorithms for formation lithology identification [2021, Journal of Petroleum Science and Engineering]
+- Active Learning of Quantum System Hamiltonians yields Query Advantage [2021]
 
-## Experiment Design/Experimental Condition Selection
-
-- Active machine learning-driven experimentation to determine compound effects on protein patterns [2016, Elife]
-- [Categorical Matrix Completion with Active Learning for High-throughput Screening [2020, IEEE Transactions on Computational Biology and Bioinformatics]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043585): Categorical matrix completion is designed to accurately impute the missing experiments while margin sampling is also implemented for uncertainty estimation.
-- Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
-- AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
-- Active Learning for the Optimal Design of Multinomial Classification in Physics [2021]
-
-# Industrial Applications
+# Industrial Applications (alphabetical order)
 
 The industrial applications of AL are about the practical problems or specific requirements in the industry.
+
+## Answer Selection
+
+- [Combination of Active Learning and Self-Paced Learning for Deep Answer Selection with Bayesian Neural Network [2020, ECAI]](http://ecai2020.eu/papers/449_paper.pdf)
+
+## Autonomous Driving
+
+Line detection:
+- Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.
+
+## Brain Mapping in a High Performance Computing Environment
+
+About neuron segmentation and tracing at scale.
+- [Active Learning Pipeline for Brain Mapping in a High Performance Computing Environment [2020, Arxiv]](https://arxiv.org/pdf/2006.14684.pdf)
+
+## Communication
+
+Eg. 5g, Traffic Classification
+
+- [Active Popularity Learning with Cache Hit Ratio Guarantees using a Matrix Completion Committee [2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217322&tag=1): The object is modeling the optimal cache strategy in 5g wireless communication. AL is to learn the content popularities (criterion for determining whether cached or not) since it allows the system to leverage the trade-off between exploration (caching new files) and exploitation (use known files to cache). Specifically, AL is used to do matrix completion on the missing entries of the demand matrix.
+- [Active content popularity learning and caching optimization with hit ratio guarantees [2020, IEEE Access]](https://ieeexplore.ieee.org/abstract/document/9159587): Similar to the last one but with more details. A query is defined as the response received from the user terminal to the system.
+- [Active Learning for Network Traffic Classification: A Technical Survey [2021, Arxiv]](https://arxiv.org/pdf/2106.06933.pdf)
+- Active Sensing for Communications by Learning [2021]
+
+## Crowd Counting
+
+- [Active Crowd Counting with Limited Supervision [2020, Arxiv]](https://arxiv.org/abs/2007.06334): An multi-domain crowd counting framework. Use discriminator to learn a feature extractor for the crowd density regression for all the domains.
+- [Uncertainty Estimation and Sample Selection for Crowd Counting [2020, Arxiv]](https://arxiv.org/pdf/2009.14411.pdf)
+
+## Dataset Engineering
+
+### Dataset Building/ Data Annotation
+
+- Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop [2015, Arxiv]
+- A Simple Yet Brisk And Efficient Active Learning Platform For Text Classification
+- Paladin: an annotation tool based on active and proactive learning [2021]
+- [Scale AI](https://scale.com)
+- [Appen (Figure-Eight)](https://appen.com)
+
+### Data Enrichment
+
+- [ActiveDeeper: A Model-based Active Data Enrichment System](http://www.vldb.org/pvldb/vol13/p2885-zhao.pdf): Use keywords provide by the oracles to search in a database to build a dataset for the current task.
+
+### Design for Crowdworkers
+
+- Models in the Loop: Aiding Crowdworkers with Generative Annotation Assistants [2021]
+
+## Dialog Policy Learning (intelligent system)
+
+- [Dialog Policy Learning for Joint Clarification and Active Learning Queries [2020, Arxiv]](https://arxiv.org/pdf/2006.05456.pdf)
+
+## Disguised Faces Recognition
+
+- [A-LINK: Recognizing Disguised Faces via Active Learning based Inter-Domain Knowledge [2019]](http://iab-rubric.org/papers/2019_BTAS_ALINK.pdf)
+
+## Drug Discovery
+
+- Active-learning strategies in computer-assisted drug discovery. [2015, Drug Discov.]
+- Active learning for computational chemogenomics [2017, Future Medicinal Chemistry]
+- Evaluation of Categorical Matrix Completion Algorithms: Towards Improved Active Learning for Drug Discovery [2021, System Biology]
+- Active Learning for Drug Design: A Case Study on the Plasma Exposure of Orally Administered Drugs [2021, J MED CHEM]
+
+## Gas Reservoir Prediction
+
+- [Reservoir prediction through cost⁃sensitive active learning [2020, JOURNAL OF NANJING UNIVERSITY]](https://jns.nju.edu.cn/CN/10.13232/j.cnki.jnju.2020.04.014)
 
 ## Labeling System
 
@@ -132,26 +196,9 @@ Firms:
 Papers:
 - [AI-Assisted Human Labeling: Batching for Efficiency without Overreliance [2021, ACM-HCI]](https://dl.acm.org/doi/pdf/10.1145/3449163)
 
-## Remote Sensing 
+## Malware Detection
 
-Remote sensing is an field with really high labeling cost.
-AL is well used in this field.
-
-Several surveys of AL for remote sensing:
-- A survey of active learning algorithms for supervised remote sensing image classification
-- A Survey of Active Learning for Quantifying Vegetation Traits from Terrestrial Earth Observation Data [2021]
-
-Papers:
-- [An Active Deep Learning Approach for Minimally Supervised PolSAR Image Classification [IEEE Transactions on Geoscience and Remote Sensing, 2019]](https://ieeexplore.ieee.org/abstract/document/8784406)4
-- Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
-- Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
-- Classiﬁcation of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
-- [Online Semisupervised Active Classification for Multiview PolSAR Data [2020, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9238410)
-- [Hyperspectral Image Classiﬁcation with Feature-Oriented Adversarial Active Learning [2020, Remote Sensing]](https://www.mdpi.com/2072-4292/12/23/3879)
-- Adversarial Discriminative Active Deep Learning for Domain Adaptation in Hyperspectral Images Classification [2021, INTERNATIONAL JOURNAL OF REMOTE SENSING]
-- Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning [2021,Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning]
-- Active Learning for Improved Semi-Supervised Semantic Segmentation in Satellite Images [2022, WACV]
-- DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing [2021]
+- Q-learning and LSTM based deep active learning strategy for malware defense in industrial IoT applications [2021, Multimedia Tools and Applications]
 
 ## Medical Research 
 
@@ -193,99 +240,38 @@ Papers:
 
 - Human-in-the-loop for efficient training of retinal image analysis methods [2021, Master's Thesis]
 
-## Drug Discovery
-
-- Active-learning strategies in computer-assisted drug discovery. [2015, Drug Discov.]
-- Active learning for computational chemogenomics [2017, Future Medicinal Chemistry]
-- Evaluation of Categorical Matrix Completion Algorithms: Towards Improved Active Learning for Drug Discovery [2021, System Biology]
-- Active Learning for Drug Design: A Case Study on the Plasma Exposure of Orally Administered Drugs [2021, J MED CHEM]
-
-## Spam Detection
-
-- [Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning [2020, ACL]](https://www.aclweb.org/anthology/2020.acl-main.279.pdf)
-
-## Person Re-identification
-
-- [Rethinking data collection for person re-identification: active redundancy reduction [2021, Pattern Recognition]](https://reader.elsevier.com/reader/sd/pii/S0031320321000145?)
-
 ## Mobile Health Monitoring / Disease detection
 
 - Collaborative Multi-Expert Active Learning for Mobile Health Monitoring: Architecture, Algorithms, and Evaluation [2020, Sensors]
 - [Exploiting Active Learning in Novel Refractive Error Detection with Smartphones [2020, ACMMM]](https://dl.acm.org/doi/pdf/10.1145/3394171.3413748): Use their own created dataset (only 172 images).
 
+## Person Re-identification
+
+- [Rethinking data collection for person re-identification: active redundancy reduction [2021, Pattern Recognition]](https://reader.elsevier.com/reader/sd/pii/S0031320321000145?)
+
 ## Privacy Policy Classification
 - Deep Active Learning with Crowdsourcing Data for Privacy Policy Classification [2020, Arxiv]
 
-## Dataset Engineering
+## Remote Sensing 
 
-### Dataset Building/ Data Annotation
+Remote sensing is an field with really high labeling cost.
+AL is well used in this field.
 
-- Lsun: Construction of a large-scale image dataset using deep learning with humans in the loop [2015, Arxiv]
-- A Simple Yet Brisk And Efficient Active Learning Platform For Text Classification
-- Paladin: an annotation tool based on active and proactive learning [2021]
-- [Scale AI](https://scale.com)
-- [Appen (Figure-Eight)](https://appen.com)
+Several surveys of AL for remote sensing:
+- A survey of active learning algorithms for supervised remote sensing image classification
+- A Survey of Active Learning for Quantifying Vegetation Traits from Terrestrial Earth Observation Data [2021]
 
-### Data Enrichment
-
-- [ActiveDeeper: A Model-based Active Data Enrichment System](http://www.vldb.org/pvldb/vol13/p2885-zhao.pdf): Use keywords provide by the oracles to search in a database to build a dataset for the current task.
-
-### Design for Crowdworkers
-
-- Models in the Loop: Aiding Crowdworkers with Generative Annotation Assistants [2021]
-
-## Software Engineering
-
-API Misuse Detection
-- [Active Learning of Discriminative Subgraph Patterns for API Misuse Detection [2021, TSE]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9392340)
-
-## Answer Selection
-
-- [Combination of Active Learning and Self-Paced Learning for Deep Answer Selection with Bayesian Neural Network [2020, ECAI]](http://ecai2020.eu/papers/449_paper.pdf)
-
-## Dialog Policy Learning (intelligent system)
-
-- [Dialog Policy Learning for Joint Clarification and Active Learning Queries [2020, Arxiv]](https://arxiv.org/pdf/2006.05456.pdf)
-
-## Communication
-
-Eg. 5g, Traffic Classification
-
-- [Active Popularity Learning with Cache Hit Ratio Guarantees using a Matrix Completion Committee [2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9217322&tag=1): The object is modeling the optimal cache strategy in 5g wireless communication. AL is to learn the content popularities (criterion for determining whether cached or not) since it allows the system to leverage the trade-off between exploration (caching new files) and exploitation (use known files to cache). Specifically, AL is used to do matrix completion on the missing entries of the demand matrix.
-- [Active content popularity learning and caching optimization with hit ratio guarantees [2020, IEEE Access]](https://ieeexplore.ieee.org/abstract/document/9159587): Similar to the last one but with more details. A query is defined as the response received from the user terminal to the system.
-- [Active Learning for Network Traffic Classification: A Technical Survey [2021, Arxiv]](https://arxiv.org/pdf/2106.06933.pdf)
-- Active Sensing for Communications by Learning [2021]
-
-## Brain Mapping in a High Performance Computing Environment
-
-About neuron segmentation and tracing at scale.
-- [Active Learning Pipeline for Brain Mapping in a High Performance Computing Environment [2020, Arxiv]](https://arxiv.org/pdf/2006.14684.pdf)
-
-## Crowd Counting
-
-- [Active Crowd Counting with Limited Supervision [2020, Arxiv]](https://arxiv.org/abs/2007.06334): An multi-domain crowd counting framework. Use discriminator to learn a feature extractor for the crowd density regression for all the domains.
-- [Uncertainty Estimation and Sample Selection for Crowd Counting [2020, Arxiv]](https://arxiv.org/pdf/2009.14411.pdf)
-
-## Malware Detection
-
-- Q-learning and LSTM based deep active learning strategy for malware defense in industrial IoT applications [2021, Multimedia Tools and Applications]
-
-## Solvability Prediction in Power Systems
-
-- [Deep Active Learning for Solvability Prediction in Power Systems [2020]](https://arxiv.org/pdf/2007.13250.pdf)
-
-## Disguised Faces Recognition
-
-- [A-LINK: Recognizing Disguised Faces via Active Learning based Inter-Domain Knowledge [2019]](http://iab-rubric.org/papers/2019_BTAS_ALINK.pdf)
-
-## Gas Reservoir Prediction
-
-- [Reservoir prediction through cost⁃sensitive active learning [2020, JOURNAL OF NANJING UNIVERSITY]](https://jns.nju.edu.cn/CN/10.13232/j.cnki.jnju.2020.04.014)
-
-## Autonomous Driving
-
-Line detection:
-- Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.
+Papers:
+- [An Active Deep Learning Approach for Minimally Supervised PolSAR Image Classification [IEEE Transactions on Geoscience and Remote Sensing, 2019]](https://ieeexplore.ieee.org/abstract/document/8784406)4
+- Deep Active Learning for Remote Sensing Object Detection [2020, Arxiv]
+- Deep Active Learning in Remote Sensing for data efficient Change Detection [2020, Arxiv]
+- Classification of Summer Crops Using Active Learning Techniques on Landsat Images in the Northwest of the Province of Buenos Aires [2020]
+- [Online Semisupervised Active Classification for Multiview PolSAR Data [2020, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9238410)
+- [Hyperspectral Image Classification with Feature-Oriented Adversarial Active Learning [2020, Remote Sensing]](https://www.mdpi.com/2072-4292/12/23/3879)
+- Adversarial Discriminative Active Deep Learning for Domain Adaptation in Hyperspectral Images Classification [2021, INTERNATIONAL JOURNAL OF REMOTE SENSING]
+- Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning [2021,Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning]
+- Active Learning for Improved Semi-Supervised Semantic Segmentation in Satellite Images [2022, WACV]
+- DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing [2021]
 
 ## Semiconductor Manufacturing
 
@@ -295,3 +281,16 @@ Line detection:
 
 Air Traffic Management (ATM) modeling:
 - Active Learning Metamodels for ATM Simulation Modeling [2021, SESAR ]
+
+## Software Engineering
+
+API Misuse Detection
+- [Active Learning of Discriminative Subgraph Patterns for API Misuse Detection [2021, TSE]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9392340)
+
+## Solvability Prediction in Power Systems
+
+- [Deep Active Learning for Solvability Prediction in Power Systems [2020]](https://arxiv.org/pdf/2007.13250.pdf)
+
+## Spam Detection
+
+- [Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning [2020, ACL]](https://www.aclweb.org/anthology/2020.acl-main.279.pdf)

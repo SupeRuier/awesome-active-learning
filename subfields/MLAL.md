@@ -24,7 +24,7 @@ There are also few works on this topic.
 
 ### Instance query
 
-- [Multi-label svm active learning for image classiﬁcation [2004, ICIP]](https://ieeexplore.ieee.org/abstract/document/1421535/):
+- [Multi-label svm active learning for image classification [2004, ICIP]](https://ieeexplore.ieee.org/abstract/document/1421535/):
   **ML**, **MML**.
   First MLAL work.
   The selected image set consists of the images the sum of whose expected loss values are largest.
@@ -33,7 +33,7 @@ There are also few works on this topic.
   **MMC**
   The framework use SVM to predict, and a LR was used to predict the number of the labels of the instance.
   Select the unlabeled data which can lead to the largest reduction of the expected model loss (version space of SVM). 
-  Expected loss for multi-label data is approximated by summing up losses on all labels according to the most conﬁdent result of label prediction.
+  Expected loss for multi-label data is approximated by summing up losses on all labels according to the most confident result of label prediction.
   (150)
 - [Optimal batch selection for active learning in multi-label classification [2011, ACMMM]](https://dl.acm.org/doi/abs/10.1145/2072298.2072028)
   **BMAL**
@@ -79,8 +79,8 @@ There are also few works on this topic.
 - [Multi-label Image Classification via High-Order Label Correlation Driven Active Learning [2014, TIP]](https://ieeexplore.ieee.org/abstract/document/6725629/):
   **HoAL**.
   Introduce auxiliary compositional label to measure the score containing multi-correlations.
-  The cross-label uncertainty on unlabeled data is deﬁned based on KL divergence. 
-  Both single-label uncertainty and cross-label uncertainty are uniﬁed by the cross entropy measure.
+  The cross-label uncertainty on unlabeled data is defined based on KL divergence. 
+  Both single-label uncertainty and cross-label uncertainty are unified by the cross entropy measure.
   The informative example-label pair selection is formulated as a continuous optimization problem over selection variables with the consideration of label correlations.
   (39)
 - [Active learning by querying informative and representative examples [2014, TPAMI]](https://ieeexplore.ieee.org/abstract/document/6747346/):

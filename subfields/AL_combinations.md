@@ -71,7 +71,7 @@ Image Semantic Segmentation：
 - [Deep Active Learning for Joint Classification & Segmentation with Weak Annotator [2020]](https://arxiv.org/pdf/2010.04889.pdf): Leverage the unlabeled images to improve model accuracy with less oracle-annotation. AL for segmentation of images selected for pixel-level annotation.
 - [Difficulty-aware Active Learning for Semantic Segmentation [2020]](https://arxiv.org/pdf/2010.08705.pdf)
 - Embodied Visual Active Learning for Semantic Segmentation [2020]
-- Active Learning with Bayesian UNet for Efﬁcient Semantic Image Segmentation [Journal of Imaging]
+- Active Learning with Bayesian UNet for Efficient Semantic Image Segmentation [Journal of Imaging]
 - Active Image Segmentation Propagation [2016, CVPR]
 - [Reinforced active learning for image segmentation [2020, ICLR]](https://arxiv.org/pdf/2002.06583.pdf):
   An agent learns a policy to select a subset of small informative image regions (opposed to entire images) to be labeled, from a pool of unlabeled data.
@@ -136,7 +136,7 @@ Here we only post several subtypes in the fields.
 
 Sentiment/text classification:
 - Active learning for imbalanced sentiment classification [2012, EMNLP-CoNLL]
-- [Deep Active Learning with Simulated Rationales for Text Classiﬁcation [2020, PRAI]](https://link.springer.com/chapter/10.1007/978-3-030-59830-3_32): Utilize auxiliary task to reduce the data scarce affect at the beginning of the AL process.
+- [Deep Active Learning with Simulated Rationales for Text Classification [2020, PRAI]](https://link.springer.com/chapter/10.1007/978-3-030-59830-3_32): Utilize auxiliary task to reduce the data scarce affect at the beginning of the AL process.
 - Active Learning via Membership Query Synthesis for Semi-supervised Sentence Classification [2019, CoNLL]
 - Deep Active Learning for Text Classification with Diverse Interpretations [2021, CIKM]
 
@@ -239,7 +239,7 @@ Graph node classification:
 - Active learning for streaming networked data [2014, ACM International Conference on Conference on Information and Knowledge Management]
 - Active Semi-Supervised Learning Using Sampling Theory for Graph Signals [2014, KDD]
 - MetAL: Active Semi-Supervised Learning on Graphs via Meta Learning [2020, Arxiv]
-- Active Learning for Node Classiﬁcation: An Evaluation [2020, Entropy MDPI]
+- Active Learning for Node Classification: An Evaluation [2020, Entropy MDPI]
 - Active Learning for Node Classification: The Additional Learning Ability from Unlabelled Nodes [2020]
 - Active Learning for Attributed Graphs [2020, Master Dissertation]
 - [ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks [2021, SIGMOD]](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)
@@ -442,7 +442,7 @@ Could be consider as a regression where the relative orders of the instances mat
 
 ## Positive and Unlabeled (PU) Learning
 
-A special case of binary classiﬁcation where a learner only has access to labeled positive examples and unlabeled examples.
+A special case of binary classification where a learner only has access to labeled positive examples and unlabeled examples.
 
 - Class Prior Estimation in Active Positive and Unlabeled Learning [2020, IJCAI]
 

@@ -31,7 +31,7 @@ Define a heuristic way to evaluate the diversity.
 - Diversity of the loss on the auxiliary task
 
 Works:
-- [Representative sampling for text classiﬁcation using support vector machines [2003, ECIR]](https://link.springer.xilesou.top/chapter/10.1007/3-540-36618-0_28): 
+- [Representative sampling for text classification using support vector machines [2003, ECIR]](https://link.springer.xilesou.top/chapter/10.1007/3-540-36618-0_28): 
   Select the cluster centers of the instances lying within the margin of a support vector machine. 
   Propose a representative sampling approach that selects the cluster centers of the instances lying within the margin of a support vector machine. (220)
 - [Incorporating diversity in active learning with support vector machines [2003, ICML]](https://www.aaai.org/Papers/ICML/2003/ICML03-011.pdf): 
@@ -57,7 +57,7 @@ The optimization objective for the batch selection could be:
 Works:
 - [Discriminative batch mode active learning [2007, NeurIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
   Optimization based. 
-  Formulate batch mode active learning as an optimization problem that aims to learn a good classiﬁer directly. 
+  Formulate batch mode active learning as an optimization problem that aims to learn a good classifier directly. 
   The optimization selects the best set of unlabeled instances and their labels to produce a classifier that attains maximum likelihood on labels of the labeled instances while attaining minimum uncertainty on labels of the unlabeled instances. (248 citations)
 - [Semisupervised SVM batch mode active learning with applications to image retrieval [2009, TOIS]](https://dlacm.xilesou.top/doi/abs/10.1145/1508850.1508854): 
   Optimization based. 

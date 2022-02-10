@@ -18,16 +18,16 @@ Specifically, this repository includes:
 - [7. Resources](#7-resources)
 - [8. Groups/Scholars](#8-groupsscholars)
 
-### Portals
+### Shortcuts
 
-These portals could quickly lead you to the information you want.
+These shortcuts could quickly lead you to the information you want.
 
 | Link                                                              | Note                                                        |
 | ----------------------------------------------------------------- | ----------------------------------------------------------- |
 | [Taxonomy of Strategies](subfields/pb_classification.md)          | The types of AL strategies, in general pool-based scenario. |
 | [AL Aids AI](subfields/AL_combinations.md)                        | Use AL under other AI research problems.                    |
 | [AL Applications](subfields/AL_applications.md)                   | The scientific and industrial applications of AL.           |
-| [Practical Considerations](subfields/practical_considerations.md) | The practical issue in using AL.                            |
+| [Practical Considerations](subfields/practical_considerations.md) | The practical issues in using AL.                           |
 | [Deep AL](subfields/deep_AL.md)                                   | AL with deep neural networks.                               |
 
 ### Contributing
@@ -88,9 +88,9 @@ The methods are categorized for the corresponding settings in the subpage.
 
 There are three basic types of scenarios, almost all the AL works are build on these scenarios.
 The scenarios are different in where the queried instances are from:
-- pool-based: select from a pre-collected data pool
-- stream-based: select from a steam of incoming data
-- query synthesis: generate query instead of selecting data
+- **pool-based**: select from a pre-collected data pool
+- **stream-based**: select from a steam of incoming data
+- **query synthesis**: generate query instead of selecting data
 
 For the most basic AL researches, they usually study on two basic tasks:
 - classification
