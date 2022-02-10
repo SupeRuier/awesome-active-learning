@@ -165,10 +165,12 @@ Submodular-based:
 
 Most of works only use the labeled instances to train the model.
 There are several works utilize the unlabeled instances and use a semi-supervised training paradigm to build the framework.
-Here the works are categorized by **how the SSL accomplished**.
+Besides, self-supervised learning would also bring a huge performance improvement.
+Here the works are categorized by **how the unlabeled instances are used**.
 
 General work:
 - Towards Good Practices for Efficiently Annotating Large-Scale Image Classification Datasets [2021, CVPR]
+- [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2021, ECCV]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58607-2_30.pdf)
 
 Pseudo-labels：
 - [Cost-effective active learning for deep image classification [IEEE TCSVT, 2016]](https://ieeexplore.ieee.org/abstract/document/7508942): (180)
@@ -279,5 +281,5 @@ Key finding and takeaways:
 It shows that the improvements brought from AL are far less than that from self-training.
 Only when the number of labeled instances approaches 50%, the gap could disappear.
 
-### 5.  On the marginal benefit of active learning: Does self-supervision eat its cake? [2021, ICASSP]: 
+## 5.  On the marginal benefit of active learning: Does self-supervision eat its cake? [2021, ICASSP]: 
 Fail to observe any additional benefit of state-of-the-art active learning algorithms when combined with state-of-the-art S4L techniques.

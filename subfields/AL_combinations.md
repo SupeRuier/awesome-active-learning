@@ -13,46 +13,45 @@ Reducing the labeling cost is a common need in many research fields.
 
 <!-- TODO: revise the order -->
 - [AL with other AI Research Problems](#al-with-other-ai-research-problems)
+- [Popular Fields](#popular-fields)
   - [Computer Vision (CV)](#computer-vision-cv)
   - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
   - [Domain adaptation/Transfer learning](#domain-adaptationtransfer-learning)
-  - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
   - [One/Few/Zero-shot learning or Meta-Learning](#onefewzero-shot-learning-or-meta-learning)
   - [Graph Processing](#graph-processing)
-  - [Semi-supervised learning](#semi-supervised-learning)
-  - [Online Learning System](#online-learning-system)
-  - [Clustering](#clustering)
+  - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
   - [Recommendation](#recommendation)
   - [Reinforcement Learning](#reinforcement-learning)
   - [Robotics](#robotics)
-  - [Curriculum Learning](#curriculum-learning)
   - [Model Interpretability](#model-interpretability)
-  - [Causal Analysis](#causal-analysis)
+  - [Clustering](#clustering)
+- [Other Fields (alphabetical order)](#other-fields-alphabetical-order)
+  - [Adversarial Attack](#adversarial-attack)
+  - [Algorithm Fairness](#algorithm-fairness)
   - [Anomaly Detection](#anomaly-detection)
-  - [Speech Recognition](#speech-recognition)
-  - [Ordinal Regression/Classification](#ordinal-regressionclassification)
-  - [Label Enhancement](#label-enhancement)
-    - [Label De-noising](#label-de-noising)
-    - [Clean Label Uncertainties](#clean-label-uncertainties)
-  - [Model Selection](#model-selection)
-  - [Information Retrieval](#information-retrieval)
-  - [Software Engineering](#software-engineering)
-  - [Positive and unlabeled (PU) learning](#positive-and-unlabeled-pu-learning)
+  - [Causal Analysis](#causal-analysis)
+  - [Curriculum Learning](#curriculum-learning)
   - [Human Learning](#human-learning)
-  - [Sequence Labeling](#sequence-labeling)
+  - [Information Retrieval](#information-retrieval)
+  - [Instance Search (INS)](#instance-search-ins)
+  - [Generative Adversarial Network Training](#generative-adversarial-network-training)
+  - [Label Enhancement](#label-enhancement)
+  - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
+  - [Model Selection](#model-selection)
+  - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
+  - [Online Learning System](#online-learning-system)
   - [Optimization Problems](#optimization-problems)
     - [Multi-Objective Optimizations](#multi-objective-optimizations)
     - [Influence Maximization in Network](#influence-maximization-in-network)
-  - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
-  - [Generative Adversarial Network Training](#generative-adversarial-network-training)
-  - [Adversarial Attack](#adversarial-attack)
-    - [Detection](#detection)
-    - [Training](#training)
-  - [Algorithm Fairness](#algorithm-fairness)
+  - [Ordinal Regression/Classification](#ordinal-regressionclassification)
+  - [Positive and Unlabeled (PU) Learning](#positive-and-unlabeled-pu-learning)
   - [Reliability Analysis](#reliability-analysis)
-  - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
-  - [Instance Search (INS)](#instance-search-ins)
+  - [Sequence Labeling](#sequence-labeling)
+  - [Software Engineering](#software-engineering)
+  - [Speech Recognition](#speech-recognition)
   - [Treatment Effect](#treatment-effect)
+
+# Popular Fields
 
 ## Computer Vision (CV)
 
@@ -211,13 +210,6 @@ Transfer learning:
 - Active learning with cross-class similarity transfer [2017, AAAI]
 - Rapid Performance Gain through Active Model Reuse [IJCAI, 2019]
 
-## Metric learning/Pairwise comparison/Similarity learning 
-
-- [Active Ordinal Querying for Tuplewise Similarity Learning [2020 AAAI]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-CanalG.9650.pdf): Introduce AL to their new similarity methods (InfoTuple). Active Sampling for Pairwise Comparisons via Approximate Message Passing and Information Gain Maximization.
-- Batch Decorrelation for Active Metric Learning [2020, IJCAI]
-- Maximizing Conditional Entropy for Batch-Mode Active Learning of Perceptual Metrics [2021]
-- A Unified Batch Selection Policy for Active Metric Learning [2021, ECML PKDD]
-
 
 ## One/Few/Zero-shot learning or Meta-Learning
 
@@ -274,31 +266,12 @@ Entity resolution:
 Entity Alignment:
 - ActiveEA: Active Learning for Neural Entity Alignment [2021]
 
-## Semi-supervised learning
+## Metric learning/Pairwise comparison/Similarity learning 
 
-In semi-supervised learning, there also are limited labeled data.
-The goal of SSL is also utilizing the limited labeled data to achieve a good performance.
-This goal is similar to active learning.
-So the model parts of active learning could be switched to a SSL model.
-
-- [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2021, Springer]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58607-2_30.pdf)
-
-## Online Learning System
-
-- [Active learning for online training in imbalanced data streams under cold start [2021, In Workshop on Machine Learning in Finance (KDD ’21)]](https://arxiv.org/pdf/2107.07724.pdf)
-
-## Clustering
-
-AL could support clustering by provide supervised information.
-
-- Semi-Supervised Selective Affinity Propagation Ensemble Clustering With Active Constraints [2020, IEEE Access]
-- Active Learning for Constrained Document Clustering with Uncertainty Region [Complexity, 2020]: Must link & cannot link.
-- Cautious Active Clustering [2020]
-- Improving evolutionary constrained clustering using Active Learning [2020, Knowledge-Based Systems]
-- An Active Learning Method Based on Variational Autoencoder and DBSCAN Clustering [2021]
-
-Review:
-- Interactive clustering: a scoping review [2020, Artificial Intelligence Review]
+- [Active Ordinal Querying for Tuplewise Similarity Learning [2020 AAAI]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-CanalG.9650.pdf): Introduce AL to their new similarity methods (InfoTuple). Active Sampling for Pairwise Comparisons via Approximate Message Passing and Information Gain Maximization.
+- Batch Decorrelation for Active Metric Learning [2020, IJCAI]
+- Maximizing Conditional Entropy for Batch-Mode Active Learning of Perceptual Metrics [2021]
+- A Unified Batch Selection Policy for Active Metric Learning [2021, ECML PKDD]
 
 ## Recommendation
 
@@ -344,9 +317,6 @@ Demonstrate Robots:
 Active Exploration:
 - SEAL: Self-supervised Embodied Active Learning using Exploration and 3D Consistency [2021, NeuraIPS]
 
-## Curriculum Learning
-- [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page=52)
-
 ## Model Interpretability
 
 - [ALEX: Active Learning based Enhancement of a Model’s EXplainability [2020, CIKM]](https://dl.acm.org/doi/pdf/10.1145/3340531.3417456)
@@ -354,69 +324,95 @@ Active Exploration:
 - [Explainable Active Learning (XAL): Toward AI Explanations as Interfaces for Machine Teachers [Arxiv, 2020]](https://arxiv.org/pdf/2001.09219.pdf)
 - [Human-in-the-loop Extraction of Interpretable Concepts in Deep Learning Models [2021]](https://arxiv.org/pdf/2108.03738.pdf)
 
-## Causal Analysis
+## Clustering
 
-- [Root Cause Analysis for Self-organizing Cellular Network: an Active Learning Approach](https://link.springer.com/article/10.1007/s11036-020-01589-1)
-- [Active Invariant Causal Prediction: Experiment Selection through Stability](https://arxiv.org/pdf/2006.05690.pdf)
+AL could support clustering by provide supervised information.
+
+- Semi-Supervised Selective Affinity Propagation Ensemble Clustering With Active Constraints [2020, IEEE Access]
+- Active Learning for Constrained Document Clustering with Uncertainty Region [Complexity, 2020]: Must link & cannot link.
+- Cautious Active Clustering [2020]
+- Improving evolutionary constrained clustering using Active Learning [2020, Knowledge-Based Systems]
+- An Active Learning Method Based on Variational Autoencoder and DBSCAN Clustering [2021]
+
+Review:
+- Interactive clustering: a scoping review [2020, Artificial Intelligence Review]
+
+
+# Other Fields (alphabetical order)
+
+## Adversarial Attack 
+
+Detection:
+- [Active Machine Learning Adversarial Attack Detection in the User Feedback Process [2021, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9366529)
+- Robust Active Learning: Sample-Efficient Training of Robust Deep Learning Models [2021]
+
+Training:
+- Models in the Loop: Aiding Crowdworkers with Generative Annotation Assistants [2021]
+
+## Algorithm Fairness
+
+Addressing fairness at the data collection and dataset preparation stages therefore becomes an essential part of training fairer algorithms.
+For example, the ImageNet was crawled from image databases without considering sensitive attributes such as race or gender. In consequence, models trained (or pre-trained) on this dataset are prone to mimic societal biases.
+
+- [Can Active Learning Preemptively Mitigate Fairness Issues [2021, ICLR-RAI]](https://arxiv.org/abs/2104.06879)
 
 ## Anomaly Detection
 
 - Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning [2020, Arxiv]
 
-## Speech Recognition
+## Causal Analysis
 
-- [Loss Prediction: End-to-End Active Learning Approach For Speech Recognition [2021, Arxiv]](https://arxiv.org/pdf/2107.04289.pdf)
+- [Root Cause Analysis for Self-organizing Cellular Network: an Active Learning Approach](https://link.springer.com/article/10.1007/s11036-020-01589-1)
+- [Active Invariant Causal Prediction: Experiment Selection through Stability](https://arxiv.org/pdf/2006.05690.pdf)
 
-## Ordinal Regression/Classification
-
-Could be consider as a regression where the relative orders of the instances matter.
-
-- [Active Learning for Imbalanced Ordinal Regression [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208667)
-- [Supervised Anomaly Detection via Conditional Generative Adversarial Network and Ensemble Active Learning [2021]](https://arxiv.org/pdf/2104.11952.pdf)
-
-## Label Enhancement
-
-### Label De-noising
-
-- Active Deep Learning to Tune Down the Noise in Labels [2018, KDD]
-
-### Clean Label Uncertainties
-
-Enhance the quality of generated from weakly supervised model.
-
-- [CHEF: A Cheap and Fast Pipeline for Iteratively Cleaning Label Uncertainties [2021, Arxiv]](https://arxiv.org/pdf/2107.08588.pdf)
-
-## Model Selection
-
-As active model selection, both pool based and stream based. 
-Normally there only is model selection without training.
-
-- Online Active Model Selection for Pre-trained Classifiers [2020]
-
-## Information Retrieval
-
-- Efficient Test Collection Construction via Active Learning [2021, ICTIR]: The active selection here is for IR evaluation.
-
-## Software Engineering
-
-Software Defects Prediction:
-- [Empirical evaluation of the active learning strategies on software defects prediction [2016, ISSSR]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9265897)
-- [Improving high-impact bug report prediction with combination of interactive machine learning and active learning [2021]](https://reader.elsevier.com/reader/sd/pii/S0950584921000185?token=E1D095736314C62935E011266E971E6DA8289DDF6AC3CB3F57115363383EEED292B3A9C1B8CDD30E81FAAE08F8F0B9B4)
-
-## Positive and unlabeled (PU) learning
-
-A special case of binary classiﬁcation where a learner only has access to labeled positive examples and unlabeled examples.
-
-- Class Prior Estimation in Active Positive and Unlabeled Learning [2020, IJCAI]
+## Curriculum Learning
+- [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page=52)
 
 ## Human Learning
 
 - [Human Active Learning [2008, NeurIPS]](http://papers.nips.cc/paper/3456-human-active-learning)
 - [Human Active Learning [2018]](https://www.intechopen.com/books/active-learning-beyond-the-future/human-active-learning)
 
-## Sequence Labeling
+## Information Retrieval
 
-- [SeqMix: Augmenting Active Sequence Labeling via Sequence Mixup [2020]](https://arxiv.org/pdf/2010.02322.pdf): Not only provide the selected instance, but also provide a generated sequence according to the selected one.
+- Efficient Test Collection Construction via Active Learning [2021, ICTIR]: The active selection here is for IR evaluation.
+
+## Instance Search (INS)
+
+- Confidence-Aware Active Feedback for Efficient Instance Search [2021]
+
+## Generative Adversarial Network Training
+
+AL could reduce the number of needed instances to train a GAN.
+- Learning Class-Conditional GANs with Active Sampling [2019, SIGKDD]
+
+## Label Enhancement
+
+Label De-noising:
+- Active Deep Learning to Tune Down the Noise in Labels [2018, KDD]
+
+Clean Label Uncertainties: Enhance the quality of generated from weakly supervised model.
+
+- [CHEF: A Cheap and Fast Pipeline for Iteratively Cleaning Label Uncertainties [2021, Arxiv]](https://arxiv.org/pdf/2107.08588.pdf)
+
+## Learning from Label Proportions (LLP)
+
+- Active learning from label proportions via pSVM [2021, Neurocomputing]
+
+## Model Selection
+
+As active model selection, both pool based and stream based. 
+Normally there is only model selection without training.
+
+- Online Active Model Selection for Pre-trained Classifiers [2020]
+
+## Multi-Fidelity Machine Learning
+
+- [Deep Multi-Fidelity Active Learning of High-Dimensional Outputs [2020]](https://arxiv.org/pdf/2012.00901.pdf)
+
+## Online Learning System
+
+- [Active learning for online training in imbalanced data streams under cold start [2021, In Workshop on Machine Learning in Finance (KDD ’21)]](https://arxiv.org/pdf/2107.07724.pdf)
 
 ## Optimization Problems
 
@@ -437,44 +433,59 @@ Works:
 Works:
 - Near-optimal Batch Mode Active Learning and Adaptive Submodular Optimization [2013, ICML]
 
-## Multi-Fidelity Machine Learning
+## Ordinal Regression/Classification
 
-- [Deep Multi-Fidelity Active Learning of High-Dimensional Outputs [2020]](https://arxiv.org/pdf/2012.00901.pdf)
+Could be consider as a regression where the relative orders of the instances matter.
 
-## Generative Adversarial Network Training
+- [Active Learning for Imbalanced Ordinal Regression [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208667)
+- [Supervised Anomaly Detection via Conditional Generative Adversarial Network and Ensemble Active Learning [2021]](https://arxiv.org/pdf/2104.11952.pdf)
 
-AL could reduce the number of needed instances to train a GAN.
-- Learning Class-Conditional GANs with Active Sampling [2019, SIGKDD]
+## Positive and Unlabeled (PU) Learning
 
-## Adversarial Attack 
+A special case of binary classiﬁcation where a learner only has access to labeled positive examples and unlabeled examples.
 
-### Detection
-- [Active Machine Learning Adversarial Attack Detection in the User Feedback Process [2021, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9366529)
-- Robust Active Learning: Sample-Efficient Training of Robust Deep Learning Models [2021]
-
-### Training
-
-- Models in the Loop: Aiding Crowdworkers with Generative Annotation Assistants [2021]
-
-## Algorithm Fairness
-
-Addressing fairness at the data collection and dataset preparation stages therefore becomes an essential part of training fairer algorithms.
-For example, the ImageNet was crawled from image databases without considering sensitive attributes such as race or gender. In consequence, models trained (or pre-trained) on this dataset are prone to mimic societal biases.
-
-- [Can Active Learning Preemptively Mitigate Fairness Issues [2021, ICLR-RAI]](https://arxiv.org/abs/2104.06879)
+- Class Prior Estimation in Active Positive and Unlabeled Learning [2020, IJCAI]
 
 ## Reliability Analysis
 
 - Sequential active learning of low-dimensional model representations for reliability analysis [2021, Arxiv]
 
-## Learning from Label Proportions (LLP)
+## Sequence Labeling
 
-- Active learning from label proportions via pSVM [2021, Neurocomputing]
+- [SeqMix: Augmenting Active Sequence Labeling via Sequence Mixup [2020]](https://arxiv.org/pdf/2010.02322.pdf): Not only provide the selected instance, but also provide a generated sequence according to the selected one.
 
-## Instance Search (INS)
+## Software Engineering
 
-- Confidence-Aware Active Feedback for Efficient Instance Search [2021]
+Software Defects Prediction:
+- [Empirical evaluation of the active learning strategies on software defects prediction [2016, ISSSR]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9265897)
+- [Improving high-impact bug report prediction with combination of interactive machine learning and active learning [2021]](https://reader.elsevier.com/reader/sd/pii/S0950584921000185?token=E1D095736314C62935E011266E971E6DA8289DDF6AC3CB3F57115363383EEED292B3A9C1B8CDD30E81FAAE08F8F0B9B4)
+
+## Speech Recognition
+
+- [Loss Prediction: End-to-End Active Learning Approach For Speech Recognition [2021, Arxiv]](https://arxiv.org/pdf/2107.04289.pdf)
+
 
 ## Treatment Effect
 
 - Causal-BALD: Deep Bayesian Active Learning of Outcomes to Infer Treatment-Effects from Observational Data [2021, NeuraIPS]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -18,6 +18,18 @@ Specifically, this repository includes:
 - [7. Resources](#7-resources)
 - [8. Groups/Scholars](#8-groupsscholars)
 
+### Portals
+
+These portals could quickly lead you to the information you want.
+
+| Link                                                              | Note                                                        |
+| ----------------------------------------------------------------- | ----------------------------------------------------------- |
+| [Taxonomy of Strategies](subfields/pb_classification.md)          | The types of AL strategies, in general pool-based scenario. |
+| [AL Aids AI](subfields/AL_combinations.md)                        | Use AL under other AI research problems.                    |
+| [AL Applications](subfields/AL_applications.md)                   | The scientific and industrial applications of AL.           |
+| [Practical Considerations](subfields/practical_considerations.md) | The practical issue in using AL.                            |
+| [Deep AL](subfields/deep_AL.md)                                   | AL with deep neural networks.                               |
+
 ### Contributing
 If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
 Comments and suggestions are also very welcome!
@@ -102,7 +114,7 @@ Under these problem settings, AL could be further applied.
 In many AI research fields, the tasks can't be simply marked as classification or regression.
 They either acquire different types of outputs or assume a unusual learning process.
 So AL algorithms should be revised/developed for these problem settings.
-Here we summarized the works which **use AL to reduce the cost of annotation in several AI research fields**.
+Here we summarized the works which **use AL to reduce the cost of annotation in many other AI research fields**.
 
 - Computer Vision (CV)
 - Natural Language Processing (NLP)
