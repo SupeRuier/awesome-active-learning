@@ -5,6 +5,11 @@ This is not only a curated list, but also a well-structured library for active l
 The whole repository is constructed in a **problem-orientated** approach, which is easy for users to locate and track the problem.
 At the mean time, the techniques are discussed under the corresponding problem settings.
 
+希望在这个项目中你可以找到关于主动学习（AL）的一切。
+这不仅仅是一个精选文献列表，更是一个主动学习的知识库。
+整个项目以一种**问题为导向**的形式展开，方便用户和学者精确定位他们的问题场景。
+与此同时，相应的技术路线则在对应的问题下展开讨论。
+
 Specifically, this repository includes:
 - [1. What is Active Learning?](#1-what-is-active-learning) 
 - [2. Reviews/Surveys/Benchmarks](#2-reviewssurveysbenchmarks)
@@ -22,6 +27,8 @@ Specifically, this repository includes:
 
 These shortcuts could quickly lead you to the information you want.
 
+这是一些包含重要信息页面的传送门，用于快速定位问题场景
+
 | Link                                                              | Note                                                        |
 | ----------------------------------------------------------------- | ----------------------------------------------------------- |
 | [Taxonomy of Strategies](subfields/pb_classification.md)          | The types of AL strategies, in general pool-based scenario. |
@@ -33,6 +40,9 @@ These shortcuts could quickly lead you to the information you want.
 ### Contributing
 If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
 Comments and suggestions are also very welcome!
+
+如果您发现了一些主动学习相关的有价值工作，请在此项目下[pull request](https://github.com/SupeRuier/awesome-active-learning/pulls)或者联系我本人[ruihe.cs@gmail.com](ruihe.cs@gmail.com)来更新这个项目.
+此项目难免有疏漏和结构不严谨的地方，如果您有任何的批评和建议，请不吝指教。
 
 # 1. What is AL?
 
