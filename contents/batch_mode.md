@@ -5,17 +5,23 @@ In many real life cases, it is more efficient to select a number of instances to
 Although the non-batch AL methods could still meet this requirement by selecting the top evaluated instances as a batch, they would contain too much overlap information.
 So the non-batch mode selection would waste the budget compared to the batch selection case.
 Batch mode AL requires that the information overlap of instances in a single query batch should be small enough.
-Different batch selection strategies have the same intuition which is try to diverse the instances in a single training batch.
+Different batch selection strategies have the same intuition which is **try to diverse the instances in a single training batch**.
 However, they might achieve this goal in different approaches.
 
-| Intuition                                   | Techniques          |
-| ------------------------------------------- | ------------------- |
-| Diverse the instances in the selected batch | Heuristic-diversity |
-|                                             | Optimization-based  |
-|                                             | Greedy Selection    |
-|                                             | Ensemble-based      |
-| Representativeness                          |                     |
-| Directly learn from the trajectories        |                     |
+| Type                                  | Techniques                           |
+| ------------------------------------- | ------------------------------------ |
+| Intentionally diverse the instances   | Heuristic-diversity                  |
+|                                       | Optimization-based                   |
+|                                       | Greedy Selection                     |
+|                                       | Ensemble-based                       |
+| Unintentionally diverse the instances | Representativeness                   |
+|                                       | Directly learn from the trajectories |
+
+# Intentionally Diverse the Instances
+
+There are types of measurements of diversity.
+Many works define a type of diversity and explicitly optimize it.
+The purpose is to make the instances dissimilar to each other.
 
 ## Heuristic-diversity
 
@@ -100,10 +106,15 @@ Utilize the diversity of models to construct the diversity of items in a batch.
 
 - [Bootstrapping for Batch Active Sampling [2021, KDD]](https://dl.acm.org/doi/pdf/10.1145/3447548.3467076)
 
+# Unintentionally Diverse the Instances
+
+Without define diversity, many other works accomplish this goal non-explicitly.
+Their purpose usually isn't about the similarity in a batch.
+
 ## Representativeness
 
 Make sure the selected instances are more consistent to the true distribution.
-Many works in the [representativeness-impart sampling](contents/pb_classification.md#representativeness-impart-sampling) could be considered as this batch selection approach.
+Many works in the [representativeness-impart sampling](../contents/pb_classification.md#representativeness-impart-sampling) could be considered as this batch selection approach.
 
 - Information Condensing Active Learning [2021]: 
   Measure the strength of the dependency between a candidate batch of points and the unlabeled set.

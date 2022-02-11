@@ -43,14 +43,14 @@ Different strategies calculate the scores in different ways.
 
 In pool-based scenario, batch mode selection is also important, i.e. select a batch of instances with the maximum information.
 Batch makes the query selection more efficient and avoids redundant information query.
-We summarize the idea of **batch-mode** selection [**here**](contents/batch_mode.md).
+We summarize the idea of **batch-mode** selection [**here**](../contents/batch_mode.md).
 
 ## Classification
 
 We have to note that a large amount of works focus on pool based classification.
 We categorized the current pool-based classification strategies by how they calculate the scores.
 
-| Score                         | Description                                       | Comments                                                                                              |
+| Intuition                     | Description                                       | Comments                                                                                              |
 | ----------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **Informativeness**           | Uncertainty by the model prediction               | Usually refers to how much information instances would bring to the model.                            |
 | **Representativeness-impart** | Represent the underlying distribution             | Normally used with informativeness. This type of methods may have overlaps with batch-mode selection. |
@@ -58,7 +58,7 @@ We categorized the current pool-based classification strategies by how they calc
 | **Learn to score**            | Learn a evaluation function directly.             |                                                                                                       |
 | **Others**                    | Could not classified into the previous categories |                                                                                                       |
 
-For more details, the list of works with short introductions could see [**here**](contents/pb_classification.md).
+For more details, the list of works with short introductions could see [**here**](../contents/pb_classification.md).
 
 ## Regression
 
@@ -74,7 +74,7 @@ We list several representative methods in the following table.
 | Non-batch mode                 | QBC/EMCM/RSAL/GSy/iGS | P-ALICE/Gsx/iRDM |
 | Batch mode                     | EBMALR                | -                |
 
-For more details, the list of works could see [**here**](contents/pb_regression.md).
+For more details, the list of works could see [**here**](../contents/pb_regression.md).
 
 # Stream-based Scenario
 
@@ -86,12 +86,12 @@ In most times, it needs to consider data drift where the underlying distribution
 
 For both the classification and the regression tasks, the common methodology is to set a threshold and define a information measurement score, and the coming instance with a score above the threshold would be queried.
 The corresponding works would be found in the following links:
-- [**Stream-based Classification**](contents/sb_classification.md).
-- [**Stream-based Regression**](contents/sb_regression.md).
+- [**Stream-based Classification**](../contents/sb_classification.md).
+- [**Stream-based Regression**](../contents/sb_regression.md).
 
 # Query Synthesis Scenario
 
 Instead of selecting instances, another type of works tries to generalize new instances to query, which is called **Query synthesis**.
 This field is not well developed in the past years.
 But there still are several works focus on it.
-For more details, the list of works could see [**here**](contents/query-synthesis.md).
+For more details, the list of works could see [**here**](../contents/query-synthesis.md).

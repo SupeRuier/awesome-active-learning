@@ -5,9 +5,9 @@ In each section and each type of strategy, we will make a short description at t
 And at the end, we will list the representative works under the category (with a short note).
 
 We note that here we doesn't take batch mode as a dimension in our taxonomy.
-If you are only care about how to apply batch selection, please check [**here**](contents/AL_combinations.md).
+If you are only care about how to apply batch selection, please check [**here**](../contents/AL_combinations.md).
 And the classification problems here include binary and multi-class classification (even some works can only be applied to binary classification).
-There also are some works focus on multi-class classification settings, please check [**here**](contents/MCAL.md).
+There also are some works focus on multi-class classification settings, please check [**here**](../contents/MCAL.md).
 
 - [Taxonomy](#taxonomy) 
 - [Categories](#categories)
@@ -31,7 +31,7 @@ In pool based AL, the strategy is in fact a scoring function for each instance t
 Previous works calculate their scores in different ways.
 We summarize them into the following catagories.
 
-| Score                         | Description                                       | Comments                                                                                              |
+| Intuition                     | Description                                       | Comments                                                                                              |
 | ----------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **Informativeness**           | Uncertainty by the model prediction               | Usually refers to how much information instances would bring to the model.                            |
 | **Representativeness-impart** | Represent the underlying distribution             | Normally used with informativeness. This type of methods may have overlaps with batch-mode selection. |

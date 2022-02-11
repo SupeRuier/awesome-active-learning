@@ -2,7 +2,7 @@
 
 Active learning is also been used with other Learning/Research paradigms.
 These works could be considered as the applications of AL with other **AI research problems**.
-For the information of the real applications of AL in **science** and **industry**, please check [AL Applications](contents/AL_applications.md).
+For the information of the real applications of AL in **science** and **industry**, please check [AL Applications](../contents/AL_applications.md).
 
 *(Note that the works list in this pages are works I browsed in background reading. 
 There might be more important works in the corresponding fields not listed here.
@@ -11,7 +11,6 @@ So if you have any comments and recommendations, pls let me know.)*
 
 Reducing the labeling cost is a common need in many research fields.
 
-<!-- TODO: revise the order -->
 - [AL with other AI Research Problems](#al-with-other-ai-research-problems)
 - [Popular Fields](#popular-fields)
   - [Computer Vision (CV)](#computer-vision-cv)
