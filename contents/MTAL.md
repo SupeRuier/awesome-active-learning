@@ -8,7 +8,7 @@ MTAL could be divided into following parts:
 - Homogeneous MTAL: all the sub-tasks are the same type.
 - Heterogeneous MTAL: not all the sub-tasks are the same type.
 
-As far as we know, most MTAL works are about Homogeneous MTAL on classification, which is known as the multi-label active learning ([MLAL](subfields/MLAL.md)) problem.
+As far as we know, most MTAL works are about Homogeneous MTAL on classification, which is known as the multi-label active learning ([MLAL](contents/MLAL.md)) problem.
 In this chapter, we would only list the works which are not included in MLAL.
 
 ## Works

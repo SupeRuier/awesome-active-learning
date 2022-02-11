@@ -32,4 +32,4 @@ Most of classic strategies are based on these models.
 ## Neural Network
 
 We have systematically reviewed the works for AL with neural networks.
-Please see the details [here](/subfields/deep_AL.md).
+Please see the details [here](/contents/deep_AL.md).

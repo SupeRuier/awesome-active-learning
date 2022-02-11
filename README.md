@@ -31,17 +31,17 @@ These shortcuts could quickly lead you to the information you want.
 
 | Link                                                              | Note                                                        |
 | ----------------------------------------------------------------- | ----------------------------------------------------------- |
-| [Taxonomy of Strategies](subfields/pb_classification.md)          | The types of AL strategies, in general pool-based scenario. |
-| [AL Aids AI](subfields/AL_combinations.md)                        | Use AL under other AI research problems.                    |
-| [AL Applications](subfields/AL_applications.md)                   | The scientific and industrial applications of AL.           |
-| [Practical Considerations](subfields/practical_considerations.md) | The practical issues in using AL.                           |
-| [Deep AL](subfields/deep_AL.md)                                   | AL with deep neural networks.                               |
+| [Taxonomy of Strategies](contents/pb_classification.md)          | The types of AL strategies, in general pool-based scenario. |
+| [AL Aids AI](contents/AL_combinations.md)                        | Use AL under other AI research problems.                    |
+| [AL Applications](contents/AL_applications.md)                   | The scientific and industrial applications of AL.           |
+| [Practical Considerations](contents/practical_considerations.md) | The practical issues in using AL.                           |
+| [Deep AL](contents/deep_AL.md)                                   | AL with deep neural networks.                               |
 
 ### Contributing
 If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
 Comments and suggestions are also very welcome!
 
-如果您发现了一些主动学习相关的有价值工作，请在此项目下[pull request](https://github.com/SupeRuier/awesome-active-learning/pulls)或者联系我本人[ruihe.cs@gmail.com](ruihe.cs@gmail.com)来更新这个项目.
+如果您发现了一些主动学习相关的有价值工作，请在此项目下[pull request](https://github.com/SupeRuier/awesome-active-learning/pulls)或者联系我本人[ruihe.cs@gmail.com](ruihe.cs@gmail.com)来更新这个项目。
 此项目难免有疏漏和结构不严谨的地方，如果您有任何的批评和建议，请不吝指教。
 
 # 1. What is AL?
@@ -106,18 +106,18 @@ For the most basic AL researches, they usually study on two basic tasks:
 - classification
 - regression
 
-**The details and the list of works could see [**here**](AL_problem.md).**
+**The details and the list of works could see [**here**](contents/AL_problem.md).**
 
 ## 3.2. Advanced Problem Settings
 
 There are many variants of machine learning problem settings with more complex assumptions.
 Under these problem settings, AL could be further applied.
 
-- [Multi-class active learning](subfields/MCAL.md): In a classification task, each instance has one label from multiple classes (more than 2).
-- [Multi-label active learning](subfields/MLAL.md): In a classification task, each instance has multiple labels.
-- [Multi-task active learning](subfields/MTAL.md): The model or set of models handles multiple different tasks simultaneously. For instance, handle two classification tasks at the same time, or one classification and one regression. 
-- [Multi-domain active learning](subfields/MDAL.md): Similar to multi-task, but the data are from different datasets(domains). The model or set of models handles multiple datasets simultaneously.
-- [Multi-view/modal active learning](subfields/MVAL.md): The instances might have different views (different sets of features). The model or set of models handles different views simultaneously.
+- [Multi-class active learning](contents/MCAL.md): In a classification task, each instance has one label from multiple classes (more than 2).
+- [Multi-label active learning](contents/MLAL.md): In a classification task, each instance has multiple labels.
+- [Multi-task active learning](contents/MTAL.md): The model or set of models handles multiple different tasks simultaneously. For instance, handle two classification tasks at the same time, or one classification and one regression. 
+- [Multi-domain active learning](contents/MDAL.md): Similar to multi-task, but the data are from different datasets(domains). The model or set of models handles multiple datasets simultaneously.
+- [Multi-view/modal active learning](contents/MVAL.md): The instances might have different views (different sets of features). The model or set of models handles different views simultaneously.
 
 ## 3.3. Tasks in other AI Research Fields
 
@@ -133,7 +133,7 @@ Here we summarized the works which **use AL to reduce the cost of annotation in 
 - One/Few/Zero-shot learning
 - Graph Processing
 - etc.
-(The full list of fields could see [**here**](subfields/AL_combinations.md))
+(The full list of fields could see [**here**](contents/AL_combinations.md))
 
 # 4. Theoretical Support for Active Learning
 
@@ -147,7 +147,7 @@ Many researches of AL are built on very idealized experimental setting.
 When AL is used to real life scenarios, the practical situations usually do not perfectly match the assumptions in the experiments.
 These changes of assumptions lead issues which hinders the application of AL.
 In this section, the practical considerations are reviewed for the assumptions.
-**The details and the list of works could see [**here**](subfields/practical_considerations.md).**
+**The details and the list of works could see [**here**](contents/practical_considerations.md).**
 
 | Assumption Type    | Practical Considerations                                         |
 | ------------------ | ---------------------------------------------------------------- |
@@ -171,13 +171,13 @@ In this section, the practical considerations are reviewed for the assumptions.
 
 # 6. Real-World Applications of AL
 
-We have introduced that AL could be used in many [other AI research fields](subfields/AL_combinations.md).
+We have introduced that AL could be used in many [other AI research fields](contents/AL_combinations.md).
 In addition, AL has already been used in many real-world applications.
 For some reasons, the implementations in many companies are confidential.
 But we can still find many applications from several published papers and websites.
 
 Basically, there are two types of applications: **scientific applications** & **industrial applications**.
-We summarized a list of works [**here**](subfields/AL_applications.md).
+We summarized a list of works [**here**](contents/AL_applications.md).
 
 # 7. Resources
 

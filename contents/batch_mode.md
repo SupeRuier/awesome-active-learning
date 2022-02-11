@@ -103,7 +103,7 @@ Utilize the diversity of models to construct the diversity of items in a batch.
 ## Representativeness
 
 Make sure the selected instances are more consistent to the true distribution.
-Many works in the [representativeness-impart sampling](subfields/pb_classification.md#representativeness-impart-sampling) could be considered as this batch selection approach.
+Many works in the [representativeness-impart sampling](contents/pb_classification.md#representativeness-impart-sampling) could be considered as this batch selection approach.
 
 - Information Condensing Active Learning [2021]: 
   Measure the strength of the dependency between a candidate batch of points and the unlabeled set.
