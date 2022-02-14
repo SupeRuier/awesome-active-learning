@@ -146,7 +146,7 @@ Most of them are focus on finding a performance guarantee or the weakness of AL 
 Many researches of AL are built on very idealized experimental setting.
 When AL is used to real life scenarios, the practical situations usually do not perfectly match the assumptions in the experiments.
 These changes of assumptions lead issues which hinders the application of AL.
-In this section, the practical considerations are reviewed for the assumptions.
+In this section, the practical considerations are reviewed under different assumptions.
 **The details and the list of works could see [**here**](contents/practical_considerations.md).**
 
 | Assumption Type    | Practical Considerations                                         |

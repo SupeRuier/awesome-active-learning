@@ -2,7 +2,7 @@
 
 Multi-task learning (MTL) is to learn different tasks at the same time.
 Multi-task active learning (MTAL) tries to use AL in multi-task learning.
-Different from MDL, MTL stresses the relationships of tasks and the MDL stresses the relationships of domains.
+Different from multi-domain learning (MDL), MTL stresses the relationships of tasks and the MDL stresses the relationships of domains.
 
 MTAL could be divided into following parts:
 - Homogeneous MTAL: all the sub-tasks are the same type.

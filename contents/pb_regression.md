@@ -1,5 +1,9 @@
 # Pool-Based Active Learning for Regression
 
+For active learning regression (ALR), there are two problem settings.
+Supervised ALR is similar to the conventional pool based AL where the selection proceed interactively.
+Unsupervised ALR (passive sampling sometimes) assume we don't have any labeled instances when we select data.
+
 | Active learning for Regression: | Supervised            | Unsupervised     |
 | ------------------------------- | --------------------- | ---------------- |
 | Non-batch mode                  | QBC/EMCM/RSAL/GSy/iGS | P-ALICE/Gsx/iRDM |

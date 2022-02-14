@@ -28,7 +28,6 @@ Most of classic strategies are based on these models.
 ## Decision Trees
 - [Active Learning with Direct Query Construction [KDD, 2008]](https://dl.acm.org/doi/pdf/10.1145/1401890.1401950)
 
-
 ## Neural Network
 
 We have systematically reviewed the works for AL with neural networks.
