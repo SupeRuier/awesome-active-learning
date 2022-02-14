@@ -5,7 +5,7 @@ This is not only a curated list, but also a well-structured library for active l
 The whole repository is constructed in a **problem-orientated** approach, which is easy for users to locate and track the problem.
 At the mean time, the techniques are discussed under the corresponding problem settings.
 
-希望在这个项目中你可以找到关于主动学习（AL）的一切。
+**希望在这个项目中你可以找到关于主动学习（AL）的一切。**
 这不仅仅是一个精选文献列表，更是一个主动学习的知识库。
 整个项目以一种**问题为导向**的形式展开，方便用户和学者精确定位他们的问题场景。
 与此同时，相应的技术路线则在对应的问题下展开讨论。
@@ -27,15 +27,16 @@ Specifically, this repository includes:
 
 These shortcuts could quickly lead you to the information you want.
 
-这是一些包含重要信息页面的传送门，用于快速定位问题场景
+这是一些包含重要信息页面的传送门，用于快速定位问题场景。
 
-| Link                                                              | Note                                                        |
-| ----------------------------------------------------------------- | ----------------------------------------------------------- |
-| [Taxonomy of Strategies](contents/pb_classification.md)          | The types of AL strategies, in general pool-based scenario. |
-| [AL Aids AI](contents/AL_combinations.md)                        | Use AL under other AI research problems.                    |
-| [AL Applications](contents/AL_applications.md)                   | The scientific and industrial applications of AL.           |
-| [Practical Considerations](contents/practical_considerations.md) | The practical issues in using AL.                           |
-| [Deep AL](contents/deep_AL.md)                                   | AL with deep neural networks.                               |
+| Link                                                             | Note                                                             |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Taxonomy of Strategies](contents/pb_classification.md)          | The types of AL strategies, in general pool-based scenario.      |
+| [AL Aids AI](contents/AL_combinations.md)                        | Use AL under other AI research problems.                         |
+| [AL Applications](contents/AL_applications.md)                   | The scientific and industrial applications of AL.                |
+| [Practical Considerations](contents/practical_considerations.md) | The practical issues in applying AL when the assumptions change. |
+| [Issues in AL](contents/intrinsic_issues.md)                     | The intrinsic issues of AL.                                      |
+| [Deep AL](contents/deep_AL.md)                                   | AL with deep neural networks.                                    |
 
 ### Contributing
 If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
