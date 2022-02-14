@@ -35,7 +35,7 @@ These shortcuts could quickly lead you to the information you want.
 | [AL Aids AI](contents/AL_combinations.md)                        | Use AL under other AI research problems.                         |
 | [AL Applications](contents/AL_applications.md)                   | The scientific and industrial applications of AL.                |
 | [Practical Considerations](contents/practical_considerations.md) | The practical issues in applying AL when the assumptions change. |
-| [Issues in AL](contents/intrinsic_issues.md)                     | The intrinsic issues of AL.                                      |
+| [Intrinsic Issues in AL](contents/intrinsic_issues.md)           | The intrinsic issues of AL.                                      |
 | [Deep AL](contents/deep_AL.md)                                   | AL with deep neural networks.                                    |
 
 ### Contributing
@@ -111,7 +111,7 @@ For the most basic AL researches, they usually study on two basic tasks:
 
 ## 3.2. Advanced Problem Settings
 
-There are many variants of machine learning problem settings with more complex assumptions.
+There are many variants of machine learning problem settings with **more complex assumptions**.
 Under these problem settings, AL could be further applied.
 
 - [Multi-class active learning](contents/MCAL.md): In a classification task, each instance has one label from multiple classes (more than 2).
@@ -146,7 +146,7 @@ Most of them are focus on finding a performance guarantee or the weakness of AL 
 
 Many researches of AL are built on very idealized experimental setting.
 When AL is used to real life scenarios, the practical situations usually do not perfectly match the assumptions in the experiments.
-These changes of assumptions lead issues which hinders the application of AL.
+These **changes of assumptions** lead issues which hinders the application of AL.
 In this section, the practical considerations are reviewed under different assumptions.
 **The details and the list of works could see [**here**](contents/practical_considerations.md).**
 
