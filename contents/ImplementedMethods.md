@@ -1,38 +1,6 @@
 # Our summarized methods
 
-- Uncertainty sampling
-  - Classification uncertainty
-  - Classification margin
-  - Classification entropy
-- Disagreement sampling (QBC)
-  - Disagreement sampling for classifiers
-    - Vote entropy
-    - Consensus entropy
-    - Max disagreement
-  - Disagreement sampling for regressors
-    - Standard deviation sampling
-- Acquisition functions
-  - Probability of improvement
-  - Expected improvement
-    - Error Reduction: Expected Error Reduction (ICML 2001)
-    - Variance Reduction [2007]: Active learning for logistic regression: an evaluation 
-  - Upper confidence bound
-- Density Weighted sampling: 
-  - active learning using pre-clustering
-  - Graph Density (CVPR 2012) 
-  - RALF: A Reinforced Active Learning Formulation for Object Class Recognition
-  - QUIRE [2010]:Active Learning by QUerying Informative and Representative Examples (QUIRE)
-  - **k-Center-Greedy** 2017: A Geometric Approach to Active Learning for Convolutional Neural Networks  
-- Cluster based sampling
-- Representative based sampling
-- Learn how to sanpling:
-  - **ALBL** 2015: Hsu & Lin 2015, Active Learning by Learning. 
-  - LAL (NeurIPS 2017), 
-- Not sure
-  - **Hierarchical cluster AL method** 2008: Hierarchical Sampling for Active Learning.
-  - BMDR (KDD 2013), 
-  - SPAL (AAAI 2019), 
-
+**In this chapter, we list the methods implemented in different libraries.**
 
 # Google:
 - **ALBL** 2015: Hsu & Lin 2015, Active Learning by Learning. 

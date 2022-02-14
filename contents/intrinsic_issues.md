@@ -1,9 +1,11 @@
-The issues of AL & the solutions.
+# Intrinsic Issues of AL
 
-### AL Bias
+Current **intrinsic issues** in the AL system and the **solutions**.
+These issues are not from the changes in assumptions but from the nature of AL.
 
-At the beginning, the labeled instances are few.
-In this case, the models could easily be overfitted.
+## AL Bias
+
+The selection of AL introduces bias to the system.
 
 Analysis:
 - [On Statistical Bias In Active Learning: How and When to Fix It [2021, ICLR]](https://openreview.net/pdf?id=JiYq3eqTKY):

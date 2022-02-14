@@ -5,17 +5,23 @@ In many real life cases, it is more efficient to select a number of instances to
 Although the non-batch AL methods could still meet this requirement by selecting the top evaluated instances as a batch, they would contain too much overlap information.
 So the non-batch mode selection would waste the budget compared to the batch selection case.
 Batch mode AL requires that the information overlap of instances in a single query batch should be small enough.
-Different batch selection strategies have the same intuition which is try to diverse the instances in a single training batch.
+Different batch selection strategies have the same intuition which is **try to diverse the instances in a single training batch**.
 However, they might achieve this goal in different approaches.
 
-| Intuition                                   | Techniques          |
-| ------------------------------------------- | ------------------- |
-| Diverse the instances in the selected batch | Heuristic-diversity |
-|                                             | Optimization-based  |
-|                                             | Greedy Selection    |
-|                                             | Ensemble-based      |
-| Representativeness                          |                     |
-| Directly learn from the trajectories        |                     |
+| Type                                  | Techniques                           |
+| ------------------------------------- | ------------------------------------ |
+| Intentionally diverse the instances   | Heuristic-diversity                  |
+|                                       | Optimization-based                   |
+|                                       | Greedy Selection                     |
+|                                       | Ensemble-based                       |
+| Unintentionally diverse the instances | Representativeness                   |
+|                                       | Directly learn from the trajectories |
+
+# Intentionally Diverse the Instances
+
+There are types of measurements of diversity.
+Many works define a type of diversity and explicitly optimize it.
+The purpose is to make the instances dissimilar to each other.
 
 ## Heuristic-diversity
 
@@ -28,9 +34,10 @@ Define a heuristic way to evaluate the diversity.
   Evaluate the induced models for each unlabeled instance.
   The diversity of instances are revealed by the diversity of the models or model changes.
   For example, for neural networks, the diversity could measured by the diversity of vectors in gradient descent.
+- Diversity of the loss on the auxiliary task
 
 Works:
-- [Representative sampling for text classiﬁcation using support vector machines [2003, ECIR]](https://link.springer.xilesou.top/chapter/10.1007/3-540-36618-0_28): 
+- [Representative sampling for text classification using support vector machines [2003, ECIR]](https://link.springer.xilesou.top/chapter/10.1007/3-540-36618-0_28): 
   Select the cluster centers of the instances lying within the margin of a support vector machine. 
   Propose a representative sampling approach that selects the cluster centers of the instances lying within the margin of a support vector machine. (220)
 - [Incorporating diversity in active learning with support vector machines [2003, ICML]](https://www.aaai.org/Papers/ICML/2003/ICML03-011.pdf): 
@@ -42,6 +49,7 @@ Works:
   Use kernel k-means to keep the diversity of the query batch. (43 citations)
 - [Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds [2020, ICLR]](https://arxiv.org/pdf/1906.03671.pdf):
   Cluster over the gradient vectors for the last fully connect layer.
+- Using Self-Supervised Pretext Tasks for Active Learning [2022]
 
 ## Optimization-based
 
@@ -55,7 +63,7 @@ The optimization objective for the batch selection could be:
 Works:
 - [Discriminative batch mode active learning [2007, NeurIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
   Optimization based. 
-  Formulate batch mode active learning as an optimization problem that aims to learn a good classiﬁer directly. 
+  Formulate batch mode active learning as an optimization problem that aims to learn a good classifier directly. 
   The optimization selects the best set of unlabeled instances and their labels to produce a classifier that attains maximum likelihood on labels of the labeled instances while attaining minimum uncertainty on labels of the unlabeled instances. (248 citations)
 - [Semisupervised SVM batch mode active learning with applications to image retrieval [2009, TOIS]](https://dlacm.xilesou.top/doi/abs/10.1145/1508850.1508854): 
   Optimization based. 
@@ -98,10 +106,15 @@ Utilize the diversity of models to construct the diversity of items in a batch.
 
 - [Bootstrapping for Batch Active Sampling [2021, KDD]](https://dl.acm.org/doi/pdf/10.1145/3447548.3467076)
 
+# Unintentionally Diverse the Instances
+
+Without define diversity, many other works accomplish this goal non-explicitly.
+Their purpose usually isn't about the similarity in a batch.
+
 ## Representativeness
 
 Make sure the selected instances are more consistent to the true distribution.
-Many works in the [representativeness-impart sampling](subfields/pb_classification.md#representativeness-impart-sampling) could be considered as this batch selection approach.
+Many works in the [representativeness-impart sampling](../contents/pb_classification.md#representativeness-impart-sampling) could be considered as this batch selection approach.
 
 - Information Condensing Active Learning [2021]: 
   Measure the strength of the dependency between a candidate batch of points and the unlabeled set.

@@ -17,14 +17,11 @@ We can divide the MLAL works into three types by the query type:
 | Instance-label pair query | 2DAL/AUDI/QUIRE             |
 | Others                    | AURO                        |
 
-There also is another sub-problem where some constrains might be known in advance (pre-defined constrains).
-There are also few works on this topic.
-
 ## Works
 
 ### Instance query
 
-- [Multi-label svm active learning for image classiﬁcation [2004, ICIP]](https://ieeexplore.ieee.org/abstract/document/1421535/):
+- [Multi-label svm active learning for image classification [2004, ICIP]](https://ieeexplore.ieee.org/abstract/document/1421535/):
   **ML**, **MML**.
   First MLAL work.
   The selected image set consists of the images the sum of whose expected loss values are largest.
@@ -33,7 +30,7 @@ There are also few works on this topic.
   **MMC**
   The framework use SVM to predict, and a LR was used to predict the number of the labels of the instance.
   Select the unlabeled data which can lead to the largest reduction of the expected model loss (version space of SVM). 
-  Expected loss for multi-label data is approximated by summing up losses on all labels according to the most conﬁdent result of label prediction.
+  Expected loss for multi-label data is approximated by summing up losses on all labels according to the most confident result of label prediction.
   (150)
 - [Optimal batch selection for active learning in multi-label classification [2011, ACMMM]](https://dl.acm.org/doi/abs/10.1145/2072298.2072028)
   **BMAL**
@@ -63,12 +60,17 @@ There are also few works on this topic.
 
 ### Instance-label pair query
 
-- T[wo-dimensional active learning for image classification [2008, CVPR]](https://ieeexplore.ieee.org/abstract/document/4587383/):
+- [Two-dimensional active learning for image classification [2008, CVPR]](https://ieeexplore.ieee.org/abstract/document/4587383/):
   **2DAL**.
   Select sample-label pairs, rather than only samples, to minimize a multi-label Bayesian classification error bound.
   Propose a Kernelized Maximum Entropy Model (KMEM) to model label correlations.
   They showed that querying instance-label pairs is more effective.
   (143)
+- [Multi-Task Active Learning with Output Constraints [2010, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewPaper/1947):
+  Not like a conventional AL, it design a reward function to calculate VOI (value of information).
+  Each possible labeling assignment for a task is first propagated to all relevant tasks reachable through constraints and the reward (VOI) is measured over all relevant reachable tasks.
+  Generalize the entropy measure used in the classical single-task uncertainty sampling and also highlight the role of task inconsistency in multi-task active learning.
+  (51)
 - [Active query driven by uncertainty and diversity for incremental multi-label learning [2013, ICDM]](https://ieeexplore.ieee.org/abstract/document/6729601/):
   **AUDI**.
   Propose an incremental MLL model by combining label ranking with threshold learning, and avoid retraining from scratch after every query.
@@ -79,8 +81,8 @@ There are also few works on this topic.
 - [Multi-label Image Classification via High-Order Label Correlation Driven Active Learning [2014, TIP]](https://ieeexplore.ieee.org/abstract/document/6725629/):
   **HoAL**.
   Introduce auxiliary compositional label to measure the score containing multi-correlations.
-  The cross-label uncertainty on unlabeled data is deﬁned based on KL divergence. 
-  Both single-label uncertainty and cross-label uncertainty are uniﬁed by the cross entropy measure.
+  The cross-label uncertainty on unlabeled data is defined based on KL divergence. 
+  Both single-label uncertainty and cross-label uncertainty are unified by the cross entropy measure.
   The informative example-label pair selection is formulated as a continuous optimization problem over selection variables with the consideration of label correlations.
   (39)
 - [Active learning by querying informative and representative examples [2014, TPAMI]](https://ieeexplore.ieee.org/abstract/document/6747346/):
@@ -88,23 +90,14 @@ There are also few works on this topic.
   Introduce a label correlation matrix.
   Combining label correlation with the measures of representativeness and informativeness for query selection.
   (393)
-- [Multi-label active learning based on submodular functions [2018, Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231218307070):
-  Propose a query strategy by constructing a submodular function for the selected instance-label pairs, which can measure and combine the informativeness and representativeness
-  (0)
-- [Multiview Multi-Instance Multilabel Active Learning [2021, TNNLS]](https://repository.kaust.edu.sa/bitstream/handle/10754/667375/TNNLS-2020-P-14015%20%281%29.pdf?sequence=1&isAllowed=y)
-- [Cost-effective Batch-mode Multi-label Active Learning [2021, Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231221012534)
-
-### MLAL with pre-defined constrains
-- [Multi-Task Active Learning with Output Constraints [2010, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewPaper/1947):
-  Not like a conventional AL, it design a reward function to calculate VOI (value of information).
-  Each possible labeling assignment for a task is first propagated to all relevant tasks reachable through constraints and the reward (VOI) is measured over all relevant reachable tasks.
-  Generalize the entropy measure used in the classical single-task uncertainty sampling and also highlight the role of task inconsistency in multi-task active learning.
-  (51)
 - [Cost-Effective Active Learning for Hierarchical Multi-Label Classification [2018, IJCAI]](https://pdfs.semanticscholar.org/e7cf/fc7941957e8b1f790b9c106edf3fd892ad20.pdf):
   A batch mode selection.
   A label hierarchy is pre-defined.
   The informativeness of instance-label pair is counted in the contribution of ancestor and dependent. 
-  (7)
+- [Multi-label active learning based on submodular functions [2018, Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231218307070):
+  Propose a query strategy by constructing a submodular function for the selected instance-label pairs, which can measure and combine the informativeness and representativeness
+- [Multiview Multi-Instance Multilabel Active Learning [2021, TNNLS]](https://repository.kaust.edu.sa/bitstream/handle/10754/667375/TNNLS-2020-P-14015%20%281%29.pdf?sequence=1&isAllowed=y)
+- [Cost-effective Batch-mode Multi-label Active Learning [2021, Neurocomputing]](https://www.sciencedirect.com/science/article/pii/S0925231221012534)
 
 ### Others
 - [Multi-Label Active Learning: Query Type Matters [2015, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10995):

@@ -1,7 +1,10 @@
 # Practical considerations
 
-Here are several types of practical considerations we might meet when we use AL.
-According to the variation of the underlying assumptions, these works could be divided into the following types: data, oracle, scale, other cost.
+Many researches of AL are built on very idealized experimental setting.
+When AL is used to real life scenarios, the practical situations usually do not perfectly match the assumptions in the experiments.
+These changes of assumptions lead issues which hinders the application of AL.
+In this section, the practical considerations are reviewed under different assumptions.
+According to the **variation of the underlying assumptions**, these works could be divided into the following types: data, oracle, scale, other cost.
 
 *(Note that the works list in this pages are works I browsed in background reading. 
 There might be more important works in the corresponding fields not listed here.
@@ -16,23 +19,24 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Noised data](#noised-data)
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
-  - [Multiple Correct Outputs](#multiple-correct-outputs)
+  - [Multiple correct outputs](#multiple-correct-outputs)
   - [Unknown input classes](#unknown-input-classes)
   - [Different data types](#different-data-types)
-    - [Time Series Data](#time-series-data)
-  - [Data with Perturbation](#data-with-perturbation)
+    - [Time series data](#time-series-data)
+  - [Data with perturbation](#data-with-perturbation)
   - [Class mismatch](#class-mismatch)
+  - [Open-set](#open-set)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on single oracles (Noise/Special behaviors)](#the-assumption-change-on-single-oracles-noisespecial-behaviors)
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
 - [The considerations of the scale](#the-considerations-of-the-scale)
   - [Large-scale](#large-scale)
-  - [Very Small Budget](#very-small-budget)
+  - [Very small budget](#very-small-budget)
 - [The consideration of the workflow](#the-consideration-of-the-workflow)
   - [Cold start problem](#cold-start-problem)
   - [Stop criteria](#stop-criteria)
-  - [Asynchronous Training](#asynchronous-training)
-  - [Without Supervision](#without-supervision)
+  - [Asynchronous training](#asynchronous-training)
+  - [Without supervision](#without-supervision)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train](#incrementally-train)
@@ -40,10 +44,8 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
 - [The consideration of the robustness](#the-consideration-of-the-robustness)
 - [The Considerations of More Assumptions](#the-considerations-of-more-assumptions)
-  - [Include Model Selection](#include-model-selection)
-  - [Select for Evaluation](#select-for-evaluation)
-
-
+  - [Include model selection](#include-model-selection)
+  - [Select for evaluation](#select-for-evaluation)
 
 # The considerations of the data
 
@@ -99,7 +101,7 @@ Works:
 
 ## Logged data 
 
-The learner has access to a logged labeled dataset that has been collected according to a known pre-determined policy, and the goal is to learn a classiﬁer that predicts the labels accurately over the entire population, not just conditioned on the logging policy.
+The learner has access to a logged labeled dataset that has been collected according to a known pre-determined policy, and the goal is to learn a classifier that predicts the labels accurately over the entire population, not just conditioned on the logging policy.
 
 Works:
 - Active Learning with Logged Data [2018, Arxiv]
@@ -122,10 +124,10 @@ Works:
 - Active feature-value acquisition [2009, Management Science] (100)
 - Learning by Actively Querying Strong Modal Features [2016, IJCAI] (3)
 - Active Feature Acquisition with Supervised Matrix Completion [2018, KDD] (16)
-- Active Feature Acquisition for Opinion Stream Classiﬁcation under Drift [2020, CEUR Workshop]
+- Active Feature Acquisition for Opinion Stream Classification under Drift [2020, CEUR Workshop]
 - Active feature acquisition on data streams under feature drift [2020, Annals of Telecommunications]
 
-## Multiple Correct Outputs
+## Multiple correct outputs
 
 Sometimes, an instance will have multiple correct outputs.
 This causes the previous uncertainly based measurements to over-estimate the uncertainty and sometimes perform worse than a random sampling baseline. 
@@ -145,10 +147,10 @@ AL strategies should detect and make responses to these instances.
 We usually deal with normal data vectors in conventional learning.
 Sometimes, AL need to be used to handle several unusual data types.
 
-### Time Series Data
+### Time series data
 - [Cost-Effective Active Semi-Supervised Learning on Multivariate Time Series Data With Crowds [2020, TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS: SYSTEMS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9199304)
 
-## Data with Perturbation
+## Data with perturbation
 
 - Improving Model Robustness by Adaptively Correcting Perturbation Levels with Active Queries [2021, AAAI]:
   To utilize the model on noised/perturbed data, the models are trained on the artificial noised/perturbed data.
@@ -202,7 +204,7 @@ Works:
 - Active learning from weak and strong labelers [2015, NeurIPS]: Learn a classifier with low error on data labeled by the oracle, while using the weak labeler to reduce the number of label queries made to this labeler.
 - Active Learning from Imperfect Labelers [2016, NeurIPS]:
   Theoretical work.
-- Cost-effective active learning from diverse labelers [2017, AAAI]: The cost of a labeler is proportional to its overall labeling quality. But different labelers usually have diverse expertise, and thus it is likely that labelers with a low overall quality can provide accurate labels on some speciﬁc instances. Select labeler can provide an accurate label for the instance with a relative low cost.
+- Cost-effective active learning from diverse labelers [2017, AAAI]: The cost of a labeler is proportional to its overall labeling quality. But different labelers usually have diverse expertise, and thus it is likely that labelers with a low overall quality can provide accurate labels on some specific instances. Select labeler can provide an accurate label for the instance with a relative low cost.
 - An Interactive Multi-Label Consensus Labeling Model for Multiple Labeler Judgments [2018, AAAI]: The premise is that labels inferred with high consensus among labelers, might be closer to the ground truth. Proposed  a novel formulation that aims to collectively optimize the cost of labeling, labeler reliability, label-label correlation and inter-labeler consensus.
 - [Active Deep Learning for Activity Recognition with Context Aware Annotator Selection [SIGKDD, 2019]](https://dl.acm.org/doi/abs/10.1145/3292500.3330688)
 - Interactive Learning with Proactive Cognition Enhancement for Crowd Workers [2020, AAAI]: Try to help workers improve their reliability. Add a machine teaching part. Generate exemplars for human learners with the help of the ground truth inference algorithms.
@@ -230,7 +232,7 @@ Works:
 - Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.(8)
 - Quantum speedup for pool-based active learning [2019, QIP]
 
-## Very Small Budget
+## Very small budget
 
 - [A Simple Baseline for Low-Budget Active Learning [2021]](https://arxiv.org/pdf/2110.12033.pdf): 
   SSL + AL when the budget is extremely small (0.2%).
@@ -261,14 +263,23 @@ If the performance barely improves, the running learning process would waste the
 - Impact of Stop Sets on Stopping Active Learning for Text Classification [2022, ICSC]:
   This work provides a good review of the previous stop criteria.
 
-## Asynchronous Training
+## Asynchronous training
 
 Make the selection phase keep running during the model training.
 
 - [Asynchronous Active Learning with Distributed Label Querying [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0354.pdf)
 
-## Without Supervision
+## Without supervision
 
+This type of works aim to select the most representative samples in the absence of supervision. (Not in a interactive scheme.)(AL without oracle).
+Usually it take one-pass selection, labeling and training.
+The final goal is still the down stream task performance (not only acquiring a set of instances as in unsupervised learning).
+They normally reformulate the problem to Transductive Experimental Design (TED). 
+TED aims to find a representative sample subset from the unlabeled dataset, such that the dataset can be best approximated (reconstructed) by linear combinations of the selected samples. 
+
+Works
+- Joint Active Learning with Feature Selection via CUR Matrix Decomposition [2019, TPAMI] (25)
+- Deep Unsupervised Active Learning via Matrix Sketching [2021, TIP]
 - Towards General and Efficient Active Learning [2021]:
   Utilize the knowledge clusters by using the pre-trained encoder.
 
@@ -328,7 +339,7 @@ Works:
 
 # The Considerations of More Assumptions
 
-## Include Model Selection
+## Include model selection
 
 Not only select instance but also select models.
 
@@ -336,7 +347,7 @@ Not only select instance but also select models.
 - Deep active learning with a neural architecture search [2019, Neural IPS]
 - [Dual Active Learning for Both Model and Data Selection [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0420.pdf)
 
-## Select for Evaluation
+## Select for evaluation
 
 The selected data are not for training but for evaluation.
 

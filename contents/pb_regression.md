@@ -1,12 +1,17 @@
 # Pool-Based Active Learning for Regression
 
-| Active learning for Regression: | Supervised            | Unsupervised (Passive) |
-| ------------------------------- | --------------------- | ---------------------- |
-| Non-batch mode                  | QBC/EMCM/RSAL/GSy/iGS | P-ALICE/Gsx/iRDM       |
-| Batch mode                      | EBMALR                | **N/A**                |
+For active learning regression (ALR), there are two problem settings.
+Supervised ALR is similar to the conventional pool based AL where the selection proceed interactively.
+Unsupervised ALR (passive sampling sometimes) assume we don't have any labeled instances when we select data.
 
-Papers (Non-batch mode):
-Supervised
+| Active learning for Regression: | Supervised            | Unsupervised     |
+| ------------------------------- | --------------------- | ---------------- |
+| Non-batch mode                  | QBC/EMCM/RSAL/GSy/iGS | P-ALICE/Gsx/iRDM |
+| Batch mode                      | EBMALR                | -                |
+
+## Papers (Non-batch mode):
+
+### Supervised:
 1. [Active learning for regression based on query by committee [2007, IDEAL]](https://link.springer.xilesou.top/chapter/10.1007/978-3-540-77226-2_22): 
   **QBC**.
   The learner attempts to collect data that reduces variance over both the output predictions and the parameters of the model itself. 
@@ -28,7 +33,7 @@ Supervised
   The second (iGS) selects new samples to increase the diversity in both input and output spaces (the predicted value farthest from the values of annotated instances,and the selected instance farthest from the labeled one.).
   (16)
     
-Unsupervised (Passive)
+### Unsupervised:
 1. [Pool-based Active Learning in Approximate Linear Regression (2009, Machine Learning)](https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=http://link.springer.com/article/10.1007/s10994-009-5100-3): 
   Only for linear regression.
   **P-ALICE** (Pool-based Active Learning using the Importance-weighted least-squares learning based on Conditional Expectation of the generalization error).
@@ -44,7 +49,7 @@ Unsupervised (Passive)
   **Very good comparison of previous works.**
   (0)
 
-Papers (Batch mode):
+## Papers (Batch mode):
 1. [Offline EEG-based driver drowsiness estimation using enhanced batch-mode active learning (EBMAL) for regression [2016, IEEE International Conference on Systems, Man, and Cybernetics (SMC)]](https://ieeexplore.ieee.org/abstract/document/7844328/): 
    Consider informativeness, representativeness and diversity. 
    The diversity was achieved by using k-means after the pre-selection with conventional AL strategy.

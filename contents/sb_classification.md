@@ -34,8 +34,8 @@
    (25)
 - [Adaptive Ensemble Active Learning for Drifting Data Stream Mining [2019, IJCAI]](https://pdfs.semanticscholar.org/0a52/d3d3108b2a67ac7de2ab9de6275234b246d1.pdf):
    **EAL-MAB**.
-   A plug-in solution, capable of working with most of existing streaming ensemble classiﬁers. 
-   They this process as a Multi-Armed Bandit problem, obtaining an efficient and adaptive ensemble active learning procedure by selecting the most competent classiﬁer from the pool for each query.
+   A plug-in solution, capable of working with most of existing streaming ensemble classifiers. 
+   They this process as a Multi-Armed Bandit problem, obtaining an efficient and adaptive ensemble active learning procedure by selecting the most competent classifier from the pool for each query.
    Guide the instance selection by measuring the generalization capabilities of the classifiers.
    The proposed approach selects dynamically the most competent classifier to be responsible for the query decision.
    Selecting instances for label query by measuring the increase in generalization capabilities of the classifier according to a metric m on a separate validation set V.

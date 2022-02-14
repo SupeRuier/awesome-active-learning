@@ -5,26 +5,25 @@ In each section and each type of strategy, we will make a short description at t
 And at the end, we will list the representative works under the category (with a short note).
 
 We note that here we doesn't take batch mode as a dimension in our taxonomy.
-If you are only care about how to apply batch selection, please check [**here**](subfields/AL_combinations.md).
-And the classification problems here include binary and multi-class classification (even some works can only be applied to binary classification).
-There also are some works focus on multi-class classification settings, please check [**here**](subfields/MCAL.md).
+If you are only care about how to apply **batch selection**, please check [**here**](../contents/AL_combinations.md).
+The classification problems here include binary and multi-class classification (even some works can only be applied to binary classification).
+There also are some works focus on **multi-class classification** settings, please check [**here**](../contents/MCAL.md).
 
-- [Pool-Based Active Learning for Classification](#pool-based-active-learning-for-classification)
-- [Taxonomy](#taxonomy)
+- [Taxonomy](#taxonomy) 
 - [Categories](#categories)
-  - [Informativeness](#informativeness)
-    - [Uncertainty-based sampling](#uncertainty-based-sampling)
+  - [1. Informativeness](#informativeness)
+    - [1.1. Uncertainty-based sampling](#uncertainty-based-sampling)
     - [Disagreement-based sampling](#disagreement-based-sampling)
-  - [Expected Improvements](#expected-improvements)
-  - [Representativeness-impart sampling](#representativeness-impart-sampling)
+  - [2. Representativeness-impart sampling](#representativeness-impart-sampling)
     - [Cluster-based sampling](#cluster-based-sampling)
     - [Density-based sampling](#density-based-sampling)
     - [Alignment-based sampling](#alignment-based-sampling)
     - [Expected loss on unlabeled data](#expected-loss-on-unlabeled-data)
     - [Inconsistency of the neighbors](#inconsistency-of-the-neighbors)
     - [Divide and Select](#divide-and-select)
-  - [Learn to Score](#learn-to-score)
-  - [Others](#others)
+  - [3. Expected Improvements](#expected-improvements)
+  - [4. Learn to Score](#learn-to-score)
+  - [5. Others](#others)
 
 # Taxonomy
 
@@ -32,20 +31,23 @@ In pool based AL, the strategy is in fact a scoring function for each instance t
 Previous works calculate their scores in different ways.
 We summarize them into the following catagories.
 
-| Score                     | Description                                       | Comments                                                                                              |
-| ------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Informativeness           | Uncertainty by the model prediction               | Neglect the underlying distribution.                                                                  |
-| Representativeness-impart | Represent the underlying distribution             | Normally used with informativeness. This type of methods may have overlaps with batch-mode selection. |
-| Expected Improvements     | The improvement of the model's performance        | The evaluations usually take time.                                                                    |
-| Learn to score            | Learn a evaluation function directly.             |                                                                                                       |
-| Others                    | Could not classified into the previous categories |                                                                                                       |
+| Intuition                     | Description                                       | Comments                                                                                              |
+| ----------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Informativeness**           | Uncertainty by the model prediction               | Usually refers to how much information instances would bring to the model.                            |
+| **Representativeness-impart** | Represent the underlying distribution             | Normally used with informativeness. This type of methods may have overlaps with batch-mode selection. |
+| **Expected Improvements**     | The improvement of the model's performance        | The evaluations usually take more time.                                                               |
+| **Learn to score**            | Learn a evaluation function directly.             |                                                                                                       |
+| **Others**                    | Could not classified into the previous categories |                                                                                                       |
 
 
 # Categories
 
-## Informativeness
+## 1. Informativeness
 
-### Uncertainty-based sampling
+The informativeness usually refers to how much information it would bring to the model.
+Thus, the evaluation is usually depending on the current trained model.
+
+### 1.1. Uncertainty-based sampling
 
 This is the most basic strategy of AL.
 It aims to select the instances which are most uncertain to the current model.
@@ -64,9 +66,8 @@ Works:
 - [Heterogeneous uncertainty sampling for supervised learning [1994, ICML]](https://www.sciencedirect.com/science/article/pii/B978155860335650026X): Most basic **Uncertainty** strategy. Could be used with probabilistic classifiers. (1071 citations)
 - [Support Vector Machine Active Learning with Applications to Text Classification [2001, JMLR]](http://www.jmlr.org/papers/v2/tong01a.html): Version space reduction with SVM. （2643 citations）
 - [How to measure uncertainty in uncertainty sampling for active learning [2021, Machine Learning]](https://link.springer.com/content/pdf/10.1007/s10994-021-06003-9.pdf)
-- Optimizing Active Learning for Low Annotation Budgets [2021]: Select the samples with the maximum shift from certainty to uncertainty.
 
-### Disagreement-based sampling
+### 1.2. Disagreement-based sampling
 
 This types of methods need a group of models.
 The sampling strategy is basing on the output of the models.
@@ -85,7 +86,107 @@ Works:
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf)
 - [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2021, Springer]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58607-2_30.pdf): A semi-supervised AL method.
 
-## Expected Improvements
+### 1.3. Other informativeness measurement
+
+The informativeness of instances could be defined in many other ways.
+
+Works:
+- Optimizing Active Learning for Low Annotation Budgets [2021]: Select the samples with the maximum shift from certainty to uncertainty.
+
+## 2. Representativeness-impart sampling
+
+Previous introduced works seldomly consider the data distributions.
+So those strategies are more focusing on the decision boundary, and the representativeness of the data is neglected.
+Therefore, many works take the representativeness of the data into account.
+Basically, it measures how much the labeled instances are aligned with the unlabeled instances in distribution.
+We note that there aren't many works only consider the representativeness of the data.
+More commonly, the representativeness and informativeness are considered together to sample instances.
+
+### 2.1. Cluster-based sampling
+
+The simplest idea is to use cluster structure to guide the selection.
+The cluster could either be applied on the original features or the learned embeddings.
+
+- Cluster-based sampling: 
+  - Pre-cluster
+  - Hierarchical sampling
+  - Cluster on other types of embedding
+
+Works:
+- [Active learning using pre-clustering [2004, ICML]](https://dl.acm.org/doi/abs/10.1145/1015330.1015349): (483 citations)
+- [Hierarchical Sampling for Active Learning [2008, ICML]](https://dl.acm.org/doi/pdf/10.1145/1390156.1390183): Take into account both the uncertainty and the representativeness. The performance heavily depends on the quality of clustering results. (388 citations)
+- [Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification [2020]](https://arxiv.org/pdf/2009.14448.pdf): Use kmeans++ on the learned gradient embeddings to select instances.
+
+### 2.2. Density-based sampling
+
+These types of strategies take into account the distribution and local density.
+The intuition is that the location with more density is more likely to be queried.
+i.e. the selected instances and the unlabeled instances should have similar distributions.
+
+- Density-based sampling: 
+  - **Information density**
+  - **RALF**
+  - **k-Center-Greedy (Core-set)**: Only consider the representativeness.
+
+Works:
+- [An analysis of active learning strategies for sequence labeling tasks [2008, CEMNL]](https://www.aclweb.org/anthology/D08-1112.pdf): **Information density** framework. The main idea is that informative instances should not only be those which are uncertain, but also those which are “representative” of the underlying distribution (i.e., inhabit dense regions of the input space).(659 citations)
+- [RALF: A Reinforced Active Learning Formulation for Object Class Recognition [2012, CVPR]](https://ieeexplore.ieee.org/abstract/document/6248108/): **RALF**. A time-varying combination of exploration and exploitation sampling criteria. Include graph density in the exploitation strategies. (59 citations)
+- [Active learning for convolutional neural networks: A core-set approach [ICLR, 2018]](https://arxiv.org/abs/1708.00489):
+  Core-set loss is simply the difference between average empirical loss over the set of points which have labels for and the average empirical loss over the entire dataset including unlabelled points. Optimize the upper bound of core-set loss could be considered as a k-center problem in practice. Doesn't need to know the out put of the current model.
+- [Minimax Active Learning [2020]](https://arxiv.org/pdf/2012.10467.pdf): Develop a semi-supervised minimax entropy-based active learning algorithm that leverages both uncertainty and diversity in an adversarial manner.
+- [Multiple-criteria Based Active Learning with Fixed-size Determinantal Point Processes [2021]](https://arxiv.org/pdf/2107.01622.pdf)
+
+### 2.3. Alignment-based sampling
+
+This type of works directly takes into account the measurement of distribution alignment between labeled/selected data and unlabeled data.
+i.e. The labeled and the unlabeled instances should hard to be distinguished.
+There are adversarial works and non-adversarial works.
+
+Types:
+- **Adversarial based**
+- **non-adversarial based**
+
+Works:
+- [Exploring Representativeness and Informativeness for Active Learning [2017, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.xilesou.top/abstract/document/7329991): Optimization based. The representativeness is measured by fully investigating the triple similarities that include the similarities between a query sample and the unlabeled set, between a query sample and the labeled set, and between any two candidate query samples. For representativeness, our goal is also to find the sample that makes the distribution discrepancy of unlabeled data and labeled data small. For informativeness, use BvSB. (85 citations)
+- [Discriminative Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1907.06347.pdf):
+  Make the labeled and unlabeled pool indistinguishable.
+- Agreement-Discrepancy-Selection: Active Learning with Progressive Distribution Alignment [2021]
+- Dual Adversarial Network for Deep Active Learning [2021, ECCV]: DAAL.
+
+### 2.4. Expected loss on unlabeled data
+
+Many works only score the instance by the expected performance on the labeled data and the selected data.
+Some other works also take into account the expected loss on the rest unlabeled data as a measurement of representativeness.
+
+- Expected loss on unlabeled data: 
+  - **QUIRE**
+  - **ALDR+**
+
+Works:
+- [Active Learning by Querying Informative and Representative Examples [2010, NeurIPS]](http://papers.nips.cc/paper/4176-active-learning-by-querying-informative-and-representative-examples): **QUIRE**. Optimization based. Not only consider the loss in the labeled data (uncertainty) but also consider the loss in the unlabeled data (representations, correct labels would leads small value of overall evaluation function.). This methods is very computationally expensive. (370 citations)
+- [Efficient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
+
+### 2.5. Inconsistency of the neighbors
+
+Some works believe the data points that are similar in the model feature space and yet the model outputs maximally different predictive likelihoods should be quired.
+
+- Inconsistency of the neighbors
+  - CAL
+
+Works:
+- Active Learning by Acquiring Contrastive Examples [2021, Arxiv]: CAL
+
+### 2.6. Divide and Select
+
+Pre-divide the pool into batches by a certain why.
+Then select from each batches.
+Except the pre-cluster, there are other criteria to prepare the batches:
+- Divide by loss on auxiliary tasks (self-supervised tasks)
+
+Works:
+- Using Self-Supervised Pretext Tasks for Active Learning [2022]
+
+## 3. Expected Improvements
 
 Our learning purpose is to reduce the generalization error at the end (in other word, have a better performance at the end).
 From this perspective, we can select the instances which could improve the performance for each selection stage.
@@ -108,100 +209,7 @@ Works:
   ELR tends to stuck in local optima; BALD tends to be overly explorative.
   Propose an acquisition function based on a weighted form of mean objective cost of uncertainty (MOCU).
 
-## Representativeness-impart sampling
-
-Previous introduced works seldomly consider the data distributions.
-So those strategies are more focusing on the decision boundary, and the representativeness of the data is neglected.
-Therefore, many works take the representativeness of the data into account.
-Basically, it measures how much the labeled instances are aligned with the unlabeled instances in distribution.
-We note that there aren't many works only consider the representativeness of the data.
-More commonly, the representativeness and informativeness are considered together to sample instances.
-
-### Cluster-based sampling
-
-The simplest idea is to use cluster structure to guide the selection.
-The cluster could either be applied on the original features or the learned embeddings.
-
-- Cluster-based sampling: 
-  - Pre-cluster
-  - Hierarchical sampling
-  - Cluster on other types of embedding
-
-Works:
-- [Active learning using pre-clustering [2004, ICML]](https://dl.acm.org/doi/abs/10.1145/1015330.1015349): (483 citations)
-- [Hierarchical Sampling for Active Learning [2008, ICML]](https://dl.acm.org/doi/pdf/10.1145/1390156.1390183): Take into account both the uncertainty and the representativeness. The performance heavily depends on the quality of clustering results. (388 citations)
-- [Ask-n-Learn: Active Learning via Reliable Gradient Representations for Image Classification [2020]](https://arxiv.org/pdf/2009.14448.pdf): Use kmeans++ on the learned gradient embeddings to select instances.
-
-### Density-based sampling
-
-These types of strategies take into account the distribution and local density.
-The intuition is that the location with more density is more likely to be queried.
-i.e. the selected instances and the unlabeled instances should have similar distributions.
-
-- Density-based sampling: 
-  - **Information density**
-  - **RALF**
-  - **k-Center-Greedy (Core-set)**: Only consider the representativeness.
-
-Works:
-- [An analysis of active learning strategies for sequence labeling tasks [2008, CEMNL]](https://www.aclweb.org/anthology/D08-1112.pdf): **Information density** framework. The main idea is that informative instances should not only be those which are uncertain, but also those which are “representative” of the underlying distribution (i.e., inhabit dense regions of the input space).(659 citations)
-- [RALF: A Reinforced Active Learning Formulation for Object Class Recognition [2012, CVPR]](https://ieeexplore.ieee.org/abstract/document/6248108/): **RALF**. A time-varying combination of exploration and exploitation sampling criteria. Include graph density in the exploitation strategies. (59 citations)
-- [Active learning for convolutional neural networks: A core-set approach [ICLR, 2018]](https://arxiv.org/abs/1708.00489):
-  Core-set loss is simply the difference between average empirical loss over the set of points which have labels for and the average empirical loss over the entire dataset including unlabelled points. Optimize the upper bound of core-set loss could be considered as a k-center problem in practice. Doesn't need to know the out put of the current model.
-- [Minimax Active Learning [2020]](https://arxiv.org/pdf/2012.10467.pdf): Develop a semi-supervised minimax entropy-based active learning algorithm that leverages both uncertainty and diversity in an adversarial manner.
-- [Multiple-criteria Based Active Learning with Fixed-size Determinantal Point Processes [2021]](https://arxiv.org/pdf/2107.01622.pdf)
-
-### Alignment-based sampling
-
-This type of works directly takes into account the measurement of distribution alignment between labeled/selected data and unlabeled data.
-i.e. The labeled and the unlabeled instances should hard to be distinguished.
-There are adversarial works and non-adversarial works.
-
-Types:
-- **Adversarial based**
-- **non-adversarial based**
-
-Works:
-- [Exploring Representativeness and Informativeness for Active Learning [2017, IEEE TRANSACTIONS ON CYBERNETICS]](https://ieeexplore.ieee.xilesou.top/abstract/document/7329991): Optimization based. The representativeness is measured by fully investigating the triple similarities that include the similarities between a query sample and the unlabeled set, between a query sample and the labeled set, and between any two candidate query samples. For representativeness, our goal is also to find the sample that makes the distribution discrepancy of unlabeled data and labeled data small. For informativeness, use BvSB. (85 citations)
-- [Discriminative Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1907.06347.pdf):
-  Make the labeled and unlabeled pool indistinguishable.
-- Agreement-Discrepancy-Selection: Active Learning with Progressive Distribution Alignment [2021]
-- Dual Adversarial Network for Deep Active Learning [2021, ECCV]: DAAL.
-
-### Expected loss on unlabeled data
-
-Many works only score the instance by the expected performance on the labeled data and the selected data.
-Some other works also take into account the expected loss on the rest unlabeled data as a measurement of representativeness.
-
-- Expected loss on unlabeled data: 
-  - **QUIRE**
-  - **ALDR+**
-
-Works:
-- [Active Learning by Querying Informative and Representative Examples [2010, NeurIPS]](http://papers.nips.cc/paper/4176-active-learning-by-querying-informative-and-representative-examples): **QUIRE**. Optimization based. Not only consider the loss in the labeled data (uncertainty) but also consider the loss in the unlabeled data (representations, correct labels would leads small value of overall evaluation function.). This methods is very computationally expensive. (370 citations)
-- [Efﬁcient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
-
-### Inconsistency of the neighbors
-
-Some works believe the data points that are similar in the model feature space and yet the model outputs maximally different predictive likelihoods should be quired.
-
-- Inconsistency of the neighbors
-  - CAL
-
-Works:
-- Active Learning by Acquiring Contrastive Examples [2021, Arxiv]: CAL
-
-### Divide and Select
-
-Pre-divide the pool into batches by a certain why.
-Then select from each batches.
-Except the pre-cluster, there are other criteria to prepare the batches:
-- Divide by loss on auxiliary tasks (self-supervised tasks)
-
-Works:
-- Using Self-Supervised Pretext Tasks for Active Learning [2022]
-
-## Learn to Score
+## 4. Learn to Score
 
 All the mentioned sampling strategies above are basing on heuristic approaches.
 Their intuitions are clear, but might perform differently in different datasets.
@@ -214,17 +222,17 @@ So some researchers purposed that we can learn a sampling strategy from the samp
 
 Works:
 - [Active learning by learning [2015, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewPaper/9636): **ALBL**. A single human-designed philosophy is unlikely to work on all scenarios. Given an appropriate choice for the multi-armed bandit learner, take the importance-weighted-accuracy as reward function (an unbiased estimator for the test accuracy). It is possible to estimate the performance of different strategies on the fly. SVM as underlying classifier.(41 citations)
-- [Learning active learning from data [2017, NeurIPS]](http://papers.nips.cc/paper/7010-learning-active-learning-from-data): **LAL**. Train a random forest regressor that predicts the expected error reduction for a candidate sample in a particular learning state. Previous works they cannot go beyond combining pre-existing hand-designed heuristics. Random forest as basic classifiers. (Not clear how to get test classiﬁcation loss l. It is not explained in both the paper and the code.)(73 citations)
+- [Learning active learning from data [2017, NeurIPS]](http://papers.nips.cc/paper/7010-learning-active-learning-from-data): **LAL**. Train a random forest regressor that predicts the expected error reduction for a candidate sample in a particular learning state. Previous works they cannot go beyond combining pre-existing hand-designed heuristics. Random forest as basic classifiers. (Not clear how to get test classification loss l. It is not explained in both the paper and the code.)(73 citations)
 - [Learning how to Active Learn: A Deep Reinforcement Learning Approach [2017, Arxiv]](https://arxiv.org/abs/1708.02383): **PAL**. Use RL to learn how to select instance. Even though the strategy is learned and applied in a stream manner, the stream is made by the data pool. So under my angle, it could be considered as a pool-based method. (92)
 - [Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]](https://www.aclweb.org/anthology/P18-1174.pdf): Learn an AL policy using imitation learning, mapping situations to most informative query datapoints. (8 citations)
 - Meta-Learning Transferable Active Learning Policies by Deep Reinforcement Learning [2018, Arxiv]
 - [Learning Loss for Active Learning [2019, CVPR]](https://openaccess.thecvf.com/content_CVPR_2019/html/Yoo_Learning_Loss_for_Active_Learning_CVPR_2019_paper.html): Attach a small parametric module, named “loss prediction module,” to a target network, and learn it to predict target losses of unlabeled inputs. 
 - [Learning to Rank for Active Learning: A Listwise Approach [2020]](https://arxiv.org/pdf/2008.00078.pdf): Have an additional loss prediction model to predict the loss of instances beside the classification model. Then the loss is calculated by the ranking instead of the ground truth loss of the classifier.
-- [Deep Reinforcement Active Learning for Medical Image Classiﬁcation [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.
+- [Deep Reinforcement Active Learning for Medical Image Classification [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.
 - [ImitAL: Learning Active Learning Strategies from Synthetic Data [2021]](https://arxiv.org/pdf/2108.07670.pdf): An imitation learning approach.
 - Cartography Active Learning [2021]: CAL. Select the instances that are the closest to the decision boundary between ambiguous and hard-to-learn instances.
 
-## Others
+## 5. Others
 There still are other works uses innovative heuristics.
 It is a little bit hard to classify those works for now.
 So we put these works under this section.

@@ -2,8 +2,8 @@
 
 Multi-class problem is really common in real life.
 In multi-class classification, conventional methods use one-vs-all and one-vs-rest methods to tackle this problem.
-Of course, several other methods could handle multi-class problem naturally, such as Neural Network.
-(AL for neural networks is quite complex, so here in this section, the strategies are mostly for non-deep models. We'll have a whole section for AL in deep models.)
+Of course, several other models could handle multi-class problem naturally, such as Neural Network.
+(AL for neural networks is quite complex, so here in this section, the strategies are mostly for non-deep models. We have a whole section for AL in deep models [here](deep_AL.md).)
 There are not many remarkable works in this multi-class active learning fields.
 
 ## Uncertainty-based sampling
