@@ -252,6 +252,7 @@ Transfer an existing model:
 
 Unsupervised Selection:
 - Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.
+- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]
 
 ## Stop criteria
 
@@ -311,6 +312,8 @@ Works:
 - [Ask Me Better Questions: Active Learning Queries Based on Rule Induction [2011, KDD]](https://dl.acm.org/doi/pdf/10.1145/2020408.2020559)
 - Active Decision Boundary Annotation with Deep Generative Models [2017, ICCV]
 - [Active Learning with n-ary Queries for Image Recognition [2019, WACV]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8658398): This work is under multi-classification setting. Providing the exact class label may be time consuming and error prone. The annotator merely needs to identify which of the selected n categories a given unlabeled sample belongs to (where n is much smaller than the actual number of classes).
+- [Active learning with partial feedback [ICLR, 2019]](https://arxiv.org/pdf/1802.07427.pdf):
+  The oracles provide partial labels for multi-class classification.
 - [Active Learning++: Incorporating Annotator’s Rationale using Local Model Explanation [2020, Arxiv]](https://arxiv.org/pdf/2009.04568.pdf): Beside the label, oracles also need to provide the rationale. In this paper, the rationale is the importance rank of the features. The oracles not only provide the label of the selected instance but also an importance rank of the features on the selected instance.
 - [ALICE: Active Learning with Contrastive Natural Language Explanations [2020, arxiv]](https://arxiv.org/pdf/2009.10259.pdf): This is a work from Stanford. It use an class-based AL which the AL module selects most confusing class pairs instead of instances (select the b class pairs with the lowest JensenShannon Divergence distance). The expert would provide contrastive natural language explanations. The knowledge is extracted by semantic parsing. The architecture of the model contains an one-vs-rest global classifier and local classifier (conditional execution on the global classifier). The local classifiers are not only trained on the original figures but also the resized image patches obtained in the semantic examination grounding. An attention mechanism is used to train the local classifiers.
 - [Active Learning of Classification Models from Enriched Label-related Feedback [2020, PhD Thesis]](http://d-scholarship.pitt.edu/39554/7/Xue%20Final%20ETD.pdf): The human annotator provides additional information (enriched label-related feedback) reflecting the relations among possible labels. The feedback includes probabilistic scores, ordinal Likert-scale categories, Ordered Class Set, Permutation Subsets.

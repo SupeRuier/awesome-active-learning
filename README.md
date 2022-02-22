@@ -73,7 +73,6 @@ They provided a good overview for the field.
 - Active Learning Query Strategies for Classification, Regression, and Clustering: A Survey [[2020]](https://link.springer.com/article/10.1007/s11390-020-9487-4)[Journal of Computer Science and Technology]
 - A Survey of Active Learning for Text Classification using Deep Neural Networks [[2020]](https://arxiv.org/pdf/2008.07267.pdf)
 - A Survey of Deep Active Learning [[2020]](https://arxiv.org/pdf/2009.00236.pdf)
-- ALdataset: a benchmark for pool-based active learning [[2020]](https://arxiv.org/pdf/2010.08161.pdf)
 - Active Learning: Problem Settings and Recent Developments [[2020]](https://arxiv.org/pdf/2012.04225.pdf)
 - From Model-driven to Data-driven: A Survey on Active Deep Learning [[2021]](https://arxiv.org/pdf/2101.09933.pdf)
 - [Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [[2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.

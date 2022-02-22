@@ -47,3 +47,8 @@
 
 - Boosting Active Learning via Improving Test Performance [2021]: 
   Through expected loss or the output entropy of the output instances.
+
+### Budget v.s. Strategy
+
+- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]:
+  This work shows a behavior reminiscent of phase transition: typical points (representativeness) should best be queried in the low budget regime, while atypical (or uncertain) points are best queried when the budget is large.

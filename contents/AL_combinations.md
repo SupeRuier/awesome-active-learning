@@ -137,6 +137,7 @@ Sentiment/text classification:
 - Active learning for imbalanced sentiment classification [2012, EMNLP-CoNLL]
 - [Deep Active Learning with Simulated Rationales for Text Classification [2020, PRAI]](https://link.springer.com/chapter/10.1007/978-3-030-59830-3_32): Utilize auxiliary task to reduce the data scarce affect at the beginning of the AL process.
 - Active Learning via Membership Query Synthesis for Semi-supervised Sentence Classification [2019, CoNLL]
+- Active Learning for BERT: An Empirical Study [2020, EMNLP]
 - Deep Active Learning for Text Classification with Diverse Interpretations [2021, CIKM]
 
 Named entity recognition: 
@@ -271,6 +272,7 @@ Entity Alignment:
 - Batch Decorrelation for Active Metric Learning [2020, IJCAI]
 - Maximizing Conditional Entropy for Batch-Mode Active Learning of Perceptual Metrics [2021]
 - A Unified Batch Selection Policy for Active Metric Learning [2021, ECML PKDD]
+- Active metric learning and classification using similarity queries [2022]
 
 ## Recommendation
 

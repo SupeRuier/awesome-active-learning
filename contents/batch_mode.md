@@ -50,6 +50,7 @@ Works:
 - [Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds [2020, ICLR]](https://arxiv.org/pdf/1906.03671.pdf):
   Cluster over the gradient vectors for the last fully connect layer.
 - Using Self-Supervised Pretext Tasks for Active Learning [2022]
+- A Lagrangian Duality Approach to Active Learning [2022]
 
 ## Optimization-based
 

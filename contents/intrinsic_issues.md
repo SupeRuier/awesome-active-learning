@@ -22,3 +22,7 @@ Adapted models:
 - Depth Uncertainty Networks for Active Learning [2021, NeurIPS]
 - Towards Dynamic and Scalable Active Learning with Neural Architecture Adaption for Object Detection [2021, BMVC]:
   Add NAS into the AL loops.
+
+## Out-of-Distribution (OOD) Detection:
+
+- Energy-based Out-of-distribution Detection [2020, NeurIPS]
