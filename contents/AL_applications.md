@@ -16,7 +16,9 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Geology](#geology)
   - [Materials](#materials)
   - [Math and Statistics](#math-and-statistics)
-  - [Quantum Physics](#quantum-physics)
+  - [Physics](#physics)
+    - [Condensed Matter Physics](#condensed-matter-physics)
+    - [Quantum Physics](#quantum-physics)
 - [Industrial Applications (alphabetical order)](#industrial-applications-alphabetical-order)
   - [Answer Selection](#answer-selection)
   - [Autonomous Driving](#autonomous-driving)
@@ -91,12 +93,6 @@ Lithology Identification:
 
 ## Materials
 
-Molecular Dynamics
-- [Active learning accelerates ab initio molecular dynamics on reactive energy surfaces [2020, Chem]
-- [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020. KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
-- Active Learning in Bayesian Neural Networks for Bandgap Predictions of Novel Van der Waals Heterostructures [2021, Advanced Intelligent Systems]
-- Nanohardness from First Principles with Active Learning on Atomic Environments [2022, JCTC]
-
 Materials Design and Discovery
 
 - Bias free multi-objective active learning for materials design and discovery [2020]
@@ -104,15 +100,25 @@ Materials Design and Discovery
 - [Active Discovery of Catalysts for Sustainable Energy Storage [2021]](https://www.proquest.com/openview/660c2b7aa14e0b9228240134af6e089e/1?cbl=18750&diss=y&pq-origsite=gscholar)
 - [Active discovery of organic semiconductors [2021, Nature communications]](https://www.nature.com/articles/s41467-021-22611-4)
 
-Transition State Calculation:
-- Active Learning for Transition State Calculation
-
 ## Math and Statistics
 
 Model checking:
 - [Active and sparse methods in smoothed model checking](https://arxiv.org/pdf/2104.09940.pdf)
 
-## Quantum Physics
+## Physics
+
+### Condensed Matter Physics
+
+Molecular Dynamics:
+- [Active learning accelerates ab initio molecular dynamics on reactive energy surfaces [2020, Chem]
+- [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020. KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
+- Active Learning in Bayesian Neural Networks for Bandgap Predictions of Novel Van der Waals Heterostructures [2021, Advanced Intelligent Systems]
+- Nanohardness from First Principles with Active Learning on Atomic Environments [2022, JCTC]
+
+Transition State Calculation:
+- Active Learning for Transition State Calculation
+
+### Quantum Physics
 
 - Active Learning of Quantum System Hamiltonians yields Query Advantage [2021]
 

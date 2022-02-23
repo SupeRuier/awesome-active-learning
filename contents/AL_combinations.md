@@ -28,6 +28,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Adversarial Attack](#adversarial-attack)
   - [Algorithm Fairness](#algorithm-fairness)
   - [Anomaly Detection](#anomaly-detection)
+  - [Audio Processing](#audio-processing)
   - [Causal Analysis](#causal-analysis)
   - [Curriculum Learning](#curriculum-learning)
   - [Human Learning](#human-learning)
@@ -140,7 +141,7 @@ Sentiment/text classification:
 - Active Learning for BERT: An Empirical Study [2020, EMNLP]
 - Deep Active Learning for Text Classification with Diverse Interpretations [2021, CIKM]
 
-Named entity recognition: 
+Named entity recognition (Information Extraction): 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
 - [Deep active learning for named entity recognition [ICLR, 2018]](https://arxiv.org/abs/1707.05928):
   Incremental manner.
@@ -149,6 +150,7 @@ Named entity recognition:
 - LTP: A New Active Learning Strategy for CRF-Based Named Entity Recognition [2020, Arxiv]
 - Subsequence Based Deep Active Learning for Named Entity Recognition [2021]
 - Deep Active Learning for Swedish Named Entity Recognition [2021, Master Thesis]
+- FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction [2022]
 
 Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
@@ -178,7 +180,7 @@ Fine-Tuning for Downstream NLP Tasks:
 Question Answering:
 - Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
 
-Event extraction:
+Event Extraction (Information Extraction):
 - Active Learning for Event Extraction with Memory-based Loss Prediction Model [2021]
 
 ## Domain adaptation/Transfer learning
@@ -360,6 +362,10 @@ For example, the ImageNet was crawled from image databases without considering s
 ## Anomaly Detection
 
 - Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning [2020, Arxiv]
+
+## Audio Processing
+
+- Active Correction for Incremental Speaker Diarization of a Collection with Human in the Loop [2022, Applied Science]
 
 ## Causal Analysis
 

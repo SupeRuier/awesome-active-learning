@@ -31,7 +31,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
 - [The considerations of the scale](#the-considerations-of-the-scale)
   - [Large-scale](#large-scale)
-  - [Very small budget](#very-small-budget)
+  - [Oracle idle issue](#oracle-idle-issue)
 - [The consideration of the workflow](#the-consideration-of-the-workflow)
   - [Cold start problem](#cold-start-problem)
   - [Stop criteria](#stop-criteria)
@@ -213,8 +213,6 @@ Works:
 - Cost-Accuracy Aware Adaptive Labeling for Active Learning [2020, AAAI]: Need to select instances and labelers.
 - [Active cross-query learning: A reliable labeling mechanism via crowdsourcing for smart surveillance [Computer Communications, 2020]](https://www.sciencedirect.com/science/article/pii/S014036641931730X):
   Each labeling task is repeated several times to complete the cross-query learning.
-  
-
 
 # The considerations of the scale
 
@@ -232,19 +230,25 @@ Works:
 - Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.(8)
 - Quantum speedup for pool-based active learning [2019, QIP]
 
-## Very small budget
+## Oracle idle issue
 
-- [A Simple Baseline for Low-Budget Active Learning [2021]](https://arxiv.org/pdf/2110.12033.pdf): 
-  SSL + AL when the budget is extremely small (0.2%).
-  A simple k-means clustering algorithm can outperform the state-of-the-art active learning methods.
+When the scale is large, oracles usually need to wait a long time for model training and instance selection.
+
+- FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction [2022]:
+  The key idea is to train only a small proxy model on the current labeled data to recommend new examples for annotation in the next round.
   
 # The consideration of the workflow
 
 ## Cold start problem
 
-Normally, in a cold start setting (no labeled instance at all at the beginning), AL is hard to work.
+Normally, in a cold start setting (no labeled instance at all at the beginning), AL is hard to perform well.
 Prior work, like BADGE, often depend on model uncertainty or inference, but these measures can be unreliable if the model has not trained on enough data.
 Usually, a portion of data are randomly selected at the beginning to train a super weak model to get into the AL loop (might still not enough for deep models).
+
+Very small budget:
+- [A Simple Baseline for Low-Budget Active Learning [2021]](https://arxiv.org/pdf/2110.12033.pdf): 
+  SSL + AL when the budget is extremely small (0.2%).
+  A simple k-means clustering algorithm can outperform the state-of-the-art active learning methods.
 
 Transfer an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)

@@ -24,6 +24,7 @@ Most of classic strategies are based on these models.
 - [Deeper Connections between Neural Networks and Gaussian Processes Speed-up Active Learning [IJCAI, 2019]](https://arxiv.org/abs/1902.10350)
 - Depth Uncertainty Networks for Active Learning [2021, NeurIPS]
 - BALanCe: Deep Bayesian Active Learning via Equivalence Class Annealing [2021]
+- Efficient and Reliable Probabilistic Interactive Learning with Structured Outputs [2022]: CRISPs, A Property-driven Approach for Guaranteed Reliable Inference.
 
 ## Decision Trees
 - [Active Learning with Direct Query Construction [KDD, 2008]](https://dl.acm.org/doi/pdf/10.1145/1401890.1401950)

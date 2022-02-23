@@ -43,7 +43,7 @@ Acquiring a heavy number of annotations hindering the application of machine lea
 Active learning is one approach to relief this annotation burden.
 The intuition is that not all the instances are equally important to the desired task, so only labeling the more important instances might bring cost reduction.
 
-Is is very hard to find a formal definition of general AL within a single optimization function.
+It is very hard to find a formal definition of general AL within a single optimization function.
 It would be better to define specific AL under specific problem settings.
 Hence, we only point out the essences of AL in this section.
 **When we talk about active learning, we talk about**:
@@ -207,3 +207,4 @@ We also list several scholars who are currently heavily contributing to this res
 
 Several young researchers who provides valuable insights for AL:
 - Jamshid Sourati [University of Chicago]: Deep neural networks.
+- Stefano Teso [University of Trento]: Interactive learning & Human-in-the-loops
