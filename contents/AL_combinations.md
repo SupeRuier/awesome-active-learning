@@ -31,6 +31,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Audio Processing](#audio-processing)
   - [Causal Analysis](#causal-analysis)
   - [Curriculum Learning](#curriculum-learning)
+  - [Federated Learning](#federated-learning)
   - [Human Learning](#human-learning)
   - [Information Retrieval](#information-retrieval)
   - [Instance Search (INS)](#instance-search-ins)
@@ -79,6 +80,7 @@ Image Semantic Segmentation：
 - [Revisiting Superpixels for Active Learning in Semantic Segmentation with Realistic Annotation Costs [2021, CVPR]](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)
 - MEAL: Manifold Embedding-based Active Learning [2021, Arxiv]
 - Joint Semi-supervised and Active Learning for Segmentation of Gigapixel Pathology Images with Cost-Effective Labeling [2021, ICCV]
+- An Active and Contrastive Learning Framework for Fine-Grained Off-Road Semantic Segmentation [2022]
 
 Semantic Segmentation with domain adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
@@ -374,6 +376,10 @@ For example, the ImageNet was crawled from image databases without considering s
 
 ## Curriculum Learning
 - [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page=52)
+
+## Federated Learning
+
+- Federated Active Learning (F-AL): an Efficient Annotation Strategy for Federated Learning [2022]
 
 ## Human Learning
 
