@@ -11,19 +11,20 @@ There also are some works focus on **multi-class classification** settings, plea
 
 - [Taxonomy](#taxonomy) 
 - [Categories](#categories)
-  - [1. Informativeness](#informativeness)
-    - [1.1. Uncertainty-based sampling](#uncertainty-based-sampling)
-    - [Disagreement-based sampling](#disagreement-based-sampling)
-  - [2. Representativeness-impart sampling](#representativeness-impart-sampling)
-    - [Cluster-based sampling](#cluster-based-sampling)
-    - [Density-based sampling](#density-based-sampling)
-    - [Alignment-based sampling](#alignment-based-sampling)
-    - [Expected loss on unlabeled data](#expected-loss-on-unlabeled-data)
-    - [Inconsistency of the neighbors](#inconsistency-of-the-neighbors)
-    - [Divide and Select](#divide-and-select)
-  - [3. Expected Improvements](#expected-improvements)
-  - [4. Learn to Score](#learn-to-score)
-  - [5. Others](#others)
+  - [1. Informativeness](#1-informativeness)
+    - [1.1. Uncertainty-based sampling](#11-uncertainty-based-sampling)
+    - [1.2. Disagreement-based sampling](#12-disagreement-based-sampling)
+    - [1.3. Other informativeness measurement](#13-other-informativeness-measurement)
+  - [2. Representativeness-impart sampling](#2-representativeness-impart-sampling)
+    - [2.1. Cluster-based sampling](#21-cluster-based-sampling)
+    - [2.2. Density-based sampling](#22-density-based-sampling)
+    - [2.3. Alignment-based sampling](#23-alignment-based-sampling)
+    - [2.4. Expected loss on unlabeled data](#24-expected-loss-on-unlabeled-data)
+    - [2.5. Inconsistency of the neighbors](#25-inconsistency-of-the-neighbors)
+    - [2.6. Divide and Select](#26-divide-and-select)
+  - [3. Expected Improvements](#3-expected-improvements)
+  - [4. Learn to Score](#4-learn-to-score)
+  - [5. Others](#5-others)
 
 # Taxonomy
 
@@ -36,7 +37,7 @@ We summarize them into the following catagories.
 | **Informativeness**           | Uncertainty by the model prediction               | Usually refers to how much information instances would bring to the model.                            |
 | **Representativeness-impart** | Represent the underlying distribution             | Normally used with informativeness. This type of methods may have overlaps with batch-mode selection. |
 | **Expected Improvements**     | The improvement of the model's performance        | The evaluations usually take more time.                                                               |
-| **Learn to score**            | Learn a evaluation function directly.             |                                                                                                       |
+| **Learn to score**            | Learn an evaluation function directly.            |                                                                                                       |
 | **Others**                    | Could not classified into the previous categories |                                                                                                       |
 
 
