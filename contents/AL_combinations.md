@@ -85,6 +85,7 @@ Image Semantic Segmentation：
 Semantic Segmentation with domain adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
   One time selection, not in the conventional loop manner.
+- ADeADA: Adaptive Density-aware Active Domain Adaptation for Semantic Segmentation [2022]
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -294,6 +295,7 @@ Positive Unlabeled learning:
 Active exploration
 - Model-Based Active Exploration
 - [SAMBA: Safe Model-Based & Active Reinforcement Learning [2020, Arxiv]](https://arxiv.org/pdf/2006.09436.pdf)
+- How to Train Your Agent: Active Learning from Human Preferences and Justifications in Safety-Critical Environments [2022, AAMAS]
 
 Save training cost in the measure of time:
 - [Active Reinforcement Learning over MDPs [2021]](https://arxiv.org/pdf/2108.02323.pdf)
