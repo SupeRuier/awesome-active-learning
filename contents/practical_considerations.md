@@ -27,7 +27,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Class mismatch](#class-mismatch)
   - [Open-set](#open-set)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
-  - [The assumption change on single oracles (Noise/Special behaviors)](#the-assumption-change-on-single-oracles-noisespecial-behaviors)
+  - [The assumption change on the naive perfect oracles (Noise/Special behaviors)](#the-assumption-change-on-the-naive-perfect-oracles-noisespecial-behaviors)
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
 - [The considerations of the scale](#the-considerations-of-the-scale)
   - [Large-scale](#large-scale)
@@ -179,7 +179,7 @@ However, this assumption might not always hold true in the number of the oracles
 There is a PhD thesis for this topic:
 - [Active Learning with Uncertain Annotators [2020]](https://books.google.com.hk/books?hl=zh-CN&lr=&id=4pIiEAAAQBAJ&oi=fnd&pg=PA49&ots=i2qwdJVK3_&sig=6R5FxbWyjfcAjHZQttXL6jQ6ws8&redir_esc=y&hl=zh-CN&sourceid=cndr#v=onepage&q&f=false)
 
-## The assumption change on single oracles (Noise/Special behaviors)
+## The assumption change on the naive perfect oracles (Noise/Special behaviors)
 
 We used to assume each labeler is perfect that they can provide accurate answer without doubt.
 However, they are more likely to provide noise labels, or they don't even sure about the answer.
@@ -213,6 +213,7 @@ Works:
 - Cost-Accuracy Aware Adaptive Labeling for Active Learning [2020, AAAI]: Need to select instances and labelers.
 - [Active cross-query learning: A reliable labeling mechanism via crowdsourcing for smart surveillance [Computer Communications, 2020]](https://www.sciencedirect.com/science/article/pii/S014036641931730X):
   Each labeling task is repeated several times to complete the cross-query learning.
+- Evolving multi-user fuzzy classifier systems integrating human uncertainty and expert knowledge [2022, Information Sciences]
 
 # The considerations of the scale
 

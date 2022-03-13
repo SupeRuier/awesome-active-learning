@@ -85,7 +85,8 @@ Image Semantic Segmentation：
 Semantic Segmentation with domain adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
   One time selection, not in the conventional loop manner.
-- ADeADA: Adaptive Density-aware Active Domain Adaptation for Semantic Segmentation [2022]
+- ADeADA: Adaptive Density-aware Active Domain Adaptation for Semantic Segmentation [2022]:
+  Acquire labels of the samples with high probability density in the target domain yet with low probability density in the source domain
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -107,6 +108,7 @@ Object Detection:
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
 - ReDAL: Region-based and Diversity-aware Active Learning for Point Cloud Semantic Segmentation [2021, ICCV]
+- Active Learning for Point Cloud Semantic Segmentation via Spatial-Structural Diversity Reasoning [2022]
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
