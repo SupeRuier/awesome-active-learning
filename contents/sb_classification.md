@@ -50,3 +50,5 @@
   The models are trained on both labeled and pseudo-labeled data.
 - Mining Drifting Data Streams on a Budget: Combining Active Learning with Self-Labeling [2021]
 - Online Active Learning with Dynamic Marginal Gain Thresholding [2022]
+- Online active classification via margin‐based and feature‐based label queries [2022, Machine Learning]
+- Reinforced Meta Active Learning [2022]: Treat AL as an agent.

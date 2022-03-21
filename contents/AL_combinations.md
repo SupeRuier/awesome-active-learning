@@ -131,6 +131,9 @@ Pose Estimation:
 - Deep Active Learning For Human Pose Estimation Via Consistency Weighted Core-Set Approach [2021, ICIP]
 - Active Learning with Pseudo-Labels for Multi-View 3D Pose Estimation [2021]
 
+Optical Flow Prediction:
+- Optical Flow Training under Limited Label Budget via Active Learning [2022]
+
 ## Natural Language Processing (NLP)
 
 NLP is also quite a wide conception.
@@ -167,6 +170,7 @@ Classifier Pruning:
 Neural Machine Translation:
 - [Active Learning Approaches to Enhancing Neural Machine Translation [2020, EMNLP]](https://www.aclweb.org/anthology/2020.findings-emnlp.162.pdf): The first to do a large-scale study on actively training Transformer for NMT.
 - Active Learning for Massively Parallel Translation of Constrained Text into Low Resource Languages [2021, Arxiv]
+- Active Learning with Expert Advice for Real World MT[2022]
 
 Sequence Tagging:
 - [Active Learning for Sequence Tagging with Deep Pre-trained Models and Bayesian Uncertainty Estimates [2021]](https://arxiv.org/pdf/2101.08133.pdf)
@@ -208,6 +212,8 @@ Domain adaptation:
 - Active Universal Domain Adaptation [2021, ICCV]: There are unknown class in the target domain.
 - Active Learning for Domain Adaptation: An Energy-based Approach [2021]
 - Active Learning Over Multiple Domains in Natural Language Tasks [2021]
+- Learning Distinctive Margin toward Active Domain Adaptation [2022]: 
+  The feature gradient from both loss and query function share similar update direction and yield high query score
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]

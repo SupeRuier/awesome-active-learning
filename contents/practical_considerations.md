@@ -74,6 +74,7 @@ Works:
 - Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]: Self-supervised representation learning with a multi-class GP classifier.
 - Active Learning at the ImageNet Scale [2021, Arxiv]: On ImageNet. Self-supervised learning + AL. It reveals the imbalance ratio with different AL strategies (usually the ratio goes up while the budget is consuming).
 - Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeuraIPS]
+- BASIL: Balanced Active Semi-supervised Learning for Class Imbalanced Datasets [2022]
 
 ## Biased data
 
@@ -324,6 +325,7 @@ Works:
 - [Active Learning of Classification Models from Enriched Label-related Feedback [2020, PhD Thesis]](http://d-scholarship.pitt.edu/39554/7/Xue%20Final%20ETD.pdf): The human annotator provides additional information (enriched label-related feedback) reflecting the relations among possible labels. The feedback includes probabilistic scores, ordinal Likert-scale categories, Ordered Class Set, Permutation Subsets.
 - [Hierarchical Active Learning with Overlapping Regions [2020]](https://dl.acm.org/doi/pdf/10.1145/3340531.3412022)
 - Deep Active Learning with Relative Label Feedback: An Application to Facial Age Estimation [2021, IJCNN]
+- Active Sampling for Text Classification with Subinstance Level Queries [2022]: Query sub-instances.
 
 # The consideration of the performance metric
 

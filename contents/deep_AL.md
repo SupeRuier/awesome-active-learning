@@ -186,6 +186,7 @@ Pseudo-labels：
 - [AdaReNet: Adaptive Reweighted Semi-supervised Active Learning to Accelerate Label Acquisition [2021, PETRA]](https://dl.acm.org/doi/pdf/10.1145/3453892.3461321)
 - [Semi-supervised Active Learning for Semi-supervised Models: Exploit Adversarial Examples with Graph-based Virtual Labels [2021, ICCV]](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Semi-Supervised_Active_Learning_for_Semi-Supervised_Models_Exploit_Adversarial_Examples_With_ICCV_2021_paper.pdf): Take into account the stability of the pseudo-labels inferred by a GCN label propagator.
 - ATM: An Uncertainty-aware Active Self-training Framework for Label-efficient Text Classification [2021]
+- Active Self-Semi-Supervised Learning for Few Labeled Samples Fast Training [2022]: A cold start few-shot AL setting, and it selects instance on the features from self-supervised learning.
 
 Data Augmentation:
 - [Parting with Illusions about Deep Active Learning [2019, Arxiv]](https://arxiv.org/pdf/1912.05361.pdf):
