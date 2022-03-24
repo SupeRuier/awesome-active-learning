@@ -57,6 +57,7 @@ Hence, we only point out the essences of AL in this section.
 There have been several reviews/surveys/benchmarks for this topic.
 They provided a good overview for the field.
 
+**Reviews/Surveys**:
 - Active learning: theory and applications [[2001]](https://ai.stanford.edu/~koller/Papers/Tong:2001.pdf.gz)
 - Active Learning Literature Survey **(Recommend to read)**[[2009]](https://minds.wisconsin.edu/handle/1793/60660)
 - A survey on instance selection for active learning [[2012]](https://link.springer.com/article/10.1007/s10115-012-0507-8)
@@ -66,9 +67,12 @@ They provided a good overview for the field.
 - A Survey of Deep Active Learning [[2020]](https://arxiv.org/pdf/2009.00236.pdf)
 - Active Learning: Problem Settings and Recent Developments [[2020]](https://arxiv.org/pdf/2012.04225.pdf)
 - From Model-driven to Data-driven: A Survey on Active Deep Learning [[2021]](https://arxiv.org/pdf/2101.09933.pdf)
-- [Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [[2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
-- A Comparative Survey: Benchmarking for Pool-based Active Learning [[2021]](https://www.ijcai.org/proceedings/2021/0634.pdf)[IJCAI]
+- Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [[2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
 - A Survey on Cost Types, Interaction Schemes, and Annotator Performance Models in Selection Algorithms for Active Learning in Classification [[2021]](https://arxiv.org/pdf/2109.11301.pdf)
+
+**Benchmarks**:
+- A Comparative Survey: Benchmarking for Pool-based Active Learning [[2021]](https://www.ijcai.org/proceedings/2021/0634.pdf)[IJCAI]
+- A Framework and Benchmark for Deep Batch Active Learning for Regression [[2022]](https://arxiv.org/pdf/2203.09410.pdf)
 
 # 3. Problem Settings
 

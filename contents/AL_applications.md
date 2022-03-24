@@ -114,6 +114,7 @@ Molecular Dynamics:
 - [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020. KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
 - Active Learning in Bayesian Neural Networks for Bandgap Predictions of Novel Van der Waals Heterostructures [2021, Advanced Intelligent Systems]
 - Nanohardness from First Principles with Active Learning on Atomic Environments [2022, JCTC]
+- Batch active learning for accelerating the development of interatomic potentials [2022, Comput. Mater. Sci.]
 
 Transition State Calculation:
 - Active Learning for Transition State Calculation

@@ -56,3 +56,4 @@ Unsupervised ALR (passive sampling sometimes) assume we don't have any labeled i
    QBC and EMCM(Expected Model Change Maximization) as based AL strategy.
    **EBMALR**.
    (23)
+2. A Framework and Benchmark for Deep Batch Active Learning for Regression [2022]
