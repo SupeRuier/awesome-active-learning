@@ -34,6 +34,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Oracle idle issue](#oracle-idle-issue)
 - [The consideration of the workflow](#the-consideration-of-the-workflow)
   - [Cold start problem](#cold-start-problem)
+  - [Start Point](#start-point)
   - [Stop criteria](#stop-criteria)
   - [Asynchronous training](#asynchronous-training)
   - [Without supervision](#without-supervision)
@@ -251,6 +252,7 @@ Very small budget:
 - [A Simple Baseline for Low-Budget Active Learning [2021]](https://arxiv.org/pdf/2110.12033.pdf): 
   SSL + AL when the budget is extremely small (0.2%).
   A simple k-means clustering algorithm can outperform the state-of-the-art active learning methods.
+- A Novel Low-Query-Budget Active Learner with Pseudo-Labels for Imbalanced Data [2022, mathematics]
 
 Transfer an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
@@ -259,6 +261,12 @@ Transfer an existing model:
 Unsupervised Selection:
 - Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.
 - Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]
+
+## Start Point
+
+When to switch from passive learning to AL?
+
+- How Much a Model Be Trained by Passive Learning Before Active Learning? [2022]
 
 ## Stop criteria
 

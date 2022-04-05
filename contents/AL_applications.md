@@ -61,6 +61,9 @@ Spectroscopic Surveys
 - [Active deep learning method for the discovery of objects of interest in large spectroscopic surveys](https://arxiv.org/pdf/2009.03219.pdf): We apply active learning classification methods supported by deep convolutional neural networks to automatically identify complex emission-line shapes in multi-million spectra archives.
 - [Active learning with RESSPECT: Resource allocation for extragalactic astronomical transients [2020]](https://arxiv.org/pdf/2010.05941.pdf): The Recommendation System for Spectroscopic follow- up (RESSPECT) project aims to enable the construction of optimized training samples for the Rubin Observatory Legacy Survey of Space and Time (LSST), taking into account a realistic description of the astronomical data environment.
 
+Reduce Simulation Costs
+- Active Learning for Computationally Efficient Distribution of Binary Evolution Simulations [2022]
+
 ## Biology
 
 Structural Biology:

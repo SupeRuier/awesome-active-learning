@@ -30,6 +30,8 @@ In this chapter, we would only list the works which are not included in MLAL.
   (10)
 - Active Learning from Peers [2017, NeurIPS]:
   A stream-based scenario.
+- Safe Active Learning for Multi-Output Gaussian Processes [2022]: 
+  Multi-output regression.
 
 ### Heterogeneous MTAL
 

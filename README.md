@@ -69,6 +69,8 @@ They provided a good overview for the field.
 - From Model-driven to Data-driven: A Survey on Active Deep Learning [[2021]](https://arxiv.org/pdf/2101.09933.pdf)
 - Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [[2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
 - A Survey on Cost Types, Interaction Schemes, and Annotator Performance Models in Selection Algorithms for Active Learning in Classification [[2021]](https://arxiv.org/pdf/2109.11301.pdf)
+- A Comparative Survey of Deep Active Learning [[2022]](https://arxiv.org/pdf/2203.13450.pdf)
+
 
 **Benchmarks**:
 - A Comparative Survey: Benchmarking for Pool-based Active Learning [[2021]](https://www.ijcai.org/proceedings/2021/0634.pdf)[IJCAI]

@@ -148,6 +148,7 @@ Sentiment/text classification:
 - Active Learning via Membership Query Synthesis for Semi-supervised Sentence Classification [2019, CoNLL]
 - Active Learning for BERT: An Empirical Study [2020, EMNLP]
 - Deep Active Learning for Text Classification with Diverse Interpretations [2021, CIKM]
+- Revisiting Uncertainty-based Query Strategies for Active Learning with Transformers [2022]: Fine-tune the pretrained transformer based models.
 
 Named entity recognition (Information Extraction): 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
@@ -191,6 +192,9 @@ Question Answering:
 
 Event Extraction (Information Extraction):
 - Active Learning for Event Extraction with Memory-based Loss Prediction Model [2021]
+
+Rational Learning:
+- A Rationale-Centric Framework for Human-in-the-loop Machine Learning [2022]
 
 ## Domain adaptation/Transfer learning
 
@@ -378,6 +382,7 @@ For example, the ImageNet was crawled from image databases without considering s
 ## Audio Processing
 
 - Active Correction for Incremental Speaker Diarization of a Collection with Human in the Loop [2022, Applied Science]
+- Investigating Active-learning-based Training Data Selection for Speech Spoofing Countermeasure [2022]
 
 ## Causal Analysis
 
