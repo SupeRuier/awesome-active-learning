@@ -193,9 +193,12 @@ Data Augmentation:
   Take into account the data augmentation and SSL in the literature.
   It considers the an image classification task and a semantic segmentation task.
 - [Bayesian Generative Active Deep Learning [ICML, 2019]](https://arxiv.org/abs/1904.11643):
+  BGADL.
   Data augmentation and active learning at the same time.
   The labeled set not only have queried data but also the generated data in each loop.
   The classifier and the GAN model are trained jointly. 
+- [LADA: Look-Ahead Data Acquisition via Augmentation for Deep Active Learning [2021, NeuraIPS]](https://proceedings.neurips.cc/paper/2021/file/c1b70d965ca504aa751ddb62ad69c63f-Paper.pdf):
+  Augmentation before selection.
 
 Labeled-unlabeled data indistinguishable:
 - [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162)
