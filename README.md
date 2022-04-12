@@ -216,4 +216,5 @@ We also list several scholars who are currently heavily contributing to this res
 
 Several young researchers who provides valuable insights for AL:
 - Jamshid Sourati [University of Chicago]: Deep neural networks.
-- Stefano Teso [University of Trento]: Interactive learning & Human-in-the-loops
+- Stefano Teso [University of Trento]: Interactive learning & Human-in-the-loops.
+- Xueyin Zhan [City University of Hong Kong]: Provide several invaluable comparative surveys.
