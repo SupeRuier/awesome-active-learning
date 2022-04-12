@@ -18,7 +18,10 @@ Specifically, this repository includes:
 - [7. Resources](#7-resources)
 - [8. Groups/Scholars](#8-groupsscholars)
 
-### Shortcuts
+The hierarchical structure of this repository is shown in the following figure:
+![](repo-structure.png)
+
+### **Shortcuts**
 
 These shortcuts could quickly lead you to the information you want.
 
@@ -31,7 +34,7 @@ These shortcuts could quickly lead you to the information you want.
 | [Intrinsic Issues in AL](contents/intrinsic_issues.md)           | The intrinsic issues of AL.                                      |
 | [Deep AL](contents/deep_AL.md)                                   | AL with deep neural networks.                                    |
 
-### Contributing
+### **Contributing**
 If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
 Comments and suggestions are also very welcome!
 
