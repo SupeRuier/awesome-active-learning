@@ -134,6 +134,11 @@ Pose Estimation:
 Optical Flow Prediction:
 - Optical Flow Training under Limited Label Budget via Active Learning [2022]
 
+Emotion Classification:
+
+In this field, the acquired labels could be highly subjective.
+- An Exploration of Active Learning for Affective Digital Phenotyping [2022]
+
 ## Natural Language Processing (NLP)
 
 NLP is also quite a wide conception.
@@ -149,6 +154,8 @@ Sentiment/text classification:
 - Active Learning for BERT: An Empirical Study [2020, EMNLP]
 - Deep Active Learning for Text Classification with Diverse Interpretations [2021, CIKM]
 - Revisiting Uncertainty-based Query Strategies for Active Learning with Transformers [2022]: Fine-tune the pretrained transformer based models.
+- Active Learning on Pre-trained Language Model with Task-Independent Triplet Loss [2022]
+
 
 Named entity recognition (Information Extraction): 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
@@ -195,6 +202,10 @@ Event Extraction (Information Extraction):
 
 Rational Learning:
 - A Rationale-Centric Framework for Human-in-the-loop Machine Learning [2022]
+- Active Learning on Pre-trained Language Model with Task-Independent Triplet Loss [2022]
+
+Argument Structure Extraction:
+- Efficient Argument Structure Extraction with Transfer Learning and Active Learning [2022]
 
 ## Domain adaptation/Transfer learning
 
@@ -282,6 +293,7 @@ Entity resolution:
 
 Entity Alignment:
 - ActiveEA: Active Learning for Neural Entity Alignment [2021]
+- Impact of the Characteristics of Multi-Source Entity Matching Tasks on the Performance of Active Learning Methods [2022]
 
 ## Metric learning/Pairwise comparison/Similarity learning 
 

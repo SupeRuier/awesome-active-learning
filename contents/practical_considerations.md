@@ -17,6 +17,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Biased data](#biased-data)
   - [Cost-sensitive case](#cost-sensitive-case)
   - [Noised data](#noised-data)
+  - [Subjective labels](#subjective-labels)
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
   - [Multiple correct outputs](#multiple-correct-outputs)
@@ -100,6 +101,13 @@ These data should be avoided in the selection.
 
 Works:
 - Sample Noise Impact on Active Learning [2021]
+
+## Subjective labels
+
+I specific fields, such as emotion prediction, the datasets often have subjective labels.
+
+Works:
+- An Exploration of Active Learning for Affective Digital Phenotyping [2022]
 
 ## Logged data 
 
@@ -334,6 +342,7 @@ Works:
 - [Hierarchical Active Learning with Overlapping Regions [2020]](https://dl.acm.org/doi/pdf/10.1145/3340531.3412022)
 - Deep Active Learning with Relative Label Feedback: An Application to Facial Age Estimation [2021, IJCNN]
 - Active Sampling for Text Classification with Subinstance Level Queries [2022]: Query sub-instances.
+- Active Learning with Label Comparisons [2022]
 
 # The consideration of the performance metric
 
