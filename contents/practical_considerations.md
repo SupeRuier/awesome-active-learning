@@ -136,6 +136,7 @@ Works:
 - Active Feature Acquisition with Supervised Matrix Completion [2018, KDD] (16)
 - Active Feature Acquisition for Opinion Stream Classification under Drift [2020, CEUR Workshop]
 - Active feature acquisition on data streams under feature drift [2020, Annals of Telecommunications]
+- Active learning with missing values considering imputation uncertainty [2021, KBS]
 
 ## Multiple correct outputs
 
@@ -341,6 +342,8 @@ Works:
 - [Active Learning of Classification Models from Enriched Label-related Feedback [2020, PhD Thesis]](http://d-scholarship.pitt.edu/39554/7/Xue%20Final%20ETD.pdf): The human annotator provides additional information (enriched label-related feedback) reflecting the relations among possible labels. The feedback includes probabilistic scores, ordinal Likert-scale categories, Ordered Class Set, Permutation Subsets.
 - [Hierarchical Active Learning with Overlapping Regions [2020]](https://dl.acm.org/doi/pdf/10.1145/3340531.3412022)
 - Deep Active Learning with Relative Label Feedback: An Application to Facial Age Estimation [2021, IJCNN]
+- Bayesian active learning with abstention feedbacks [2021, Neurocomputing]
+- Active label distribution learning [2021, Neurocomputing]
 - Active Sampling for Text Classification with Subinstance Level Queries [2022]: Query sub-instances.
 - Active Learning with Label Comparisons [2022]
 

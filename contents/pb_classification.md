@@ -248,10 +248,11 @@ Self-paced:
   Not use the idea of the self-paced learning into AL.
 - [Self-paced active learning for deep CNNs via effective loss function [2021, Neurocomputing]](https://reader.elsevier.com/reader/sd/pii/S0925231220317963?token=725A4F15C8F8012A11EFEC2DE94118DE4E4FF42C2413D930CC38AF3093BBD3B8C946420F084CCCBB78DBD1F424D709D2):
   The selection criteria selects instances with more discrepancy at the beginning and instances with more uncertainty later.
-  They also ass a similarity classification loss function in their model to ensure the effectiveness of the representations.
+  They also have a similarity classification loss function in their model to ensure the effectiveness of the representations.
 
 Utilize historical evaluation results:
 - [Looking Back on the Past: Active Learning with Historical Evaluation Results [TKDE, 2020]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9298849&tag=1):
   Model the AL process as a ranking problem and use the learned rank results to select instance.
 
-
+Hybrid:
+- HAL: Hybrid active learning for efficient labeling in medical domain [2021, Neurocomputing]

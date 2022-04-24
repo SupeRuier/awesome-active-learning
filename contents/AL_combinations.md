@@ -227,6 +227,7 @@ Domain adaptation:
 - Active Universal Domain Adaptation [2021, ICCV]: There are unknown class in the target domain.
 - Active Learning for Domain Adaptation: An Energy-based Approach [2021]
 - Active Learning Over Multiple Domains in Natural Language Tasks [2021]
+- Discriminative active learning for domain adaptation [2021, KBS]
 - Learning Distinctive Margin toward Active Domain Adaptation [2022]: 
   The feature gradient from both loss and query function share similar update direction and yield high query score
 

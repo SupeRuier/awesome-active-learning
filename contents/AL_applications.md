@@ -49,6 +49,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Simulation](#simulation)
   - [Software Engineering](#software-engineering)
   - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
+  - [Social Bots Detection](#social-bots-detection)
   - [Spam Detection](#spam-detection)
 
 # Scientific Applications (alphabetical order)
@@ -236,6 +237,7 @@ Papers:
 - [Deep Active Learning for Axon-Myelin Segmentation on Histology Data [Arxiv, 2019]](https://arxiv.org/abs/1907.05143)
 - Labeling Cost Sensitive Batch Active Learning For Brain Tumor Segmentation [2021, ISBI]
 - U-Net-Based Active Learning Framework for Enhancing Cancer Immunotherapy [2021, Master's Thesis]
+- Active learning for segmentation based on Bayesian sample queries [2021, KBS]
 - Reducing Annotating Load: Active Learning with Synthetic Images in Surgical Instrument Segmentation
 
 ### Medical Symptom Recognition from Text
@@ -300,6 +302,10 @@ API Misuse Detection
 ## Solvability Prediction in Power Systems
 
 - [Deep Active Learning for Solvability Prediction in Power Systems [2020]](https://arxiv.org/pdf/2007.13250.pdf)
+
+## Social Bots Detection
+
+- A novel framework for detecting social bots with deep neural networks and active learning [2021, KBS]
 
 ## Spam Detection
 
