@@ -41,6 +41,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Medical Symptom Recognition from Text](#medical-symptom-recognition-from-text)
     - [ECG classification](#ecg-classification)
     - [Retinal image analysis](#retinal-image-analysis)
+    - [Biomedical Knowledge Base Construction](#biomedical-knowledge-base-construction)
   - [Mobile Health Monitoring / Disease detection](#mobile-health-monitoring--disease-detection)
   - [Person Re-identification](#person-re-identification)
   - [Privacy Policy Classification](#privacy-policy-classification)
@@ -251,6 +252,10 @@ Papers:
 ### Retinal image analysis
 
 - Human-in-the-loop for efficient training of retinal image analysis methods [2021, Master's Thesis]
+
+### Biomedical Knowledge Base Construction
+
+- BioAct: Biomedical Knowledge Base Construction using Active Learning [2022]
 
 ## Mobile Health Monitoring / Disease detection
 

@@ -39,13 +39,15 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Stop criteria](#stop-criteria)
   - [Asynchronous training](#asynchronous-training)
   - [Without supervision](#without-supervision)
+- [The considerations of the model](#the-considerations-of-the-model)
+  - [Pretrained model](#pretrained-model)
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train](#incrementally-train)
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
 - [The consideration of the robustness](#the-consideration-of-the-robustness)
-- [The Considerations of More Assumptions](#the-considerations-of-more-assumptions)
+- [The considerations of more assumptions](#the-considerations-of-more-assumptions)
   - [Include model selection](#include-model-selection)
   - [Select for evaluation](#select-for-evaluation)
 
@@ -225,6 +227,7 @@ Works:
 - [Active cross-query learning: A reliable labeling mechanism via crowdsourcing for smart surveillance [Computer Communications, 2020]](https://www.sciencedirect.com/science/article/pii/S014036641931730X):
   Each labeling task is repeated several times to complete the cross-query learning.
 - Evolving multi-user fuzzy classifier systems integrating human uncertainty and expert knowledge [2022, Information Sciences]
+- Active Learning with Weak Annotations for Gaussian Processes [2022]
 
 # The considerations of the scale
 
@@ -307,6 +310,17 @@ Works
 - Towards General and Efficient Active Learning [2021]:
   Utilize the knowledge clusters by using the pre-trained encoder.
 
+# The considerations of the model
+
+## Pretrained model
+
+Learn intended tasks with pretrained model.
+
+Works:
+- Active Learning Helps Pretrained Models Learn the Intended Task [2022]:
+  Point out that AL has a neutral or even harmful effect on non-pretrained models.
+
+
 # The considerations of the model training cost
 
 In AL process, the model would be retrained in every AL iteration, this would cause a heavy computational cost.
@@ -367,7 +381,7 @@ Works:
 - Towards Exploring the Limitations of Active Learning: An Empirical Study [2021]:
   They discovered the robustness to adversarial attacks and model compressions.
 
-# The Considerations of More Assumptions
+# The considerations of more assumptions
 
 ## Include model selection
 

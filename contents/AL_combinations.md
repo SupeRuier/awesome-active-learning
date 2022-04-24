@@ -104,6 +104,7 @@ Object Detection:
 - Towards Dynamic and Scalable Active Learning with Neural Architecture Adaption for Object Detection [2021, BMVC]:
   Add NAS into the AL loops.
 - TALISMAN: Targeted Active Learning for Object Detection with Rare Classes and Slices using Submodular Mutual Information [2021]
+- Entropy-based Active Learning for Object Detection with Progressive Diversity Constraint [2022, CVPR]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]

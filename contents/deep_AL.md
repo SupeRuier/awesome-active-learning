@@ -114,6 +114,9 @@ Density-based sampling:
   Build graph by the first hidden layer in DNN. 
   The selection is performed on the graph. 
   Consider a random walk as a mean to assign a label.
+- DeepCore: A Comprehensive Library for Coreset Selection in Deep Learning [2022]: 
+  From their experiments on CIFAR10, in small fractions of 0.1%-1%, the advantage of submodular function based methods is obvious.
+  However, its superiority disappears when the coreset size increases, especially when selecting more than 30% training data.
 
 Diversity-based sampling (batch mode):
 - [BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning [NeurIPS, 2019]](http://papers.nips.cc/paper/8925-batchbald-efficient-and-diverse-batch-acquisition-for-deep-bayesian-active-learning):
