@@ -49,6 +49,8 @@ Uncertainty-based:
 - A new active labeling method for deep learning [IJCNN, 2014]
 - [Probabilistic Backpropagation for Scalable Learning of Bayesian Neural Networks [ICML, 2015]](http://proceedings.mlr.press/v37/hernandez-lobatoc15.pdf):
   Use an active learning scenario which is necessary to produce accurate estimates of uncertainty for obtaining good performance to estimates of the posterior variance on the weights produced by PBP(the proposed methods for BNN).
+- Semantic Segmentation of Small Objects and Modeling of Uncertainty in Urban Remote Sensing Images Using Deep Convolutional Neural Networks [2016, CVPR Workshop]:
+  **MeanSTD** computes the standard deviation over the softmax outputs of the samples as an uncertainty evaluation.
 - [Active Discriminative Text Representation Learning [AAAI, 2017]](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14174):
   Propose a new active learning (AL) method for text classification with convolutional neural networks (CNNs).
   Select instances that contain words likely to most affect the embeddings.
@@ -77,7 +79,7 @@ Disagreement-based:
   **ENS**.
 
 Fisher information:
-- [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, Arxiv]](https://arxiv.org/pdf/2106.09675.pdf): 
+- [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, NeurIPS]](https://arxiv.org/pdf/2106.09675.pdf): 
   **BAIT**.
   This work also utilize greedy selection to build an AL batch.
 
@@ -200,11 +202,11 @@ Data Augmentation:
   Data augmentation and active learning at the same time.
   The labeled set not only have queried data but also the generated data in each loop.
   The classifier and the GAN model are trained jointly. 
-- [LADA: Look-Ahead Data Acquisition via Augmentation for Deep Active Learning [2021, NeuraIPS]](https://proceedings.neurips.cc/paper/2021/file/c1b70d965ca504aa751ddb62ad69c63f-Paper.pdf):
-  Augmentation before selection.
+- [LADA: Look-Ahead Data Acquisition via Augmentation for Deep Active Learning [2021, NeurIPS]](https://proceedings.neurips.cc/paper/2021/file/c1b70d965ca504aa751ddb62ad69c63f-Paper.pdf):
+  LADA takes the influence of the augmented data into account to construct acquisition function
 
 Labeled-unlabeled data indistinguishable:
-- [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162)
+- [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162): WAAL.
 - [Visual Transformer for Task-aware Active Learning [2021]](https://arxiv.org/pdf/2106.03801.pdf)
 
 Consistency (stay same after a distortion):
@@ -217,8 +219,8 @@ Self-supervised learning is popular to extract a good feature representation.
 Its effectiveness has been proved in many fields.
 
 Contrastive Loss:
-- [Improving Robustness and Efficiency in Active Learning with Contrastive Loss [2021, Arxiv]](https://arxiv.org/pdf/2109.06873.pdf): Select instances least similar to the labeled ones with the same class.
-- Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]: Self-supervised representation learning with a multi-class GP classifier.
+- [Mitigating Sampling Bias and Improving Robustness in Active Learning [2021, Arxiv]](https://arxiv.org/pdf/2109.06321.pdf): Select instances least similar to the labeled ones with the same class.
+- Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021]: Self-supervised representation learning with a multi-class GP classifier.
 
 Both self and semi-supervised imparted:
 - Self-supervised Semi-supervised Learning for Data Labeling and Quality Evaluation [2021, Arxiv]: 

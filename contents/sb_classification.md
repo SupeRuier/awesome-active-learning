@@ -45,7 +45,7 @@
 - [Online Active Learning for Drifting Data Streams [2021, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9492291)
 - A comprehensive active learning method for multiclass imbalanced data streams with concept drift [2021, KBS]
 - Stream‐based active learning for sliding windows under the influence of verification latency [2021, Machine Learning]
-- Online Active Learning with Surrogate Loss Functions [2021, NeuraIPS]:
+- Online Active Learning with Surrogate Loss Functions [2021, NeurIPS]:
   **ALPS**.
   Query the current instance based on the disagreement between hypotheses and to construct pseudo-labels fot the non-queried instance.
   The models are trained on both labeled and pseudo-labeled data.

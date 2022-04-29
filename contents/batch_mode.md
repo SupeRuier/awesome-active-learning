@@ -35,6 +35,8 @@ Define a heuristic way to evaluate the diversity.
   The diversity of instances are revealed by the diversity of the models or model changes.
   For example, for neural networks, the diversity could measured by the diversity of vectors in gradient descent.
 - Diversity of the loss on the auxiliary task
+- Determinantal Point Processes (DPP) based:
+  a class of repulsive point processes that is especially useful for generating diverse batches.
 
 Works:
 - [Representative sampling for text classification using support vector machines [2003, ECIR]](https://link.springer.xilesou.top/chapter/10.1007/3-540-36618-0_28): 
@@ -47,8 +49,12 @@ Works:
   Batch-mode SVM-based method. 
   Not only consider the smallest distances to the decision hyperplanes but also take into account the distances to other hyperplanes. 
   Use kernel k-means to keep the diversity of the query batch. (43 citations)
+- Batch Active Learning Using Determinantal Point Processes [2019]: Active-DPP
+- Diverse mini-batch Active Learning [2019]: Cluster on the preselected informative instances.
 - [Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds [2020, ICLR]](https://arxiv.org/pdf/1906.03671.pdf):
+  BADGE also consider the idea of DPP.
   Cluster over the gradient vectors for the last fully connect layer.
+- Batch active learning at scale [2021. NeurIPS]
 - Using Self-Supervised Pretext Tasks for Active Learning [2022]
 - A Lagrangian Duality Approach to Active Learning [2022]
 
@@ -99,7 +105,7 @@ Works:
    Jointly score points by estimating the mutual information between a joint of multiple data points and the model parameters. 
    BALD overestimates the joint mutual information. 
    **BatchBALD**, however, takes the overlap between variables into account and will strive to acquire a better cover of ω.(5 citations)
-4. [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, Arxiv]](https://arxiv.org/pdf/2106.09675.pdf)
+4. [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, NeurIPS]](https://arxiv.org/pdf/2106.09675.pdf)
 
 ## Ensemble-based
 

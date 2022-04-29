@@ -5,7 +5,7 @@ In each section and each type of strategy, we will make a short description at t
 And at the end, we will list the representative works under the category (with a short note).
 
 We note that here we doesn't take batch mode as a dimension in our taxonomy.
-If you are only care about how to apply **batch selection**, please check [**here**](../contents/AL_combinations.md).
+If you are only care about how to apply **batch selection**, please check [**here**](../contents/batch_mode.md).
 The classification problems here include binary and multi-class classification (even some works can only be applied to binary classification).
 There also are some works focus on **multi-class classification** settings, please check [**here**](../contents/MCAL.md).
 

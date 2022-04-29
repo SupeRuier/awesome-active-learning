@@ -77,7 +77,7 @@ Works:
 - Class-Balanced Active Learning for Image Classification [2021, WACV]
 - Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]: Self-supervised representation learning with a multi-class GP classifier.
 - Active Learning at the ImageNet Scale [2021, Arxiv]: On ImageNet. Self-supervised learning + AL. It reveals the imbalance ratio with different AL strategies (usually the ratio goes up while the budget is consuming).
-- Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeuraIPS]
+- Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]
 - BASIL: Balanced Active Semi-supervised Learning for Class Imbalanced Datasets [2022]
 
 ## Biased data

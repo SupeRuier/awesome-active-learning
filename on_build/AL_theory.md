@@ -34,9 +34,9 @@
 
 ### Stream-Based AL
 
-- Neural Active Learning with Performance Guarantees [2021, NeuraIPS]:
+- Neural Active Learning with Performance Guarantees [2021, NeurIPS]:
   Non-parametric regimes.
-- learning with Labeling Induced Abstentions [2021, NeuraIPS]:
+- learning with Labeling Induced Abstentions [2021, NeurIPS]:
   The performance should only be evaluated on the rest unlabeled instances.
 
 ### Deep AL 
