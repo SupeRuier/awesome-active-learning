@@ -18,7 +18,8 @@ Specifically, this repository includes:
 - [7. Resources](#7-resources)
 - [8. Groups/Scholars](#8-groupsscholars)
 
-The hierarchical structure of this repository is shown in the following figure:
+The hierarchical structure of this repository is shown in the following figure, and **you can find the paper-list in the corresponding sub-pages**:
+
 ![](repo-structure.png)
 
 ### **Shortcuts**
