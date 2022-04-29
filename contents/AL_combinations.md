@@ -254,8 +254,12 @@ For one/few-shot learning:
 - Augmented Memory Networks for Streaming-Based Active One-Shot Learning [2019, Arxiv]
 - Active one-shot learning with Prototypical Networks [2019, ESANN]
 - Active one-shot learning by a deep Q-network strategy [2020, Neurocomputing]
-- On the Utility of Active Instance Selection for Few-Shot Learning [2020]: Show via these “upper bounds” that we do not have a significant room for improving few-shot models through actively selecting instances.
+- On the Utility of Active Instance Selection for Few-Shot Learning [2020]: 
+  Show via these “upper bounds” that we do not have a significant room for improving few-shot models through actively selecting instances.
 - Beyond Simple Meta-Learning: Multi-Purpose Models for Multi-Domain, Active and Continual Few-Shot Learning [2022]
+- Active Few-Shot Learning with FASL [2022]:
+  Find that AL methods do not yield strong improvements over a random baseline when applied to datasets with balanced label distributions. 
+  However, experiments on modified datasets with a skewed label distributions as well as naturally unbalanced datasets show the value of AL methods.
 
 There are also works about zero-shot learning:
 - Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]

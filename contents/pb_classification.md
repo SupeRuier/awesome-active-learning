@@ -20,8 +20,7 @@ There also are some works focus on **multi-class classification** settings, plea
     - [2.2. Density-based sampling](#22-density-based-sampling)
     - [2.3. Alignment-based sampling](#23-alignment-based-sampling)
     - [2.4. Expected loss on unlabeled data](#24-expected-loss-on-unlabeled-data)
-    - [2.5. Inconsistency of the neighbors](#25-inconsistency-of-the-neighbors)
-    - [2.6. Divide and Select](#26-divide-and-select)
+    - [2.5. Divide and Select](#25-divide-and-select)
   - [3. Expected Improvements](#3-expected-improvements)
   - [4. Learn to Score](#4-learn-to-score)
   - [5. Others](#5-others)
@@ -94,6 +93,10 @@ The informativeness of instances could be defined in many other ways.
 Works:
 - Optimizing Active Learning for Low Annotation Budgets [2021]: Select the samples with the maximum shift from certainty to uncertainty.
 - Active Learning by Feature Mixing [2022]: The instance with the representation which could maximally influence the output of the anchor labeled instance (by feature mixing) could be informative.
+- Active Learning by Acquiring Contrastive Examples [2021, Arxiv]: 
+  CAL.
+  Take the inconsistency of predictions with the neighbors as the selection criteria.
+  Believe the data points that are similar in the model feature space and yet the model outputs maximally different predictive likelihoods should be quired.
 
 ## 2. Representativeness-impart sampling
 
@@ -168,17 +171,7 @@ Works:
 - [Active Learning by Querying Informative and Representative Examples [2010, NeurIPS]](http://papers.nips.cc/paper/4176-active-learning-by-querying-informative-and-representative-examples): **QUIRE**. Optimization based. Not only consider the loss in the labeled data (uncertainty) but also consider the loss in the unlabeled data (representations, correct labels would leads small value of overall evaluation function.). This methods is very computationally expensive. (370 citations)
 - [Efficient Active Learning by Querying Discriminative and Representative Samples and Fully Exploiting Unlabeled Data [2020, TNNLS]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9178457): **ALDR+**. **This paper also provide a new taxonomy in AL classification**, which includes three parts: criteria for querying samples, exploiting unlabeled data and acceleration. In this paper, they provide a method take all three parts into account.
 
-### 2.5. Inconsistency of the neighbors
-
-Some works believe the data points that are similar in the model feature space and yet the model outputs maximally different predictive likelihoods should be quired.
-
-- Inconsistency of the neighbors
-  - CAL
-
-Works:
-- Active Learning by Acquiring Contrastive Examples [2021, Arxiv]: CAL
-
-### 2.6. Divide and Select
+### 2.5. Divide and Select
 
 Pre-divide the pool into batches by a certain why.
 Then select from each batches.
