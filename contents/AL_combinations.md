@@ -231,6 +231,9 @@ Domain adaptation:
 - Discriminative active learning for domain adaptation [2021, KBS]
 - Learning Distinctive Margin toward Active Domain Adaptation [2022]: 
   The feature gradient from both loss and query function share similar update direction and yield high query score
+- Loss-based Sequential Learning for Active Domain Adaptation [2022]:
+  Semi-supervised domain adaptation on target domain.
+  Use predict loss to select.
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -396,6 +399,7 @@ For example, the ImageNet was crawled from image databases without considering s
 ## Anomaly Detection
 
 - Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning [2020, Arxiv]
+- A Semi-Supervised VAE Based Active Anomaly Detection Framework in Multivariate Time Series for Online Systems [2022, WWW]
 
 ## Audio Processing
 
