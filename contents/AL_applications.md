@@ -138,6 +138,9 @@ The industrial applications of AL are about the practical problems or specific r
 
 ## Autonomous Driving
 
+Survey Paper:
+- Knowledge Augmented Machine Learning with Applications in Autonomous Driving: A Survey [2022]
+
 Line detection:
 - Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.
 

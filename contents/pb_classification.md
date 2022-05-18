@@ -97,6 +97,10 @@ Works:
   CAL.
   Take the inconsistency of predictions with the neighbors as the selection criteria.
   Believe the data points that are similar in the model feature space and yet the model outputs maximally different predictive likelihoods should be quired.
+- On The Effectiveness of Active Learning by Uncertainty Sampling in Classification of High-Dimensional Gaussian Mixture Data [2022, PerCom Workshops]:
+  Add area-under-margin as informative measurements.
+- ALLSH: Active Learning Guided by Local Sensitivity and Hardness [2022]:
+  Select the instances whose predictive likelihoods diverge the most from their perturbations.
 
 ## 2. Representativeness-impart sampling
 

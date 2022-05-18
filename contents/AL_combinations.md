@@ -31,6 +31,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Audio Processing](#audio-processing)
   - [Causal Analysis](#causal-analysis)
   - [Curriculum Learning](#curriculum-learning)
+  - [Entity Matching](#entity-matching)
   - [Federated Learning](#federated-learning)
   - [Human Learning](#human-learning)
   - [Information Retrieval](#information-retrieval)
@@ -123,6 +124,7 @@ Video Object Detection:
 
 Visual Tracking:
 - Active Learning for Deep Visual Tracking [2021]
+- Pseudo Loss Active Learning for Deep Visual Tracking [2022, Pattern Recognition]
 
 Visual Question Answering:
 - Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering [2021]
@@ -412,7 +414,10 @@ For example, the ImageNet was crawled from image databases without considering s
 - [Active Invariant Causal Prediction: Experiment Selection through Stability](https://arxiv.org/pdf/2006.05690.pdf)
 
 ## Curriculum Learning
-- [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page=52)
+- [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page
+
+## Entity Matching
+- Deep entity matching with adversarial active learning [2022, VLDB]
 
 ## Federated Learning
 

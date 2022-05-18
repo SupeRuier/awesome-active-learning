@@ -195,6 +195,7 @@ We summarized a list of works [**here**](contents/AL_applications.md).
 | [BaaL](https://github.com/ElementAI/baal/)                                   | Python(scikit-learn, pytorch)    | ElementAI                 | Keep updating & bayesian active learning         |
 | [lrtc](https://github.com/IBM/low-resource-text-classification-framework)    | Python(scikit-learn, tensorflow) | IBM                       | Text classification                              |
 | [Small-text](https://github.com/webis-de/small-text)                         | Python(scikit-learn, pytorch)    | Christopher Schröder      | Text classification                              |
+| [DeepCore](https://github.com/PatrickZH/DeepCore)                            | Python(scikit-learn, pytorch)    | Guo et al.                | In the coreset selection formulation             |
 
 ## 7.2. Tutorials
 
