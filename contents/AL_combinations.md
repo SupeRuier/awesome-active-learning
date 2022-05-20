@@ -190,7 +190,7 @@ Sequence Generation:
 - [Adversarial Active Learning for Sequence Labeling and Generation [2018, IJCAI]](https://www.ijcai.org/proceedings/2018/0558.pdf)
 
 Coreference Resolution：
-- [Adaptive Active Learning for Coreference Resolution [2021]](https://arxiv.org/pdf/2104.07611.pdf)
+- [Adapting Coreference Resolution Models through Active Learning [2022, ACL]](https://aclanthology.org/2022.acl-long.519.pdf)
 
 Fine-Tuning for Downstream NLP Tasks:
 - Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task
