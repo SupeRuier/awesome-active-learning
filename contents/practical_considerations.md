@@ -269,6 +269,7 @@ Very small budget:
 Transfer an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
 - [On Initial Pools for Deep Active Learning [2020, NeurIPS Preregistration Workshop]](http://proceedings.mlr.press/v148/chandra21a/chandra21a.pdf)
+- Self-supervised Assisted Active Learning for Skin Lesion Segmentation [2022]
 
 Unsupervised Selection:
 - Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.

@@ -122,6 +122,9 @@ Video Object Detection:
 - [Temporal Coherence for Active Learning in Videos [2019, ICCVW]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9022609&tag=1)
 - [Active learning method for temporal action localization in untrimmed videos [2020, US Patent]](https://patents.google.com/patent/US20190325275A1/en)
 
+3D Object Detection:
+- Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
+
 Visual Tracking:
 - Active Learning for Deep Visual Tracking [2021]
 - Pseudo Loss Active Learning for Deep Visual Tracking [2022, Pattern Recognition]
@@ -159,7 +162,6 @@ Sentiment/text classification:
 - Revisiting Uncertainty-based Query Strategies for Active Learning with Transformers [2022]: Fine-tune the pretrained transformer based models.
 - Active Learning on Pre-trained Language Model with Task-Independent Triplet Loss [2022]
 
-
 Named entity recognition (Information Extraction): 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
 - [Deep active learning for named entity recognition [ICLR, 2018]](https://arxiv.org/abs/1707.05928):
@@ -196,6 +198,7 @@ Fine-Tuning for Downstream NLP Tasks:
 - Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task
 - Bayesian Active Learning with Pretrained Language Models
 - Multi-class Text Classification using BERT-based Active Learning
+- On the Importance of Effectively Adapting Pretrained Language Models for Active Learning [2022, ACL]
 
 Question Answering:
 - Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
