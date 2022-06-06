@@ -77,6 +77,10 @@ Structural Biology:
 Cell Classification:
 - Active feature selection discovers minimal gene-sets for classifying cell-types and disease states in single-cell mRNA-seq data [2021]
 
+Molecular Property Prediction：
+- [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020, KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
+- Tyger: Task-Type-Generic Active Learning for Molecular Property Prediction [2022]
+
 ## Chemistry
 
 Chemical natural language processing
@@ -116,7 +120,6 @@ Model checking:
 
 Molecular Dynamics:
 - [Active learning accelerates ab initio molecular dynamics on reactive energy surfaces [2020, Chem]
-- [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020. KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
 - Active Learning in Bayesian Neural Networks for Bandgap Predictions of Novel Van der Waals Heterostructures [2021, Advanced Intelligent Systems]
 - Nanohardness from First Principles with Active Learning on Atomic Environments [2022, JCTC]
 - Batch active learning for accelerating the development of interatomic potentials [2022, Comput. Mater. Sci.]
@@ -143,6 +146,9 @@ Survey Paper:
 
 Line detection:
 - Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.
+
+Trajectory annotation:
+- Engineering Applications of Artificial Intelligence [2022, Engineering Applications of Artificial Intelligence]
 
 ## Brain Mapping in a High Performance Computing Environment
 

@@ -260,20 +260,20 @@ Normally, in a cold start setting (no labeled instance at all at the beginning),
 Prior work, like BADGE, often depend on model uncertainty or inference, but these measures can be unreliable if the model has not trained on enough data.
 Usually, a portion of data are randomly selected at the beginning to train a super weak model to get into the AL loop (might still not enough for deep models).
 
-Very small budget:
+Select directly from the representations:
 - [A Simple Baseline for Low-Budget Active Learning [2021]](https://arxiv.org/pdf/2110.12033.pdf): 
   SSL + AL when the budget is extremely small (0.2%).
   A simple k-means clustering algorithm can outperform the state-of-the-art active learning methods.
 - A Novel Low-Query-Budget Active Learner with Pseudo-Labels for Imbalanced Data [2022, mathematics]
+- Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.
+- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]
+- Active Learning Through a Covering Lens [2022]
 
 Transfer an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
 - [On Initial Pools for Deep Active Learning [2020, NeurIPS Preregistration Workshop]](http://proceedings.mlr.press/v148/chandra21a/chandra21a.pdf)
 - Self-supervised Assisted Active Learning for Skin Lesion Segmentation [2022]
 
-Unsupervised Selection:
-- Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.
-- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]
 
 ## Start Point
 

@@ -88,6 +88,7 @@ Semantic Segmentation with domain adaptation：
   One time selection, not in the conventional loop manner.
 - ADeADA: Adaptive Density-aware Active Domain Adaptation for Semantic Segmentation [2022]:
   Acquire labels of the samples with high probability density in the target domain yet with low probability density in the source domain
+- Active Domain Adaptation with Multi-level Contrastive Units for Semantic Segmentation [2022]
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -106,6 +107,7 @@ Object Detection:
   Add NAS into the AL loops.
 - TALISMAN: Targeted Active Learning for Object Detection with Rare Classes and Slices using Submodular Mutual Information [2021]
 - Entropy-based Active Learning for Object Detection with Progressive Diversity Constraint [2022, CVPR]
+- Weakly Supervised Object Detection Based on Active Learning [2022, NPL]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -176,6 +178,7 @@ Named entity recognition (Information Extraction):
 Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
 - [Diversity-Aware Batch Active Learning for Dependency Parsing [2021]](https://arxiv.org/pdf/2104.13936.pdf)
+- Active Programming by Example with a Natural Language Prior [2022]
 
 Classifier Pruning:
 - [FIND: Human-in-the-Loop Debugging Deep Text Classifiers [2020, EMNLP]](https://www.aclweb.org/anthology/2020.emnlp-main.24.pdf): Visualize each extracted feature as a word cloud. Human decide wether to block the corresponding feature.
@@ -239,6 +242,8 @@ Domain adaptation:
 - Loss-based Sequential Learning for Active Domain Adaptation [2022]:
   Semi-supervised domain adaptation on target domain.
   Use predict loss to select.
+- DistillAdapt: Source-Free Active Visual Domain Adaptation [2022]:
+  Access source model instead of source data.
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -526,24 +531,3 @@ Software Defects Prediction:
 ## Treatment Effect
 
 - Causal-BALD: Deep Bayesian Active Learning of Outcomes to Infer Treatment-Effects from Observational Data [2021, NeurIPS]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

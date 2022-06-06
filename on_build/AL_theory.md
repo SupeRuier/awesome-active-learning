@@ -57,6 +57,10 @@
 
 - On The Effectiveness of Active Learning by Uncertainty Sampling in Classification of High-Dimensional Gaussian Mixture Data [2022, ICASSP]
 
+### Cold Start Selection
+
+- Active Learning Through a Covering Lens [2022]
+
 # To be classified
 
 - Active Learning with Label Comparisons [2022]

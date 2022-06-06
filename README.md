@@ -184,18 +184,19 @@ We summarized a list of works [**here**](contents/AL_applications.md).
 
 ## 7.1. Software Packages/Libraries
 
-| Name                                                                         | Languages                        | Author                    | Notes                                            |
-| ---------------------------------------------------------------------------- | -------------------------------- | ------------------------- | ------------------------------------------------ |
-| [AL playground](https://github.com/google/active-learning)                   | Python(scikit-learn, keras)      | Google                    | Abandoned                                        |
-| [modAL](https://github.com/modAL-python/modAL)                               | Python(scikit-learn)             | Tivadar Danka             | Keep updating                                    |
-| [libact](https://github.com/ntucllab/libact)                                 | Python(scikit-learn)             | NTU(Hsuan-Tien Lin group) |                                                  |
-| [ALiPy](https://github.com/NUAA-AL/ALiPy)                                    | Python(scikit-learn)             | NUAA(Shengjun Huang)      | Include MLAL                                     |
-| [pytorch_active_learning](https://github.com/rmunro/pytorch_active_learning) | Python(pytorch)                  | Robert Monarch            | Keep updating & include active transfer learning |
-| [DeepAL](https://github.com/ej0cl6/deep-active-learning)                     | Python(scikit-learn, pytorch)    | Kuan-Hao Huang            | Keep updating & deep neural networks             |
-| [BaaL](https://github.com/ElementAI/baal/)                                   | Python(scikit-learn, pytorch)    | ElementAI                 | Keep updating & bayesian active learning         |
-| [lrtc](https://github.com/IBM/low-resource-text-classification-framework)    | Python(scikit-learn, tensorflow) | IBM                       | Text classification                              |
-| [Small-text](https://github.com/webis-de/small-text)                         | Python(scikit-learn, pytorch)    | Christopher Schröder      | Text classification                              |
-| [DeepCore](https://github.com/PatrickZH/DeepCore)                            | Python(scikit-learn, pytorch)    | Guo et al.                | In the coreset selection formulation             |
+| Name                                                                                                               | Languages                        | Author                    | Notes                                            |
+| ------------------------------------------------------------------------------------------------------------------ | -------------------------------- | ------------------------- | ------------------------------------------------ |
+| [AL playground](https://github.com/google/active-learning)                                                         | Python(scikit-learn, keras)      | Google                    | Abandoned                                        |
+| [modAL](https://github.com/modAL-python/modAL)                                                                     | Python(scikit-learn)             | Tivadar Danka             | Keep updating                                    |
+| [libact](https://github.com/ntucllab/libact)                                                                       | Python(scikit-learn)             | NTU(Hsuan-Tien Lin group) |                                                  |
+| [ALiPy](https://github.com/NUAA-AL/ALiPy)                                                                          | Python(scikit-learn)             | NUAA(Shengjun Huang)      | Include MLAL                                     |
+| [pytorch_active_learning](https://github.com/rmunro/pytorch_active_learning)                                       | Python(pytorch)                  | Robert Monarch            | Keep updating & include active transfer learning |
+| [DeepAL](https://github.com/ej0cl6/deep-active-learning)                                                           | Python(scikit-learn, pytorch)    | Kuan-Hao Huang            | Keep updating & deep neural networks             |
+| [BaaL](https://github.com/ElementAI/baal/)                                                                         | Python(scikit-learn, pytorch)    | ElementAI                 | Keep updating & bayesian active learning         |
+| [lrtc](https://github.com/IBM/low-resource-text-classification-framework)                                          | Python(scikit-learn, tensorflow) | IBM                       | Text classification                              |
+| [Small-text](https://github.com/webis-de/small-text)                                                               | Python(scikit-learn, pytorch)    | Christopher Schröder      | Text classification                              |
+| [DeepCore](https://github.com/PatrickZH/DeepCore)                                                                  | Python(scikit-learn, pytorch)    | Guo et al.                | In the coreset selection formulation             |
+| [PyRelationAL: A Library for Active Learning Research and Development](https://github.com/RelationRx/pyrelational) | Python(scikit-learn, pytorch)    | Scherer et al.            |                                                  |
 
 ## 7.2. Tutorials
 
