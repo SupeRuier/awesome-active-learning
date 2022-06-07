@@ -213,6 +213,9 @@ Consistency (stay same after a distortion):
 - [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2020, ECCV]](https://link.springer.com/chapter/10.1007/978-3-030-58607-2_30): the selection is based on the consistency-task instead of the classification task.
 - [Semi-Supervised Active Learning with Temporal Output Discrepancy [2021, Arxiv]](https://arxiv.org/pdf/2107.14153.pdf)
 
+Graph-based:
+- Active Learning and Uncertainty in Graph-Based Semi-Supervised Learning [2022, PhD Dissertation]
+
 ## Self-Supervised Learning Imparted
 
 Self-supervised learning is popular to extract a good feature representation.
