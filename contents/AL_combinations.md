@@ -89,6 +89,8 @@ Semantic Segmentation with domain adaptation：
 - ADeADA: Adaptive Density-aware Active Domain Adaptation for Semantic Segmentation [2022]:
   Acquire labels of the samples with high probability density in the target domain yet with low probability density in the source domain
 - Active Domain Adaptation with Multi-level Contrastive Units for Semantic Segmentation [2022]
+- Labeling Where Adapting Fails: Cross-Domain Semantic Segmentation with Point Supervision via Active Selection [2022]:
+  Pixel-level selections.
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
