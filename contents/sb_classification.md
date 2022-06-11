@@ -53,3 +53,7 @@
 - Online Active Learning with Dynamic Marginal Gain Thresholding [2022]
 - Online active classification via margin‐based and feature‐based label queries [2022, Machine Learning]
 - Reinforced Meta Active Learning [2022]: Treat AL as an agent.
+
+## Distributional Shifts
+
+- Continual Active Adaptation to Evolving Distributional Shifts [2022, CVPR]

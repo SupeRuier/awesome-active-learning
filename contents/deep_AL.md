@@ -204,6 +204,7 @@ Data Augmentation:
   The classifier and the GAN model are trained jointly. 
 - [LADA: Look-Ahead Data Acquisition via Augmentation for Deep Active Learning [2021, NeurIPS]](https://proceedings.neurips.cc/paper/2021/file/c1b70d965ca504aa751ddb62ad69c63f-Paper.pdf):
   LADA takes the influence of the augmented data into account to construct acquisition function
+- Collaborative Intelligence Orchestration: Inconsistency-Based Fusion of Semi-Supervised Learning and Active Learning [KDD, 2022]
 
 Labeled-unlabeled data indistinguishable:
 - [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162): WAAL.
@@ -224,6 +225,7 @@ Its effectiveness has been proved in many fields.
 Contrastive Loss:
 - [Mitigating Sampling Bias and Improving Robustness in Active Learning [2021, Arxiv]](https://arxiv.org/pdf/2109.06321.pdf): Select instances least similar to the labeled ones with the same class.
 - Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021]: Self-supervised representation learning with a multi-class GP classifier.
+- One-bit Active Query with Contrastive Pairs [2022, CVPR]
 
 Both self and semi-supervised imparted:
 - Self-supervised Semi-supervised Learning for Data Labeling and Quality Evaluation [2021, Arxiv]: 

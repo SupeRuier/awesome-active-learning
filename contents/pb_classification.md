@@ -92,7 +92,6 @@ The informativeness of instances could be defined in many other ways.
 
 Works:
 - Optimizing Active Learning for Low Annotation Budgets [2021]: Select the samples with the maximum shift from certainty to uncertainty.
-- Active Learning by Feature Mixing [2022]: The instance with the representation which could maximally influence the output of the anchor labeled instance (by feature mixing) could be informative.
 - Active Learning by Acquiring Contrastive Examples [2021, Arxiv]: 
   CAL.
   Take the inconsistency of predictions with the neighbors as the selection criteria.
@@ -101,6 +100,8 @@ Works:
   Add area-under-margin as informative measurements.
 - ALLSH: Active Learning Guided by Local Sensitivity and Hardness [2022]:
   Select the instances whose predictive likelihoods diverge the most from their perturbations.
+- Active Learning by Feature Mixing [2022, CVPR]: The instance with the representation which could maximally influence the output of the anchor labeled instance (by feature mixing) could be informative.
+
 
 ## 2. Representativeness-impart sampling
 
