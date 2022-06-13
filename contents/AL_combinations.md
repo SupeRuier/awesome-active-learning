@@ -140,6 +140,7 @@ Visual Question Answering:
 Pose Estimation:
 - Deep Active Learning For Human Pose Estimation Via Consistency Weighted Core-Set Approach [2021, ICIP]
 - Active Learning with Pseudo-Labels for Multi-View 3D Pose Estimation [2021]
+- Meta Agent Teaming Active Learning for Pose Estimation [2022, CVPR]
 
 Optical Flow Prediction:
 - Optical Flow Training under Limited Label Budget via Active Learning [2022]
