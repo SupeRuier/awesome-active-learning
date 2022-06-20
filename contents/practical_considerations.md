@@ -47,7 +47,9 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Incrementally Train](#incrementally-train)
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
-- [The consideration of the robustness](#the-consideration-of-the-robustness)
+- [The consideration of the reliability](#the-consideration-of-the-reliability)
+  - [Reusablility](#reusablility)
+  - [Robustness](#robustness)
 - [The considerations of more assumptions](#the-considerations-of-more-assumptions)
   - [Include model selection](#include-model-selection)
   - [Select for evaluation](#select-for-evaluation)
@@ -386,8 +388,16 @@ Works:
   This work states the limitations of AL in practice.
   It evaluates AL strategies under different performance metrics.
 
-# The consideration of the robustness
+# The consideration of the reliability
 
+## Reusablility
+
+The selected instances are expected to be resuable to train other models.
+- On the reusability of samples in active learning [2022]
+
+## Robustness
+
+The trained model is expected to be robust to the adversarial examples.
 - Towards Exploring the Limitations of Active Learning: An Empirical Study [2021]:
   They discovered the robustness to adversarial attacks and model compressions.
 

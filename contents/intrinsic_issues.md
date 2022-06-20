@@ -26,3 +26,4 @@ Adapted models:
 ## Out-of-Distribution (OOD) Detection:
 
 - Energy-based Out-of-distribution Detection [2020, NeurIPS]
+- Active Incremental Learning for Health State Assessment of Dynamic Systems With Unknown Scenarios [2022, IEEE Transactions on Industrial Informatics]

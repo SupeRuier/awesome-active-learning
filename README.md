@@ -119,6 +119,7 @@ Under these problem settings, AL could be further applied.
 - [Multi-task active learning](contents/MTAL.md): The model or set of models handles multiple different tasks simultaneously. For instance, handle two classification tasks at the same time, or one classification and one regression. 
 - [Multi-domain active learning](contents/MDAL.md): Similar to multi-task, but the data are from different datasets(domains). The model or set of models handles multiple datasets simultaneously.
 - [Multi-view/modal active learning](contents/MVAL.md): The instances might have different views (different sets of features). The model or set of models handles different views simultaneously.
+- [Multi-instance active learning](contents/MIAL.md): The instances are organized into bags and training labels are assigned at the bag level.
 
 ## 3.3. Tasks in other AI Research Fields
 

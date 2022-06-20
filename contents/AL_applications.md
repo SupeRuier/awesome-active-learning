@@ -274,6 +274,7 @@ Papers:
 ## Person Re-identification
 
 - [Rethinking data collection for person re-identification: active redundancy reduction [2021, Pattern Recognition]](https://reader.elsevier.com/reader/sd/pii/S0031320321000145?)
+- Deep Batch Active Learning and Knowledge Distillation for Person Re-identification [2022, IEEE Sensors Journal]
 
 ## Privacy Policy Classification
 - Deep Active Learning with Crowdsourcing Data for Privacy Policy Classification [2020, Arxiv]

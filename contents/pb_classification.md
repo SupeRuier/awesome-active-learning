@@ -145,6 +145,9 @@ Works:
   Core-set loss is simply the difference between average empirical loss over the set of points which have labels for and the average empirical loss over the entire dataset including unlabelled points. Optimize the upper bound of core-set loss could be considered as a k-center problem in practice. Doesn't need to know the out put of the current model.
 - [Minimax Active Learning [2020]](https://arxiv.org/pdf/2012.10467.pdf): Develop a semi-supervised minimax entropy-based active learning algorithm that leverages both uncertainty and diversity in an adversarial manner.
 - [Multiple-criteria Based Active Learning with Fixed-size Determinantal Point Processes [2021]](https://arxiv.org/pdf/2107.01622.pdf)
+- In Defense of Core-set: A Density-aware Core-set Selection for Active Learning [2022, KDD]:
+  Observe that locally sparse regions tend to have more informative samples than dense regions.
+  The strategy is to estimate the density of the unlabeled samples and select diverse samples mainly from sparse regions.
 
 ### 2.3. Alignment-based sampling
 

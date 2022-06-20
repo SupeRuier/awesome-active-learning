@@ -54,6 +54,14 @@
 - Online active classification via margin‐based and feature‐based label queries [2022, Machine Learning]
 - Reinforced Meta Active Learning [2022]: Treat AL as an agent.
 
-## Distributional Shifts
+## Evolving Data
+
+### Distributional Shifts
 
 - Continual Active Adaptation to Evolving Distributional Shifts [2022, CVPR]
+
+### Trapezoidal Data Stream
+
+The feature space expands over time.
+
+- Online Passive-Aggressive Active Learning for Trapezoidal Data Streams [2022, TNNLS]
