@@ -34,8 +34,9 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Large-scale](#large-scale)
   - [Oracle idle issue](#oracle-idle-issue)
 - [The consideration of the workflow](#the-consideration-of-the-workflow)
+  - [Low budget selection / initial pool selection:](#low-budget-selection--initial-pool-selection)
   - [Cold start problem](#cold-start-problem)
-  - [Start Point](#start-point)
+  - [Start point](#start-point)
   - [Stop criteria](#stop-criteria)
   - [Asynchronous training](#asynchronous-training)
   - [Without supervision](#without-supervision)
@@ -254,30 +255,38 @@ When the scale is large, oracles usually need to wait a long time for model trai
   
 # The consideration of the workflow
 
+## Low budget selection / initial pool selection:
+
+When the budget is very small, the conventional strategies usually perform bad.
+
+- [On Initial Pools for Deep Active Learning [2020, NeurIPS Preregistration Workshop]](http://proceedings.mlr.press/v148/chandra21a/chandra21a.pdf)
+- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022, ICML]
+- To Actively Initialize Active Learning [2022, PR]:
+  Find a set of labeled samples which contains at least one instance per category to initialize AL.
+
 ## Cold start problem
 
-Normally, in a cold start setting (no labeled instance at all at the beginning), AL is hard to perform well.
-Prior work, like BADGE, often depend on model uncertainty or inference, but these measures can be unreliable if the model has not trained on enough data.
-Usually, a portion of data are randomly selected at the beginning to train a super weak model to get into the AL loop (might still not enough for deep models).
+Normally, in a cold start setting (very few /or no labeled instances at the beginning), AL is hard to applied.
+Conventionallay, a portion of data are randomly selected at the beginning to train a model to get into the AL loop.
+When the inital labeled set is very small, the trained initial model is unreliable for the further selection.
+The goal of these works is to better trun into the AL loops with a very small portion of initial labeled instances.
+The intuition is to build more reliable models.
 
-Select directly from the representations:
+Better model with the small initialization (usually with SemiSL and SelfSL):
 - [A Simple Baseline for Low-Budget Active Learning [2021]](https://arxiv.org/pdf/2110.12033.pdf): 
   SSL + AL when the budget is extremely small (0.2%).
   A simple k-means clustering algorithm can outperform the state-of-the-art active learning methods.
-- A Novel Low-Query-Budget Active Learner with Pseudo-Labels for Imbalanced Data [2022, mathematics]
 - Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.
-- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]
 - Active Learning Through a Covering Lens [2022]
 
 Transfer an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
-- [On Initial Pools for Deep Active Learning [2020, NeurIPS Preregistration Workshop]](http://proceedings.mlr.press/v148/chandra21a/chandra21a.pdf)
 - Self-supervised Assisted Active Learning for Skin Lesion Segmentation [2022]
 
 
-## Start Point
+## Start point
 
-When to switch from passive learning to AL?
+When to switch from passive learning on the linital labeled data to AL?
 
 - How Much a Model Be Trained by Passive Learning Before Active Learning? [2022]
 
