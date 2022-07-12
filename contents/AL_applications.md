@@ -238,6 +238,8 @@ Papers:
 - Representative Region Based Active Learning For Histological Classification Of Colorectal Cancer [2021, ISBI]
 - Su-Sampling Based Active Learning For Large-Scale Histopathology Image [2021, ICIP]
 - PathAL: An Active Learning Framework for Histopathology Image Analysis [2021, T-MI]
+- DECAL: DEployable Clinical Active Learning [2022, ICML Workshop]
+- Patient Aware Active Learning for Fine-Grained OCT Classification [2022, ICIP]
 
 ### Medical Image Segmentation
 

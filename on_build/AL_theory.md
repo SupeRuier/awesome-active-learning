@@ -45,8 +45,10 @@
 
 ### Performance Improvement
 
-- Boosting Active Learning via Improving Test Performance [2021]: 
+- Boosting Active Learning via Improving Test Performance [2022, AAAI]: 
   Through expected loss or the output entropy of the output instances.
+  This work is still in the form of gradient length, and it is similar to EGL.
+  The difference is that this work calculates the gradients with the expectation of losses, while EGL take the expectations of gradients.
 
 ### Budget v.s. Strategy
 

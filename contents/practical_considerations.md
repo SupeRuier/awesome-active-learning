@@ -22,6 +22,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Feature missing data](#feature-missing-data)
   - [Multiple correct outputs](#multiple-correct-outputs)
   - [Unknown input classes](#unknown-input-classes)
+  - [Data discovery](#data-discovery)
   - [Different data types](#different-data-types)
     - [Time series data](#time-series-data)
   - [Data with perturbation](#data-with-perturbation)
@@ -142,6 +143,7 @@ Works:
 - Active Feature Acquisition for Opinion Stream Classification under Drift [2020, CEUR Workshop]
 - Active feature acquisition on data streams under feature drift [2020, Annals of Telecommunications]
 - Active learning with missing values considering imputation uncertainty [2021, KBS]
+- Cost-Sensitive Active Learning for Incomplete Data [2022, T-SMC]
 
 ## Multiple correct outputs
 
@@ -157,6 +159,13 @@ In a stream based setting, the coming instances might have labels not seen befor
 AL strategies should detect and make responses to these instances.
 
 - [Into the unknown: Active monitoring of neural networks [2020]](https://arxiv.org/pdf/2009.06429.pdf): in dynamic environments where unknown input classes appear frequently.
+
+## Data discovery
+
+In the event of more extreme rareness, it is reasonable to assume that the rare data instances (either classes or slices) may not even be present in the seed labeled set
+A critical need for the active learning paradigm is to efficiently discover these rare data instances.
+
+- Active Data Discovery: Mining Unknown Data using Submodular Information Measures [2022, Arxiv]
 
 ## Different data types
 
