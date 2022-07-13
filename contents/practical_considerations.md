@@ -17,6 +17,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Biased data](#biased-data)
   - [Cost-sensitive case](#cost-sensitive-case)
   - [Noised data](#noised-data)
+  - [Out-of-distribution data](#out-of-distribution-data)
   - [Subjective labels](#subjective-labels)
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
@@ -107,6 +108,12 @@ These data should be avoided in the selection.
 
 Works:
 - Sample Noise Impact on Active Learning [2021]
+
+## Out-of-distribution data
+
+There might be data from irrelevant distributions (out-of-distribution, instances not belong to the classes of the target task) in the unlabeled data pool (to be selected).
+
+- Pareto Optimization for Active Learning under Out-of-Distribution Data Scenarios [2022]
 
 ## Subjective labels
 
@@ -381,6 +388,7 @@ Works:
 - Active label distribution learning [2021, Neurocomputing]
 - Active Sampling for Text Classification with Subinstance Level Queries [2022]: Query sub-instances.
 - Active Learning with Label Comparisons [2022]
+- One-bit Active Query with Contrastive Pairs [2022, CVPR]
 
 # The consideration of the performance metric
 

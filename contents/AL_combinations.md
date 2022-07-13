@@ -387,6 +387,7 @@ AL could support clustering by provide supervised information.
 - Improving evolutionary constrained clustering using Active Learning [2020, Knowledge-Based Systems]
 - An Active Learning Method Based on Variational Autoencoder and DBSCAN Clustering [2021]
 - Active constrained deep embedded clustering with dual source [2022, Applied Intelligence]
+- Active deep image clustering [2022, KBS]
 
 Review:
 - Interactive clustering: a scoping review [2020, Artificial Intelligence Review]
