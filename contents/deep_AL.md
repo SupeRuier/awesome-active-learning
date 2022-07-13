@@ -89,6 +89,7 @@ Performance gain:
   Through expected loss or the output entropy of the output instances.
   This work is still in the form of gradient length, and it is similar to EGL.
   The difference is that this work calculates the gradients with the expectation of losses, while EGL take the expectations of gradients.
+- Making Look-Ahead Active Learning Strategies Feasible with Neural Tangent Kernels [2022]
 
 ### 2. Representativeness-impart
 
