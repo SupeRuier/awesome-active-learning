@@ -33,6 +33,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Curriculum Learning](#curriculum-learning)
   - [Entity Matching](#entity-matching)
   - [Federated Learning](#federated-learning)
+  - [Hedge](#hedge)
   - [Human Learning](#human-learning)
   - [Information Retrieval](#information-retrieval)
   - [Instance Search (INS)](#instance-search-ins)
@@ -205,6 +206,8 @@ Fine-Tuning for Downstream NLP Tasks:
 - Bayesian Active Learning with Pretrained Language Models
 - Multi-class Text Classification using BERT-based Active Learning
 - On the Importance of Effectively Adapting Pretrained Language Models for Active Learning [2022, ACL]
+- ACTUNE: Uncertainty-Based Active Self-Training for Active Fine-Tuning of Pretrained Language Models [2022, NAACL-HLT]:
+  AL + SelfSL.
 
 Question Answering:
 - Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
@@ -435,6 +438,13 @@ For example, the ImageNet was crawled from image databases without considering s
 ## Federated Learning
 
 - Federated Active Learning (F-AL): an Efficient Annotation Strategy for Federated Learning [2022]
+
+## Hedge
+
+Hedge is quite simple to explain in words: the algorithm combines the predictions of all the experts on a given round by taking their weighted average, where the weight of an expert exponentially decays according to the number of previous mistakes.
+The goal is to find a weight for the experts' predictions to make the final decision.
+
+- ActiveHedge: Hedge meets Active Learning [2022, ICML]
 
 ## Human Learning
 

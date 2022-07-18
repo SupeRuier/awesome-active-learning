@@ -17,7 +17,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Biased data](#biased-data)
   - [Cost-sensitive case](#cost-sensitive-case)
   - [Noised data](#noised-data)
-  - [Out-of-distribution data](#out-of-distribution-data)
+  - [Class mismatch & Out-of-distribution data](#class-mismatch--out-of-distribution-data)
   - [Subjective labels](#subjective-labels)
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
@@ -27,7 +27,6 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Different data types](#different-data-types)
     - [Time series data](#time-series-data)
   - [Data with perturbation](#data-with-perturbation)
-  - [Class mismatch](#class-mismatch)
   - [Open-set](#open-set)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on the naive perfect oracles (Noise/Special behaviors)](#the-assumption-change-on-the-naive-perfect-oracles-noisespecial-behaviors)
@@ -109,10 +108,11 @@ These data should be avoided in the selection.
 Works:
 - Sample Noise Impact on Active Learning [2021]
 
-## Out-of-distribution data
+## Class mismatch & Out-of-distribution data
 
-There might be data from irrelevant distributions (out-of-distribution, instances not belong to the classes of the target task) in the unlabeled data pool (to be selected).
+There might be irrelevant unknown classes (out-of-distribution, not belong to the classes of the target task) in the unlabeled data pool.
 
+- Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV/TPAMI]
 - Pareto Optimization for Active Learning under Out-of-Distribution Data Scenarios [2022]
 
 ## Subjective labels
@@ -188,13 +188,6 @@ Sometimes, AL need to be used to handle several unusual data types.
   To utilize the model on noised/perturbed data, the models are trained on the artificial noised/perturbed data.
   To create the dataset, the different noise level should be assigned to each instance, this is costly.
   Here use active selection to assign the noise to the most valuable instance (could be least or most perturbed).
-
-## Class mismatch
-
-The initial labeled set doesn't contain all the classes.
-There are unknown classes in the unlabeled data.
-
-- Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV]
 
 ## Open-set
 
