@@ -77,6 +77,7 @@ Uncertainty-based:
 Disagreement-based:
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf):
   **ENS**.
+- ST-CoNAL: Consistency-Based Acquisition Criterion Using Temporal Self-Ensemble for Active Learning [2022]
 
 Fisher information:
 - [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, NeurIPS]](https://arxiv.org/pdf/2106.09675.pdf): 
