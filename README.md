@@ -198,7 +198,8 @@ We summarized a list of works [**here**](contents/AL_applications.md).
 | [Small-text](https://github.com/webis-de/small-text)                                                               | Python(scikit-learn, pytorch)    | Christopher Schröder      | Text classification                              |
 | [DeepCore](https://github.com/PatrickZH/DeepCore)                                                                  | Python(scikit-learn, pytorch)    | Guo et al.                | In the coreset selection formulation             |
 | [PyRelationAL: A Library for Active Learning Research and Development](https://github.com/RelationRx/pyrelational) | Python(scikit-learn, pytorch)    | Scherer et al.            |                                                  |
-| [ DeepAL+](https://github.com/SineZHAN/deepALplus/)                                                                | Python(scikit-learn, pytorch)    | Zhan                      | An extension for DeepAL                          |
+| [DeepAL+](https://github.com/SineZHAN/deepALplus/)                                                                 | Python(scikit-learn, pytorch)    | Zhan                      | An extension for DeepAL                          |
+| [ALaaS](https://github.com/MLSysOps/alaas)                                                                         | Python(scikit-learn)             | A*STAR & NTU              | Use the stage-level parallellism for AL.         |
 
 ## 7.2. Tutorials
 

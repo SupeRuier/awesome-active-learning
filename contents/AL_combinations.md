@@ -151,6 +151,10 @@ Emotion Classification:
 In this field, the acquired labels could be highly subjective.
 - An Exploration of Active Learning for Affective Digital Phenotyping [2022]
 
+Collision Prediction & Handling:
+
+- N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations [2022, ICML]
+
 ## Natural Language Processing (NLP)
 
 NLP is also quite a wide conception.
@@ -345,6 +349,7 @@ Active exploration
 - Model-Based Active Exploration
 - [SAMBA: Safe Model-Based & Active Reinforcement Learning [2020, Arxiv]](https://arxiv.org/pdf/2006.09436.pdf)
 - How to Train Your Agent: Active Learning from Human Preferences and Justifications in Safety-Critical Environments [2022, AAMAS]
+- Active Exploration for Inverse Reinforcement Learning [2022]
 
 Save training cost in the measure of time:
 - [Active Reinforcement Learning over MDPs [2021]](https://arxiv.org/pdf/2108.02323.pdf)

@@ -28,6 +28,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Time series data](#time-series-data)
   - [Data with perturbation](#data-with-perturbation)
   - [Open-set](#open-set)
+  - [Fairness Constrains](#fairness-constrains)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on the naive perfect oracles (Noise/Special behaviors)](#the-assumption-change-on-the-naive-perfect-oracles-noisespecial-behaviors)
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
@@ -194,6 +195,12 @@ Sometimes, AL need to be used to handle several unusual data types.
 The unlabeled pool contains irrelevant unknown classes.
 
 - Active Learning for Open-set Annotation [2022]
+
+## Fairness Constrains
+
+An increased awareness concerning risks of algorithmic bias has driven a surge of efforts around bias mitigation strategies.
+
+- More Data Can Lead Us Astray: Active Data Acquisition in the Presence of Label Bias [2022]
 
 # The considerations of the oracles
 
