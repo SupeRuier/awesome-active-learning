@@ -78,6 +78,7 @@ Disagreement-based:
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf):
   **ENS**.
 - ST-CoNAL: Consistency-Based Acquisition Criterion Using Temporal Self-Ensemble for Active Learning [2022]
+- Temporal Output Discrepancy for Loss Estimation-Based Active Learning [2022, TNNLS]: Estimates the sample uncertainty by measuring the difference of model outputs between two consecutive active learning cycles.
 
 Fisher information:
 - [Gone Fishing: Neural Active Learning with Fisher Embeddings [2021, NeurIPS]](https://arxiv.org/pdf/2106.09675.pdf): 

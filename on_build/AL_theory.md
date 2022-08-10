@@ -55,13 +55,16 @@
 - Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]:
   This work shows a behavior reminiscent of phase transition: typical points (representativeness) should best be queried in the low budget regime, while atypical (or uncertain) points are best queried when the budget is large.
 
-### When Uncertainty Works Better
-
-- On The Effectiveness of Active Learning by Uncertainty Sampling in Classification of High-Dimensional Gaussian Mixture Data [2022, ICASSP]
-
 ### Cold Start Selection
 
 - Active Learning Through a Covering Lens [2022]
+
+### AL v.s. Passive
+
+- On The Effectiveness of Active Learning by Uncertainty Sampling in Classification of High-Dimensional Gaussian Mixture Data [2022, ICASSP]
+- Uniform versus uncertainty sampling: When being active is less efficient than staying passive [2022, ICML]: 
+  With high-dimensional logistic regression, passive learning often outperforms uncertainty-based active learning for low label budgets.
+  This high-dimensional phenomenon happens primarily when the separation between the classes is small.
 
 # To be classified
 
