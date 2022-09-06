@@ -111,6 +111,7 @@ Object Detection:
 - TALISMAN: Targeted Active Learning for Object Detection with Rare Classes and Slices using Submodular Mutual Information [2021]
 - Entropy-based Active Learning for Object Detection with Progressive Diversity Constraint [2022, CVPR]
 - Weakly Supervised Object Detection Based on Active Learning [2022, NPL]
+- Active Learning Strategies for Weakly-Supervised Object Detection [2022]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -150,6 +151,9 @@ Emotion Classification:
 
 In this field, the acquired labels could be highly subjective.
 - An Exploration of Active Learning for Affective Digital Phenotyping [2022]
+
+Micro-Expression Recognition:
+- Tackling Micro-Expression Data Shortage via Dataset Alignment and Active Learning [2022, IEEE Trans Multimedia]
 
 Collision Prediction & Handling:
 
@@ -423,6 +427,7 @@ For example, the ImageNet was crawled from image databases without considering s
 
 - Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning [2020, Arxiv]
 - A Semi-Supervised VAE Based Active Anomaly Detection Framework in Multivariate Time Series for Online Systems [2022, WWW]
+- Situation-Aware Multivariate Time Series Anomaly Detection Through Active Learning and Contrast VAE-Based Models in Large Distributed Systems [2022]
 
 ## Audio Processing
 

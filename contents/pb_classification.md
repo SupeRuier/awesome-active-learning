@@ -200,6 +200,7 @@ These methods normally need to be retrained for each unlabeled instances in the 
   - Error Reduction: Most directly, reduce the generalization error.
   - Variance Reduction: We can still reduce generalization error indirectly by minimizing output variance.
   - Expected Model Change: If the selected instance will bring the largest model change, it could be considered as the most valuable instance.
+  - Entropy Change: The reduction of prediction entropy on the evaluation set after adding a new item.
 
 Works:
 - Toward optimal active learning through sampling estimation of error reduction [2001, ICML]: Error Reduction
@@ -211,6 +212,8 @@ Works:
 - [Uncertainty-aware active learning for optimal Bayesian classifier [2021, ICLR]](https://openreview.net/pdf?id=Mu2ZxFctAI):
   ELR tends to stuck in local optima; BALD tends to be overly explorative.
   Propose an acquisition function based on a weighted form of mean objective cost of uncertainty (MOCU).
+- Information Gain Sampling for Active Learning in Medical Image Classification [2022]:
+  Expected information gain (EIG) measures the reduction of entropy.
 
 ## 4. Learn to Score
 

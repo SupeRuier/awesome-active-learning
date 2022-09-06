@@ -39,9 +39,10 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Medical Image Classification / Image Annotation](#medical-image-classification--image-annotation)
     - [Medical Image Segmentation](#medical-image-segmentation)
     - [Medical Symptom Recognition from Text](#medical-symptom-recognition-from-text)
-    - [ECG classification](#ecg-classification)
-    - [Retinal image analysis](#retinal-image-analysis)
+    - [ECG Classification](#ecg-classification)
+    - [Retinal Image Analysis](#retinal-image-analysis)
     - [Biomedical Knowledge Base Construction](#biomedical-knowledge-base-construction)
+    - [Mental Disorder Therapy](#mental-disorder-therapy)
   - [Mobile Health Monitoring / Disease detection](#mobile-health-monitoring--disease-detection)
   - [Person Re-identification](#person-re-identification)
   - [Privacy Policy Classification](#privacy-policy-classification)
@@ -240,6 +241,7 @@ Papers:
 - PathAL: An Active Learning Framework for Histopathology Image Analysis [2021, T-MI]
 - DECAL: DEployable Clinical Active Learning [2022, ICML Workshop]
 - Patient Aware Active Learning for Fine-Grained OCT Classification [2022, ICIP]
+- Information Gain Sampling for Active Learning in Medical Image Classification [2022]
 
 ### Medical Image Segmentation
 
@@ -256,17 +258,21 @@ Papers:
 
 - Medical symptom recognition from patient text: An active learning approach for long-tailed multilabel distributions [2020, ML4H]
 
-### ECG classification
+### ECG Classification
 
 - [Deep learning approach for active classification of electrocardiogram signals [2016, Information Science]](https://reader.elsevier.com/reader/sd/pii/S0020025516300184?token=EBB87D490BCDC26916121FCCCBAC34EFC879C7908C40ACF69667DCE1136B957C4608146ABABFCD7F438D7E7C8E4BA49C): (280 citations)
 
-### Retinal image analysis
+### Retinal Image Analysis
 
 - Human-in-the-loop for efficient training of retinal image analysis methods [2021, Master's Thesis]
 
 ### Biomedical Knowledge Base Construction
 
 - BioAct: Biomedical Knowledge Base Construction using Active Learning [2022]
+
+### Mental Disorder Therapy
+
+- Explainable Deep Attention Active Learning for Sentimental Analytics of Mental Disorder [2022, TALLIP]
 
 ## Mobile Health Monitoring / Disease detection
 
