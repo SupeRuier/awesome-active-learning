@@ -84,6 +84,8 @@ Image Semantic Segmentation：
 - MEAL: Manifold Embedding-based Active Learning [2021, Arxiv]
 - Joint Semi-supervised and Active Learning for Segmentation of Gigapixel Pathology Images with Cost-Effective Labeling [2021, ICCV]
 - An Active and Contrastive Learning Framework for Fine-Grained Off-Road Semantic Segmentation [2022]
+- Active Pointly-Supervised Instance Segmentation [2022]
+- RADIAL: Random Sampling from Intelligent Pool for Active Learning [2022, ICML workshop]
 
 Semantic Segmentation with domain adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
@@ -231,6 +233,9 @@ Rational Learning:
 Argument Structure Extraction:
 - Efficient Argument Structure Extraction with Transfer Learning and Active Learning [2022]
 
+Claim Verification：
+- Active PETs: Active Data Annotation Prioritisation for Few-Shot Claim Verification with Pattern Exploiting Training [2022]
+
 ## Domain adaptation/Transfer learning
 
 Normally when we use AL in domain adaptation, we can obtain several true labels of the unlabeled instances on source/target domain.
@@ -260,6 +265,7 @@ Domain adaptation:
 - DistillAdapt: Source-Free Active Visual Domain Adaptation [2022]:
   Access source model instead of source data.
 - Active Model Adaptation Under Unknown Shift [2022]: The distribution is shifted from the source domain.
+- Combating Label Distribution Shift for Active Domain Adaptation [2022]: Consider label distribution mismatch.
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -289,6 +295,7 @@ For one/few-shot learning:
 - Active Few-Shot Learning with FASL [2022]:
   Find that AL methods do not yield strong improvements over a random baseline when applied to datasets with balanced label distributions. 
   However, experiments on modified datasets with a skewed label distributions as well as naturally unbalanced datasets show the value of AL methods.
+- Active Few-Shot Learning for Sound Event Detection [2022]
 
 There are also works about zero-shot learning:
 - Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]
@@ -456,6 +463,7 @@ For example, the ImageNet was crawled from image databases without considering s
 ## Federated Learning
 
 - Federated Active Learning (F-AL): an Efficient Annotation Strategy for Federated Learning [2022]
+- LG-FAL : Federated Active Learning Strategy using Local and Global Models [2022, ICML workshop]
 
 ## Hedge
 

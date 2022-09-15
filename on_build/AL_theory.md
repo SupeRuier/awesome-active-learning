@@ -66,6 +66,11 @@
   With high-dimensional logistic regression, passive learning often outperforms uncertainty-based active learning for low label budgets.
   This high-dimensional phenomenon happens primarily when the separation between the classes is small.
 
+### Indirect Active Learning
+The covariate X might be the result of a complex process that the learner can influence and measure but not completely control.
+
+- Nonparametric Indirect Active Learning [2022, ICML workshop]
+
 # To be classified
 
 - Active Learning with Label Comparisons [2022]

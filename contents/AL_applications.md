@@ -46,6 +46,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Mobile Health Monitoring / Disease detection](#mobile-health-monitoring--disease-detection)
   - [Person Re-identification](#person-re-identification)
   - [Privacy Policy Classification](#privacy-policy-classification)
+  - [Questionnaire](#questionnaire)
   - [Remote Sensing](#remote-sensing)
   - [Semiconductor Manufacturing](#semiconductor-manufacturing)
   - [Simulation](#simulation)
@@ -286,6 +287,10 @@ Papers:
 
 ## Privacy Policy Classification
 - Deep Active Learning with Crowdsourcing Data for Privacy Policy Classification [2020, Arxiv]
+
+## Questionnaire
+
+- Vexation-Aware Active Learning for On-Menu Restaurant Dish Availability [2022, KDD]
 
 ## Remote Sensing 
 

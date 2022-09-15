@@ -238,6 +238,7 @@ Works:
 - [ImitAL: Learning Active Learning Strategies from Synthetic Data [2021]](https://arxiv.org/pdf/2108.07670.pdf): An imitation learning approach.
 - Cartography Active Learning [2021]: CAL. Select the instances that are the closest to the decision boundary between ambiguous and hard-to-learn instances.
 - Deep reinforced active learning for multi-class image classification [2022]
+- ImitAL: Learned Active Learning Strategy on Synthetic Data [2022]
 
 ## 5. Others
 There still are other works uses innovative heuristics.

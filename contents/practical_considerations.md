@@ -338,6 +338,7 @@ Works
 - Deep Unsupervised Active Learning via Matrix Sketching [2021, TIP]
 - Towards General and Efficient Active Learning [2021]:
   Utilize the knowledge clusters by using the pre-trained encoder.
+- Unsupervised Selective Labeling for More Effective Semi-Supervised Learning [2022]: AL + SSL.
 
 # The considerations of the model
 

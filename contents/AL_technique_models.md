@@ -25,6 +25,7 @@ Most of classic strategies are based on these models.
 - Depth Uncertainty Networks for Active Learning [2021, NeurIPS]
 - BALanCe: Deep Bayesian Active Learning via Equivalence Class Annealing [2021]
 - Efficient and Reliable Probabilistic Interactive Learning with Structured Outputs [2022]: CRISPs, A Property-driven Approach for Guaranteed Reliable Inference.
+- Deep Bayesian Active Learning via Equivalence Class Annealing [2022, ICML workshop]
 
 ## Decision Trees
 - [Active Learning with Direct Query Construction [KDD, 2008]](https://dl.acm.org/doi/pdf/10.1145/1401890.1401950)
@@ -33,3 +34,7 @@ Most of classic strategies are based on these models.
 
 We have systematically reviewed the works for AL with neural networks.
 Please see the details [here](/../contents/deep_AL.md).
+
+## $k$-Nearest Neighbors
+
+- A Two-Stage Active Learning Algorithm for Nearest Neighbors [2022]
