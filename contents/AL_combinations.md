@@ -30,6 +30,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Anomaly Detection](#anomaly-detection)
   - [Audio Processing](#audio-processing)
   - [Causal Analysis](#causal-analysis)
+  - [Choice Model](#choice-model)
   - [Curriculum Learning](#curriculum-learning)
   - [Entity Matching](#entity-matching)
   - [Federated Learning](#federated-learning)
@@ -258,6 +259,7 @@ Domain adaptation:
   Use predict loss to select.
 - DistillAdapt: Source-Free Active Visual Domain Adaptation [2022]:
   Access source model instead of source data.
+- Active Model Adaptation Under Unknown Shift [2022]: The distribution is shifted from the source domain.
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -433,11 +435,17 @@ For example, the ImageNet was crawled from image databases without considering s
 
 - Active Correction for Incremental Speaker Diarization of a Collection with Human in the Loop [2022, Applied Science]
 - Investigating Active-learning-based Training Data Selection for Speech Spoofing Countermeasure [2022]
+- An efficient framework for constructing speech emotion corpus based on integrated active learning strategies [2022, IEEE Trans. Affect. Comput.]
+
 
 ## Causal Analysis
 
 - [Root Cause Analysis for Self-organizing Cellular Network: an Active Learning Approach](https://link.springer.com/article/10.1007/s11036-020-01589-1)
 - [Active Invariant Causal Prediction: Experiment Selection through Stability](https://arxiv.org/pdf/2006.05690.pdf)
+
+## Choice Model
+
+- Active Learning for Non-Parametric Choice Models [2022]
 
 ## Curriculum Learning
 - [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page

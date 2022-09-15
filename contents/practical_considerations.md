@@ -84,6 +84,7 @@ Works:
 - Active Learning at the ImageNet Scale [2021, Arxiv]: On ImageNet. Self-supervised learning + AL. It reveals the imbalance ratio with different AL strategies (usually the ratio goes up while the budget is consuming).
 - Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]
 - BASIL: Balanced Active Semi-supervised Learning for Class Imbalanced Datasets [2022]
+- Blending Query Strategy of Active Learning for Imbalanced Data [2022]
 
 ## Biased data
 
