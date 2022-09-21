@@ -14,4 +14,5 @@ Works:
    The strategy select the instance which would induce the maximum expected generalization error.
    The error was approximately divided into domain-shared part, user part and the item part.
 3. [Active learning in multi-domain collaborative filtering recommender systems [2018, SAC]](https://dl.acm.org/doi/10.1145/3167132.3167277)
-4. [Multi-Domain Active Learning: a Comparative Study](https://arxiv.org/abs/2106.13516)
+4. [Multi-Domain Active Learning: a Comparative Study [2022]](https://arxiv.org/abs/2106.13516)
+5. Multi-domain Active Learning for Semi-supervised Anomaly Detection [2022]

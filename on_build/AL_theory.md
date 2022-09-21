@@ -39,6 +39,13 @@
 - learning with Labeling Induced Abstentions [2021, NeurIPS]:
   The performance should only be evaluated on the rest unlabeled instances.
 
+### Label Query and Seed Query
+
+Seed query represents the items from specific classes.
+For instance, "finding the image of a car".
+
+- Active Learning of Classifiers with Label and Seed Queries [2022]
+
 ### Deep AL 
 
 - Investigating the Consistency of Uncertainty Sampling in Deep Active Learning [2021, DAGM-GCPR]

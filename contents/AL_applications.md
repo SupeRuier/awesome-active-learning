@@ -32,6 +32,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Drug Discovery](#drug-discovery)
+  - [Fault Diagnosis of Machinery](#fault-diagnosis-of-machinery)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
   - [Labeling System](#labeling-system)
   - [Malware Detection](#malware-detection)
@@ -203,6 +204,10 @@ Eg. 5g, Traffic Classification
 - Active learning for computational chemogenomics [2017, Future Medicinal Chemistry]
 - Evaluation of Categorical Matrix Completion Algorithms: Towards Improved Active Learning for Drug Discovery [2021, System Biology]
 - Active Learning for Drug Design: A Case Study on the Plasma Exposure of Orally Administered Drugs [2021, J MED CHEM]
+
+## Fault Diagnosis of Machinery
+
+- Fault Diagnosis of Rotating Machinery With Limited Expert Interaction: A Multicriteria Active Learning Approach Based on Broad Learning System [2022, ]
 
 ## Gas Reservoir Prediction
 

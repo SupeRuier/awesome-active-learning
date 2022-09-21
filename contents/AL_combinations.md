@@ -130,6 +130,7 @@ Action Recognition:
 Video Object Detection:
 - [Temporal Coherence for Active Learning in Videos [2019, ICCVW]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9022609&tag=1)
 - [Active learning method for temporal action localization in untrimmed videos [2020, US Patent]](https://patents.google.com/patent/US20190325275A1/en)
+- Active Learning with Effective Scoring Functions for Semi-Supervised Temporal Action Localization [2022]
 
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
