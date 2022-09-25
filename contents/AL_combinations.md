@@ -315,6 +315,7 @@ Graph node classification:
 - Active Learning for Attributed Graphs [2020, Master Dissertation]
 - [ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks [2021, SIGMOD]](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)
 - Partition-Based Active Learning for Graph Neural Networks [2022]
+- LSCALE: Latent Space Clustering-Based Active Learning for Node Classification [2022, ECMLPKDD]
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]

@@ -298,9 +298,11 @@ Better model with the small initialization (usually with SemiSL and SelfSL):
 - Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.
 - Active Learning Through a Covering Lens [2022]
 
-Transfer an existing model:
+Transfer/fine-tune an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
 - Self-supervised Assisted Active Learning for Skin Lesion Segmentation [2022]
+- Cold-Start Data Selection for Few-shot Language Model Fine-tuning: A Prompt-Based Uncertainty Propagation Approach [2022]
+- Warm Start Active Learning with Proxy Labels & Selection via Semi-Supervised Fine-Tuning [2022, MICCAI]
 
 
 ## Start point
