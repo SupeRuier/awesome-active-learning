@@ -34,7 +34,7 @@ Define a heuristic way to evaluate the diversity.
   Evaluate the induced models for each unlabeled instance.
   The diversity of instances are revealed by the diversity of the models or model changes.
   For example, for neural networks, the diversity could measured by the diversity of vectors in gradient descent.
-- Diversity of the loss on the auxiliary task
+- Stratified-based: Diversity of the loss on the auxiliary task
 - Determinantal Point Processes (DPP) based:
   a class of repulsive point processes that is especially useful for generating diverse batches.
 

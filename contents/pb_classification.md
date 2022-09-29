@@ -86,13 +86,22 @@ Works:
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf)
 - [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2021, Springer]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-58607-2_30.pdf): A semi-supervised AL method.
 
-### 1.3. Other informativeness measurement
+### 1.3. Model-change-based
+
+If the selected instance will bring the largest model change, it could be considered as the most informative instance under the current task.
+
+Works:
+- [An analysis of active learning strategies for sequence labeling tasks [2008, CEMNL]](https://www.aclweb.org/anthology/D08-1112.pdf): Expected gradient change in gradient based optimization.(659 citations)
+- [Influence Selection for Active Learning [2021]](https://arxiv.org/pdf/2108.09331.pdf): Select instances with the most positive influence on the model. It was divided to an expected gradient length and another term.
+- Model-Change Active Learning in Graph-Based Semi-Supervised Learning [2021]
+
+### 1.4. Other informativeness measurement
 
 The informativeness of instances could be defined in many other ways.
 
 Works:
 - Optimizing Active Learning for Low Annotation Budgets [2021]: Select the samples with the maximum shift from certainty to uncertainty.
-- Active Learning by Acquiring Contrastive Examples [2021, Arxiv]: 
+- Active Learning by Acquiring Contrastive Examples [2021, EMNLP]: 
   CAL.
   Take the inconsistency of predictions with the neighbors as the selection criteria.
   Believe the data points that are similar in the model feature space and yet the model outputs maximally different predictive likelihoods should be quired.
@@ -199,16 +208,12 @@ These methods normally need to be retrained for each unlabeled instances in the 
 - Expected improvement
   - Error Reduction: Most directly, reduce the generalization error.
   - Variance Reduction: We can still reduce generalization error indirectly by minimizing output variance.
-  - Expected Model Change: If the selected instance will bring the largest model change, it could be considered as the most valuable instance.
   - Entropy Change: The reduction of prediction entropy on the evaluation set after adding a new item.
 
 Works:
 - Toward optimal active learning through sampling estimation of error reduction [2001, ICML]: Error Reduction
 - [Combining active learning and semisupervised learning using Gaussian fields and harmonic functions [2003, ICML]](http://mlg.eng.cam.ac.uk/zoubin/papers/zglactive.pdf): Greedily select queries from the unlabeled data to minimize the estimated expected classification error. GRF as basic model. This is also the most computationally expensive query framework since it needs to iterate over the whole unlabeled pool. (517 citations)
 - [Active learning for logistic regression: an evaluation [2007, Machine Learning]](https://link.springer.com/article/10.1007/s10994-007-5019-5): Variance Reduction
-- [An analysis of active learning strategies for sequence labeling tasks [2008, CEMNL]](https://www.aclweb.org/anthology/D08-1112.pdf): Expected gradient change in gradient based optimization.(659 citations)
-- [Influence Selection for Active Learning [2021]](https://arxiv.org/pdf/2108.09331.pdf): Select instances with the most positive influence on the model. It was divided to an expected gradient length and another term.
-- Model-Change Active Learning in Graph-Based Semi-Supervised Learning [2021]
 - [Uncertainty-aware active learning for optimal Bayesian classifier [2021, ICLR]](https://openreview.net/pdf?id=Mu2ZxFctAI):
   ELR tends to stuck in local optima; BALD tends to be overly explorative.
   Propose an acquisition function based on a weighted form of mean objective cost of uncertainty (MOCU).
@@ -236,7 +241,7 @@ Works:
 - [Learning to Rank for Active Learning: A Listwise Approach [2020]](https://arxiv.org/pdf/2008.00078.pdf): Have an additional loss prediction model to predict the loss of instances beside the classification model. Then the loss is calculated by the ranking instead of the ground truth loss of the classifier.
 - [Deep Reinforcement Active Learning for Medical Image Classification [2020, MICCAI]](https://link.springer.com/chapter/10.1007%2F978-3-030-59710-8_4): Take the prediction probability of the whole unlabeled set as the state. The action as the strategy is to get a rank of unlabeled set by a actor network. The reward is the different of prediction value and true label of the selected instances. Adopt a critic network with parameters θ cto approximate the Q-value function.
 - [ImitAL: Learning Active Learning Strategies from Synthetic Data [2021]](https://arxiv.org/pdf/2108.07670.pdf): An imitation learning approach.
-- Cartography Active Learning [2021]: CAL. Select the instances that are the closest to the decision boundary between ambiguous and hard-to-learn instances.
+- Cartography Active Learning [2021, EMNLP]: CAL. Select the instances that are the closest to the decision boundary between ambiguous and hard-to-learn instances.
 - Deep reinforced active learning for multi-class image classification [2022]
 - ImitAL: Learned Active Learning Strategy on Synthetic Data [2022]
 
