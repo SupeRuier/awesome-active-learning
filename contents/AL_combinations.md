@@ -237,6 +237,9 @@ Argument Structure Extraction:
 Claim Verification：
 - Active PETs: Active Data Annotation Prioritisation for Few-Shot Claim Verification with Pattern Exploiting Training [2022]
 
+Abuse Detection:
+- Is More Data Better? Re-thinking the Importance of Efficiency in Abusive Language Detection with Transformers-Based Active Learning [2022, COLING workshop TRAC]
+
 ## Domain adaptation/Transfer learning
 
 Normally when we use AL in domain adaptation, we can obtain several true labels of the unlabeled instances on source/target domain.

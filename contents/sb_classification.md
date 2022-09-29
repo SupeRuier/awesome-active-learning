@@ -53,6 +53,7 @@
 - Online Active Learning with Dynamic Marginal Gain Thresholding [2022]
 - Online active classification via margin‐based and feature‐based label queries [2022, Machine Learning]
 - Reinforced Meta Active Learning [2022]: Treat AL as an agent.
+- Online active learning for an evolving fuzzy neural classifier based on data density and specificity [2022, Neurocomputing]
 
 ## Evolving Data
 

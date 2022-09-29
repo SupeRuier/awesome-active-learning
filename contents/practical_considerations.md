@@ -85,6 +85,7 @@ Works:
 - Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021, NeurIPS]
 - BASIL: Balanced Active Semi-supervised Learning for Class Imbalanced Datasets [2022]
 - Blending Query Strategy of Active Learning for Imbalanced Data [2022]
+- Deep Active Learning Models for Imbalanced Image Classification [2022, KBS]
 
 ## Biased data
 
