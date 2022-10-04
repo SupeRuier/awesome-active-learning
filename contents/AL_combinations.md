@@ -300,6 +300,8 @@ For one/few-shot learning:
   Find that AL methods do not yield strong improvements over a random baseline when applied to datasets with balanced label distributions. 
   However, experiments on modified datasets with a skewed label distributions as well as naturally unbalanced datasets show the value of AL methods.
 - Active Few-Shot Learning for Sound Event Detection [2022]
+- Active Transfer Prototypical Network: An Efficient Labeling Algorithm for Time-Series Data [2022]
+- Active Few-Shot Classification: a New Paradigm for Data-Scarce Learning Settings [2022]
 
 There are also works about zero-shot learning:
 - Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]
@@ -319,6 +321,7 @@ Graph node classification:
 - [ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks [2021, SIGMOD]](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)
 - Partition-Based Active Learning for Graph Neural Networks [2022]
 - LSCALE: Latent Space Clustering-Based Active Learning for Node Classification [2022, ECMLPKDD]
+- Active Learning for Node Classification using a Convex Optimization approach [2022, BigDataService]
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]

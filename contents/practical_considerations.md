@@ -203,6 +203,7 @@ The unlabeled pool contains irrelevant unknown classes.
 An increased awareness concerning risks of algorithmic bias has driven a surge of efforts around bias mitigation strategies.
 
 - More Data Can Lead Us Astray: Active Data Acquisition in the Presence of Label Bias [2022]
+- FAL-CUR: Fair Active Learning using Uncertainty and Representativeness on Fair Clustering [2022]
 
 # The considerations of the oracles
 
