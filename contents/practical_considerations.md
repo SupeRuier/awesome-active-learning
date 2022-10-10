@@ -299,6 +299,7 @@ Better model with the small initialization (usually with SemiSL and SelfSL):
   A simple k-means clustering algorithm can outperform the state-of-the-art active learning methods.
 - Cold Start Active Learning Strategies in the Context of Imbalanced Classification [2022]: Use clustering scores to select.
 - Active Learning Through a Covering Lens [2022]
+- Making Your First Choice: To Address Cold Start Problem in Vision Active Learning [2022]: Utilize contrastive learning to select instances.
 
 Transfer/fine-tune an existing model:
 - [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)

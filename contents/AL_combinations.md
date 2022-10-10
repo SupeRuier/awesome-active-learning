@@ -39,6 +39,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Information Retrieval](#information-retrieval)
   - [Instance Search (INS)](#instance-search-ins)
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
+  - [Knowledge Distillation](#knowledge-distillation)
   - [Label Enhancement](#label-enhancement)
   - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
   - [Model Selection](#model-selection)
@@ -497,6 +498,10 @@ The goal is to find a weight for the experts' predictions to make the final deci
 
 AL could reduce the number of needed instances to train a GAN.
 - Learning Class-Conditional GANs with Active Sampling [2019, SIGKDD]
+
+## Knowledge Distillation
+
+- Robust Active Distillation [2022]
 
 ## Label Enhancement
 
