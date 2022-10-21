@@ -26,6 +26,7 @@ Most of classic strategies are based on these models.
 - BALanCe: Deep Bayesian Active Learning via Equivalence Class Annealing [2021]
 - Efficient and Reliable Probabilistic Interactive Learning with Structured Outputs [2022]: CRISPs, A Property-driven Approach for Guaranteed Reliable Inference.
 - Deep Bayesian Active Learning via Equivalence Class Annealing [2022, ICML workshop]
+- Fast Bayesian Updates for Deep Learning with a Use Case in Active Learning [2022]
 
 ## Decision Trees
 - [Active Learning with Direct Query Construction [KDD, 2008]](https://dl.acm.org/doi/pdf/10.1145/1401890.1401950)

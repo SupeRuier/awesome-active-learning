@@ -61,6 +61,7 @@
 ### Distributional Shifts
 
 - Continual Active Adaptation to Evolving Distributional Shifts [2022, CVPR]
+- Few-Shot Continual Active Learning by a Robot [2022, NeuraIPS]
 
 ### Trapezoidal Data Stream
 

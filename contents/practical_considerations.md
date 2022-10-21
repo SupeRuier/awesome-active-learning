@@ -197,6 +197,7 @@ Sometimes, AL need to be used to handle several unusual data types.
 The unlabeled pool contains irrelevant unknown classes.
 
 - Active Learning for Open-set Annotation [2022]
+- Meta-Query-Net: Resolving Purity-Informativeness Dilemma in Open-set Active Learning [2022]
 
 ## Fairness Constrains
 

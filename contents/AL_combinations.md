@@ -96,6 +96,7 @@ Semantic Segmentation with domain adaptation：
 - Active Domain Adaptation with Multi-level Contrastive Units for Semantic Segmentation [2022]
 - Labeling Where Adapting Fails: Cross-Domain Semantic Segmentation with Point Supervision via Active Selection [2022]:
   Pixel-level selections.
+- Pixel Exclusion: Uncertainty-aware Boundary Discovery for Active Cross-Domain Semantic Segmentation [2022, MM]
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -148,6 +149,7 @@ Pose Estimation:
 - Deep Active Learning For Human Pose Estimation Via Consistency Weighted Core-Set Approach [2021, ICIP]
 - Active Learning with Pseudo-Labels for Multi-View 3D Pose Estimation [2021]
 - Meta Agent Teaming Active Learning for Pose Estimation [2022, CVPR]
+- VL4Pose: Active Learning Through Out-Of-Distribution Detection For Pose Estimation [2022]
 
 Optical Flow Prediction:
 - Optical Flow Training under Limited Label Budget via Active Learning [2022]
@@ -271,6 +273,7 @@ Domain adaptation:
   Access source model instead of source data.
 - Active Model Adaptation Under Unknown Shift [2022]: The distribution is shifted from the source domain.
 - Combating Label Distribution Shift for Active Domain Adaptation [2022]: Consider label distribution mismatch.
+- Source-Free Active Domain Adaptation via Energy-Based Locality Preserving Transfer [2022, MM]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]

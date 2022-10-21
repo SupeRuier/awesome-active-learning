@@ -248,6 +248,7 @@ Papers:
 - DECAL: DEployable Clinical Active Learning [2022, ICML Workshop]
 - Patient Aware Active Learning for Fine-Grained OCT Classification [2022, ICIP]
 - Information Gain Sampling for Active Learning in Medical Image Classification [2022]
+- Graph Node Based Interpretability Guided Sample Selection for Active Learning [2022, TMI]
 
 ### Medical Image Segmentation
 

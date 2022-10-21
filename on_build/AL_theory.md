@@ -49,6 +49,7 @@ For instance, "finding the image of a car".
 ### Deep AL 
 
 - Investigating the Consistency of Uncertainty Sampling in Deep Active Learning [2021, DAGM-GCPR]
+- Active Learning with Neural Networks: Insights from Nonparametric Statistics [2022]
 
 ### Performance Improvement
 
