@@ -345,6 +345,7 @@ Works
 - Towards General and Efficient Active Learning [2021]:
   Utilize the knowledge clusters by using the pre-trained encoder.
 - Unsupervised Selective Labeling for More Effective Semi-Supervised Learning [2022]: AL + SSL.
+- Cold-start active learning for image classification [2022, Information Science]
 
 # The considerations of the model
 

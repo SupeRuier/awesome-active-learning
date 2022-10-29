@@ -173,6 +173,7 @@ Here we only post several subtypes in the fields.
 
 **Survey** for the whole field:
 - [Putting Humans in the Natural Language Processing Loop: A Survey [2021]](https://arxiv.org/pdf/2103.04044.pdf)
+- A Survey of Active Learning for Natural Language Processing [2022]
 
 Sentiment/text classification:
 - Active learning for imbalanced sentiment classification [2012, EMNLP-CoNLL]
@@ -193,6 +194,7 @@ Named entity recognition (Information Extraction):
 - Subsequence Based Deep Active Learning for Named Entity Recognition [2021]
 - Deep Active Learning for Swedish Named Entity Recognition [2021, Master Thesis]
 - FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction [2022]
+- Subsequence Based Deep Active Learning for Named Entity Recognition [2022, ACL/IJCNLP]
 
 Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
@@ -529,6 +531,7 @@ Normally there is only model selection without training.
 ## Multi-Fidelity Machine Learning
 
 - [Deep Multi-Fidelity Active Learning of High-Dimensional Outputs [2020]](https://arxiv.org/pdf/2012.00901.pdf)
+- [Batch Multi-Fidelity Active Learning with Budget Constraints [2022, NeruaIPS]](https://arxiv.org/pdf/2210.12704.pdf)
 
 ## Online Learning System
 
