@@ -51,6 +51,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Ordinal Regression/Classification](#ordinal-regressionclassification)
   - [Positive and Unlabeled (PU) Learning](#positive-and-unlabeled-pu-learning)
   - [Reliability Analysis](#reliability-analysis)
+  - [Relation Extraction](#relation-extraction)
   - [Sequence Labeling](#sequence-labeling)
   - [Software Engineering](#software-engineering)
   - [Speech Recognition](#speech-recognition)
@@ -136,6 +137,9 @@ Video Object Detection:
 
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
+
+3D Semantic Segmentation:
+- LiDAL: Inter-frame Uncertainty Based Active Learning for 3D LiDAR Semantic Segmentation [2022, ECCV]
 
 Visual Tracking:
 - Active Learning for Deep Visual Tracking [2021]
@@ -276,6 +280,7 @@ Domain adaptation:
 - Active Model Adaptation Under Unknown Shift [2022]: The distribution is shifted from the source domain.
 - Combating Label Distribution Shift for Active Domain Adaptation [2022]: Consider label distribution mismatch.
 - Source-Free Active Domain Adaptation via Energy-Based Locality Preserving Transfer [2022, MM]
+- Active Multi-Task Representation Learning [2022, ICML]: Select from multiple source domains.
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -328,6 +333,7 @@ Graph node classification:
 - Partition-Based Active Learning for Graph Neural Networks [2022]
 - LSCALE: Latent Space Clustering-Based Active Learning for Node Classification [2022, ECMLPKDD]
 - Active Learning for Node Classification using a Convex Optimization approach [2022, BigDataService]
+- SmartQuery: An Active Learning Framework for Graph Neural Networks through Hybrid Uncertainty Reduction [2022, CIKM]
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]
@@ -572,6 +578,10 @@ A special case of binary classification where a learner only has access to label
 ## Reliability Analysis
 
 - Sequential active learning of low-dimensional model representations for reliability analysis [2021, Arxiv]
+
+## Relation Extraction
+
+- Active Relation Discovery: Towards General and Label-aware Open Relation Extraction [2021, TKDE]
 
 ## Sequence Labeling
 

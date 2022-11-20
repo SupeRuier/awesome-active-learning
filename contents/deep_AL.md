@@ -90,7 +90,8 @@ Performance gain:
 - Boosting Active Learning via Improving Test Performance [2022, AAAI]: 
   Through expected loss or the output entropy of the output instances.
   This work is still in the form of gradient length, and it is similar to EGL.
-  The difference is that this work calculates the gradients with the expectation of losses, while EGL take the expectations of gradients.
+  The difference is that this work calculates the gradients of all the parameters instead of the last FC layer.
+  Besides, it calculates the gradient by the expectation of losses, while EGL takes the expectations of gradient.
 - Making Look-Ahead Active Learning Strategies Feasible with Neural Tangent Kernels [2022]
 
 ### 2. Representativeness-impart
@@ -212,6 +213,7 @@ Data Augmentation:
 - [LADA: Look-Ahead Data Acquisition via Augmentation for Deep Active Learning [2021, NeurIPS]](https://proceedings.neurips.cc/paper/2021/file/c1b70d965ca504aa751ddb62ad69c63f-Paper.pdf):
   LADA takes the influence of the augmented data into account to construct acquisition function
 - Collaborative Intelligence Orchestration: Inconsistency-Based Fusion of Semi-Supervised Learning and Active Learning [KDD, 2022]
+- When Active Learning Meets Implicit Semantic Data Augmentation [2022, ECCV]
 
 Labeled-unlabeled data indistinguishable:
 - [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162): WAAL.
@@ -234,6 +236,9 @@ Contrastive Loss:
 - [Mitigating Sampling Bias and Improving Robustness in Active Learning [2021, Arxiv]](https://arxiv.org/pdf/2109.06321.pdf): Select instances least similar to the labeled ones with the same class.
 - Highly Efficient Representation and Active Learning Framework and Its Application to Imbalanced Medical Image Classification [2021]: Self-supervised representation learning with a multi-class GP classifier.
 - One-bit Active Query with Contrastive Pairs [2022, CVPR]
+
+Pretrain:
+- PT4AL: Using Self-Supervised Pretext Tasks for Active Learning [2022, ECCV]：Use Self-SL to pretrain the model and sort instances by the loss and split them into batches. Then use uncertainty to select from the batches.
 
 Both self and semi-supervised imparted:
 - Self-supervised Semi-supervised Learning for Data Labeling and Quality Evaluation [2021, Arxiv]: 

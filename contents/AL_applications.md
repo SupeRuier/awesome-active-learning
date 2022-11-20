@@ -181,6 +181,7 @@ Eg. 5g, Traffic Classification
 - Paladin: an annotation tool based on active and proactive learning [2021]
 - [Scale AI](https://scale.com)
 - [Appen (Figure-Eight)](https://appen.com)
+- [ClickWorker](https://www.clickworker.com)
 
 ### Data Enrichment
 

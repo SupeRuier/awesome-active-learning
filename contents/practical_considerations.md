@@ -117,6 +117,7 @@ There might be irrelevant unknown classes (out-of-distribution, not belong to th
 
 - Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV/TPAMI]
 - Pareto Optimization for Active Learning under Out-of-Distribution Data Scenarios [2022]
+- Predictive uncertainty estimation for out-of-distribution detection in digital pathology [2022, MIA]
 
 ## Subjective labels
 
@@ -251,6 +252,7 @@ Works:
   Each labeling task is repeated several times to complete the cross-query learning.
 - Evolving multi-user fuzzy classifier systems integrating human uncertainty and expert knowledge [2022, Information Sciences]
 - Active Learning with Weak Annotations for Gaussian Processes [2022]
+- Improved Adaptive Algorithm for Scalable Active Learning with Weak Labeler [2022]
 
 # The considerations of the scale
 
