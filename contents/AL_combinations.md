@@ -313,6 +313,7 @@ For one/few-shot learning:
 - Active Few-Shot Learning for Sound Event Detection [2022]
 - Active Transfer Prototypical Network: An Efficient Labeling Algorithm for Time-Series Data [2022]
 - Active Few-Shot Classification: a New Paradigm for Data-Scarce Learning Settings [2022]
+- MEAL: Stable and Active Learning for Few-Shot Prompting [2022]
 
 There are also works about zero-shot learning:
 - Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]

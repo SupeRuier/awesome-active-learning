@@ -55,6 +55,8 @@
 - Reinforced Meta Active Learning [2022]: Treat AL as an agent.
 - Online active learning for an evolving fuzzy neural classifier based on data density and specificity [2022, Neurocomputing]
 - Improved Algorithms for Neural Active Learning [2022]
+- An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments [2022, TNNLS]:
+  Online incremental update the model.
 
 ## Evolving Data
 

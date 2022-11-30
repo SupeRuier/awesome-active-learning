@@ -47,3 +47,5 @@ In this chapter, we would only list the works which are not included in MLAL.
   The AL strategy selects the instance which would lead to the maximum expected change of the shared parameter.
 - Multi-task Active Learning for Pre-trained Transformer-based Models [2022]:
   Explore various multi-task selection criteria in three realistic multi-task scenarios.
+- PartAL: Efficient Partial Active Learning in Multi-Task Visual Settings [2022]:
+  Only provide annotations for several tasks of the selected instances.
