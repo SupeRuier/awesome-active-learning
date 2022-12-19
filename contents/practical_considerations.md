@@ -17,7 +17,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Biased data](#biased-data)
   - [Cost-sensitive case](#cost-sensitive-case)
   - [Noised data](#noised-data)
-  - [Class mismatch & Out-of-distribution data](#class-mismatch--out-of-distribution-data)
+  - [Class mismatch \& Out-of-distribution data](#class-mismatch--out-of-distribution-data)
   - [Subjective labels](#subjective-labels)
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
@@ -52,6 +52,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The consideration of the reliability](#the-consideration-of-the-reliability)
   - [Reusablility](#reusablility)
   - [Robustness](#robustness)
+- [The consideration of the privacy](#the-consideration-of-the-privacy)
 - [The considerations of more assumptions](#the-considerations-of-more-assumptions)
   - [Include model selection](#include-model-selection)
   - [Select for evaluation](#select-for-evaluation)
@@ -428,6 +429,12 @@ The selected instances are expected to be resuable to train other models.
 The trained model is expected to be robust to the adversarial examples.
 - Towards Exploring the Limitations of Active Learning: An Empirical Study [2021]:
   They discovered the robustness to adversarial attacks and model compressions.
+
+# The consideration of the privacy
+
+Avoid to upload tons of unlabeled data to the cloud for selection.
+- Responsible Active Learning via Human-in-the-loop Peer Study [2022]:
+  Build local peer student to select instances, then pass them to the cloud.
 
 # The considerations of more assumptions
 

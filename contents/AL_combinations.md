@@ -64,9 +64,13 @@ Reducing the labeling cost is a common need in many research fields.
 CV is quite a wide conception.
 Here we only post several subtypes in the fields.
 
+**Survey** for the whole field:
+- Deep Active Learning for Computer Vision: Past and Future [2022]
+
 Image classification:
 - [Deep active learning for image classification [ICIP, 2017]](https://ieeexplore.ieee.org/abstract/document/8297020).
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf)
+- MoBYv2AL: Self-supervised Active Learning for Image Classification [2022, BMVC]
 
 Image Semantic Segmentation：
 - Geometry in active learning for binary and multi-class [2019, Computer vision and image understanding]
@@ -118,6 +122,7 @@ Object Detection:
 - Entropy-based Active Learning for Object Detection with Progressive Diversity Constraint [2022, CVPR]
 - Weakly Supervised Object Detection Based on Active Learning [2022, NPL]
 - Active Learning Strategies for Weakly-Supervised Object Detection [2022]
+- MUS-CDB: Mixed Uncertainty Sampling with Class Distribution Balancing for Active Annotation in Aerial Object Detection [2022]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -485,6 +490,7 @@ For example, the ImageNet was crawled from image databases without considering s
 
 - Federated Active Learning (F-AL): an Efficient Annotation Strategy for Federated Learning [2022]
 - LG-FAL : Federated Active Learning Strategy using Local and Global Models [2022, ICML workshop]
+- Knowledge-Aware Federated Active Learning with Non-IID Data [2022]
 
 ## Hedge
 

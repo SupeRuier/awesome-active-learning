@@ -30,7 +30,7 @@ In this chapter, we would only list the works which are not included in MLAL.
   (10)
 - Active Learning from Peers [2017, NeurIPS]:
   A stream-based scenario.
-- Safe Active Learning for Multi-Output Gaussian Processes [2022]: 
+- Safe Active Learning for Multi-Output Gaussian Processes [2022, ICAIS]: 
   Multi-output regression.
 
 ### Heterogeneous MTAL
@@ -45,7 +45,7 @@ In this chapter, we would only list the works which are not included in MLAL.
   They focused on the Genre Classification and Collaborative Filtering and proposed G+CTR. 
   Two tasks shares a same parameter.
   The AL strategy selects the instance which would lead to the maximum expected change of the shared parameter.
-- Multi-task Active Learning for Pre-trained Transformer-based Models [2022]:
+- Multi-task Active Learning for Pre-trained Transformer-based Models [2022, TACL]:
   Explore various multi-task selection criteria in three realistic multi-task scenarios.
 - PartAL: Efficient Partial Active Learning in Multi-Task Visual Settings [2022]:
   Only provide annotations for several tasks of the selected instances.
