@@ -140,6 +140,9 @@ Video Object Detection:
 - [Active learning method for temporal action localization in untrimmed videos [2020, US Patent]](https://patents.google.com/patent/US20190325275A1/en)
 - Active Learning with Effective Scoring Functions for Semi-Supervised Temporal Action Localization [2022]
 
+Video Captioning:
+- MAViC: Multimodal Active Learning for Video Captioning [2022]
+
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
 
@@ -234,6 +237,7 @@ Fine-Tuning for Downstream NLP Tasks:
 - On the Importance of Effectively Adapting Pretrained Language Models for Active Learning [2022, ACL]
 - ACTUNE: Uncertainty-Based Active Self-Training for Active Fine-Tuning of Pretrained Language Models [2022, NAACL-HLT]:
   AL + SelfSL.
+- Smooth Sailing: Improving Active Learning for Pre-trained Language Models with Representation Smoothness Analysis [2022]
 
 Question Answering:
 - Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
@@ -575,6 +579,7 @@ Could be consider as a regression where the relative orders of the instances mat
 
 - [Active Learning for Imbalanced Ordinal Regression [2020, IEEE Access]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208667)
 - [Supervised Anomaly Detection via Conditional Generative Adversarial Network and Ensemble Active Learning [2021]](https://arxiv.org/pdf/2104.11952.pdf)
+- Active learning for ordinal classification based on expected cost minimization [2022, scientific reports]
 
 ## Positive and Unlabeled (PU) Learning
 

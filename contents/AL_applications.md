@@ -84,6 +84,9 @@ Molecular Property Prediction：
 - [ASGN: An Active Semi-supervised Graph Neural Network for Molecular Property Prediction [2020, KDD]](https://dl.acm.org/doi/pdf/10.1145/3394486.3403117)
 - Tyger: Task-Type-Generic Active Learning for Molecular Property Prediction [2022]
 
+Others:
+- Active learning for efficient analysis of high-throughput nanopore data [2022, Bioinformatics]
+
 ## Chemistry
 
 Chemical natural language processing

@@ -36,7 +36,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Large-scale](#large-scale)
   - [Oracle idle issue](#oracle-idle-issue)
 - [The consideration of the workflow](#the-consideration-of-the-workflow)
-  - [Low budget selection / initial pool selection:](#low-budget-selection--initial-pool-selection)
+  - [Low budget selection / initial pool selection](#low-budget-selection--initial-pool-selection)
   - [Cold start problem](#cold-start-problem)
   - [Start point](#start-point)
   - [Stop criteria](#stop-criteria)
@@ -280,7 +280,7 @@ When the scale is large, oracles usually need to wait a long time for model trai
   
 # The consideration of the workflow
 
-## Low budget selection / initial pool selection:
+## Low budget selection / initial pool selection
 
 When the budget is very small, the conventional strategies usually perform bad.
 
@@ -377,6 +377,7 @@ Fine-tuning is one of the practical method.
 
 Works:
 - Active and incremental learning for semantic ALS point cloud segmentation [2020]: In this paper, they propose an active and incremental learning strategy to iteratively query informative point cloud data for manual annotation and the model is continuously trained to adapt to the newly labelled samples in each iteration.
+- CLActive: Episodic Memories for Rapid Active Learning [2022, Conference on Lifelong Learning Agents]
 
 # The consideration of query/feedback types
 
