@@ -47,6 +47,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The considerations of the model training cost](#the-considerations-of-the-model-training-cost)
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train](#incrementally-train)
+  - [Surrogate Learner](#surrogate-learner)
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
 - [The consideration of the reliability](#the-consideration-of-the-reliability)
@@ -230,6 +231,7 @@ Works：
 - [Exploiting Context for Robustness to Label Noise in Active Learning [2020, TIP]](https://arxiv.org/pdf/2010.09066.pdf)
 - Evidential Nearest Neighbours in Active Learning [2021, IAL-ECML-PKDD]
 - Rethinking Crowdsourcing Annotation: Partial Annotation with Salient Labels for Multi-Label Image Classification [2021]
+- Theoretical guarantee for crowdsourcing learning with unsure option [2023, Pattern Recognition]
 
 ## Multiple/Diverse labeler (ability/price) 
 
@@ -378,6 +380,13 @@ Fine-tuning is one of the practical method.
 Works:
 - Active and incremental learning for semantic ALS point cloud segmentation [2020]: In this paper, they propose an active and incremental learning strategy to iteratively query informative point cloud data for manual annotation and the model is continuously trained to adapt to the newly labelled samples in each iteration.
 - CLActive: Episodic Memories for Rapid Active Learning [2022, Conference on Lifelong Learning Agents]
+
+## Surrogate Learner
+
+Use surrogate learner to efficiently evaluate the utility.
+
+Works:
+- Active Deep Learning Guided by Efficient Gaussian Process Surrogates [2023]
 
 # The consideration of query/feedback types
 

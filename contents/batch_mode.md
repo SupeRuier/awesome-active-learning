@@ -113,6 +113,13 @@ Utilize the diversity of models to construct the diversity of items in a batch.
 
 - [Bootstrapping for Batch Active Sampling [2021, KDD]](https://dl.acm.org/doi/pdf/10.1145/3447548.3467076)
 
+## Multi-level diversity
+
+Utilize multiple criteria of diversity to select.
+
+- Active Learning with Co-Auxiliary Learning and Multi-level Diversity for Image Classification [2023, TCSVT]:
+  Beside feature-level diversity (cluster-based), add a class-level diversity, which removes the redundancy between the samples with the same pseudo-labels.
+
 # Unintentionally Diverse the Instances
 
 Without define diversity, many other works accomplish this goal non-explicitly.

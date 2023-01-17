@@ -5,3 +5,4 @@
    For each incoming observation X, they compute its weighted norm. 
    If the norm is above the threshold, then we select the observation, otherwise we ignore it.
    The threshold could be updated after querying.
+- Active Learning for Regression by Inverse Distance Weighting [2023, Information Science]

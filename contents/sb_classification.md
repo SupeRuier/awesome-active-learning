@@ -57,6 +57,7 @@
 - Improved Algorithms for Neural Active Learning [2022]
 - An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments [2022, TNNLS]:
   Online incremental update the model.
+- Clustering-based Active Learning Classification towards Data Stream [2023, ACM Trans. Intell. Syst. Technol.]
 
 ## Evolving Data
 

@@ -54,6 +54,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Relation Extraction](#relation-extraction)
   - [Sequence Labeling](#sequence-labeling)
   - [Software Engineering](#software-engineering)
+  - [Spiking Neural Network](#spiking-neural-network)
   - [Speech Recognition](#speech-recognition)
   - [Treatment Effect](#treatment-effect)
 
@@ -162,6 +163,7 @@ Pose Estimation:
 - Active Learning with Pseudo-Labels for Multi-View 3D Pose Estimation [2021]
 - Meta Agent Teaming Active Learning for Pose Estimation [2022, CVPR]
 - VL4Pose: Active Learning Through Out-Of-Distribution Detection For Pose Estimation [2022]
+- Rethinking the Data Annotation Process for Multi-view 3D Pose Estimation with Active Learning and Self-Training [2023, WACV]
 
 Optical Flow Prediction:
 - Optical Flow Training under Limited Label Budget via Active Learning [2022]
@@ -219,7 +221,7 @@ Classifier Pruning:
 Neural Machine Translation:
 - [Active Learning Approaches to Enhancing Neural Machine Translation [2020, EMNLP]](https://www.aclweb.org/anthology/2020.findings-emnlp.162.pdf): The first to do a large-scale study on actively training Transformer for NMT.
 - Active Learning for Massively Parallel Translation of Constrained Text into Low Resource Languages [2021, Arxiv]
-- Active Learning with Expert Advice for Real World MT[2022]
+- Active Learning with Expert Advice for Real World MT [2022]
 
 Sequence Tagging:
 - [Active Learning for Sequence Tagging with Deep Pre-trained Models and Bayesian Uncertainty Estimates [2021]](https://arxiv.org/pdf/2101.08133.pdf)
@@ -257,6 +259,9 @@ Claim Verification：
 
 Abuse Detection:
 - Is More Data Better? Re-thinking the Importance of Efficiency in Abusive Language Detection with Transformers-Based Active Learning [2022, COLING workshop TRAC]
+
+Abstractive Text Summarization:
+- Active Learning for Abstractive Text Summarization [2023]
 
 ## Domain adaptation/Transfer learning
 
@@ -604,6 +609,10 @@ A special case of binary classification where a learner only has access to label
 Software Defects Prediction:
 - [Empirical evaluation of the active learning strategies on software defects prediction [2016, ISSSR]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9265897)
 - [Improving high-impact bug report prediction with combination of interactive machine learning and active learning [2021]](https://reader.elsevier.com/reader/sd/pii/S0950584921000185?token=E1D095736314C62935E011266E971E6DA8289DDF6AC3CB3F57115363383EEED292B3A9C1B8CDD30E81FAAE08F8F0B9B4)
+
+## Spiking Neural Network
+
+- Bio-inspired Active Learning method in spiking neural network [2023, KBS]
 
 ## Speech Recognition
 
