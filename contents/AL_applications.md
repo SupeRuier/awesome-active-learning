@@ -34,6 +34,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Drug Discovery](#drug-discovery)
   - [Fault Diagnosis of Machinery](#fault-diagnosis-of-machinery)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
+  - [Internet of Things](#internet-of-things)
   - [Labeling System](#labeling-system)
   - [Malware Detection](#malware-detection)
   - [Medical Research](#medical-research)
@@ -216,6 +217,10 @@ Eg. 5g, Traffic Classification
 ## Gas Reservoir Prediction
 
 - [Reservoir prediction through cost⁃sensitive active learning [2020, JOURNAL OF NANJING UNIVERSITY]](https://jns.nju.edu.cn/CN/10.13232/j.cnki.jnju.2020.04.014)
+
+## Internet of Things
+
+- DeepWE: A Deep Bayesian Active Learning Waypoint Estimator for Indoor walkers [2023, IEEE Internet of Things Journal]
 
 ## Labeling System
 

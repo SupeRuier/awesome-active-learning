@@ -76,9 +76,14 @@ It shows that the improvements brought from AL are far less than that from self-
 Only when the number of labeled instances approaches 50%, the gap could disappear.
 
 ## 5. On the marginal benefit of active learning: Does self-supervision eat its cake? [2021, ICASSP]: 
+
 Fail to observe any additional benefit of state-of-the-art active learning algorithms when combined with state-of-the-art S4L techniques.
 
 ## 6. Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]
 
 This work focuses on a **cold start** setting.
 Empirically reveal the unsuccessfulness of conventional AL methods with NN on very small budget, under supervised, self-supervised embedding or semi-supervised training.
+
+## 7. Toward Realistic Evaluation of Deep Active Learning Algorithms in Image Classification [2023]
+
+Present an AL benchmarking suite and run extensive experiments on five datasets shedding light on the questions: when and how to apply AL?

@@ -103,6 +103,7 @@ Semantic Segmentation with domain adaptation：
 - Labeling Where Adapting Fails: Cross-Domain Semantic Segmentation with Point Supervision via Active Selection [2022]:
   Pixel-level selections.
 - Pixel Exclusion: Uncertainty-aware Boundary Discovery for Active Cross-Domain Semantic Segmentation [2022, MM]
+- MADAv2: Advanced Multi-Anchor Based Active Domain Adaptation Segmentation [2023]
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -146,6 +147,7 @@ Video Captioning:
 
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
+- Exploring Active 3D Object Detection from a Generalization Perspective [2023, ICLR]
 
 3D Semantic Segmentation:
 - LiDAL: Inter-frame Uncertainty Based Active Learning for 3D LiDAR Semantic Segmentation [2022, ECCV]

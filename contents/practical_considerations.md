@@ -120,6 +120,7 @@ There might be irrelevant unknown classes (out-of-distribution, not belong to th
 - Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV/TPAMI]
 - Pareto Optimization for Active Learning under Out-of-Distribution Data Scenarios [2022]
 - Predictive uncertainty estimation for out-of-distribution detection in digital pathology [2022, MIA]
+- Deep Active Learning with Contrastive Learning Under Realistic Data Pool Assumptions [2023]
 
 ## Subjective labels
 
