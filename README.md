@@ -38,13 +38,13 @@
   <strong><a href="#0-papers---当前论文">Papers</a></strong> •
   <strong><a href="#1-introduction-to-al---主动学习简介">Introduction</a></strong> •
   <strong><a href="#tutorials---教程">Tutorials</a></strong> •
-  <strong><a href="#3-problem-settings---问题场景">Problem Settings</a></strong> •
-  <strong><a href="#4-theoretical-support---理论支持">Theory</a></strong> •
   <strong><a href="#2-reviews--tutorials---相关综述及教程">Survey</a></strong> •
-  <strong><a href="#7-codes--libraries---代码与工具包">Code & Library</a></strong> •
+  <strong><a href="#3-problem-settings---问题场景">Problem Settings</a></strong> •
+  <strong><a href="#4-theoretical-support---理论支持">Theory</a></strong>
 </p>
 <p align="center">
-  <strong><a href="#by-origin---按出处分类">Thesis</a></strong> •
+  <strong><a href="#by-origin---按出处分类">Dissertations</a></strong> •
+  <strong><a href="#7-codes--libraries---代码与工具包">Code & Library</a></strong> •
   <strong><a href="#8-scholars--groups---著名学者及团队">Scholars</a></strong> •
   <strong><a href="#6-real-world-applications---实际应用">Applications</a></strong>
 </p>
