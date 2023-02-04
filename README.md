@@ -1,189 +1,239 @@
-# Awesome Active Learning
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url] 
+[![Issues][issues-shield]][issues-url]
 
-**Hope you can find everything you need about active learning (AL) in this repository.**
-This is not only a curated list, but also a well-structured library for active learning.
-The whole repository is constructed in a **problem-orientated** approach, which is easy for users to locate and track the problem.
-At the mean time, the techniques are discussed under the corresponding problem settings.
+[contributors-shield]: https://img.shields.io/github/contributors/SupeRuier/awesome-active-learning.svg?style=for-the-badge
+[contributors-url]: https://github.com/SupeRuier/awesome-active-learning/graphs/contributors
 
-Specifically, this repository includes:
-- [1. What is Active Learning?](#1-what-is-active-learning) 
-- [2. Reviews/Surveys/Benchmarks](#2-reviewssurveysbenchmarks)
-- [3. Problem Settings](#3-problem-settings)
-  - [3.1. Basic Problem Settings (Three basic scenarios)](#31-basic-problem-settings-three-basic-scenarios)
-  - [3.2. Advanced Problem Settings](#32-advanced-problem-settings)
-  - [3.3. Tasks in other AI Research Fields](#33-tasks-in-other-ai-research-fields)
-- [4. Theoretical Support for Active Learning](#4-theoretical-support-for-active-learning)
-- [5. Practical Considerations to Apply AL](#5-practical-considerations-to-apply-al)
-- [6. Real-World Applications of AL](#6-real-world-applications-of-al)
-- [7. Resources](#7-resources)
-- [8. Groups/Scholars](#8-groupsscholars)
+[forks-shield]: https://img.shields.io/github/forks/SupeRuier/awesome-active-learning.svg?style=for-the-badge
+[forks-url]: https://github.com/SupeRuier/awesome-active-learning/network/members
 
+[stars-shield]: https://img.shields.io/github/stars/SupeRuier/awesome-active-learning.svg?style=for-the-badge
+[stars-url]: https://github.com/SupeRuier/awesome-active-learning/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/SupeRuier/awesome-active-learning.svg?style=for-the-badge
+[issues-url]: https://github.com/SupeRuier/awesome-active-learning/issues
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+
+<h1 align="center">
+  Everything about Active Learning
+</h1>
+
+<h4 align="center">Everything you need about Active Learning (AL).</h4>
+<h4 align="center">Not only a curated list, but also a well-structured library.</h4>
+<h4 align="center">Usually updated twice a month.</h4>
+<h4 align="center">关于主动学习你需要的一切.</h4>
+<h4 align="center">不仅仅包含文献列表，更是一个结构化的资料库.</h4>
+<h4 align="center">通常每月两更新.</h4>
+<h4 align="center">(The majority of contents are presented in English.)</h4>
+
+</p>
+
+<!-- 一些超链接！！！ -->
+<p align="center">
+  <strong><a href="#0-papers---当前论文">Papers</a></strong> •
+  <strong><a href="#1-introduction-to-al---主动学习简介">Introduction</a></strong> •
+  <strong><a href="#tutorials---教程">Tutorials</a></strong> •
+  <strong><a href="#3-problem-settings---问题场景">Problem Settings</a></strong> •
+  <strong><a href="#4-theoretical-support---理论支持">Theory</a></strong> •
+  <strong><a href="#2-reviews--tutorials---相关综述及教程">Survey</a></strong> •
+  <strong><a href="#7-codes--libraries---代码与工具包">Code & Library</a></strong> •
+</p>
+<p align="center">
+  <strong><a href="#by-origin---按出处分类">Thesis</a></strong> •
+  <strong><a href="#8-scholars--groups---著名学者及团队">Scholars</a></strong> •
+  <strong><a href="#6-real-world-applications---实际应用">Applications</a></strong>
+</p>
+
+[](#tutorials---教程)
+<!-- **Widely used by top conferences and journals:** å
+近期在多个顶尖会议与期刊中收录
+- Conferences: 每一年的 CCF-A
+- Journals: 每一年的 CCF-A -->
+
+
+**Contributing - 加入本项目** 
+
+If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
+Comments and suggestions are also very welcome!
+
+**Cite us - 引用我们:**
+
+If you use our repository in your research or applications, please consider citing this website.
+如果您在您的科研以及应用中从此项目获得一些帮助，请考虑使用如下的方式引用我们的项目。
+```
+@Misc{https://github.com/SupeRuier/awesome-active-learning,
+howpublished = {\url{http://github.com/SupeRuier/awesome-active-learning}},   
+title = {Everything about Active Learning},  
+author = {Rui He}  
+}  
+```
+
+<!-- 
 The hierarchical structure of this repository is shown in the following figure, and **you can find the paper-list in the corresponding sub-pages**:
 
 ![](repo-structure.png)
 
-### **Shortcuts**
-
-These shortcuts could quickly lead you to the information you want.
-
-| Link                                                             | Note                                                             |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [Taxonomy of Strategies](contents/pb_classification.md)          | The types of AL strategies, in general pool-based scenario.      |
-| [AL Aids AI](contents/AL_combinations.md)                        | Use AL under other AI research problems.                         |
-| [AL Applications](contents/AL_applications.md)                   | The scientific and industrial applications of AL.                |
-| [Practical Considerations](contents/practical_considerations.md) | The practical issues in applying AL when the assumptions change. |
-| [Intrinsic Issues in AL](contents/intrinsic_issues.md)           | The intrinsic issues of AL.                                      |
-| [Deep AL](contents/deep_AL.md)                                   | AL with deep neural networks.                                    |
-
-### **Contributing**
-If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
-Comments and suggestions are also very welcome!
+--- -->
 
 
-# 1. What is AL?
+# 0. Papers - 当前论文
 
-High labeling cost is common in machine learning community.
+## By Origin - 按出处分类
+
+By conference - 按会议分类：[**ICML**](conference/ICML.md) / [**NeuraIPS**](conference/NeuraIPS.md) / [**ICLR**](conference/ICLR.md) / [**AAAI**](conference/AAAI.md) / [**IJCAI**](conference/IJCAI.md) / [**ACL**](conference/ACL.md) / [**CVPR**](conference/CVPR.md) / [**ICCV**](conference/ICCV.md) 
+
+By journal - 按期刊分类：[**AI**](journal/AI.md) / [**TPAMI**](journal/TPAMI.md) / [**IJCV**](journal/IJCV.md) / [**JMLR**](journal/JMLR.md)
+
+By degree - 按学位论文分类：[**Master**](thesis/Master.md) / [**PhD**](thesis/PhD.md)
+
+## By Content - 按内容分类
+
+Constructed in a **problem-orientated** approach, which is easy for users to locate and track the problem.
+基于**以问题为导向**的分类方式，以方便读者准确定位以及跟踪相关问题。
+
+- [Taxonomy of Strategies - 主动学习技术分类](contents/pb_classification.md)
+- [AL Problem Settings - 问题场景](#3-problem-settings---问题场景)
+- [AL in other AI Fields - 其他人工智能领域中的主动学习](#33-al-in-ai-fields---人工智能背景中的主动学习)
+- [Deep AL - 深度主动学习](contents/deep_AL.md)
+- [Practical Considerations - 运用主动学习时的实际考虑](#5-practical-considerations---运用-al-时的考虑) 
+- [AL Applications (Scientific & Industrial) - 主动学习在科学及工业界的应用](contents/AL_applications.md)
+
+## By Hot Discussions - 按热门讨论分类
+
+- [Intrinsic Issues in AL - 主动学习的内在问题](contents/intrinsic_issues.md)
+- [Criticism / Discovery on Deep AL - 深度主动学习的批判和探索](contents/deep_AL_criticism.md)
+
+# 1. Introduction to AL - 主动学习简介
+
+**Problem - 面向的问题:** 
+High labeling cost is common in machine learning community. 
 Acquiring a heavy number of annotations hindering the application of machine learning methods.
-Active learning is one approach to relief this annotation burden.
-The intuition is that not all the instances are equally important to the desired task, so only labeling the more important instances might bring cost reduction.
 
-It is very hard to find a formal definition of general AL within a single optimization function.
-It would be better to define specific AL under specific problem settings.
-Hence, we only point out the essences of AL in this section.
-**When we talk about active learning, we talk about**:
+**Essence / Assumption - 本质 / 基础假设:**
+Not all the instances are equally important to the desired task, so only labeling the more important instances might bring cost reduction.
+
+**When we talk about active learning, we talk about - 当我们在谈论主动学习时，我们指的是**:
 - an approach to reduce the annotation cost in machine learning.
 - the ways to select the most important instances for the corresponding tasks.
 - (in most cases) an interactive labeling manner between algorithms and oracles.
 - a machine learning setting where human experts could be involved.
 
-# 2. Reviews/Surveys/Benchmarks
+# 2. Reviews & Tutorials - 相关综述及教程
 
-There have been several reviews/surveys/benchmarks for this topic.
-They provided a good overview for the field.
+There have been several reviews / surveys / benchmarks for this topic.
 
-**Reviews/Surveys**:
-- Active learning: theory and applications [[2001]](https://ai.stanford.edu/~koller/Papers/Tong:2001.pdf.gz)
-- Active Learning Literature Survey **(Recommend to read)**[[2009]](https://minds.wisconsin.edu/handle/1793/60660)
-- A survey on instance selection for active learning [[2012]](https://link.springer.com/article/10.1007/s10115-012-0507-8)
-- Active Learning: A Survey [[2014]](https://www.taylorfrancis.com/books/e/9780429102639/chapters/10.1201/b17320-27)
-- Active Learning Query Strategies for Classification, Regression, and Clustering: A Survey [[2020]](https://link.springer.com/article/10.1007/s11390-020-9487-4)[Journal of Computer Science and Technology]
-- A Survey of Active Learning for Text Classification using Deep Neural Networks [[2020]](https://arxiv.org/pdf/2008.07267.pdf)
-- A Survey of Deep Active Learning [[2020]](https://arxiv.org/pdf/2009.00236.pdf)
-- Active Learning: Problem Settings and Recent Developments [[2020]](https://arxiv.org/pdf/2012.04225.pdf)
-- From Model-driven to Data-driven: A Survey on Active Deep Learning [[2021]](https://arxiv.org/pdf/2101.09933.pdf)
-- Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [[2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
-- A Survey on Cost Types, Interaction Schemes, and Annotator Performance Models in Selection Algorithms for Active Learning in Classification [[2021]](https://arxiv.org/pdf/2109.11301.pdf)
-- A Comparative Survey of Deep Active Learning [[2022]](https://arxiv.org/pdf/2203.13450.pdf)
+### **Reviews / Surveys - 综述**:
+- [Active learning: theory and applications [2001]](https://ai.stanford.edu/~koller/Papers/Tong:2001.pdf.gz)
+- [Active Learning Literature Survey **(Recommend to read)** [2009]](https://minds.wisconsin.edu/handle/1793/60660)
+- [A survey on instance selection for active learning [2012]](https://link.springer.com/article/10.1007/s10115-012-0507-8)
+- [Active Learning: A Survey [2014]](https://www.taylorfrancis.com/books/e/9780429102639/chapters/10.1201/b17320-27)
+- [Active Learning Query Strategies for Classification, Regression, and Clustering: A Survey [2020, Journal of Computer Science and Technology]](https://link.springer.com/article/10.1007/s11390-020-9487-4)
+- [A Survey of Active Learning for Text Classification using Deep Neural Networks [2020]](https://arxiv.org/pdf/2008.07267.pdf)
+- [A Survey of Deep Active Learning [2020]](https://arxiv.org/pdf/2009.00236.pdf)
+- [Active Learning: Problem Settings and Recent Developments [2020]](https://arxiv.org/pdf/2012.04225.pdf)
+- [From Model-driven to Data-driven: A Survey on Active Deep Learning [2021]](https://arxiv.org/pdf/2101.09933.pdf)
+- [Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
+- [A Survey on Cost Types, Interaction Schemes, and Annotator Performance Models in Selection Algorithms for Active Learning in Classification [2021]](https://arxiv.org/pdf/2109.11301.pdf)
+- [A Comparative Survey of Deep Active Learning [2022]](https://arxiv.org/pdf/2203.13450.pdf)
+
+### **Benchmarks - 基线**:
+- [A Comparative Survey: Benchmarking for Pool-based Active Learning [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0634.pdf)
+- [A Framework and Benchmark for Deep Batch Active Learning for Regression [2022]](https://arxiv.org/pdf/2203.09410.pdf)
+
+### **Tutorials - 教程**
+
+|  Lecture Topic                                                                                                  | Year |           Lecturer           | Occasion      |
+| --------------------------------------------------------------------------------------------------------------------- | ---- | :--------------------------: | ------------- |
+| [Active learning and transfer learning at scale with R and Python](https://github.com/Azure/active-learning-workshop) | 2018 |              -               | KDD           |
+| [Active Learning from Theory to Practice](https://www.youtube.com/watch?v=_Ql5vfOPxZU)                                | 2019 | Robert Nowak & Steve Hanneke | ICML          |
+| [Overview of Active Learning for Deep Learning](https://jacobgil.github.io/deeplearning/activelearning)               | 2021 |       Jacob Gildenblat       | Personal Blog |
 
 
-**Benchmarks**:
-- A Comparative Survey: Benchmarking for Pool-based Active Learning [[2021]](https://www.ijcai.org/proceedings/2021/0634.pdf)[IJCAI]
-- A Framework and Benchmark for Deep Batch Active Learning for Regression [[2022]](https://arxiv.org/pdf/2203.09410.pdf)
+# 3. Problem Settings - 问题场景
 
-# 3. Problem Settings
+## 3.1 Basic Scenarios - 基础问题场景
 
-In this section, **the specific problems which active learning is trying to solve are described**.
-The previous works are organized in a problem-oriented order.
-The methods are categorized for the corresponding settings in the subpage.
+Almost all the AL studies are based on the following scenarios.
+The difference lies in the different sources of the quired samples.
+**The details of these scenarios could see [**here**](contents/AL_problem.md).**
 
-**Three levels of problem settings**:
-1. Basic Problem Settings
-   - Under the basic scenarios: Pool-based/Stream-based/Query synthesis
-   - Under the basic tasks: Classification/Regression
-2. Advanced Problem Settings
-   - Under many variants of machine learning problem settings
-3. Tasks from other Research Fields
-   - With more complex tasks from other research fields
+**Three scenarios and corresponding tasks:**
+- **pool-based - 基于数据池**: select from a pre-collected data pool
+  - [pool-based classification](contents/pb_classification.md)
+  - [pool-based regression](contents/pb_regression.md)
+- **stream-based - 基于数据流**: select from a steam of incoming data
+  - [stream-based classification](contents/sb_classification.md)
+  - [stream-based regression](contents/sb_regression.md)
+- **query synthesis - 基于数据生成**: generate query instead of selecting data
+  - [query synthesis](contents/query-synthesis.md)
 
-## 3.1. Basic Problem Settings (Three basic scenarios)
 
-There are three basic types of scenarios, almost all the AL works are build on these scenarios.
-The scenarios are different in where the queried instances are from:
-- **pool-based**: select from a pre-collected data pool
-- **stream-based**: select from a steam of incoming data
-- **query synthesis**: generate query instead of selecting data
+## 3.2 Advanced Problem Settings - 复杂问题场景
 
-For the most basic AL researches, they usually study on two basic tasks:
-- classification
-- regression
-
-**The details and the list of works could see [**here**](contents/AL_problem.md).**
-
-## 3.2. Advanced Problem Settings
-
-There are many variants of machine learning problem settings with **more complex assumptions**.
+There are many variants of machine learning problem settings with **more advanced tasks**.
 Under these problem settings, AL could be further applied.
 
-- [Multi-class active learning](contents/MCAL.md): In a classification task, each instance has one label from multiple classes (more than 2).
-- [Multi-label active learning](contents/MLAL.md): In a classification task, each instance has multiple labels.
-- [Multi-task active learning](contents/MTAL.md): The model or set of models handles multiple different tasks simultaneously. For instance, handle two classification tasks at the same time, or one classification and one regression. 
-- [Multi-domain active learning](contents/MDAL.md): Similar to multi-task, but the data are from different datasets(domains). The model or set of models handles multiple datasets simultaneously.
-- [Multi-view/modal active learning](contents/MVAL.md): The instances might have different views (different sets of features). The model or set of models handles different views simultaneously.
-- [Multi-instance active learning](contents/MIAL.md): The instances are organized into bags and training labels are assigned at the bag level.
+**Related AL Fields:**
+- [Multi-class AL - 多分类主动学习](contents/MCAL.md)
+- [Multi-label AL - 多标签主动学习](contents/MLAL.md)
+- [Multi-task AL - 多任务主动学习](contents/MTAL.md)
+- [Multi-domain AL - 多领域主动学习](contents/MDAL.md):
+- [Multi-view/modal AL - 多模态主动学习](contents/MVAL.md)
+- [Multi-instance AL - 多样本主动学习](contents/MIAL.md)
 
-## 3.3. Tasks in other AI Research Fields
+## 3.3 AL in AI Fields - 人工智能背景中的主动学习
 
-In many AI research fields, the tasks can't be simply marked as classification or regression.
+**Use AL to reduce the cost of annotation in many other AI research fields**, where the tasks beyonds simple classification or regression.
 They either acquire different types of outputs or assume a unusual learning process.
 So AL algorithms should be revised/developed for these problem settings.
-Here we summarized the works which **use AL to reduce the cost of annotation in many other AI research fields**.
 
-- Computer Vision (CV)
-- Natural Language Processing (NLP)
-- Transfer learning/Domain adaptation
-- Metric learning/Pairwise comparison/Similarity learning
-- One/Few/Zero-shot learning
-- Graph Processing
-- etc.
-(The full list of fields could see [**here**](contents/AL_combinations.md))
+**Utilize AL in the following fields (hot topics)：** 
+- [Computer Vision (CV)](contents/AL_combinations.md#computer-vision-cv)
+- [Natural Language Processing (NLP)](contents/AL_combinations.md#natural-language-processing-nlp)
+- [Domain adaptation / Transfer learning](contents/AL_combinations.md#domain-adaptationtransfer-learning)
+- [One / Few / Zero-shot learning or Meta-Learning](contents/AL_combinations.md#onefewzero-shot-learning-or-meta-learning)
+- [Graph Processing](contents/AL_combinations.md#graph-processing)
+- [Metric learning / Pairwise comparison/Similarity learning](contents/AL_combinations.md#metric-learningpairwise-comparisonsimilarity-learning)
+- [Recommendation](contents/AL_combinations.md#recommendation)
+- [Reinforcement Learning](contents/AL_combinations.md#reinforcement-learning)
+- [Robotics](contents/AL_combinations.md#robotics)
+- [Model Interpretability](contents/AL_combinations.md#model-interpretability)
+- [Clustering](contents/AL_combinations.md#clustering)
+- (Full list of fields could see [**here**](contents/AL_combinations.md))
 
-# 4. Theoretical Support for Active Learning
+# 4. Theoretical Support - 理论支持
 
 There have been many theoretical supports for AL.
-Most of them are focus on finding a performance guarantee or the weakness of AL selection.
-(This section has not finished yet.)
+Most of them focus on finding a performance guarantee or the weakness of AL selection.
 
-# 5. Practical Considerations to Apply AL
+(This section has not been finished yet. 本章节当前还未完成.)
+
+# 5. Practical Considerations - 运用 AL 时的考虑
 
 Many researches of AL are built on very idealized experimental setting.
 When AL is used to real life scenarios, the practical situations usually do not perfectly match the assumptions in the experiments.
 These **changes of assumptions** lead issues which hinders the application of AL.
 In this section, the practical considerations are reviewed under different assumptions.
-**The details and the list of works could see [**here**](contents/practical_considerations.md).**
 
-| Assumption Type    | Practical Considerations                                         |
-| ------------------ | ---------------------------------------------------------------- |
-| Data               | Imbalanced data                                                  |
-|                    | Cost-sensitive case                                              |
-|                    | Logged data                                                      |
-|                    | Feature missing data                                             |
-|                    | Multiple Correct Outputs                                         |
-|                    | Unknown input classes                                            |
-|                    | Different data types                                             |
-|                    | Data with Perturbation                                           |
-| Oracle             | The assumption change on single oracle (Noise/Special behaviors) |
-|                    | Multiple/Diverse labeler (ability/price)                         |
-| Workflow           | Cold start                                                       |
-|                    | Stop criteria                                                    |
-| Scale              | Large-scale                                                      |
-| Training cost      | Take into account the training cost                              |
-|                    | Incrementally Train                                              |
-| Query types        | Provide other feedbacks other than just labels                   |
-| Performance metric | Other than the learning curves                                   |
+**The considerations of:**
+[data](contents/practical_considerations.md#the-considerations-of-the-data) / [oracle](contents/practical_considerations.md#the-considerations-of-the-oracles) / [scale](contents/practical_considerations.md#the-considerations-of-the-scale) / [workflow](contents/practical_considerations.md#the-consideration-of-the-workflow) / [model training cost](contents/practical_considerations.md#the-considerations-of-the-model-training-cost) / [query & feedback types](contents/practical_considerations.md#the-consideration-of-queryfeedback-types) / [performance metric](contents/practical_considerations.md#the-consideration-of-the-performance-metric) / [reliability](contents/practical_considerations.md#the-consideration-of-the-reliability) / [privacy](contents/practical_considerations.md#the-consideration-of-the-privacy) / [others](contents/practical_considerations.md#the-considerations-of-more-assumptions)
 
-# 6. Real-World Applications of AL
+**The details and the full list could see [**here**](contents/practical_considerations.md).**
 
-We have introduced that AL could be used in many [other AI research fields](contents/AL_combinations.md).
-In addition, AL has already been used in many real-world applications.
+# 6. Real-World Applications - 实际应用
+
+AL has already been used in many [real-world applications](contents/AL_applications.md).
 For some reasons, the implementations in many companies are confidential.
 But we can still find many applications from several published papers and websites.
 
-Basically, there are two types of applications: **scientific applications** & **industrial applications**.
-We summarized a list of works [**here**](contents/AL_applications.md).
+Basically, there are two types of applications: [**scientific applications**](contents/AL_applications.md#scientific-applications-alphabetical-order) & [**industrial applications**](contents/AL_applications.md#industrial-applications-alphabetical-order).
 
-# 7. Resources
-
-## 7.1. Software Packages/Libraries
+# 7. Codes / Libraries - 代码与工具包
 
 | Name                                                                                                               | Languages                        | Author                    | Notes                                            |
 | ------------------------------------------------------------------------------------------------------------------ | -------------------------------- | ------------------------- | ------------------------------------------------ |
@@ -201,15 +251,7 @@ We summarized a list of works [**here**](contents/AL_applications.md).
 | [DeepAL+](https://github.com/SineZHAN/deepALplus/)                                                                 | Python(scikit-learn, pytorch)    | Zhan                      | An extension for DeepAL                          |
 | [ALaaS](https://github.com/MLSysOps/alaas)                                                                         | Python(scikit-learn)             | A*STAR & NTU              | Use the stage-level parallellism for AL.         |
 
-## 7.2. Tutorials
-
-| Title                                                                                                                 | Year |           Lecturer           | Occasion      | Notes |
-| --------------------------------------------------------------------------------------------------------------------- | ---- | :--------------------------: | ------------- | ----- |
-| [Active learning and transfer learning at scale with R and Python](https://github.com/Azure/active-learning-workshop) | 2018 |              -               | KDD           |       |
-| [Active Learning from Theory to Practice](https://www.youtube.com/watch?v=_Ql5vfOPxZU)                                | 2019 | Robert Nowak & Steve Hanneke | ICML          |       |
-| [Overview of Active Learning for Deep Learning](https://jacobgil.github.io/deeplearning/activelearning)               | 2021 |       Jacob Gildenblat       | Personal Blog |       |
-
-# 8. Groups/Scholars
+# 8. Scholars / Groups - 著名学者及团队
 
 We also list several scholars who are currently heavily contributing to this research direction.
 
@@ -224,3 +266,4 @@ Several young researchers who provides valuable insights for AL:
 - Jamshid Sourati [University of Chicago]: Deep neural networks.
 - Stefano Teso [University of Trento]: Interactive learning & Human-in-the-loops.
 - Xueyin Zhan [City University of Hong Kong]: Provide several invaluable comparative surveys.
+

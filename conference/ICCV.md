@@ -1,0 +1,13 @@
+- Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]
+- Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV/TPAMI]
+- Joint Semi-supervised and Active Learning for Segmentation of Gigapixel Pathology Images with Cost-Effective Labeling [2021, ICCV]
+- Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
+- [Active Learning for Deep Object Detection via Probabilistic Modeling [2021, ICCV]](https://openaccess.thecvf.com/content/ICCV2021/papers/Choi_Active_Learning_for_Deep_Object_Detection_via_Probabilistic_Modeling_ICCV_2021_paper.pdf)
+- ReDAL: Region-based and Diversity-aware Active Learning for Point Cloud Semantic Segmentation [2021, ICCV]
+- S3VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation [2021, ICCV]
+- Active Domain Adaptation via Clustering Uncertainty-weighted Embeddings [2021, ICCV]
+- Active Universal Domain Adaptation [2021, ICCV]: There are unknown class in the target domain.
+- [Semi-supervised Active Learning for Semi-supervised Models: Exploit Adversarial Examples with Graph-based Virtual Labels [2021, ICCV]](https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Semi-Supervised_Active_Learning_for_Semi-Supervised_Models_Exploit_Adversarial_Examples_With_ICCV_2021_paper.pdf)
+- [Variational Adversarial Active Learning [ICCV, 2019]](http://openaccess.thecvf.com/content_ICCV_2019/html/Sinha_Variational_Adversarial_Active_Learning_ICCV_2019_paper.html): 
+- Active Decision Boundary Annotation with Deep Generative Models [2017, ICCV]
+- [Active learning with Gaussian Processes for object categorization [2007, ICCV]](https://ieeexplore.ieee.org/abstract/document/4408844)

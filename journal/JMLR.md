@@ -1,0 +1,2 @@
+- Active learning with feedback on both features and instances [2006, JMLR]
+- [Support Vector Machine Active Learning with Applications to Text Classification [2001, JMLR]](http://www.jmlr.org/papers/v2/tong01a.html)

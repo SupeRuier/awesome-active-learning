@@ -1,6 +1,7 @@
 # Multi-Label Active Learning
 
 Multi-label active learning (MLAL) is to use AL on multi-label learning (MLL) problems.
+Each instance has multiple classification labels.
 We note that MLAL could be seen as a degeneration from multi-task active learning (MTAL) when all the tasks are classification.
 Sometimes these two fields are focus on the same MLAL problems but sometimes are not.
 In this chapter, we only discuss the MLAL problems in spite of what terminology the papers use.

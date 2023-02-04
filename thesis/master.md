@@ -1,0 +1,6 @@
+- U-Net-Based Active Learning Framework for Enhancing Cancer Immunotherapy [2021, Master Dissertation]
+- Human-in-the-loop for efficient training of retinal image analysis methods [2021, Master Dissertation]
+- Active learning for annotation and recognition of faces in video [2021, Master Dissertation]
+- Deep Active Learning for Swedish Named Entity Recognition [2021, Master Dissertation]
+- [Accelerating the Training of Convolutional Neural Networks for Image Segmentation with Deep Active Learning [2020, Master Dissertation]](https://uwspace.uwaterloo.ca/handle/10012/15537)
+- Active Learning for Attributed Graphs [2020, Master Dissertation]

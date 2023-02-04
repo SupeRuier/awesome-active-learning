@@ -1,0 +1,20 @@
+- Boosting Active Learning via Improving Test Performance [2022, AAAI]
+- Improving Model Robustness by Adaptively Correcting Perturbation Levels with Active Queries [2021, AAAI]:
+- [Active Ordinal Querying for Tuplewise Similarity Learning [2020 AAAI]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-CanalG.9650.pdf)
+- Cost-Accuracy Aware Adaptive Labeling for Active Learning [2020, AAAI]: Need to select instances and labelers.
+- Interactive Learning with Proactive Cognition Enhancement for Crowd Workers [2020, AAAI]: Try to help workers improve their reliability. Add a machine teaching part. Generate exemplars for human learners with the help of the ground truth inference algorithms.
+- [Self-Paced Active Learning: Query the Right Thing at the Right Time [AAAI 2019]](https://wvvw.aaai.org/ojs/index.php/AAAI/article/view/4445)
+- An Interactive Multi-Label Consensus Labeling Model for Multiple Labeler Judgments [2018, AAAI]: The premise is that labels inferred with high consensus among labelers, might be closer to the ground truth. Proposed  a novel formulation that aims to collectively optimize the cost of labeling, labeler reliability, label-label correlation and inter-labeler consensus.
+- Cost-effective active learning from diverse labelers [2017, AAAI]: The cost of a labeler is proportional to its overall labeling quality. But different labelers usually have diverse expertise, and thus it is likely that labelers with a low overall quality can provide accurate labels on some specific instances. Select labeler can provide an accurate label for the instance with a relative low cost.
+- [Active Discriminative Text Representation Learning [AAAI, 2017]](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14174)
+- Active learning with cross-class similarity transfer [2017, AAAI]
+- [Online Active Linear Regression via Thresholding [2017, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/viewPaper/14599)
+- Active learning with cross-class knowledge transfer [2016, AAAI]
+- [Multi-domain active learning for recommendation [2016, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/viewPaper/12369)
+- [Active learning by learning [2015, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/viewPaper/9636)
+- [Multi-Label Active Learning: Query Type Matters [2015, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10995)
+- Active learning with model selection [2014, AAAI]
+- [Active learning with multi-label svm classification [2013, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI13/paper/viewPaper/6509)
+- [Multi-Task Active Learning with Output Constraints [2010, AAAI]](https://www.aaai.org/ocs/index.php/AAAI/AAAI10/paper/viewPaper/1947)
+- [Incorporating diversity in active learning with support vector machines [2003, ICML]](https://www.aaai.org/Papers/ICML/2003/ICML03-011.pdf)
+

@@ -1,0 +1,6 @@
+- Active Learning and Uncertainty in Graph-Based Semi-Supervised Learning [2022, PhD Dissertation]
+- [Teacher-Learner Interaction for Robot Active Learning [2020, PhD Dissertation]](https://aaltodoc.aalto.fi/bitstream/handle/123456789/46843/isbn9789526400556.pdf?sequence=1&isAllowed=y)
+- Active Transfer Learning for Recommendation System [2020, PhD Dissertation]
+- [Active Learning of Classification Models from Enriched Label-related Feedback [2020, PhD Dissertation]](http://d-scholarship.pitt.edu/39554/7/Xue%20Final%20ETD.pdf)
+- [Deep Active Learning Explored Across Diverse Label Spaces [2018, PhD Dissertation]](https://repository.asu.edu/attachments/201065/content/Ranganathan_asu_0010E_17759.pdf)
+- [Multi-Task Active Learning [2012, PhD Dissertation]](https://www.lti.cs.cmu.edu/sites/default/files/research/thesis/2012/abhay_harpale_multi-task_active_learning.pdf):
