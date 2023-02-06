@@ -258,7 +258,7 @@ We also list several scholars who are currently heavily contributing to this res
 1. [Hsuan-Tien Lin](https://www.csie.ntu.edu.tw/~htlin/)
 2. [Shengjun Huang](http://parnec.nuaa.edu.cn/huangsj/) (NUAA)
 3. [Dongrui Wu](https://sites.google.com/site/drwuHUST/publications/completepubs) (Active Learning for Regression)
-4. Raymond Mooney
+4. [Raymond Mooney](https://www.cs.utexas.edu/~mooney/)
 5. [Yuchen Guo](http://ise.thss.tsinghua.edu.cn/MIG/gyc.html)
 6. [Steve Hanneke](https://scholar.google.com/citations?hl=zh-CN&user=fEhNO7YAAAAJ&view_op=list_works&sortby=pubdate)
 
