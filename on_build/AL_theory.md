@@ -60,7 +60,7 @@ For instance, "finding the image of a car".
 
 ### Budget v.s. Strategy
 
-- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]:
+- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022, ICML]:
   This work shows a behavior reminiscent of phase transition: typical points (representativeness) should best be queried in the low budget regime, while atypical (or uncertain) points are best queried when the budget is large.
 
 ### Cold Start Selection

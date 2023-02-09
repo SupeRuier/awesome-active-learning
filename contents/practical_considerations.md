@@ -288,7 +288,8 @@ When the scale is large, oracles usually need to wait a long time for model trai
 When the budget is very small, the conventional strategies usually perform bad.
 
 - [On Initial Pools for Deep Active Learning [2020, NeurIPS Preregistration Workshop]](http://proceedings.mlr.press/v148/chandra21a/chandra21a.pdf)
-- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022, ICML]
+- Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022, ICML]:
+  Select data with the largest typicality in the pre-clusters.
 - To Actively Initialize Active Learning [2022, PR]:
   Find a set of labeled samples which contains at least one instance per category to initialize AL.
 

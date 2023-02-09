@@ -79,10 +79,11 @@ Only when the number of labeled instances approaches 50%, the gap could disappea
 
 Fail to observe any additional benefit of state-of-the-art active learning algorithms when combined with state-of-the-art S4L techniques.
 
-## 6. Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022]
+## 6. Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets [2022, ICML]
 
-This work focuses on a **cold start** setting.
+This work focuses on a **cold start** and extremely small budget setting.
 Empirically reveal the unsuccessfulness of conventional AL methods with NN on very small budget, under supervised, self-supervised embedding or semi-supervised training.
+They show that semi-supervised algorithms get a significant boost from seeing the labels of typical examples.
 
 ## 7. Toward Realistic Evaluation of Deep Active Learning Algorithms in Image Classification [2023]
 
