@@ -257,6 +257,7 @@ Works:
 - Evolving multi-user fuzzy classifier systems integrating human uncertainty and expert knowledge [2022, Information Sciences]
 - Active Learning with Weak Annotations for Gaussian Processes [2022]
 - Improved Adaptive Algorithm for Scalable Active Learning with Weak Labeler [2022]
+- ActiveLab: Active Learning with Re-Labeling by Multiple Annotators [2023]
 
 # The considerations of the scale
 
@@ -273,6 +274,7 @@ Works:
 - Scalable active learning for multiclass image classification [2012, TPAMI]: Use locality sensitive hashing to provide a very fast approximation to active learning, which gives sublinear time scaling, allowing application to very large datasets. (107)
 - Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.(8)
 - Quantum speedup for pool-based active learning [2019, QIP]
+- Low-resource Interactive Active Labeling for Fine-tuning Language Models [2022, EMNLP]: Pre random select.
 
 ## Oracle idle issue
 

@@ -19,6 +19,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Physics](#physics)
     - [Condensed Matter Physics](#condensed-matter-physics)
     - [Quantum Physics](#quantum-physics)
+    - [Scientific Computing](#scientific-computing)
 - [Industrial Applications (alphabetical order)](#industrial-applications-alphabetical-order)
   - [Answer Selection](#answer-selection)
   - [Autonomous Driving](#autonomous-driving)
@@ -137,6 +138,10 @@ Transition State Calculation:
 ### Quantum Physics
 
 - Active Learning of Quantum System Hamiltonians yields Query Advantage [2021]
+
+### Scientific Computing
+
+- Deep Active Learning for Scientific Computing in the Wild [2023]
 
 # Industrial Applications (alphabetical order)
 

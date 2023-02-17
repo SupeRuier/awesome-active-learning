@@ -58,6 +58,7 @@
 - An Online Active Broad Learning Approach for Real-Time Safety Assessment of Dynamic Systems in Nonstationary Environments [2022, TNNLS]:
   Online incremental update the model.
 - Clustering-based Active Learning Classification towards Data Stream [2023, ACM Trans. Intell. Syst. Technol.]
+- An active learning budget-based oversampling approach for partially labeled multi-class imbalanced data streams [2023, SAC]
 
 ## Evolving Data
 
@@ -65,6 +66,7 @@
 
 - Continual Active Adaptation to Evolving Distributional Shifts [2022, CVPR]
 - Few-Shot Continual Active Learning by a Robot [2022, NeuraIPS]
+- Meta-learning for dynamic tuning of active learning on stream classification [2023, Pattern Recognition]
 
 ### Trapezoidal Data Stream
 

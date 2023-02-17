@@ -93,6 +93,7 @@ Image Semantic Segmentation：
 - An Active and Contrastive Learning Framework for Fine-Grained Off-Road Semantic Segmentation [2022]
 - Active Pointly-Supervised Instance Segmentation [2022]
 - RADIAL: Random Sampling from Intelligent Pool for Active Learning [2022, ICML workshop]
+- Revisiting Deep Active Learning for Semantic Segmentation [2023]
 
 Semantic Segmentation with domain adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
@@ -234,7 +235,7 @@ Sequence Generation:
 Coreference Resolution：
 - [Adapting Coreference Resolution Models through Active Learning [2022, ACL]](https://aclanthology.org/2022.acl-long.519.pdf)
 
-Fine-Tuning for Downstream NLP Tasks:
+Learning with Pre-Trained Model:
 - Active Learning for Effectively Fine-Tuning Transfer Learning to Downstream Task
 - Bayesian Active Learning with Pretrained Language Models
 - Multi-class Text Classification using BERT-based Active Learning
@@ -242,6 +243,7 @@ Fine-Tuning for Downstream NLP Tasks:
 - ACTUNE: Uncertainty-Based Active Self-Training for Active Fine-Tuning of Pretrained Language Models [2022, NAACL-HLT]:
   AL + SelfSL.
 - Smooth Sailing: Improving Active Learning for Pre-trained Language Models with Representation Smoothness Analysis [2022]
+- Low-resource Interactive Active Labeling for Fine-tuning Language Models [2022, EMNLP]
 
 Question Answering:
 - Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
@@ -330,6 +332,7 @@ For one/few-shot learning:
 - Active Transfer Prototypical Network: An Efficient Labeling Algorithm for Time-Series Data [2022]
 - Active Few-Shot Classification: a New Paradigm for Data-Scarce Learning Settings [2022]
 - MEAL: Stable and Active Learning for Few-Shot Prompting [2022]
+- Few-shot initializing of Active Learner via Meta-Learning [2022, EMNLP]
 
 There are also works about zero-shot learning:
 - Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]
@@ -428,6 +431,9 @@ Demonstrate Robots:
 Active Exploration:
 - SEAL: Self-supervised Embodied Active Learning using Exploration and 3D Consistency [2021, NeurIPS]
 
+Semantic Mapping:
+- An Informative Path Planning Framework for Active Learning in UAV-based Semantic Mapping [2023]
+
 ## Model Interpretability
 
 - [ALEX: Active Learning based Enhancement of a Model’s EXplainability [2020, CIKM]](https://dl.acm.org/doi/pdf/10.1145/3340531.3417456)
@@ -502,6 +508,7 @@ For example, the ImageNet was crawled from image databases without considering s
 - Federated Active Learning (F-AL): an Efficient Annotation Strategy for Federated Learning [2022]
 - LG-FAL : Federated Active Learning Strategy using Local and Global Models [2022, ICML workshop]
 - Knowledge-Aware Federated Active Learning with Non-IID Data [2022]
+- Federated deep active learning for attention-based transaction classiﬁcation [2022, Applied Intelligence]
 
 ## Hedge
 
