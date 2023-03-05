@@ -110,6 +110,9 @@ Works:
 In classification, mislabeled or very ambiguous samples – like five that looks like six in MNIST – can be detrimental to the model.
 These data should be avoided in the selection.
 
+Survey:
+- Deep Active Learning in the Presence of Label Noise: A Survey [2023]
+
 Works:
 - Sample Noise Impact on Active Learning [2021]
 

@@ -140,6 +140,7 @@ There have been several reviews / surveys / benchmarks for this topic.
 - [Understanding the Relationship between Interactions and Outcomes in Human-in-the-Loop Machine Learning [2021]](http://harp.ri.cmu.edu/assets/pubs/hil_ml_survey_ijcai_2021.pdf): HIL, a wider framework.
 - [A Survey on Cost Types, Interaction Schemes, and Annotator Performance Models in Selection Algorithms for Active Learning in Classification [2021]](https://arxiv.org/pdf/2109.11301.pdf)
 - [A Comparative Survey of Deep Active Learning [2022]](https://arxiv.org/pdf/2203.13450.pdf)
+- [A survey on online active learning [2023]](https://arxiv.org/pdf/2302.08893.pdf)
 
 ### **Benchmarks - 基线**:
 - [A Comparative Survey: Benchmarking for Pool-based Active Learning [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0634.pdf)

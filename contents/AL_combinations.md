@@ -50,12 +50,14 @@ Reducing the labeling cost is a common need in many research fields.
     - [Influence Maximization in Network](#influence-maximization-in-network)
   - [Ordinal Regression/Classification](#ordinal-regressionclassification)
   - [Positive and Unlabeled (PU) Learning](#positive-and-unlabeled-pu-learning)
+  - [Prompt Engineering](#prompt-engineering)
   - [Reliability Analysis](#reliability-analysis)
   - [Relation Extraction](#relation-extraction)
   - [Sequence Labeling](#sequence-labeling)
   - [Software Engineering](#software-engineering)
   - [Spiking Neural Network](#spiking-neural-network)
   - [Speech Recognition](#speech-recognition)
+  - [Symbolic Regression](#symbolic-regression)
   - [Treatment Effect](#treatment-effect)
 
 # Popular Fields
@@ -217,6 +219,7 @@ Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
 - [Diversity-Aware Batch Active Learning for Dependency Parsing [2021]](https://arxiv.org/pdf/2104.13936.pdf)
 - Active Programming by Example with a Natural Language Prior [2022]
+- Active Learning for Multilingual Semantic Parser [2023]
 
 Classifier Pruning:
 - [FIND: Human-in-the-Loop Debugging Deep Text Classifiers [2020, EMNLP]](https://www.aclweb.org/anthology/2020.emnlp-main.24.pdf): Visualize each extracted feature as a word cloud. Human decide wether to block the corresponding feature.
@@ -287,6 +290,7 @@ Domain adaptation:
 - Active Universal Domain Adaptation [2021, ICCV]: There are unknown class in the target domain.
 - Active Learning for Domain Adaptation: An Energy-based Approach [2021]
 - Active Learning Over Multiple Domains in Natural Language Tasks [2021]
+- Improving Semi-Supervised Domain Adaptation Using Effective Target Selection and Semantics [2021, CVPR]
 - Discriminative active learning for domain adaptation [2021, KBS]
 - Learning Distinctive Margin toward Active Domain Adaptation [2022]: 
   The feature gradient from both loss and query function share similar update direction and yield high query score
@@ -299,6 +303,7 @@ Domain adaptation:
 - Combating Label Distribution Shift for Active Domain Adaptation [2022]: Consider label distribution mismatch.
 - Source-Free Active Domain Adaptation via Energy-Based Locality Preserving Transfer [2022, MM]
 - Active Multi-Task Representation Learning [2022, ICML]: Select from multiple source domains.
+- TL-ADA: Transferable Loss-based Active Domain Adaptation [2023, Neural Networks]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -376,6 +381,7 @@ Entity resolution:
 Entity Alignment:
 - ActiveEA: Active Learning for Neural Entity Alignment [2021]
 - Impact of the Characteristics of Multi-Source Entity Matching Tasks on the Performance of Active Learning Methods [2022]
+- Active Temporal Knowledge Graph Alignment [2023, IJSWIS]
 
 ## Metric learning/Pairwise comparison/Similarity learning 
 
@@ -452,6 +458,7 @@ AL could support clustering by provide supervised information.
 - An Active Learning Method Based on Variational Autoencoder and DBSCAN Clustering [2021]
 - Active constrained deep embedded clustering with dual source [2022, Applied Intelligence]
 - Active deep image clustering [2022, KBS]
+- Active Learning with Positive and Negative Pairwise Feedback [2023]
 
 Review:
 - Interactive clustering: a scoping review [2020, Artificial Intelligence Review]
@@ -601,6 +608,10 @@ A special case of binary classification where a learner only has access to label
 
 - Class Prior Estimation in Active Positive and Unlabeled Learning [2020, IJCAI]
 
+## Prompt Engineering
+
+- Active Prompting with Chain-of-Thought for Large Language Models [2023]
+
 ## Reliability Analysis
 
 - Sequential active learning of low-dimensional model representations for reliability analysis [2021, Arxiv]
@@ -627,6 +638,9 @@ Software Defects Prediction:
 
 - [Loss Prediction: End-to-End Active Learning Approach For Speech Recognition [2021, Arxiv]](https://arxiv.org/pdf/2107.04289.pdf)
 
+## Symbolic Regression
+
+- Online Symbolic Regression with Informative Query [2023]
 
 ## Treatment Effect
 

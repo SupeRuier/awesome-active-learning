@@ -34,6 +34,7 @@ Unsupervised ALR (passive sampling sometimes) assume we don't have any labeled i
   (16)
 6. Active Nearest Neighbor Regression Through Delaunay Refinement [2022, ICML]：
    Active Nearest Neighbor Regressor (ANNR) select novel query points in a way that takes the geometry of the function graph into account.
+7. Black-Box Batch Active Learning for Regression [2023]
     
 ### Unsupervised:
 1. [Pool-based Active Learning in Approximate Linear Regression (2009, Machine Learning)](https://idp.springer.com/authorize?response_type=cookie&client_id=springerlink&redirect_uri=http://link.springer.com/article/10.1007/s10994-009-5100-3): 

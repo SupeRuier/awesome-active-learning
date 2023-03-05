@@ -9,12 +9,14 @@ If you are only care about how to apply **batch selection**, please check [**her
 The classification problems here include binary and multi-class classification (even some works can only be applied to binary classification).
 There also are some works focus on **multi-class classification** settings, please check [**here**](../contents/MCAL.md).
 
-- [Taxonomy](#taxonomy) 
+- [Pool-Based Active Learning for Classification](#pool-based-active-learning-for-classification)
+- [Taxonomy](#taxonomy)
 - [Categories](#categories)
   - [1. Informativeness](#1-informativeness)
     - [1.1. Uncertainty-based sampling](#11-uncertainty-based-sampling)
     - [1.2. Disagreement-based sampling](#12-disagreement-based-sampling)
-    - [1.3. Other informativeness measurement](#13-other-informativeness-measurement)
+    - [1.3. Model-change-based](#13-model-change-based)
+    - [1.4. Other informativeness measurement](#14-other-informativeness-measurement)
   - [2. Representativeness-impart sampling](#2-representativeness-impart-sampling)
     - [2.1. Cluster-based sampling](#21-cluster-based-sampling)
     - [2.2. Density-based sampling](#22-density-based-sampling)
@@ -110,6 +112,8 @@ Works:
 - ALLSH: Active Learning Guided by Local Sensitivity and Hardness [2022]:
   Select the instances whose predictive likelihoods diverge the most from their perturbations.
 - Active Learning by Feature Mixing [2022, CVPR]: The instance with the representation which could maximally influence the output of the anchor labeled instance (by feature mixing) could be informative.
+- Gaussian Switch Sampling: A Second Order Approach to Active Learning [2023, TAI]:
+  The forgettable data (classified correctly at time t and subsequently misclassified at a later time) should be informative.
 
 
 ## 2. Representativeness-impart sampling
@@ -244,6 +248,7 @@ Works:
 - Cartography Active Learning [2021, EMNLP]: CAL. Select the instances that are the closest to the decision boundary between ambiguous and hard-to-learn instances.
 - Deep reinforced active learning for multi-class image classification [2022]
 - ImitAL: Learned Active Learning Strategy on Synthetic Data [2022]
+- Algorithm Selection for Deep Active Learning with Imbalanced Datasets [2023]
 
 ## 5. Others
 There still are other works uses innovative heuristics.

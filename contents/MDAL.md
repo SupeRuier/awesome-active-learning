@@ -16,3 +16,5 @@ Works:
 3. [Active learning in multi-domain collaborative filtering recommender systems [2018, SAC]](https://dl.acm.org/doi/10.1145/3167132.3167277)
 4. [Multi-Domain Active Learning: Literature Review and Comparative Study [2022, TETCI]](https://arxiv.org/abs/2106.13516)
 5. Multi-domain Active Learning for Semi-supervised Anomaly Detection [2022]
+6. Active Learning Over Multiple Domains in Natural Language Tasks [2022]
+7. Investigating Multi-source Active Learning for Natural Language Inference [2023]
