@@ -22,6 +22,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Scientific Computing](#scientific-computing)
 - [Industrial Applications (alphabetical order)](#industrial-applications-alphabetical-order)
   - [Answer Selection](#answer-selection)
+  - [Accusation](#accusation)
   - [Autonomous Driving](#autonomous-driving)
   - [Brain Mapping in a High Performance Computing Environment](#brain-mapping-in-a-high-performance-computing-environment)
   - [Communication](#communication)
@@ -31,6 +32,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Data Enrichment](#data-enrichment)
     - [Design for Crowdworkers](#design-for-crowdworkers)
   - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
+  - [Delivery System](#delivery-system)
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Drug Discovery](#drug-discovery)
   - [Fault Diagnosis of Machinery](#fault-diagnosis-of-machinery)
@@ -116,6 +118,7 @@ Materials Design and Discovery
 - [Active learning for the power factor prediction in diamond-like thermoelectric materials [2020, npj Computational Materials]](https://www.nature.com/articles/s41524-020-00439-8)
 - [Active Discovery of Catalysts for Sustainable Energy Storage [2021]](https://www.proquest.com/openview/660c2b7aa14e0b9228240134af6e089e/1?cbl=18750&diss=y&pq-origsite=gscholar)
 - [Active discovery of organic semiconductors [2021, Nature communications]](https://www.nature.com/articles/s41467-021-22611-4)
+- Deep active learning for constitutive modelling of granular materials: From representative volume elements to implicit finite element modelling [2023, International Journal of Plasticity]
 
 ## Math and Statistics
 
@@ -150,6 +153,10 @@ The industrial applications of AL are about the practical problems or specific r
 ## Answer Selection
 
 - [Combination of Active Learning and Self-Paced Learning for Deep Answer Selection with Bayesian Neural Network [2020, ECAI]](http://ecai2020.eu/papers/449_paper.pdf)
+
+## Accusation
+
+- Deep Learning-Powered Iterative Combinatorial Auctions with Active Learning [2023, AAMAS]
 
 ## Autonomous Driving
 
@@ -203,6 +210,11 @@ Eg. 5g, Traffic Classification
 ## Dialog Policy Learning (intelligent system)
 
 - [Dialog Policy Learning for Joint Clarification and Active Learning Queries [2020, Arxiv]](https://arxiv.org/pdf/2006.05456.pdf)
+
+## Delivery System
+
+Customer address resolution:
+- Learning Geolocation by Accurately Matching Customer Addresses via Graph based Active Learning [2023, WWW]
 
 ## Disguised Faces Recognition
 

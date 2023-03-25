@@ -102,6 +102,7 @@ We can divide the MLAL works into three types by the query type:
 - Multi-label active learning through serial-parallel neural networks [2022, KBS]
 - Stable matching-based two-way selection in multi-label active learning with imbalanced data [2022, Information Sciences]
 - Active Crowdsourcing for Multilabel Annotation [2022, TNNLS]
+- A meta-framework for multi-label active learning based on deep reinforcement learning [2023, Neural Networks]
 
 ### Others
 - [Multi-Label Active Learning: Query Type Matters [2015, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10995):

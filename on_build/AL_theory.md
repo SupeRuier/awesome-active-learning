@@ -6,6 +6,10 @@
   Show that correcting for active learning bias with underparameterised models leads to improved downstream performance.
 - [Feedback Coding for Active Learning](https://arxiv.org/pdf/2103.00654.pdf): Formulate general active learning problems in terms of a feedback coding system, and a demonstration of this approach through the application and analysis of active learning in logistic regression.
 
+### Algorithm and Analysis
+- Active learning using region-based sampling
+
+
 ### Adversarial Examples
 
 - Exploring Adversarial Examples for Efficient Active Learning in Machine Learning Classifiers [2021]: Our theoretical proofs provide support to more efficient active learning methods with the help of adversarial examples, contrary to previous works where adversar- ial examples are often used as destructive solutions

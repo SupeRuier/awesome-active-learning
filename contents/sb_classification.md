@@ -60,6 +60,7 @@
 - Clustering-based Active Learning Classification towards Data Stream [2023, ACM Trans. Intell. Syst. Technol.]
 - An active learning budget-based oversampling approach for partially labeled multi-class imbalanced data streams [2023, SAC]
 - Adaptive Selective Sampling for Online Prediction with Experts [2023]
+- Streaming Active Learning with Deep Neural Networks [2023]
 
 ## Evolving Data
 

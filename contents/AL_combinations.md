@@ -304,6 +304,7 @@ Domain adaptation:
 - Source-Free Active Domain Adaptation via Energy-Based Locality Preserving Transfer [2022, MM]
 - Active Multi-Task Representation Learning [2022, ICML]: Select from multiple source domains.
 - TL-ADA: Transferable Loss-based Active Domain Adaptation [2023, Neural Networks]
+- Dirichlet-based Uncertainty Calibration for Active Domain Adaptation [2023, ICLR]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
