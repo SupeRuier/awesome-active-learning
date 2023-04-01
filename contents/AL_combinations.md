@@ -128,6 +128,7 @@ Object Detection:
 - Weakly Supervised Object Detection Based on Active Learning [2022, NPL]
 - Active Learning Strategies for Weakly-Supervised Object Detection [2022]
 - MUS-CDB: Mixed Uncertainty Sampling with Class Distribution Balancing for Active Annotation in Aerial Object Detection [2022]
+- Box-Level Active Detection [2023]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -151,6 +152,7 @@ Video Captioning:
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
 - Exploring Active 3D Object Detection from a Generalization Perspective [2023, ICLR]
+- Bi3D: Bi-domain Active Learning for Cross-domain 3D Object Detection [2023]
 
 3D Semantic Segmentation:
 - LiDAL: Inter-frame Uncertainty Based Active Learning for 3D LiDAR Semantic Segmentation [2022, ECCV]
@@ -460,6 +462,7 @@ AL could support clustering by provide supervised information.
 - Active constrained deep embedded clustering with dual source [2022, Applied Intelligence]
 - Active deep image clustering [2022, KBS]
 - Active Learning with Positive and Negative Pairwise Feedback [2023]
+- Active Clustering Ensemble With Self-Paced Learning [2023, TNNLS]
 
 Review:
 - Interactive clustering: a scoping review [2020, Artificial Intelligence Review]
@@ -517,6 +520,7 @@ For example, the ImageNet was crawled from image databases without considering s
 - LG-FAL : Federated Active Learning Strategy using Local and Global Models [2022, ICML workshop]
 - Knowledge-Aware Federated Active Learning with Non-IID Data [2022]
 - Federated deep active learning for attention-based transaction classiﬁcation [2022, Applied Intelligence]
+- Re-thinking Federated Active Learning based on Inter-class Diversity [2023]
 
 ## Hedge
 
@@ -533,6 +537,7 @@ The goal is to find a weight for the experts' predictions to make the final deci
 ## Information Retrieval
 
 - Efficient Test Collection Construction via Active Learning [2021, ICTIR]: The active selection here is for IR evaluation.
+- Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-based Active Learning [2023]
 
 ## Instance Search (INS)
 
@@ -634,6 +639,7 @@ Software Defects Prediction:
 ## Spiking Neural Network
 
 - Bio-inspired Active Learning method in spiking neural network [2023, KBS]
+- Effective Active Learning Method for Spiking Neural Networks [2023, TNNLS]
 
 ## Speech Recognition
 

@@ -358,6 +358,7 @@ Works
   Utilize the knowledge clusters by using the pre-trained encoder.
 - Unsupervised Selective Labeling for More Effective Semi-Supervised Learning [2022]: AL + SSL.
 - Cold-start active learning for image classification [2022, Information Science]
+- Active Finetuning: Exploiting Annotation Budget in the Pretraining-Finetuning Paradigm [2023]
 
 # The considerations of the model
 
@@ -418,6 +419,9 @@ Works:
 - Active Sampling for Text Classification with Subinstance Level Queries [2022]: Query sub-instances.
 - Active Learning with Label Comparisons [2022]
 - One-bit Active Query with Contrastive Pairs [2022, CVPR]
+- Active Self-Supervised Learning: A Few Low-Cost Relationships Are All You Need [2023]: oracle queries semantic relationships between samples.
+- Hierarchical Active Learning With Qualitative Feedback on Regions [2023, IEEE T. Hum.-Mach. Syst.]
+
 
 # The consideration of the performance metric
 
