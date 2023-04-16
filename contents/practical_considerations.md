@@ -437,6 +437,7 @@ Works:
 - [Rebuilding Trust in Active Learning with Actionable Metrics [2021, Arxiv]](https://arxiv.org/pdf/2012.11365.pdf):
   This work states the limitations of AL in practice.
   It evaluates AL strategies under different performance metrics.
+- [OpenAL: Evaluation and Interpretation of Active Learning Strategies](https://arxiv.org/pdf/2304.05246.pdf)
 
 # The consideration of the reliability
 

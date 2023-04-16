@@ -35,6 +35,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Delivery System](#delivery-system)
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Drug Discovery](#drug-discovery)
+  - [Ecology](#ecology)
   - [Fault Diagnosis of Machinery](#fault-diagnosis-of-machinery)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
   - [Internet of Things](#internet-of-things)
@@ -226,6 +227,10 @@ Customer address resolution:
 - Active learning for computational chemogenomics [2017, Future Medicinal Chemistry]
 - Evaluation of Categorical Matrix Completion Algorithms: Towards Improved Active Learning for Drug Discovery [2021, System Biology]
 - Active Learning for Drug Design: A Case Study on the Plasma Exposure of Orally Administered Drugs [2021, J MED CHEM]
+
+## Ecology 
+
+- Automated wildlife image classification: An active learning tool for ecological applications [2023]
 
 ## Fault Diagnosis of Machinery
 

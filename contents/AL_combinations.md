@@ -96,6 +96,7 @@ Image Semantic Segmentation：
 - Active Pointly-Supervised Instance Segmentation [2022]
 - RADIAL: Random Sampling from Intelligent Pool for Active Learning [2022, ICML workshop]
 - Revisiting Deep Active Learning for Semantic Segmentation [2023]
+- Adaptive Superpixel for Active Learning in Semantic Segmentation [2023]
 
 Semantic Segmentation with domain adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
@@ -129,6 +130,7 @@ Object Detection:
 - Active Learning Strategies for Weakly-Supervised Object Detection [2022]
 - MUS-CDB: Mixed Uncertainty Sampling with Class Distribution Balancing for Active Annotation in Aerial Object Detection [2022]
 - Box-Level Active Detection [2023]
+- MuRAL: Multi-Scale Region-based Active Learning for Object Detection [2023]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -148,6 +150,9 @@ Video Object Detection:
 
 Video Captioning:
 - MAViC: Multimodal Active Learning for Video Captioning [2022]
+
+Video Action Spotting:
+- Towards Active Learning for Action Spotting in Association Football Videos [2023]
 
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
@@ -385,6 +390,7 @@ Entity Alignment:
 - ActiveEA: Active Learning for Neural Entity Alignment [2021]
 - Impact of the Characteristics of Multi-Source Entity Matching Tasks on the Performance of Active Learning Methods [2022]
 - Active Temporal Knowledge Graph Alignment [2023, IJSWIS]
+- Deep Active Alignment of Knowledge Graph Entities and Schemata [2023, Proc. ACM Manag. Data]
 
 ## Metric learning/Pairwise comparison/Similarity learning 
 
