@@ -38,7 +38,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The consideration of the workflow](#the-consideration-of-the-workflow)
   - [Low budget selection / initial pool selection](#low-budget-selection--initial-pool-selection)
   - [Cold start problem](#cold-start-problem)
-  - [Start point](#start-point)
+  - [AL Start point](#al-start-point)
   - [Stop criteria](#stop-criteria)
   - [Asynchronous training](#asynchronous-training)
   - [Without supervision](#without-supervision)
@@ -297,6 +297,7 @@ When the budget is very small, the conventional strategies usually perform bad.
   Select data with the largest typicality in the pre-clusters.
 - To Actively Initialize Active Learning [2022, PR]:
   Find a set of labeled samples which contains at least one instance per category to initialize AL.
+- You Never Get a Second Chance To Make a Good First Impression: Seeding Active Learning for 3D Semantic Segmentation [2023]
 
 ## Cold start problem
 
@@ -321,9 +322,9 @@ Transfer/fine-tune an existing model:
 - Warm Start Active Learning with Proxy Labels & Selection via Semi-Supervised Fine-Tuning [2022, MICCAI]
 
 
-## Start point
+## AL Start point
 
-When to switch from passive learning on the linital labeled data to AL?
+When to switch from passive learning on the initial labeled data to AL?
 
 - How Much a Model Be Trained by Passive Learning Before Active Learning? [2022]
 

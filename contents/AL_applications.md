@@ -139,6 +139,9 @@ Molecular Dynamics:
 Transition State Calculation:
 - Active Learning for Transition State Calculation
 
+Material Property Discovery:
+- Active learning-assisted neutron spectroscopy with log-Gaussian processes [2023, nature communications]
+
 ### Quantum Physics
 
 - Active Learning of Quantum System Hamiltonians yields Query Advantage [2021]
@@ -363,6 +366,7 @@ Air Traffic Management (ATM) modeling:
 
 API Misuse Detection
 - [Active Learning of Discriminative Subgraph Patterns for API Misuse Detection [2021, TSE]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9392340)
+- A Unified Active Learning Framework for Annotating Graph Data with Application to Software Source Code Performance Prediction [2023]
 
 ## Solvability Prediction in Power Systems
 

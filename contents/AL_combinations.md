@@ -136,6 +136,8 @@ Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
 - ReDAL: Region-based and Diversity-aware Active Learning for Point Cloud Semantic Segmentation [2021, ICCV]
 - Active Learning for Point Cloud Semantic Segmentation via Spatial-Structural Diversity Reasoning [2022]
+- You Never Get a Second Chance To Make a Good First Impression: Seeding Active Learning for 3D Semantic Segmentation [2023]
+- A multi-granularity semisupervised active learning for point cloud semantic segmentation [2023, NCA]
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
@@ -221,6 +223,7 @@ Named entity recognition (Information Extraction):
 - Deep Active Learning for Swedish Named Entity Recognition [2021, Master Thesis]
 - FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction [2022]
 - Subsequence Based Deep Active Learning for Named Entity Recognition [2022, ACL/IJCNLP]
+- Active Learning for Name Entity Recognition with External Knowledge [2023, ACM Trans. Asian Low-Resour. Lang. Inf. Process.]
 
 Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
