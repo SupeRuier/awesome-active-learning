@@ -31,6 +31,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Audio Processing](#audio-processing)
   - [Causal Analysis](#causal-analysis)
   - [Choice Model](#choice-model)
+  - [Continual Learning](#continual-learning)
   - [Curriculum Learning](#curriculum-learning)
   - [Entity Matching](#entity-matching)
   - [Federated Learning](#federated-learning)
@@ -97,6 +98,7 @@ Image Semantic Segmentation：
 - RADIAL: Random Sampling from Intelligent Pool for Active Learning [2022, ICML workshop]
 - Revisiting Deep Active Learning for Semantic Segmentation [2023]
 - Adaptive Superpixel for Active Learning in Semantic Segmentation [2023]
+- Best Practices in Active Learning for Semantic Segmentation [2023]: A comparative study.
 
 Semantic Segmentation with domain adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
@@ -349,6 +351,7 @@ For one/few-shot learning:
 - Active Few-Shot Classification: a New Paradigm for Data-Scarce Learning Settings [2022]
 - MEAL: Stable and Active Learning for Few-Shot Prompting [2022]
 - Few-shot initializing of Active Learner via Meta-Learning [2022, EMNLP]
+- Active Learning for Efficient Few-Shot Classification [2023, ICASSP]
 
 There are also works about zero-shot learning:
 - Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]
@@ -517,6 +520,9 @@ For example, the ImageNet was crawled from image databases without considering s
 
 - Active Learning for Non-Parametric Choice Models [2022]
 
+## Continual Learning
+- Active Continual Learning: Labelling Queries in a Sequence of Tasks [2023]
+
 ## Curriculum Learning
 - [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page
 
@@ -560,6 +566,7 @@ AL could reduce the number of needed instances to train a GAN.
 ## Knowledge Distillation
 
 - Robust Active Distillation [2022]
+- PVD-AL: Progressive Volume Distillation with Active Learning for Efficient Conversion Between Different NeRF Architectures [2023]
 
 ## Label Enhancement
 
@@ -585,6 +592,7 @@ Normally there is only model selection without training.
 
 - [Deep Multi-Fidelity Active Learning of High-Dimensional Outputs [2020]](https://arxiv.org/pdf/2012.00901.pdf)
 - [Batch Multi-Fidelity Active Learning with Budget Constraints [2022, NeruaIPS]](https://arxiv.org/pdf/2210.12704.pdf)
+- Disentangled Multi-Fidelity Deep Bayesian Active Learning [2023]
 
 ## Online Learning System
 
