@@ -133,6 +133,7 @@ Object Detection:
 - MUS-CDB: Mixed Uncertainty Sampling with Class Distribution Balancing for Active Annotation in Aerial Object Detection [2022]
 - Box-Level Active Detection [2023]
 - MuRAL: Multi-Scale Region-based Active Learning for Object Detection [2023]
+- Hybrid Active Learning via Deep Clustering for Video Action Detection [2023, CVPR]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -161,7 +162,7 @@ Video Action Spotting:
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
 - Exploring Active 3D Object Detection from a Generalization Perspective [2023, ICLR]
-- Bi3D: Bi-domain Active Learning for Cross-domain 3D Object Detection [2023]
+- Bi3D: Bi-domain Active Learning for Cross-domain 3D Object Detection [2023, CVPR]
 
 3D Semantic Segmentation:
 - LiDAL: Inter-frame Uncertainty Based Active Learning for 3D LiDAR Semantic Segmentation [2022, ECCV]
@@ -317,6 +318,8 @@ Domain adaptation:
 - Active Multi-Task Representation Learning [2022, ICML]: Select from multiple source domains.
 - TL-ADA: Transferable Loss-based Active Domain Adaptation [2023, Neural Networks]
 - Dirichlet-based Uncertainty Calibration for Active Domain Adaptation [2023, ICLR]
+- MHPL: Minimum Happy Points Learning for Active Source Free Domain Adaptation [2023, CVPR]
+- Divide and Adapt: Active Domain Adaptation via Customized Learning [2023, CVPR]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]

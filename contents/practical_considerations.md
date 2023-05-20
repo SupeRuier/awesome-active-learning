@@ -359,7 +359,7 @@ Works
   Utilize the knowledge clusters by using the pre-trained encoder.
 - Unsupervised Selective Labeling for More Effective Semi-Supervised Learning [2022]: AL + SSL.
 - Cold-start active learning for image classification [2022, Information Science]
-- Active Finetuning: Exploiting Annotation Budget in the Pretraining-Finetuning Paradigm [2023]
+- Active Finetuning: Exploiting Annotation Budget in the Pretraining-Finetuning Paradigm [2023, CVPR]
 
 # The considerations of the model
 
