@@ -36,6 +36,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Disguised Faces Recognition](#disguised-faces-recognition)
   - [Drug Discovery](#drug-discovery)
   - [Ecology](#ecology)
+  - [Electric Distribution Analysis](#electric-distribution-analysis)
   - [Fault Diagnosis of Machinery](#fault-diagnosis-of-machinery)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
   - [Internet of Things](#internet-of-things)
@@ -60,6 +61,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Solvability Prediction in Power Systems](#solvability-prediction-in-power-systems)
   - [Social Bots Detection](#social-bots-detection)
   - [Spam Detection](#spam-detection)
+  - [Urban Planning](#urban-planning)
 
 # Scientific Applications (alphabetical order)
 
@@ -104,6 +106,7 @@ Chemical natural language processing
 - Active Learning Approach to Optimization of Experimental Control [2020, CHIN. PHYS. LETT.]: Also an optimization problem, where they try to get the optimal control parameters.
 - AI-Assisted Scientific Data Collection with Iterative Human Feedback [2021]
 - Active Learning for the Optimal Design of Multinomial Classification in Physics [2021]
+- Active learning applied to automated physical systems increases the rate of discovery [2023, scientific reports]
 
 ## Geology
 
@@ -234,6 +237,10 @@ Customer address resolution:
 ## Ecology 
 
 - Automated wildlife image classification: An active learning tool for ecological applications [2023]
+
+## Electric Distribution Analysis
+
+- An Active Learning-based Approach for Hosting Capacity Analysis in Distribution Systems [2023]
 
 ## Fault Diagnosis of Machinery
 
@@ -379,3 +386,7 @@ API Misuse Detection
 ## Spam Detection
 
 - [Camouflaged Chinese Spam Content Detection with Semi-supervised Generative Active Learning [2020, ACL]](https://www.aclweb.org/anthology/2020.acl-main.279.pdf)
+
+## Urban Planning
+
+- Pre-clustering active learning method for automatic classification of building structures in urban areas [2023, EAAI]

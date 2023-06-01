@@ -42,6 +42,9 @@ Reducing the labeling cost is a common need in many research fields.
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
   - [Knowledge Distillation](#knowledge-distillation)
   - [Label Enhancement](#label-enhancement)
+  - [Large Language Models](#large-language-models)
+    - [Prompt Engineering](#prompt-engineering)
+    - [In-Context Learning](#in-context-learning)
   - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
   - [Model Selection](#model-selection)
   - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
@@ -49,11 +52,10 @@ Reducing the labeling cost is a common need in many research fields.
   - [Optimization Problems](#optimization-problems)
     - [Multi-Objective Optimizations](#multi-objective-optimizations)
     - [Influence Maximization in Network](#influence-maximization-in-network)
+    - [Predict-then-Optimize](#predict-then-optimize)
   - [Ordinal Regression/Classification](#ordinal-regressionclassification)
   - [Positive and Unlabeled (PU) Learning](#positive-and-unlabeled-pu-learning)
-  - [Prompt Engineering](#prompt-engineering)
   - [Reliability Analysis](#reliability-analysis)
-  - [Relation Extraction](#relation-extraction)
   - [Sequence Labeling](#sequence-labeling)
   - [Software Engineering](#software-engineering)
   - [Spiking Neural Network](#spiking-neural-network)
@@ -134,6 +136,7 @@ Object Detection:
 - Box-Level Active Detection [2023]
 - MuRAL: Multi-Scale Region-based Active Learning for Object Detection [2023]
 - Hybrid Active Learning via Deep Clustering for Video Action Detection [2023, CVPR]
+- Multiple Instance Differentiation Learning for Active Object Detection [2023, TPAMI]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -158,6 +161,9 @@ Video Captioning:
 
 Video Action Spotting:
 - Towards Active Learning for Action Spotting in Association Football Videos [2023]
+
+Video Action Recognition:
+- Active Exploration of Multimodal Complementarity for Few-Shot Action Recognition [2023, CVPR]
 
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
@@ -233,6 +239,8 @@ Parsing:
 - [Diversity-Aware Batch Active Learning for Dependency Parsing [2021]](https://arxiv.org/pdf/2104.13936.pdf)
 - Active Programming by Example with a Natural Language Prior [2022]
 - Active Learning for Multilingual Semantic Parser [2023]
+- Data-efficient Active Learning for Structured Prediction with Partial Annotation and Self-Training [2023]
+- The Best of Both Worlds: Combining Human and Machine Translations for Multilingual Semantic Parsing with Active Learning [2023]
 
 Classifier Pruning:
 - [FIND: Human-in-the-Loop Debugging Deep Text Classifiers [2020, EMNLP]](https://www.aclweb.org/anthology/2020.emnlp-main.24.pdf): Visualize each extracted feature as a word cloud. Human decide wether to block the corresponding feature.
@@ -271,6 +279,10 @@ Rational Learning:
 - A Rationale-Centric Framework for Human-in-the-loop Machine Learning [2022]
 - Active Learning on Pre-trained Language Model with Task-Independent Triplet Loss [2022]
 
+Open Relation Extraction:
+- Active Relation Discovery: Towards General and Label-aware Open Relation Extraction [2021]
+- Actively Supervised Clustering for Open Relation Extraction [2023]
+
 Argument Structure Extraction:
 - Efficient Argument Structure Extraction with Transfer Learning and Active Learning [2022]
 
@@ -282,6 +294,9 @@ Abuse Detection:
 
 Abstractive Text Summarization:
 - Active Learning for Abstractive Text Summarization [2023]
+
+Natural Language Explanations：
+- Beyond Labels: Empowering Human with Natural Language Explanations through a Novel Active-Learning Architecture [2023]
 
 ## Domain adaptation/Transfer learning
 
@@ -580,6 +595,15 @@ Clean Label Uncertainties: Enhance the quality of generated from weakly supervis
 
 - [CHEF: A Cheap and Fast Pipeline for Iteratively Cleaning Label Uncertainties [2021, Arxiv]](https://arxiv.org/pdf/2107.08588.pdf)
 
+## Large Language Models
+
+### Prompt Engineering
+
+- Active Prompting with Chain-of-Thought for Large Language Models [2023]
+
+### In-Context Learning
+- Active Learning Principles for In-Context Learning with Large Language Models [2023]
+
 ## Learning from Label Proportions (LLP)
 
 - Active learning from label proportions via pSVM [2021, Neurocomputing]
@@ -620,6 +644,13 @@ Works:
 Works:
 - Near-optimal Batch Mode Active Learning and Adaptive Submodular Optimization [2013, ICML]
 
+### Predict-then-Optimize
+
+The quality of the prediction is decided by the decision loss.
+
+Works:
+- Active Learning in the Predict-then-Optimize Framework: A Margin-Based Approach [2023]
+
 ## Ordinal Regression/Classification
 
 Could be consider as a regression where the relative orders of the instances matter.
@@ -634,17 +665,10 @@ A special case of binary classification where a learner only has access to label
 
 - Class Prior Estimation in Active Positive and Unlabeled Learning [2020, IJCAI]
 
-## Prompt Engineering
-
-- Active Prompting with Chain-of-Thought for Large Language Models [2023]
 
 ## Reliability Analysis
 
 - Sequential active learning of low-dimensional model representations for reliability analysis [2021, Arxiv]
-
-## Relation Extraction
-
-- Active Relation Discovery: Towards General and Label-aware Open Relation Extraction [2021, TKDE]
 
 ## Sequence Labeling
 
@@ -668,6 +692,7 @@ Software Defects Prediction:
 ## Symbolic Regression
 
 - Online Symbolic Regression with Informative Query [2023]
+- Active Learning in Symbolic Regression Performance with Physical Constraints [2023]
 
 ## Treatment Effect
 

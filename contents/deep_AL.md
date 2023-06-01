@@ -218,6 +218,7 @@ Data Augmentation:
 Labeled-unlabeled data indistinguishable:
 - [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162): WAAL.
 - [Visual Transformer for Task-aware Active Learning [2021]](https://arxiv.org/pdf/2106.03801.pdf)
+- Label shift conditioned hybrid querying for deep active learning [2023, KBS]
 
 Consistency (stay same after a distortion):
 - [Consistency-Based Semi-supervised Active Learning: Towards Minimizing Labeling Cost [2020, ECCV]](https://link.springer.com/chapter/10.1007/978-3-030-58607-2_30): the selection is based on the consistency-task instead of the classification task.

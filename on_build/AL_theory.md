@@ -31,6 +31,10 @@
 
 - Robust active representation via $l_{2,p}$-norm constraints [2021, KBS]
 
+### Label Complexity
+
+- Reduced Label Complexity For Tight l2 Regression [2023]
+
 ### Sampling Bias
 
 - [On Statistical Bias In Active Learning: How and When to Fix It [2021, ICLR]](https://openreview.net/pdf?id=JiYq3eqTKY):

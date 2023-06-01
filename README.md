@@ -267,4 +267,5 @@ Several young researchers who provides valuable insights for AL:
 - Jamshid Sourati [University of Chicago]: Deep neural networks.
 - Stefano Teso [University of Trento]: Interactive learning & Human-in-the-loops.
 - Xueyin Zhan [City University of Hong Kong]: Provide several invaluable comparative surveys.
+- Katerina Margatina [University of Sheffield]: Provide several good insights, analysis and applications for AL.
 

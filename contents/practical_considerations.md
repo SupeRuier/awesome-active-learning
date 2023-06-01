@@ -12,6 +12,7 @@ Besides, I can't ensure the works are representative in the fields.
 So if you have any comments and recommendations, pls let me know.)*
 
 - [Practical considerations](#practical-considerations)
+- [Overviews:](#overviews)
 - [The considerations of the data](#the-considerations-of-the-data)
   - [Imbalanced data](#imbalanced-data)
   - [Biased data](#biased-data)
@@ -51,12 +52,17 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
 - [The consideration of the reliability](#the-consideration-of-the-reliability)
-  - [Reusablility](#reusablility)
+  - [Reusablility / Transferability](#reusablility--transferability)
   - [Robustness](#robustness)
 - [The consideration of the privacy](#the-consideration-of-the-privacy)
 - [The considerations of more assumptions](#the-considerations-of-more-assumptions)
   - [Include model selection](#include-model-selection)
   - [Select for evaluation](#select-for-evaluation)
+
+# Overviews:
+
+Works:
+- On the Limitations of Simulating Active Learning [2023]
 
 # The considerations of the data
 
@@ -389,6 +395,7 @@ Fine-tuning is one of the practical method.
 Works:
 - Active and incremental learning for semantic ALS point cloud segmentation [2020]: In this paper, they propose an active and incremental learning strategy to iteratively query informative point cloud data for manual annotation and the model is continuously trained to adapt to the newly labelled samples in each iteration.
 - CLActive: Episodic Memories for Rapid Active Learning [2022, Conference on Lifelong Learning Agents]
+- Accelerating Batch Active Learning Using Continual Learning Techniques [2023]
 
 ## Surrogate Learner
 
@@ -442,10 +449,11 @@ Works:
 
 # The consideration of the reliability
 
-## Reusablility
+## Reusablility / Transferability
 
 The selected instances are expected to be resuable to train other models.
 - On the reusability of samples in active learning [2022]
+- On Dataset Transferability in Active Learning for Transformers [2023]
 
 ## Robustness
 
