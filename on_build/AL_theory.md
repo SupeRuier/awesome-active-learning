@@ -20,7 +20,7 @@
 
 ### Adversarial Label Corruptions
 
-- [Corruption Robust Active Learning [2021, NeuraIPS]](https://arxiv.org/pdf/2106.11220.pdf): 
+- [Corruption Robust Active Learning [2021, NeurIPS]](https://arxiv.org/pdf/2106.11220.pdf): 
   Under a streaming-based active learning for binary classification setting.
 
 ### Active Class Selection

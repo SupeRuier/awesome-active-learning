@@ -85,7 +85,7 @@ The hierarchical structure of this repository is shown in the following figure, 
 
 ## By Origin - 按出处分类
 
-By conference - 按会议分类：[**ICML**](conference/ICML.md) / [**NeuraIPS**](conference/NeuraIPS.md) / [**ICLR**](conference/ICLR.md) / [**AAAI**](conference/AAAI.md) / [**IJCAI**](conference/IJCAI.md) / [**ACL**](conference/ACL.md) / [**CVPR**](conference/CVPR.md) / [**ICCV**](conference/ICCV.md) 
+By conference - 按会议分类：[**ICML**](conference/ICML.md) / [**NeurIPS**](conference/NeurIPS.md) / [**ICLR**](conference/ICLR.md) / [**AAAI**](conference/AAAI.md) / [**IJCAI**](conference/IJCAI.md) / [**ACL**](conference/ACL.md) / [**CVPR**](conference/CVPR.md) / [**ICCV**](conference/ICCV.md) 
 
 By journal - 按期刊分类：[**AI**](journal/AI.md) / [**TPAMI**](journal/TPAMI.md) / [**IJCV**](journal/IJCV.md) / [**JMLR**](journal/JMLR.md)
 
