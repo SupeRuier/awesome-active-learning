@@ -429,6 +429,7 @@ Works:
 - One-bit Active Query with Contrastive Pairs [2022, CVPR]
 - Active Self-Supervised Learning: A Few Low-Cost Relationships Are All You Need [2023]: oracle queries semantic relationships between samples.
 - Hierarchical Active Learning With Qualitative Feedback on Regions [2023, IEEE T. Hum.-Mach. Syst.]
+- Beyond Active Learning: Leveraging the Full Potential of Human Interaction via Auto-Labeling, Human Correction, and Human Verification [2023]: Correctness check along with raw AL and pseudo-labels.
 
 
 # The consideration of the performance metric

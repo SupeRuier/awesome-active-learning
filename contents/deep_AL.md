@@ -240,6 +240,7 @@ Contrastive Loss:
 
 Pretrain:
 - PT4AL: Using Self-Supervised Pretext Tasks for Active Learning [2022, ECCV]：Use Self-SL to pretrain the model and sort instances by the loss and split them into batches. Then use uncertainty to select from the batches.
+- NTKCPL: Active Learning on Top of Self-Supervised Model by Estimating True Coverage [2023]
 
 Both self and semi-supervised imparted:
 - Self-supervised Semi-supervised Learning for Data Labeling and Quality Evaluation [2021, Arxiv]: 

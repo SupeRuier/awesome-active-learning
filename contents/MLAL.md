@@ -58,6 +58,7 @@ We can divide the MLAL works into three types by the query type:
   Granular batch mode-based ranking active model for the multilabel (GBRAML).
 - A Gaussian Process-Bayesian Bernoulli Mixture Model for Multi-Label Active Learning [2021, NeurIPS]:
   **GP-B2M**
+- Active learning in multi-label image classification with graph convolutional network embedding [2023, FGCS]
 
 ### Instance-label pair query
 

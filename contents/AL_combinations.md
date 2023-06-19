@@ -268,6 +268,7 @@ Learning with Pre-Trained Model:
   AL + SelfSL.
 - Smooth Sailing: Improving Active Learning for Pre-trained Language Models with Representation Smoothness Analysis [2022]
 - Low-resource Interactive Active Labeling for Fine-tuning Language Models [2022, EMNLP]
+- No Labels? No Problem! Experiments with active learning strategies for multi-class classification in imbalanced low-resource settings [2023, ICAIL]
 
 Question Answering:
 - Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
@@ -438,7 +439,6 @@ Positive Unlabeled learning:
 ## Reinforcement Learning
 
 Active exploration
-- Model-Based Active Exploration
 - [SAMBA: Safe Model-Based & Active Reinforcement Learning [2020, Arxiv]](https://arxiv.org/pdf/2006.09436.pdf)
 - How to Train Your Agent: Active Learning from Human Preferences and Justifications in Safety-Critical Environments [2022, AAMAS]
 - Active Exploration for Inverse Reinforcement Learning [2022]
@@ -585,6 +585,7 @@ AL could reduce the number of needed instances to train a GAN.
 
 - Robust Active Distillation [2022]
 - PVD-AL: Progressive Volume Distillation with Active Learning for Efficient Conversion Between Different NeRF Architectures [2023]
+- Stream-Based Active Distillation for Scalable Model Deployment [2023, CVPR workshop]
 
 ## Label Enhancement
 
@@ -679,6 +680,9 @@ A special case of binary classification where a learner only has access to label
 Software Defects Prediction:
 - [Empirical evaluation of the active learning strategies on software defects prediction [2016, ISSSR]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9265897)
 - [Improving high-impact bug report prediction with combination of interactive machine learning and active learning [2021]](https://reader.elsevier.com/reader/sd/pii/S0950584921000185?token=E1D095736314C62935E011266E971E6DA8289DDF6AC3CB3F57115363383EEED292B3A9C1B8CDD30E81FAAE08F8F0B9B4)
+
+Code Learning:
+- Active Code Learning: Benchmarking Sample-Efficient Training of Code Models [2023]
 
 ## Spiking Neural Network
 

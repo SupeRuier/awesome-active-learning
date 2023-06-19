@@ -301,6 +301,7 @@ Papers:
 - U-Net-Based Active Learning Framework for Enhancing Cancer Immunotherapy [2021, Master's Thesis]
 - Active learning for segmentation based on Bayesian sample queries [2021, KBS]
 - Reducing Annotating Load: Active Learning with Synthetic Images in Surgical Instrument Segmentation
+- HAL-IA: A Hybrid Active Learning framework using Interactive Annotation for medical image segmentation [Medical Image Analysis, 2023]
 
 ### Medical Symptom Recognition from Text
 

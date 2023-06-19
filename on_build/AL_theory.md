@@ -31,9 +31,10 @@
 
 - Robust active representation via $l_{2,p}$-norm constraints [2021, KBS]
 
-### Label Complexity
+### Label/Query Complexity
 
 - Reduced Label Complexity For Tight l2 Regression [2023]
+- Query Complexity of Active Learning for Function Family With Nearly Orthogonal Basis [2023]
 
 ### Sampling Bias
 
