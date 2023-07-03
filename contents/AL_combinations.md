@@ -172,6 +172,7 @@ Video Action Recognition:
 
 3D Semantic Segmentation:
 - LiDAL: Inter-frame Uncertainty Based Active Learning for 3D LiDAR Semantic Segmentation [2022, ECCV]
+- Efficient 3D Scene Semantic Segmentation via Active Learning on Rendered 2D Images [2023, TIP]
 
 Visual Tracking:
 - Active Learning for Deep Visual Tracking [2021]
@@ -200,8 +201,10 @@ Micro-Expression Recognition:
 - Tackling Micro-Expression Data Shortage via Dataset Alignment and Active Learning [2022, IEEE Trans Multimedia]
 
 Collision Prediction & Handling:
-
 - N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations [2022, ICML]
+
+Super-resolution:
+- USIM-DAL: Uncertainty-aware Statistical Image Modeling-based Dense Active Learning for Super-resolution [2023, UAI]
 
 ## Natural Language Processing (NLP)
 
@@ -299,6 +302,9 @@ Abstractive Text Summarization:
 Natural Language Explanations：
 - Beyond Labels: Empowering Human with Natural Language Explanations through a Novel Active-Learning Architecture [2023]
 
+n-ary relation extraction:
+- Active Learning for Cross-Sentence n-ary Relation Extraction [2023, Information Sciences]
+
 ## Domain adaptation/Transfer learning
 
 Normally when we use AL in domain adaptation, we can obtain several true labels of the unlabeled instances on source/target domain.
@@ -345,6 +351,8 @@ Transfer learning:
 - Active learning with cross-class similarity transfer [2017, AAAI]
 - Rapid Performance Gain through Active Model Reuse [IJCAI, 2019]
 
+Domain Generalization:
+- LOG: Active Model Adaptation for Label-Efficient OOD Generalization [2022, NeuraIPS]
 
 ## One/Few/Zero-shot learning or Meta-Learning
 
@@ -371,6 +379,7 @@ For one/few-shot learning:
 - MEAL: Stable and Active Learning for Few-Shot Prompting [2022]
 - Few-shot initializing of Active Learner via Meta-Learning [2022, EMNLP]
 - Active Learning for Efficient Few-Shot Classification [2023, ICASSP]
+- Improved prototypical network for active few-shot learning [2023, PRL]
 
 There are also works about zero-shot learning:
 - Graph active learning for GCN-based zero-shot classification [2021, Neurocomputing]
@@ -533,6 +542,7 @@ For example, the ImageNet was crawled from image databases without considering s
 
 - [Root Cause Analysis for Self-organizing Cellular Network: an Active Learning Approach](https://link.springer.com/article/10.1007/s11036-020-01589-1)
 - [Active Invariant Causal Prediction: Experiment Selection through Stability](https://arxiv.org/pdf/2006.05690.pdf)
+- ACE: Active Learning for Causal Inference with Expensive Experiments [2023]
 
 ## Choice Model
 
@@ -621,6 +631,7 @@ Normally there is only model selection without training.
 - [Deep Multi-Fidelity Active Learning of High-Dimensional Outputs [2020]](https://arxiv.org/pdf/2012.00901.pdf)
 - [Batch Multi-Fidelity Active Learning with Budget Constraints [2022, NeruaIPS]](https://arxiv.org/pdf/2210.12704.pdf)
 - Disentangled Multi-Fidelity Deep Bayesian Active Learning [2023]
+- Multi-Fidelity Active Learning with GFlowNets [2023]
 
 ## Online Learning System
 

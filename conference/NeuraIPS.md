@@ -1,5 +1,6 @@
 
 - Batch Active Learning from the Perspective of Sparse Approximation [2022, NeurIPS]
+- LOG: Active Model Adaptation for Label-Efficient OOD Generalization [2022, NeuraIPS]
 - Few-Shot Continual Active Learning by a Robot [2022, NeurIPS]
 - [Corruption Robust Active Learning [2021, NeurIPS]](https://arxiv.org/pdf/2106.11220.pdf): 
 - [BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning [2019, NeurIPS]](http://papers.nips.cc/paper/8925-batchbald-efficient-and-diverse-batch-acquisition-for-deep-bayesian-active-learning): 

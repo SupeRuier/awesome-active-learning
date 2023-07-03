@@ -1,3 +1,5 @@
+- Discover-Then-Rank Unlabeled Support Vectors in the Dual Space for Multi-Class Active Learning [2023, ICML]
+- Towards Controlled Data Augmentations for Active Learning [2023, ICML]
 - N-Penetrate: Active Learning of Neural Collision Handler for Complex 3D Mesh Deformations [2022, ICML]
 - Active Multi-Task Representation Learning [2022, ICML]
 - ActiveHedge: Hedge meets Active Learning [2022, ICML]

@@ -145,6 +145,8 @@ There have been several reviews / surveys / benchmarks for this topic.
 ### **Benchmarks - 基线**:
 - [A Comparative Survey: Benchmarking for Pool-based Active Learning [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0634.pdf)
 - [A Framework and Benchmark for Deep Batch Active Learning for Regression [2022]](https://arxiv.org/pdf/2203.09410.pdf)
+- [Re-Benchmarking Pool-Based Active Learning for Binary Classification [2023]](https://arxiv.org/pdf/2306.08954.pdf)
+- [LabelBench: A Comprehensive Framework for Benchmarking Label-Efficient Learning [2023]](https://arxiv.org/pdf/2306.09910.pdf)
 
 ### **Tutorials - 教程**
 

@@ -88,6 +88,10 @@ The covariate X might be the result of a complex process that the learner can in
 
 - Nonparametric Indirect Active Learning [2022, ICML workshop]
 
+### Formalism for AL
+
+- A Markovian Formalism for Active Querying [2023]
+
 # To be classified
 
 - Active Learning with Label Comparisons [2022]

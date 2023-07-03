@@ -214,6 +214,7 @@ Data Augmentation:
   LADA takes the influence of the augmented data into account to construct acquisition function
 - Collaborative Intelligence Orchestration: Inconsistency-Based Fusion of Semi-Supervised Learning and Active Learning [KDD, 2022]
 - When Active Learning Meets Implicit Semantic Data Augmentation [2022, ECCV]
+- Towards Controlled Data Augmentations for Active Learning [2023, ICML]
 
 Labeled-unlabeled data indistinguishable:
 - [Deep Active Learning: Unified and Principled Method for Query and Training [2020, ICAIS]](https://arxiv.org/abs/1911.09162): WAAL.
@@ -245,3 +246,4 @@ Pretrain:
 Both self and semi-supervised imparted:
 - Self-supervised Semi-supervised Learning for Data Labeling and Quality Evaluation [2021, Arxiv]: 
   Use random selection with BYOL and Label Propagation.
+- Representation-Based Time Series Label Propagation for Active Learning [2023, CSCWD]

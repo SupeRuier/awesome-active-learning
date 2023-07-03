@@ -5,8 +5,8 @@ In this chapter, we care about how to apply AL on specific models.
 # Models
 
 ## SVM/LR
-Most common models, we won't waste time here.
-Most of classic strategies are based on these models.
+
+- Discover-Then-Rank Unlabeled Support Vectors in the Dual Space for Multi-Class Active Learning [2023, ICML]
 
 ## Bayesian/Probabilistic/Gaussian Progress
 - Employing EM and Pool-Based Active Learning for Text Classification [[1998. ICML]](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.50.10&rep=rep1&type=pdf): 
