@@ -235,13 +235,14 @@ However, they are more likely to provide noise labels, or they don't even sure a
 
 Works：
 - Get another label? improving data quality and data mining using multiple, noisy labelers [2008, KDD]: This paper addresses the repeated acquisition of labels for data items when the labeling is imperfect. 
-- [Active Learning from Crowds [2011, ICML]](https://icml.cc/2011/papers/596_icmlpaper.pdf): Multiple labelers, with varying expertise, are available for query- ing.
+- [Active Learning from Crowds [2011, ICML]](https://icml.cc/2011/papers/596_icmlpaper.pdf): Multiple labelers, with varying expertise, are available for querying.
 - Active Learning from Crowds with Unsure Option [2015, IJCAI]: Allow the annotators to express that they are unsure about the assigned data instances by adding the “unsure” option.
 - Active learning with oracle epiphany [2016, NeurIPS]: The oracle could suddenly decide how to label by the accumulative effect of seeing multiple similar queries.
 - [Exploiting Context for Robustness to Label Noise in Active Learning [2020, TIP]](https://arxiv.org/pdf/2010.09066.pdf)
 - Evidential Nearest Neighbours in Active Learning [2021, IAL-ECML-PKDD]
 - Rethinking Crowdsourcing Annotation: Partial Annotation with Salient Labels for Multi-Label Image Classification [2021]
 - Theoretical guarantee for crowdsourcing learning with unsure option [2023, Pattern Recognition]
+- Exploiting Counter-Examples for Active Learning with Partial labels [2023]
 
 ## Multiple/Diverse labeler (ability/price) 
 
@@ -322,11 +323,10 @@ Better model with the small initialization (usually with SemiSL and SelfSL):
 - Making Your First Choice: To Address Cold Start Problem in Vision Active Learning [2022]: Utilize contrastive learning to select instances.
 
 Transfer/fine-tune an existing model:
-- [Cold-start Active Learning through Self-supervised Language Modeling [2020]](https://arxiv.org/pdf/2010.09535.pdf)
+- [Cold-start Active Learning through Self-supervised Language Modeling [2020, EMNLP]](https://arxiv.org/pdf/2010.09535.pdf)
 - Self-supervised Assisted Active Learning for Skin Lesion Segmentation [2022]
-- Cold-Start Data Selection for Few-shot Language Model Fine-tuning: A Prompt-Based Uncertainty Propagation Approach [2022]
 - Warm Start Active Learning with Proxy Labels & Selection via Semi-Supervised Fine-Tuning [2022, MICCAI]
-
+- Cold-Start Data Selection for Better Few-shot Language Model Fine-tuning: A Prompt-based Uncertainty Propagation Approach [2023, ACL]
 
 ## AL Start point
 
@@ -374,7 +374,7 @@ Works
 Learn intended tasks with pretrained model.
 
 Works:
-- Active Learning Helps Pretrained Models Learn the Intended Task [2022]:
+- Active Learning Helps Pretrained Models Learn the Intended Task [2022, NeuraIPS]:
   Point out that AL has a neutral or even harmful effect on non-pretrained models.
 
 
@@ -430,6 +430,8 @@ Works:
 - Active Self-Supervised Learning: A Few Low-Cost Relationships Are All You Need [2023]: oracle queries semantic relationships between samples.
 - Hierarchical Active Learning With Qualitative Feedback on Regions [2023, IEEE T. Hum.-Mach. Syst.]
 - Beyond Active Learning: Leveraging the Full Potential of Human Interaction via Auto-Labeling, Human Correction, and Human Verification [2023]: Correctness check along with raw AL and pseudo-labels.
+- Exploiting Counter-Examples for Active Learning with Partial labels [2023]: provides a set of candidate labels that includes the true label.
+- Counterfactual Active Learning for Out-of-Distribution Generalization [2023, ACL]: Provide counterfactual examples.
 
 
 # The consideration of the performance metric
@@ -447,6 +449,7 @@ Works:
   This work states the limitations of AL in practice.
   It evaluates AL strategies under different performance metrics.
 - [OpenAL: Evaluation and Interpretation of Active Learning Strategies](https://arxiv.org/pdf/2304.05246.pdf)
+- TAAL: Target-Aware Active Learning [2023]
 
 # The consideration of the reliability
 

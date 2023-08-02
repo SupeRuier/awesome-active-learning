@@ -26,7 +26,7 @@ Overall conclusion:
 - Modern semi-supervised learning algorithms applied in the conventional active learning setting show a higher relative performance increase.
 - State-of-the-art active learning approaches often fail to outperform simple random sampling, especially when the labeling budget is small.
 
-## 2. Towards Robust and Reproducible Active Learning Using Neural Networks [2020]
+## 2. Towards Robust and Reproducible Active Learning Using Neural Networks [2022, CVPR]
 
 This work state the performance of random sampling baseline and AL strategies vary significantly over different papers.
 With the goal of improving the reproducibility and robustness of AL methods, in this study they evaluate the performance of these methods for image classification compared to a random sampling in a fair experimental environment.

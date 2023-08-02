@@ -1,3 +1,6 @@
+- EASAL: Entity-Aware Subsequence-Based Active Learning for Named Entity Recognition [2023, AAAI]
+- Multi-Classifier Adversarial Optimization for Active Learning [2023, AAAI]
+- Beam Search Optimized Batch Bayesian Active Learning [2023, AAAI]
 - Boosting Active Learning via Improving Test Performance [2022, AAAI]
 - Improving Model Robustness by Adaptively Correcting Perturbation Levels with Active Queries [2021, AAAI]:
 - [Active Ordinal Querying for Tuplewise Similarity Learning [2020 AAAI]](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-CanalG.9650.pdf)

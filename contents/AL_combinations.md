@@ -221,8 +221,8 @@ Sentiment/text classification:
 - Active Learning via Membership Query Synthesis for Semi-supervised Sentence Classification [2019, CoNLL]
 - Active Learning for BERT: An Empirical Study [2020, EMNLP]
 - Deep Active Learning for Text Classification with Diverse Interpretations [2021, CIKM]
-- Revisiting Uncertainty-based Query Strategies for Active Learning with Transformers [2022]: Fine-tune the pretrained transformer based models.
-- Active Learning on Pre-trained Language Model with Task-Independent Triplet Loss [2022]
+- Revisiting Uncertainty-based Query Strategies for Active Learning with Transformers [2022, ACL Findings]: Fine-tune the pretrained transformer based models.
+- Active Learning on Pre-trained Language Model with Task-Independent Triplet Loss [2022, AAAI]
 
 Named entity recognition (Information Extraction): 
 - Learning How to Actively Learn: A Deep Imitation Learning Approach [2018, ACL]
@@ -236,6 +236,7 @@ Named entity recognition (Information Extraction):
 - FAMIE: A Fast Active Learning Framework for Multilingual Information Extraction [2022]
 - Subsequence Based Deep Active Learning for Named Entity Recognition [2022, ACL/IJCNLP]
 - Active Learning for Name Entity Recognition with External Knowledge [2023, ACM Trans. Asian Low-Resour. Lang. Inf. Process.]
+- EASAL: Entity-Aware Subsequence-Based Active Learning for Named Entity Recognition [2023, AAAI]
 
 Parsing:
 - [Uncertainty and Traffic-Aware Active Learning for Semantic Parsing [2020]](https://assets.amazon.science/af/ca/4c43ed0c4932a3a8365693e68420/uncertainty-and-traffic-aware-active-learning-for-semantic-parsing.pdf)
@@ -272,6 +273,7 @@ Learning with Pre-Trained Model:
 - Smooth Sailing: Improving Active Learning for Pre-trained Language Models with Representation Smoothness Analysis [2022]
 - Low-resource Interactive Active Labeling for Fine-tuning Language Models [2022, EMNLP]
 - No Labels? No Problem! Experiments with active learning strategies for multi-class classification in imbalanced low-resource settings [2023, ICAIL]
+- Combining Active Learning and Task Adaptation with BERT for Cost-Effective Annotation of Social Media Datasets [2023, ACL workshop]
 
 Question Answering:
 - Improving Question Answering Performance Using Knowledge Distillation and Active Learning [2021]
@@ -304,6 +306,10 @@ Natural Language Explanations：
 
 n-ary relation extraction:
 - Active Learning for Cross-Sentence n-ary Relation Extraction [2023, Information Sciences]
+
+Morphophonological Processing:
+- Deep Active Learning for Morphophonological Processing [2023, ACL]
+
 
 ## Domain adaptation/Transfer learning
 
@@ -342,6 +348,7 @@ Domain adaptation:
 - Dirichlet-based Uncertainty Calibration for Active Domain Adaptation [2023, ICLR]
 - MHPL: Minimum Happy Points Learning for Active Source Free Domain Adaptation [2023, CVPR]
 - Divide and Adapt: Active Domain Adaptation via Customized Learning [2023, CVPR]
+- Multi-Discriminator Active Adversarial Network for Multi-Center Brain Disease Diagnosis [2023, TBD]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -451,6 +458,7 @@ Active exploration
 - [SAMBA: Safe Model-Based & Active Reinforcement Learning [2020, Arxiv]](https://arxiv.org/pdf/2006.09436.pdf)
 - How to Train Your Agent: Active Learning from Human Preferences and Justifications in Safety-Critical Environments [2022, AAMAS]
 - Active Exploration for Inverse Reinforcement Learning [2022]
+- Uncertainty-Guided Active Reinforcement Learning with Bayesian Neural Networks [2023, ICRA]
 
 Save training cost in the measure of time:
 - [Active Reinforcement Learning over MDPs [2021]](https://arxiv.org/pdf/2108.02323.pdf)
@@ -530,6 +538,7 @@ For example, the ImageNet was crawled from image databases without considering s
 - Meta-AAD: Active Anomaly Detection with Deep Reinforcement Learning [2020, Arxiv]
 - A Semi-Supervised VAE Based Active Anomaly Detection Framework in Multivariate Time Series for Online Systems [2022, WWW]
 - Situation-Aware Multivariate Time Series Anomaly Detection Through Active Learning and Contrast VAE-Based Models in Large Distributed Systems [2022]
+- Unsupervised Learning of Distributional Properties can Supplement Human Labeling and Increase Active Learning Efficiency in Anomaly Detection [2023, ICML workshop]
 
 ## Audio Processing
 
@@ -581,6 +590,7 @@ The goal is to find a weight for the experts' predictions to make the final deci
 
 - Efficient Test Collection Construction via Active Learning [2021, ICTIR]: The active selection here is for IR evaluation.
 - Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-based Active Learning [2023]
+- Active Learning with Crowd Sourcing Improves Information Retrieval [2023, ICML workshop]
 
 ## Instance Search (INS)
 

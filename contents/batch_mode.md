@@ -85,6 +85,7 @@ Works:
   The key idea is to re-cast batch construction as optimizing a sparse subset approximation to the log posterior induced by the full dataset.
 - SIMILAR: Submodular Information Measures Based Active Learning In Realistic Scenarios [2021, Arxiv]
 - Batch Active Learning from the Perspective of Sparse Approximation [2022, NeurIPS]
+- Beam Search Optimized Batch Bayesian Active Learning [2023, AAAI]
 
 ## Greedy Selection
 

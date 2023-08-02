@@ -1,4 +1,4 @@
-
+- Active Learning Helps Pretrained Models Learn the Intended Task [2022, NeuraIPS]:
 - Batch Active Learning from the Perspective of Sparse Approximation [2022, NeurIPS]
 - LOG: Active Model Adaptation for Label-Efficient OOD Generalization [2022, NeuraIPS]
 - Few-Shot Continual Active Learning by a Robot [2022, NeurIPS]

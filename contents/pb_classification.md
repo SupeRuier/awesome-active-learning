@@ -179,6 +179,7 @@ Works:
   Make the labeled and unlabeled pool indistinguishable.
 - Agreement-Discrepancy-Selection: Active Learning with Progressive Distribution Alignment [2021]
 - Dual Adversarial Network for Deep Active Learning [2021, ECCV]: DAAL.
+- Multi-Classifier Adversarial Optimization for Active Learning [2023, AAAI]
 
 ### 2.4. Expected loss on unlabeled data
 
@@ -250,6 +251,8 @@ Works:
 - Deep reinforced active learning for multi-class image classification [2022]
 - ImitAL: Learned Active Learning Strategy on Synthetic Data [2022]
 - Algorithm Selection for Deep Active Learning with Imbalanced Datasets [2023]
+- Reinforced Active Learning for Low-Resource, Domain-Specific, Multi-Label Text Classification [2023, ACL]
+- BatchGFN: Generative Flow Networks for Batch Active Learning [2023, ICML workshop]
 
 ## 5. Others
 There still are other works uses innovative heuristics.
@@ -274,3 +277,4 @@ Utilize historical evaluation results:
 Hybrid:
 - HAL: Hybrid active learning for efficient labeling in medical domain [2021, Neurocomputing]
 - How to Select Which Active Learning Strategy is Best Suited for Your Specific Problem and Budget [2023]: SelectAL. Combine representative and uncertainty under different budgets.
+- A More Robust Baseline for Active Learning by Injecting Randomness to Uncertainty Sampling [2023, ICML workshop]

@@ -1,3 +1,7 @@
+- Reinforced Active Learning for Low-Resource, Domain-Specific, Multi-Label Text Classification [2023, ACL]
+- Cold-Start Data Selection for Better Few-shot Language Model Fine-tuning: A Prompt-based Uncertainty Propagation Approach [2023, ACL]
+- Deep Active Learning for Morphophonological Processing [2023, ACL]
+- Counterfactual Active Learning for Out-of-Distribution Generalization [2023, ACL]
 - Subsequence Based Deep Active Learning for Named Entity Recognition [2022, ACL/IJCNLP]
 - [Adapting Coreference Resolution Models through Active Learning [2022, ACL]](https://aclanthology.org/2022.acl-long.519.pdf)
 - On the Importance of Effectively Adapting Pretrained Language Models for Active Learning [2022, ACL]
