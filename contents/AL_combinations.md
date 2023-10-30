@@ -56,6 +56,7 @@ Reducing the labeling cost is a common need in many research fields.
     - [Predict-then-Optimize](#predict-then-optimize)
   - [Ordinal Regression/Classification](#ordinal-regressionclassification)
   - [Positive and Unlabeled (PU) Learning](#positive-and-unlabeled-pu-learning)
+  - [Rank](#rank)
   - [Reliability Analysis](#reliability-analysis)
   - [Sequence Labeling](#sequence-labeling)
   - [Software Engineering](#software-engineering)
@@ -145,12 +146,14 @@ Point Cloud Semantic Segmentation：
 - Active Learning for Point Cloud Semantic Segmentation via Spatial-Structural Diversity Reasoning [2022]
 - You Never Get a Second Chance To Make a Good First Impression: Seeding Active Learning for 3D Semantic Segmentation [2023]
 - A multi-granularity semisupervised active learning for point cloud semantic segmentation [2023, NCA]
+- Hierarchical Point-based Active Learning for Semi-supervised Point Cloud Semantic Segmentation [2023, ICCV]
 
 Image Captioning:
 - Structural Semantic Adversarial Active Learning for Image Captioning [2020, ACMMM]
 
 Action Recognition:
 - [Sparse Semi-Supervised Action Recognition with Active Learning [2020]](https://arxiv.org/pdf/2012.01740.pdf)
+- AL-SAR: Active Learning for Skeleton-Based Action Recognition [2023, TNNLS]
 
 Video Object Detection:
 - [Temporal Coherence for Active Learning in Videos [2019, ICCVW]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9022609&tag=1)
@@ -414,6 +417,7 @@ Graph node classification:
 - Open-World Graph Active Learning for Node Classification [2023, ACM TKDD]
 - Improving Graph Neural Networks by combining active learning with self-training [2023, MDKD]
 - Joint European Conference on Machine Learning and Knowledge Discovery in Database [2023, ECML PKDD]
+- Mitigating Semantic Confusion from Hostile Neighborhood for Graph Active Learning [2023, CIKM]
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]
@@ -446,6 +450,7 @@ Entity Alignment:
 - Maximizing Conditional Entropy for Batch-Mode Active Learning of Perceptual Metrics [2021]
 - A Unified Batch Selection Policy for Active Metric Learning [2021, ECML PKDD]
 - Active metric learning and classification using similarity queries [2022]
+- Active pairwise distance learning for eﬃcient labeling of large datasets by human experts [2023, Applied Intelligence]
 
 ## Recommendation
 
@@ -554,7 +559,6 @@ For example, the ImageNet was crawled from image databases without considering s
 - Active Correction for Incremental Speaker Diarization of a Collection with Human in the Loop [2022, Applied Science]
 - Investigating Active-learning-based Training Data Selection for Speech Spoofing Countermeasure [2022]
 - An efficient framework for constructing speech emotion corpus based on integrated active learning strategies [2022, IEEE Trans. Affect. Comput.]
-
 
 ## Causal Analysis
 
@@ -701,6 +705,9 @@ A special case of binary classification where a learner only has access to label
 
 - Class Prior Estimation in Active Positive and Unlabeled Learning [2020, IJCAI]
 
+## Rank
+
+- A Bayesian Active Learning Approach to Comparative Judgement [2023]
 
 ## Reliability Analysis
 

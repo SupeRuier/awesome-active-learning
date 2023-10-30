@@ -51,6 +51,7 @@ Unsupervised ALR (passive sampling sometimes) assume we don't have any labeled i
   Select the samples to label without knowing any true label information at the beginning.
   **Very good comparison of previous works.**
   (0)
+4. Regression tree‑based active learning [2023, DMKD]
 
 ## Papers (Batch mode):
 1. [Offline EEG-based driver drowsiness estimation using enhanced batch-mode active learning (EBMAL) for regression [2016, IEEE International Conference on Systems, Man, and Cybernetics (SMC)]](https://ieeexplore.ieee.org/abstract/document/7844328/): 

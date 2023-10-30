@@ -88,3 +88,8 @@ They show that semi-supervised algorithms get a significant boost from seeing th
 ## 7. Toward Realistic Evaluation of Deep Active Learning Algorithms in Image Classification [2023]
 
 Present an AL benchmarking suite and run extensive experiments on five datasets shedding light on the questions: when and how to apply AL?
+
+## 8. How To Overcome Confirmation Bias in Semi-Supervised Image Classification By Active Learning [2023, ECML PKDD]
+
+Our experiments show that AL is a useful tool to overcome confirmation bias in various real-world challenges. 
+However, it is not trivial to determine which AL method is most suitable in a real-world scenario.

@@ -1,3 +1,4 @@
+- Hierarchical Point-based Active Learning for Semi-supervised Point Cloud Semantic Segmentation [2023, ICCV]
 - Heterogeneous Diversity Driven Active Learning for Multi-Object Tracking [2023, ICCV]
 - Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]
 - Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV/TPAMI]

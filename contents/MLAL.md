@@ -104,6 +104,7 @@ We can divide the MLAL works into three types by the query type:
 - Stable matching-based two-way selection in multi-label active learning with imbalanced data [2022, Information Sciences]
 - Active Crowdsourcing for Multilabel Annotation [2022, TNNLS]
 - A meta-framework for multi-label active learning based on deep reinforcement learning [2023, Neural Networks]
+- BI-LAVA: Biocuration with Hierarchical Image Labeling through Active Learning and Visual Analysis [2023, Computer Graphics Forum]
 
 ### Others
 - [Multi-Label Active Learning: Query Type Matters [2015, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10995):
@@ -111,6 +112,7 @@ We can divide the MLAL works into three types by the query type:
   AL strategies that select example-label pairs avoid information redundancy, but they may ignore the interaction between labels and can obtain a limited supervision from each query.
   They iteratively select one instance along with a pair of labels, and then query their relevance ordering, i.e., ask the oracle which of the two labels is more relevant to the instance.
 - Active Refinement for Multi-Label Learning: A Pseudo-Label Approach [2021]
+- Partial multi-label learning: exploration of binary ground-truth labels [2023, ICME]
 
 # Multi-Instance-Multi-Label Active Learning
 

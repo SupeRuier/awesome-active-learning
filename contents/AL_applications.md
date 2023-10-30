@@ -40,6 +40,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Electric Distribution Analysis](#electric-distribution-analysis)
   - [Fault Diagnosis of Machinery](#fault-diagnosis-of-machinery)
   - [Gas Reservoir Prediction](#gas-reservoir-prediction)
+  - [Human Computer Interaction (HCI)](#human-computer-interaction-hci)
   - [Internet of Things](#internet-of-things)
   - [Labeling System](#labeling-system)
   - [Malware Detection](#malware-detection)
@@ -255,6 +256,10 @@ Customer address resolution:
 
 - [Reservoir prediction through cost⁃sensitive active learning [2020, JOURNAL OF NANJING UNIVERSITY]](https://jns.nju.edu.cn/CN/10.13232/j.cnki.jnju.2020.04.014)
 
+## Human Computer Interaction (HCI)
+
+- Generalisable Dialogue-based Approach for Active Learning of Activities of Daily Living [2023, ACM Trans. Interact. Intell. Syst.]
+
 ## Internet of Things
 
 - DeepWE: A Deep Bayesian Active Learning Waypoint Estimator for Indoor walkers [2023, IEEE Internet of Things Journal]
@@ -295,6 +300,7 @@ Papers:
 - Patient Aware Active Learning for Fine-Grained OCT Classification [2022, ICIP]
 - Information Gain Sampling for Active Learning in Medical Image Classification [2022]
 - Graph Node Based Interpretability Guided Sample Selection for Active Learning [2022, TMI]
+- BI-LAVA: Biocuration with Hierarchical Image Labeling through Active Learning and Visual Analysis [2023, Computer Graphics Forum]
 
 ### Medical Image Segmentation
 
@@ -368,6 +374,7 @@ Papers:
 - Active Learning for Improved Semi-Supervised Semantic Segmentation in Satellite Images [2022, WACV]
 - DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing [2022]
 - Active learning based on similarity level histogram and adaptive-scale sampling for very high resolution image classification [2023, Neural Networks]
+- Class-wise Graph Embedding-Based Active Learning for Hyperspectral Image Classification [2023, IEEE Transactions on Geoscience and Remote Sensing]
 
 ## Semiconductor Manufacturing
 
@@ -383,6 +390,7 @@ Air Traffic Management (ATM) modeling:
 API Misuse Detection
 - [Active Learning of Discriminative Subgraph Patterns for API Misuse Detection [2021, TSE]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9392340)
 - A Unified Active Learning Framework for Annotating Graph Data with Application to Software Source Code Performance Prediction [2023]
+- Human-in-the-Loop Automatic Program Repair [2023, IEEE Trans. Softw. Eng.]
 
 ## Solvability Prediction in Power Systems
 
