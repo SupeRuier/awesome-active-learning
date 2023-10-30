@@ -1,3 +1,4 @@
+- Heterogeneous Diversity Driven Active Learning for Multi-Object Tracking [2023, ICCV]
 - Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]
 - Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV/TPAMI]
 - Joint Semi-supervised and Active Learning for Segmentation of Gigapixel Pathology Images with Cost-Effective Labeling [2021, ICCV]

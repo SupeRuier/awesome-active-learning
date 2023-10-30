@@ -31,6 +31,7 @@ So if you have any comments and recommendations, pls let me know.)*
     - [Dataset Building/ Data Annotation](#dataset-building-data-annotation)
     - [Data Enrichment](#data-enrichment)
     - [Design for Crowdworkers](#design-for-crowdworkers)
+    - [Others](#others)
   - [Dialog Policy Learning (intelligent system)](#dialog-policy-learning-intelligent-system)
   - [Delivery System](#delivery-system)
   - [Disguised Faces Recognition](#disguised-faces-recognition)
@@ -205,6 +206,7 @@ Eg. 5g, Traffic Classification
 - [Scale AI](https://scale.com)
 - [Appen (Figure-Eight)](https://appen.com)
 - [ClickWorker](https://www.clickworker.com)
+- PEANUT: A Human-AI Collaborative Tool for Annotating Audio-Visual Data [2023, UIST]
 
 ### Data Enrichment
 
@@ -213,6 +215,9 @@ Eg. 5g, Traffic Classification
 ### Design for Crowdworkers
 
 - Models in the Loop: Aiding Crowdworkers with Generative Annotation Assistants [2021]
+
+### Others
+- A Pre-trained Data Deduplication Model based on Active Learning [2023, IEEE Trans. Hum.-Mach. Syst]
 
 ## Dialog Policy Learning (intelligent system)
 
@@ -300,8 +305,9 @@ Papers:
 - Labeling Cost Sensitive Batch Active Learning For Brain Tumor Segmentation [2021, ISBI]
 - U-Net-Based Active Learning Framework for Enhancing Cancer Immunotherapy [2021, Master's Thesis]
 - Active learning for segmentation based on Bayesian sample queries [2021, KBS]
-- Reducing Annotating Load: Active Learning with Synthetic Images in Surgical Instrument Segmentation
-- HAL-IA: A Hybrid Active Learning framework using Interactive Annotation for medical image segmentation [Medical Image Analysis, 2023]
+- Reducing Annotating Load: Active Learning with Synthetic Images in Surgical Instrument Segmentation [2021]
+- HAL-IA: A Hybrid Active Learning framework using Interactive Annotation for medical image segmentation [2023, Medical Image Analysis]
+- EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation [2023, MICCAI]
 
 ### Medical Symptom Recognition from Text
 
@@ -360,7 +366,8 @@ Papers:
 - Adversarial Discriminative Active Deep Learning for Domain Adaptation in Hyperspectral Images Classification [2021, INTERNATIONAL JOURNAL OF REMOTE SENSING]
 - Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning [2021,Active Deep Learning for Hyperspectral Image Classification With Uncertainty Learning]
 - Active Learning for Improved Semi-Supervised Semantic Segmentation in Satellite Images [2022, WACV]
-- DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing [2021]
+- DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing [2022]
+- Active learning based on similarity level histogram and adaptive-scale sampling for very high resolution image classification [2023, Neural Networks]
 
 ## Semiconductor Manufacturing
 

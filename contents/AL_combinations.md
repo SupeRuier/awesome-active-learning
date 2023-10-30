@@ -35,6 +35,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Curriculum Learning](#curriculum-learning)
   - [Entity Matching](#entity-matching)
   - [Federated Learning](#federated-learning)
+  - [Fuzzy System](#fuzzy-system)
   - [Hedge](#hedge)
   - [Human Learning](#human-learning)
   - [Information Retrieval](#information-retrieval)
@@ -177,6 +178,7 @@ Video Action Recognition:
 Visual Tracking:
 - Active Learning for Deep Visual Tracking [2021]
 - Pseudo Loss Active Learning for Deep Visual Tracking [2022, Pattern Recognition]
+- Heterogeneous Diversity Driven Active Learning for Multi-Object Tracking [2023, ICCV]
 
 Visual Question Answering:
 - Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering [2021]
@@ -349,6 +351,7 @@ Domain adaptation:
 - MHPL: Minimum Happy Points Learning for Active Source Free Domain Adaptation [2023, CVPR]
 - Divide and Adapt: Active Domain Adaptation via Customized Learning [2023, CVPR]
 - Multi-Discriminator Active Adversarial Network for Multi-Center Brain Disease Diagnosis [2023, TBD]
+- CSAL: Cost sensitive active learning for multi-source drifting stream [2023, KBS]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -408,6 +411,9 @@ Graph node classification:
 - LSCALE: Latent Space Clustering-Based Active Learning for Node Classification [2022, ECMLPKDD]
 - Active Learning for Node Classification using a Convex Optimization approach [2022, BigDataService]
 - SmartQuery: An Active Learning Framework for Graph Neural Networks through Hybrid Uncertainty Reduction [2022, CIKM]
+- Open-World Graph Active Learning for Node Classification [2023, ACM TKDD]
+- Improving Graph Neural Networks by combining active learning with self-training [2023, MDKD]
+- Joint European Conference on Machine Learning and Knowledge Discovery in Database [2023, ECML PKDD]
 
 Link Prediction:
 - Complex Query Answering with Neural Link Predictors [2020]
@@ -476,6 +482,8 @@ Human-Robot Interaction:
 
 Object Detection Learning:
 - [Weakly-Supervised Object Detection Learning through Human-Robot Interaction [2021, Arxiv]](https://arxiv.org/pdf/2107.07901.pdf)
+- Elder-oriented Active Learning for Adaptation of Perception Intelligence in Home Service Robots [2023, ACM Trans. Sensor Netw.]
+
 
 Robot motion planning:
 - [Active Learning of Signal Temporal Logic Specifications](https://people.kth.se/~linard/publications/active_learn_stl.pdf)
@@ -532,6 +540,7 @@ Addressing fairness at the data collection and dataset preparation stages theref
 For example, the ImageNet was crawled from image databases without considering sensitive attributes such as race or gender. In consequence, models trained (or pre-trained) on this dataset are prone to mimic societal biases.
 
 - [Can Active Learning Preemptively Mitigate Fairness Issues [2021, ICLR-RAI]](https://arxiv.org/abs/2104.06879)
+- Active learning with fairness-aware clustering for fair classification considering multiple sensitive attributes [2023, Information Sciences]
 
 ## Anomaly Detection
 
@@ -552,6 +561,7 @@ For example, the ImageNet was crawled from image databases without considering s
 - [Root Cause Analysis for Self-organizing Cellular Network: an Active Learning Approach](https://link.springer.com/article/10.1007/s11036-020-01589-1)
 - [Active Invariant Causal Prediction: Experiment Selection through Stability](https://arxiv.org/pdf/2006.05690.pdf)
 - ACE: Active Learning for Causal Inference with Expensive Experiments [2023]
+- Active learning for optimal intervention design in causal models [2023, Nature Machine Intelligence]
 
 ## Choice Model
 
@@ -561,7 +571,7 @@ For example, the ImageNet was crawled from image databases without considering s
 - Active Continual Learning: Labelling Queries in a Sequence of Tasks [2023]
 
 ## Curriculum Learning
-- [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page
+- [Active Curriculum Learning [2021, InterNLP]](https://aclanthology.org/2021.internlp-1.pdf#page)
 
 ## Entity Matching
 - Deep entity matching with adversarial active learning [2022, VLDB]
@@ -573,6 +583,10 @@ For example, the ImageNet was crawled from image databases without considering s
 - Knowledge-Aware Federated Active Learning with Non-IID Data [2022]
 - Federated deep active learning for attention-based transaction classiﬁcation [2022, Applied Intelligence]
 - Re-thinking Federated Active Learning based on Inter-class Diversity [2023]
+
+## Fuzzy System
+
+- Online Active Learning for Evolving Error Feedback Fuzzy Models within a Multi-Innovation Context [2023, IEEE Trans Fuzzy Syst.]
 
 ## Hedge
 
