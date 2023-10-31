@@ -125,6 +125,7 @@ Materials Design and Discovery
 - [Active Discovery of Catalysts for Sustainable Energy Storage [2021]](https://www.proquest.com/openview/660c2b7aa14e0b9228240134af6e089e/1?cbl=18750&diss=y&pq-origsite=gscholar)
 - [Active discovery of organic semiconductors [2021, Nature communications]](https://www.nature.com/articles/s41467-021-22611-4)
 - Deep active learning for constitutive modelling of granular materials: From representative volume elements to implicit finite element modelling [2023, International Journal of Plasticity]
+- Active Learning Platform for Accelerating the Search for High-Voltage Cathode Materials in an Extensive Chemical Space [2023, J. Phys. Chem. C]
 
 ## Math and Statistics
 
@@ -175,8 +176,8 @@ Survey Paper:
 Line detection:
 - Active Learning for Lane Detection: A Knowledge Distillation Approach [2021, ICCV]: Evaluate the uncertainty by the teacher-student models.
 
-Trajectory annotation:
-- Engineering Applications of Artificial Intelligence [2022, Engineering Applications of Artificial Intelligence]
+Others:
+- Fleet Active Learning: A Submodular Maximization Approach [2023, CoRL]
 
 ## Brain Mapping in a High Performance Computing Environment
 
@@ -232,6 +233,7 @@ Customer address resolution:
 ## Disguised Faces Recognition
 
 - [A-LINK: Recognizing Disguised Faces via Active Learning based Inter-Domain Knowledge [2019]](http://iab-rubric.org/papers/2019_BTAS_ALINK.pdf)
+- A2-LINK: Recognizing Disguised Faces via Active Learning and Adversarial Noise Based Inter-Domain Knowledge [2020, IEEE trans. biom.]
 
 ## Drug Discovery
 
@@ -301,6 +303,7 @@ Papers:
 - Information Gain Sampling for Active Learning in Medical Image Classification [2022]
 - Graph Node Based Interpretability Guided Sample Selection for Active Learning [2022, TMI]
 - BI-LAVA: Biocuration with Hierarchical Image Labeling through Active Learning and Visual Analysis [2023, Computer Graphics Forum]
+- Learning from Incorrectness: Active Learning with Negative Pre-training and Curriculum Querying for Histological Tissue Classification [2023, TMI]
 
 ### Medical Image Segmentation
 

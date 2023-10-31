@@ -79,6 +79,7 @@ Image classification:
 - [Deep active learning for image classification [ICIP, 2017]](https://ieeexplore.ieee.org/abstract/document/8297020).
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf)
 - MoBYv2AL: Self-supervised Active Learning for Image Classification [2022, BMVC]
+- VisActive: Visual Concept-based Active Learning for Image Classification Under Class Imbalance [2023, ACM Trans. Multimedia Comput. Commun. Appl.]
 
 Image Semantic Segmentation：
 - Geometry in active learning for binary and multi-class [2019, Computer vision and image understanding]
@@ -139,6 +140,7 @@ Object Detection:
 - MuRAL: Multi-Scale Region-based Active Learning for Object Detection [2023]
 - Hybrid Active Learning via Deep Clustering for Video Action Detection [2023, CVPR]
 - Multiple Instance Differentiation Learning for Active Object Detection [2023, TPAMI]
+- ALWOD: Active Learning for Weakly-Supervised Object Detection [2023, ICCV]
 
 Point Cloud Semantic Segmentation：
 - Label-Efficient Point Cloud Semantic Segmentation: An Active Learning Approach [2021, CVPR]
@@ -489,7 +491,6 @@ Object Detection Learning:
 - [Weakly-Supervised Object Detection Learning through Human-Robot Interaction [2021, Arxiv]](https://arxiv.org/pdf/2107.07901.pdf)
 - Elder-oriented Active Learning for Adaptation of Perception Intelligence in Home Service Robots [2023, ACM Trans. Sensor Netw.]
 
-
 Robot motion planning:
 - [Active Learning of Signal Temporal Logic Specifications](https://people.kth.se/~linard/publications/active_learn_stl.pdf)
 - [Online Body Schema Adaptation through Cost-Sensitive Active Learning](https://arxiv.org/pdf/2101.10892.pdf)
@@ -502,6 +503,9 @@ Active Exploration:
 
 Semantic Mapping:
 - An Informative Path Planning Framework for Active Learning in UAV-based Semantic Mapping [2023]
+
+Multi-Agent:
+- Fleet Active Learning: A Submodular Maximization Approach [2023, CoRL]
 
 ## Model Interpretability
 
@@ -553,6 +557,7 @@ For example, the ImageNet was crawled from image databases without considering s
 - A Semi-Supervised VAE Based Active Anomaly Detection Framework in Multivariate Time Series for Online Systems [2022, WWW]
 - Situation-Aware Multivariate Time Series Anomaly Detection Through Active Learning and Contrast VAE-Based Models in Large Distributed Systems [2022]
 - Unsupervised Learning of Distributional Properties can Supplement Human Labeling and Increase Active Learning Efficiency in Anomaly Detection [2023, ICML workshop]
+- Semi-Supervised Learning from Active Noisy Soft Labels for Anomaly Detection [2023, ECML PKDD]
 
 ## Audio Processing
 
@@ -708,6 +713,7 @@ A special case of binary classification where a learner only has access to label
 ## Rank
 
 - A Bayesian Active Learning Approach to Comparative Judgement [2023]
+- Annotating Data for Fine-Tuning a Neural Ranker? Current Active Learning Strategies are not Better than Random Selection [2023, SIGIR-AP]
 
 ## Reliability Analysis
 

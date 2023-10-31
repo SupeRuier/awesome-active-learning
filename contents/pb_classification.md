@@ -253,6 +253,7 @@ Works:
 - Algorithm Selection for Deep Active Learning with Imbalanced Datasets [2023]
 - Reinforced Active Learning for Low-Resource, Domain-Specific, Multi-Label Text Classification [2023, ACL]
 - BatchGFN: Generative Flow Networks for Batch Active Learning [2023, ICML workshop]
+- Learning Objective-Specific Active Learning Strategies with Attentive Neural Processes [2023, ECML PKDD]
 
 ## 5. Others
 There still are other works uses innovative heuristics.
