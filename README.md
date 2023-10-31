@@ -25,10 +25,10 @@
 
 <h4 align="center">Everything you need about Active Learning (AL).</h4>
 <h4 align="center">Not only a curated list, but also a well-structured library.</h4>
-<h4 align="center">Usually updated twice a month.</h4>
+<!-- <h4 align="center">Usually updated twice a month.</h4> -->
 <h4 align="center">关于主动学习你需要的一切.</h4>
 <h4 align="center">不仅仅包含文献列表，更是一个结构化的资料库.</h4>
-<h4 align="center">通常每月两更新.</h4>
+<!-- <h4 align="center">通常每月两更新.</h4> -->
 <h4 align="center">(The majority of contents are presented in English.)</h4>
 
 </p>
@@ -141,6 +141,7 @@ There have been several reviews / surveys / benchmarks for this topic.
 - [A Survey on Cost Types, Interaction Schemes, and Annotator Performance Models in Selection Algorithms for Active Learning in Classification [2021]](https://arxiv.org/pdf/2109.11301.pdf)
 - [A Comparative Survey of Deep Active Learning [2022]](https://arxiv.org/pdf/2203.13450.pdf)
 - [A survey on online active learning [2023]](https://arxiv.org/pdf/2302.08893.pdf)
+- Human‐in‐the‐loop machine learning: a state of the art [2023, Artificial Intelligence Review]
 
 ### **Benchmarks - 基线**:
 - [A Comparative Survey: Benchmarking for Pool-based Active Learning [2021, IJCAI]](https://www.ijcai.org/proceedings/2021/0634.pdf)

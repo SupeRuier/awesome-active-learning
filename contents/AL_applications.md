@@ -261,6 +261,7 @@ Customer address resolution:
 ## Human Computer Interaction (HCI)
 
 - Generalisable Dialogue-based Approach for Active Learning of Activities of Daily Living [2023, ACM Trans. Interact. Intell. Syst.]
+- FedAWR : An Interactive Federated Active Learning Framework for Air Writing Recognition [2023, IEEE Trans. Mob. Comput.]
 
 ## Internet of Things
 
@@ -285,6 +286,10 @@ Papers:
 
 ### Medical Image Classification / Image Annotation
 
+Surveys:
+- A comprehensive survey on deep active learning and its applications in medical image analysis [2023]
+
+Works:
 - [Fine-tuning Convolutional Neural Networks for Biomedical Image Analysis: Actively and Incrementally [CVPR, 2017]](http://openaccess.thecvf.com/content_cvpr_2017/html/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.html):
   The CNN is fine-tuned in each active learning iteration **incrementally**.
   Assume that each candidate (predefined) takes one of possible labels Y.

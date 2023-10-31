@@ -357,6 +357,7 @@ Domain adaptation:
 - Divide and Adapt: Active Domain Adaptation via Customized Learning [2023, CVPR]
 - Multi-Discriminator Active Adversarial Network for Multi-Center Brain Disease Diagnosis [2023, TBD]
 - CSAL: Cost sensitive active learning for multi-source drifting stream [2023, KBS]
+- Open set transfer learning through distribution driven active learning [2023, Pattern Recognition]
 
 Transfer learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
@@ -644,6 +645,7 @@ Clean Label Uncertainties: Enhance the quality of generated from weakly supervis
 ### Prompt Engineering
 
 - Active Prompting with Chain-of-Thought for Large Language Models [2023]
+- Eliciting Human Preferences with Language Models [2023]
 
 ### In-Context Learning
 - Active Learning Principles for In-Context Learning with Large Language Models [2023]
