@@ -1,4 +1,5 @@
-- Active Learning Helps Pretrained Models Learn the Intended Task [2022, NeuraIPS]:
+- Interactive Multi-fidelity Learning for Cost-effective Adaptation of Language Model with Sparse Human Supervision [2023, NeurIPS]
+- Active Learning Helps Pretrained Models Learn the Intended Task [2022, NeuraIPS]
 - Batch Active Learning from the Perspective of Sparse Approximation [2022, NeurIPS]
 - LOG: Active Model Adaptation for Label-Efficient OOD Generalization [2022, NeuraIPS]
 - Few-Shot Continual Active Learning by a Robot [2022, NeurIPS]
@@ -9,4 +10,3 @@
 - [Active Learning by Querying Informative and Representative Examples [2010, NeurIPS]](http://papers.nips.cc/paper/4176-active-learning-by-querying-informative-and-representative-examples)
 - [Human Active Learning [2008, NeurIPS]](http://papers.nips.cc/paper/3456-human-active-learning)
 - [Discriminative batch mode active learning [2007, NeurIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
-

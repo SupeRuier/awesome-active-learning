@@ -33,6 +33,7 @@ So if you have any comments and recommendations, pls let me know.)*
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on the naive perfect oracles (Noise/Special behaviors)](#the-assumption-change-on-the-naive-perfect-oracles-noisespecial-behaviors)
   - [Multiple/Diverse labeler (ability/price)](#multiplediverse-labeler-abilityprice)
+  - [LLMs as Annotators](#llms-as-annotators)
 - [The considerations of the scale](#the-considerations-of-the-scale)
   - [Large-scale](#large-scale)
   - [Oracle idle issue](#oracle-idle-issue)
@@ -49,6 +50,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Take into the training cost into the total cost](#take-into-the-training-cost-into-the-total-cost)
   - [Incrementally Train](#incrementally-train)
   - [Surrogate Learner](#surrogate-learner)
+- [The considerations of the annotation cost](#the-considerations-of-the-annotation-cost)
 - [The consideration of query/feedback types](#the-consideration-of-queryfeedback-types)
 - [The consideration of the performance metric](#the-consideration-of-the-performance-metric)
 - [The consideration of the reliability](#the-consideration-of-the-reliability)
@@ -269,6 +271,11 @@ Works:
 - Improved Adaptive Algorithm for Scalable Active Learning with Weak Labeler [2022]
 - ActiveLab: Active Learning with Re-Labeling by Multiple Annotators [2023]
 
+## LLMs as Annotators
+
+- LLMAAA: Making Large Language Models as Active Annotators [2023]
+- Interactive Multi-fidelity Learning for Cost-effective Adaptation of Language Model with Sparse Human Supervision [2023, NeurIPS]
+
 # The considerations of the scale
 
 When the scale of the problem is large, AL will face several practical problems.
@@ -404,6 +411,13 @@ Use surrogate learner to efficiently evaluate the utility.
 Works:
 - Active Deep Learning Guided by Efficient Gaussian Process Surrogates [2023]
 
+# The considerations of the annotation cost
+
+The cost may not be the same for different instances due to the labeling tools and the difficulty of the instances.
+
+Works:
+- FOCAL: A Cost-Aware, Video Dataset for Active Learning [2023, ICBD]
+
 # The consideration of query/feedback types
 
 Conventionally, the oracles provide and only provide the accurate labels of the select instance.
@@ -450,6 +464,7 @@ Works:
   It evaluates AL strategies under different performance metrics.
 - [OpenAL: Evaluation and Interpretation of Active Learning Strategies](https://arxiv.org/pdf/2304.05246.pdf)
 - TAAL: Target-Aware Active Learning [2023]
+- Mind the User! Measures to More Accurately Evaluate the Practical Value of Active Learning Strategies [2023, RANLP]
 
 # The consideration of the reliability
 

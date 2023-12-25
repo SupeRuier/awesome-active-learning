@@ -61,7 +61,7 @@
 If you find any valuable researches, please feel free to [pull request](https://github.com/SupeRuier/awesome-active-learning/pulls) or contact [ruihe.cs@gmail.com](ruihe.cs@gmail.com) to update this repository.
 Comments and suggestions are also very welcome!
 
-**Cite us - 引用我们:**
+<!-- **Cite us - 引用我们:**
 
 If you use our repository in your research or applications, please consider citing this website.
 如果您在您的科研以及应用中从此项目获得一些帮助，请考虑使用如下的方式引用我们的项目。
@@ -71,7 +71,7 @@ howpublished = {\url{http://github.com/SupeRuier/awesome-active-learning}},
 title = {Everything about Active Learning},  
 author = {Rui He}  
 }  
-```
+``` -->
 
 <!-- 
 The hierarchical structure of this repository is shown in the following figure, and **you can find the paper-list in the corresponding sub-pages**:

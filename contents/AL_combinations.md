@@ -43,9 +43,10 @@ Reducing the labeling cost is a common need in many research fields.
   - [Generative Adversarial Network Training](#generative-adversarial-network-training)
   - [Knowledge Distillation](#knowledge-distillation)
   - [Label Enhancement](#label-enhancement)
-  - [Large Language Models](#large-language-models)
+  - [Large Language Models (LLMs)](#large-language-models-llms)
     - [Prompt Engineering](#prompt-engineering)
     - [In-Context Learning](#in-context-learning)
+    - [Finetuning](#finetuning)
   - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
   - [Model Selection](#model-selection)
   - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
@@ -171,6 +172,9 @@ Video Action Spotting:
 Video Action Recognition:
 - Active Exploration of Multimodal Complementarity for Few-Shot Action Recognition [2023, CVPR]
 
+Video Dataset:
+- FOCAL: A Cost-Aware, Video Dataset for Active Learning [ICBD, 2023]
+
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
 - Exploring Active 3D Object Detection from a Generalization Perspective [2023, ICLR]
@@ -188,6 +192,9 @@ Visual Tracking:
 Visual Question Answering:
 - Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering [2021]
 - Single-Modal Entropy based Active Learning for Visual Question Answering [2021]
+
+Vision Language Model (VLM):
+- Active Prompt Learning in Vision Language Models [2023]
 
 Pose Estimation:
 - Deep Active Learning For Human Pose Estimation Via Consistency Weighted Core-Set Approach [2021, ICIP]
@@ -640,7 +647,7 @@ Clean Label Uncertainties: Enhance the quality of generated from weakly supervis
 
 - [CHEF: A Cheap and Fast Pipeline for Iteratively Cleaning Label Uncertainties [2021, Arxiv]](https://arxiv.org/pdf/2107.08588.pdf)
 
-## Large Language Models
+## Large Language Models (LLMs)
 
 ### Prompt Engineering
 
@@ -649,6 +656,9 @@ Clean Label Uncertainties: Enhance the quality of generated from weakly supervis
 
 ### In-Context Learning
 - Active Learning Principles for In-Context Learning with Large Language Models [2023]
+
+### Finetuning
+- Interactive Multi-fidelity Learning for Cost-effective Adaptation of Language Model with Sparse Human Supervision [2023, NeurIPS]
 
 ## Learning from Label Proportions (LLP)
 

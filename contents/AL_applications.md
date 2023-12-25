@@ -45,6 +45,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Labeling System](#labeling-system)
   - [Malware Detection](#malware-detection)
   - [Medical Research](#medical-research)
+    - [Public Health](#public-health)
     - [Medical Image Classification / Image Annotation](#medical-image-classification--image-annotation)
     - [Medical Image Segmentation](#medical-image-segmentation)
     - [Medical Symptom Recognition from Text](#medical-symptom-recognition-from-text)
@@ -126,6 +127,7 @@ Materials Design and Discovery
 - [Active discovery of organic semiconductors [2021, Nature communications]](https://www.nature.com/articles/s41467-021-22611-4)
 - Deep active learning for constitutive modelling of granular materials: From representative volume elements to implicit finite element modelling [2023, International Journal of Plasticity]
 - Active Learning Platform for Accelerating the Search for High-Voltage Cathode Materials in an Extensive Chemical Space [2023, J. Phys. Chem. C]
+- Autonomous experiments using active learning and AI [2023, Nature Reviews Materials]
 
 ## Math and Statistics
 
@@ -283,6 +285,10 @@ Papers:
 - Q-learning and LSTM based deep active learning strategy for malware defense in industrial IoT applications [2021, Multimedia Tools and Applications]
 
 ## Medical Research 
+
+### Public Health
+
+- Active Learning to Minimize the Possible Risk of Future Epidemics [2023, SpringerBriefs in Applied Sciences and Technology]
 
 ### Medical Image Classification / Image Annotation
 
