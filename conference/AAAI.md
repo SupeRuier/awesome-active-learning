@@ -1,3 +1,4 @@
+- [EOAL: Entropic Open-set Active Learning [2024, AAAI]](https://arxiv.org/abs/2312.14126)
 - EASAL: Entity-Aware Subsequence-Based Active Learning for Named Entity Recognition [2023, AAAI]
 - Multi-Classifier Adversarial Optimization for Active Learning [2023, AAAI]
 - Beam Search Optimized Batch Bayesian Active Learning [2023, AAAI]
