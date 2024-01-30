@@ -18,3 +18,6 @@ Works:
 5. Multi-domain Active Learning for Semi-supervised Anomaly Detection [2022]
 6. Active Learning Over Multiple Domains in Natural Language Tasks [2022]
 7. Investigating Multi-source Active Learning for Natural Language Inference [2023]
+8. Multi-Domain Learning From Insufficient Annotations [2023, ECAI]
+9. Perturbation-Based Two-Stage Multi-Domain Active Learning [2023, CIKM]
+10. Benchmarking Multi-Domain Active Learning on Image Classification [2023]

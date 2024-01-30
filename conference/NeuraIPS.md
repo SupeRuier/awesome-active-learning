@@ -1,8 +1,10 @@
+## Main Conference
 - Interactive Multi-fidelity Learning for Cost-effective Adaptation of Language Model with Sparse Human Supervision [2023, NeurIPS]
 - Active Learning Helps Pretrained Models Learn the Intended Task [2022, NeuraIPS]
 - Batch Active Learning from the Perspective of Sparse Approximation [2022, NeurIPS]
 - LOG: Active Model Adaptation for Label-Efficient OOD Generalization [2022, NeuraIPS]
 - Few-Shot Continual Active Learning by a Robot [2022, NeurIPS]
+- Diversityenhancedactivelearningwith strictly proper scoring rule [2021, NeurIPS]
 - [Corruption Robust Active Learning [2021, NeurIPS]](https://arxiv.org/pdf/2106.11220.pdf): 
 - [BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning [2019, NeurIPS]](http://papers.nips.cc/paper/8925-batchbald-efficient-and-diverse-batch-acquisition-for-deep-bayesian-active-learning): 
 - [Integrating Bayesian and Discriminative Sparse Kernel Machines for Multi-class Active Learning [2019, NPIS]](https://papers.nips.cc/paper/2019/file/bcc0d400288793e8bdcd7c19a8ac0c2b-Paper.pdf):
@@ -10,3 +12,7 @@
 - [Active Learning by Querying Informative and Representative Examples [2010, NeurIPS]](http://papers.nips.cc/paper/4176-active-learning-by-querying-informative-and-representative-examples)
 - [Human Active Learning [2008, NeurIPS]](http://papers.nips.cc/paper/3456-human-active-learning)
 - [Discriminative batch mode active learning [2007, NeurIPS]](http://papers.nips.cc/paper/3295-discriminative-batch-mode-active-learning): 
+
+## Workshop
+- Compute-Efficient Active Learning [2023, NeurIPS Workshop ReALML]
+- Class Balanced Dynamic Acquisition for Domain Adaptive Semantic Segmentation using Active Learning [2023, NeurIPS Workshop ReALML]

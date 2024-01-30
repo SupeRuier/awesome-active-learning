@@ -18,7 +18,7 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Biased data](#biased-data)
   - [Cost-sensitive case](#cost-sensitive-case)
   - [Noised data](#noised-data)
-  - [Class mismatch \& Out-of-distribution data](#class-mismatch--out-of-distribution-data)
+  - [Class mismatch \& Out-of-distribution data \& Open-set](#class-mismatch--out-of-distribution-data--open-set)
   - [Subjective labels](#subjective-labels)
   - [Logged data](#logged-data)
   - [Feature missing data](#feature-missing-data)
@@ -28,7 +28,6 @@ So if you have any comments and recommendations, pls let me know.)*
   - [Different data types](#different-data-types)
     - [Time series data](#time-series-data)
   - [Data with perturbation](#data-with-perturbation)
-  - [Open-set](#open-set)
   - [Fairness Constrains](#fairness-constrains)
 - [The considerations of the oracles](#the-considerations-of-the-oracles)
   - [The assumption change on the naive perfect oracles (Noise/Special behaviors)](#the-assumption-change-on-the-naive-perfect-oracles-noisespecial-behaviors)
@@ -124,14 +123,17 @@ Survey:
 Works:
 - Sample Noise Impact on Active Learning [2021]
 
-## Class mismatch & Out-of-distribution data
+## Class mismatch & Out-of-distribution data & Open-set
 
 There might be irrelevant unknown classes (out-of-distribution, not belong to the classes of the target task) in the unlabeled data pool.
 
 - Contrastive Coding for Active Learning under Class Distribution Mismatch [2021, ICCV/TPAMI]
 - Pareto Optimization for Active Learning under Out-of-Distribution Data Scenarios [2022]
 - Predictive uncertainty estimation for out-of-distribution detection in digital pathology [2022, MIA]
+- Active Learning for Open-set Annotation [2022]
+- Meta-Query-Net: Resolving Purity-Informativeness Dilemma in Open-set Active Learning [2022]
 - Deep Active Learning with Contrastive Learning Under Realistic Data Pool Assumptions [2023]
+- [EOAL: Entropic Open-set Active Learning [2024, AAAI]](https://arxiv.org/abs/2312.14126)
 
 ## Subjective labels
 
@@ -207,13 +209,6 @@ Sometimes, AL need to be used to handle several unusual data types.
   To create the dataset, the different noise level should be assigned to each instance, this is costly.
   Here use active selection to assign the noise to the most valuable instance (could be least or most perturbed).
 
-## Open-set
-
-The unlabeled pool contains irrelevant unknown classes.
-
-- Active Learning for Open-set Annotation [2022]
-- Meta-Query-Net: Resolving Purity-Informativeness Dilemma in Open-set Active Learning [2022]
-
 ## Fairness Constrains
 
 An increased awareness concerning risks of algorithmic bias has driven a surge of efforts around bias mitigation strategies.
@@ -286,12 +281,13 @@ In AL, we normally need to evaluate each unlabeled instance.
 However, when the scale is very large, the evaluation process would be costly.
 
 Works:
-- Hashing hyperplane queries to near points with applications to large-scale active learning [2010, NeurIPS]: We consider the problem of retrieving the database points nearest to a given hyperplane query without exhaustively scanning the database. (85)
-- Scaling Up Crowd-Sourcing to Very Large Datasets: A Case for Active Learning [2014, VLDB]: (161)
-- Scalable active learning for multiclass image classification [2012, TPAMI]: Use locality sensitive hashing to provide a very fast approximation to active learning, which gives sublinear time scaling, allowing application to very large datasets. (107)
-- Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.(8)
+- Hashing hyperplane queries to near points with applications to large-scale active learning [2010, NeurIPS]: We consider the problem of retrieving the database points nearest to a given hyperplane query without exhaustively scanning the database. 
+- Scaling Up Crowd-Sourcing to Very Large Datasets: A Case for Active Learning [2014, VLDB]
+- Scalable active learning for multiclass image classification [2012, TPAMI]: Use locality sensitive hashing to provide a very fast approximation to active learning, which gives sublinear time scaling, allowing application to very large datasets. 
+- Scalable Active Learning by Approximated Error Reduction [2018, KDD]: Enable an eﬃcient estimation of the error reduction without re-inferring labels of massive data points. Also utilize a hierarchical anchor graph to construct a small candidate set, which allows us to further accelerate the AER estimation.
 - Quantum speedup for pool-based active learning [2019, QIP]
 - Low-resource Interactive Active Labeling for Fine-tuning Language Models [2022, EMNLP]: Pre random select.
+- Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding [2023]
 
 ## Oracle idle issue
 
@@ -446,6 +442,7 @@ Works:
 - Beyond Active Learning: Leveraging the Full Potential of Human Interaction via Auto-Labeling, Human Correction, and Human Verification [2023]: Correctness check along with raw AL and pseudo-labels.
 - Exploiting Counter-Examples for Active Learning with Partial labels [2023]: provides a set of candidate labels that includes the true label.
 - Counterfactual Active Learning for Out-of-Distribution Generalization [2023, ACL]: Provide counterfactual examples.
+- Beyond Labels: Empowering Human Annotators with Natural Language Explanations through a Novel Active-Learning Architecture [2023, EMNLP]: Provide natural language explanations.
 
 
 # The consideration of the performance metric

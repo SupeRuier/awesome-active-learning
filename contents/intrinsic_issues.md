@@ -13,8 +13,12 @@ The selection of AL introduces bias to the system.
 - Addressing Bias in Active Learning with Depth Uncertainty Networks... or Not [2021, Arxiv]:
   Reducing "AL bias" doesn't bring improvement on the low "overfitting bias" model DUN.
   When eliminate the "AL bias" with importance weights, we always pay the price of additional variance ("overfitting bias").
+- Critical Gap Between Generalization Error and Empirical Error in Active Learning [2023, WACV]:
+  The assumption that a large amount of annotated data is available for evaluating model performance apart from the data selected by AL is not realistic.
+  Therefore, in a realistic model construction using AL, generalization error in the actual production environment should be estimated by cross-validation only using the data selected by AL.
+  There is a gap between the actual generalization error and the empirical error when conduct- ing cross-validation on the AL-selected data.
 
-### Adaptive loss
+### Adaptive Loss
 Thus, several models try to solve the overfitting at the beginning to improve the overall performance.
 It could be done by designing an adaptive loss.
 

@@ -114,7 +114,7 @@ Works:
 - Active Learning by Feature Mixing [2022, CVPR]: The instance with the representation which could maximally influence the output of the anchor labeled instance (by feature mixing) could be informative.
 - Gaussian Switch Sampling: A Second Order Approach to Active Learning [2023, TAI]:
   The forgettable data (classified correctly at time t and subsequently misclassified at a later time) should be informative.
-
+- Bayesian Estimate of Mean Proper Scores for Diversity-Enhanced Active Learning [2023, TPAMI]
 
 ## 2. Representativeness-impart sampling
 
@@ -199,10 +199,12 @@ Works:
 Pre-divide the pool into batches by a certain why.
 Then select from each batches.
 Except the pre-cluster, there are other criteria to prepare the batches:
-- Divide by loss on auxiliary tasks (self-supervised tasks)
+- Divide by loss on auxiliary tasks (self-supervised tasks).
+- Divide by certain distance.
 
 Works:
 - Using Self-Supervised Pretext Tasks for Active Learning [2022]
+- BAL: Balancing Diversity and Novelty for Active Learning [2024, TPAMI]
 
 ## 3. Expected Improvements
 

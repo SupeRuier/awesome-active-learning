@@ -73,6 +73,7 @@ Uncertainty-based:
   Replace the softmax standard output of a CNN with the parameters of a Dirichlet density.
   This paper have a summary of the previous works on deep AL.
 - Depth Uncertainty Networks for Active Learning [2021, NeurIPS]
+- Bayesian Estimate of Mean Proper Scores for Diversity-Enhanced Active Learning [2023, TPAMI]
 
 Disagreement-based:
 - [The power of ensembles for active learning in image classification [2018, CVPR]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Beluch_The_Power_of_CVPR_2018_paper.pdf):
@@ -140,6 +141,7 @@ Diversity-based sampling (batch mode):
   Measure uncertainty through the magnitude of the resulting gradient with respect to parameters of the final (output) layer.
   To capture diversity, we collect a batch of examples where these gradients span a diverse set of directions by use k-means++ (made to produce a good initialization for k-means clustering).
 - Density Weighted Diversity Based Query Strategy for Active Learning [2021, CSCWD]
+- Bayesian Estimate of Mean Proper Scores for Diversity-Enhanced Active Learning [2023, TPAMI]
 
 Discriminator guided Sampling:
 - [Variational Adversarial Active Learning [ICCV, 2019]](http://openaccess.thecvf.com/content_ICCV_2019/html/Sinha_Variational_Adversarial_Active_Learning_ICCV_2019_paper.html): 

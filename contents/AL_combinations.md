@@ -15,8 +15,8 @@ Reducing the labeling cost is a common need in many research fields.
 - [Popular Fields](#popular-fields)
   - [Computer Vision (CV)](#computer-vision-cv)
   - [Natural Language Processing (NLP)](#natural-language-processing-nlp)
-  - [Domain adaptation/Transfer learning](#domain-adaptationtransfer-learning)
-  - [One/Few/Zero-shot learning or Meta-Learning](#onefewzero-shot-learning-or-meta-learning)
+  - [Domain Adaptation/Transfer Learning](#domain-adaptationtransfer-learning)
+  - [One/Few/Zero-Shot Learning or Meta-Learning](#onefewzero-shot-learning-or-meta-learning)
   - [Graph Processing](#graph-processing)
   - [Metric learning/Pairwise comparison/Similarity learning](#metric-learningpairwise-comparisonsimilarity-learning)
   - [Recommendation](#recommendation)
@@ -50,6 +50,7 @@ Reducing the labeling cost is a common need in many research fields.
   - [Learning from Label Proportions (LLP)](#learning-from-label-proportions-llp)
   - [Model Selection](#model-selection)
   - [Multi-Fidelity Machine Learning](#multi-fidelity-machine-learning)
+  - [Multimodal Learning](#multimodal-learning)
   - [Online Learning System](#online-learning-system)
   - [Optimization Problems](#optimization-problems)
     - [Multi-Objective Optimizations](#multi-objective-optimizations)
@@ -106,9 +107,9 @@ Image Semantic Segmentation：
 - Adaptive Superpixel for Active Learning in Semantic Segmentation [2023]
 - Best Practices in Active Learning for Semantic Segmentation [2023]: A comparative study.
 
-Semantic Segmentation with domain adaptation：
+Semantic Segmentation with Domain Adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
-  One time selection, not in the conventional loop manner.
+  One time selection, not in a conventional loop manner.
 - ADeADA: Adaptive Density-aware Active Domain Adaptation for Semantic Segmentation [2022]:
   Acquire labels of the samples with high probability density in the target domain yet with low probability density in the source domain
 - Active Domain Adaptation with Multi-level Contrastive Units for Semantic Segmentation [2022]
@@ -116,6 +117,8 @@ Semantic Segmentation with domain adaptation：
   Pixel-level selections.
 - Pixel Exclusion: Uncertainty-aware Boundary Discovery for Active Cross-Domain Semantic Segmentation [2022, MM]
 - MADAv2: Advanced Multi-Anchor Based Active Domain Adaptation Segmentation [2023]
+- Class Balanced Dynamic Acquisition for Domain Adaptive Semantic Segmentation using Active Learning [2023, NeurIPS Workshop ReALML]
+- Prototype Guided Pseudo Labeling and Perturbation-based Active Learning for domain adaptive semantic segmentation [2024, Pattern Recognition]
 
 Object Detection: 
 - [A deep active learning system for species identification and counting in camera trap images [Arxiv, 2019]](https://arxiv.org/abs/1910.09716)
@@ -325,13 +328,13 @@ Morphophonological Processing:
 - Deep Active Learning for Morphophonological Processing [2023, ACL]
 
 
-## Domain adaptation/Transfer learning
+## Domain Adaptation/Transfer Learning
 
 Normally when we use AL in domain adaptation, we can obtain several true labels of the unlabeled instances on source/target domain.
 And for transfer learning, the concept is even wider.
 Here we refer active transfer learning to any forms of transfer, eg. data or model.
 
-Domain adaptation:
+Domain Adaptation:
 - Active learning for cross-domain sentiment classification [2013, IJCAI]
 - Transfer Learning with Active Queries from Source Domain [2016, IJCAI]
 - Active Sentiment Domain Adaptation [2017, ACL]
@@ -365,8 +368,9 @@ Domain adaptation:
 - Multi-Discriminator Active Adversarial Network for Multi-Center Brain Disease Diagnosis [2023, TBD]
 - CSAL: Cost sensitive active learning for multi-source drifting stream [2023, KBS]
 - Open set transfer learning through distribution driven active learning [2023, Pattern Recognition]
+- Source-Free Active Domain Adaptation via Augmentation-Based Sample Query and Progressive Model Adaptation [2023, TNNLS]
 
-Transfer learning:
+Transfer Learning:
 - Accelerating active learning with transfer learning [2013, ICDM]
 - Hierarchical Active Transfer Learning [2015, SIAM]
 - Semi-Supervised Active Learning with Cross-Class Sample Transfer [2016, IJCAI]
@@ -376,8 +380,9 @@ Transfer learning:
 
 Domain Generalization:
 - LOG: Active Model Adaptation for Label-Efficient OOD Generalization [2022, NeuraIPS]
+- Bridging the gap with grad: Integrating active learning into semi-supervised domain generalization [2024, Neural Networks]
 
-## One/Few/Zero-shot learning or Meta-Learning
+## One/Few/Zero-Shot Learning or Meta-Learning
 
 One/few-shot learning is to learn a model on a new dataset with one for few available instances.
 AL could be used to select the instances to build the support set.
@@ -475,16 +480,16 @@ Positive Unlabeled learning:
 
 ## Reinforcement Learning
 
-Active exploration
+Active Exploration
 - [SAMBA: Safe Model-Based & Active Reinforcement Learning [2020, Arxiv]](https://arxiv.org/pdf/2006.09436.pdf)
 - How to Train Your Agent: Active Learning from Human Preferences and Justifications in Safety-Critical Environments [2022, AAMAS]
 - Active Exploration for Inverse Reinforcement Learning [2022]
 - Uncertainty-Guided Active Reinforcement Learning with Bayesian Neural Networks [2023, ICRA]
 
-Save training cost in the measure of time:
+Save Training Cost in the Measure of Time:
 - [Active Reinforcement Learning over MDPs [2021]](https://arxiv.org/pdf/2108.02323.pdf)
 
-Atari games:
+Atari Games:
 - Width-Based Planning and Active Learning for Atari [2021]
 
 ## Robotics
@@ -677,6 +682,11 @@ Normally there is only model selection without training.
 - [Batch Multi-Fidelity Active Learning with Budget Constraints [2022, NeruaIPS]](https://arxiv.org/pdf/2210.12704.pdf)
 - Disentangled Multi-Fidelity Deep Bayesian Active Learning [2023]
 - Multi-Fidelity Active Learning with GFlowNets [2023]
+
+## Multimodal Learning
+
+- Towards Balanced Active Learning for Multimodal Classification [2023]
+- Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding [2023]
 
 ## Online Learning System
 

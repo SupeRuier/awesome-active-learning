@@ -328,6 +328,7 @@ Works:
 - Reducing Annotating Load: Active Learning with Synthetic Images in Surgical Instrument Segmentation [2021]
 - HAL-IA: A Hybrid Active Learning framework using Interactive Annotation for medical image segmentation [2023, Medical Image Analysis]
 - EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation [2023, MICCAI]
+- A dynamic interactive learning framework for automated 3D medical image segmentation [2023]
 
 ### Medical Symptom Recognition from Text
 

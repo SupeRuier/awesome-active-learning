@@ -105,6 +105,7 @@ We can divide the MLAL works into three types by the query type:
 - Active Crowdsourcing for Multilabel Annotation [2022, TNNLS]
 - A meta-framework for multi-label active learning based on deep reinforcement learning [2023, Neural Networks]
 - BI-LAVA: Biocuration with Hierarchical Image Labeling through Active Learning and Visual Analysis [2023, Computer Graphics Forum]
+- Active Batch Sampling for Multi-label Classification with Binary User Feedback [2023, WACV]
 
 ### Others
 - [Multi-Label Active Learning: Query Type Matters [2015, IJCAI]](https://www.aaai.org/ocs/index.php/IJCAI/IJCAI15/paper/viewPaper/10995):
