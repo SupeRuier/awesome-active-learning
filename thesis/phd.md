@@ -1,3 +1,4 @@
+- Advancing Deep Active Learning & Data Subset Selection: Unifying Principles with Information-Theory Intuitions [2023, PhD Dissertation, University of Oxford]
 - Active Learning of Vision-Based Representations for Robotics [2023, PhD Dissertation, University of Pennsylvania]
 - Active Learning and Uncertainty in Graph-Based Semi-Supervised Learning [2022, PhD Dissertation]
 - [Teacher-Learner Interaction for Robot Active Learning [2020, PhD Dissertation]](https://aaltodoc.aalto.fi/bitstream/handle/123456789/46843/isbn9789526400556.pdf?sequence=1&isAllowed=y)

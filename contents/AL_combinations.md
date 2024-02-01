@@ -106,6 +106,7 @@ Image Semantic Segmentation：
 - Revisiting Deep Active Learning for Semantic Segmentation [2023]
 - Adaptive Superpixel for Active Learning in Semantic Segmentation [2023]
 - Best Practices in Active Learning for Semantic Segmentation [2023]: A comparative study.
+- Active Learning with Task Consistency and Diversity in Multi-Task Networks [2024, WACV]
 
 Semantic Segmentation with Domain Adaptation：
 - Multi-Anchor Active Domain Adaptation for Semantic Segmentation [2021, ICCV]：
@@ -176,7 +177,7 @@ Video Action Recognition:
 - Active Exploration of Multimodal Complementarity for Few-Shot Action Recognition [2023, CVPR]
 
 Video Dataset:
-- FOCAL: A Cost-Aware, Video Dataset for Active Learning [ICBD, 2023]
+- FOCAL: A Cost-Aware, Video Dataset for Active Learning [IEEE BigData, 2023]
 
 3D Object Detection:
 - Exploring Diversity-based Active Learning for 3D Object Detection in Autonomous Driving [2022]
@@ -427,7 +428,7 @@ Graph node classification:
 - [ALG: Fast and Accurate Active Learning Framework for Graph Convolutional Networks [2021, SIGMOD]](https://dl.acm.org/doi/pdf/10.1145/3448016.3457325)
 - Partition-Based Active Learning for Graph Neural Networks [2022]
 - LSCALE: Latent Space Clustering-Based Active Learning for Node Classification [2022, ECMLPKDD]
-- Active Learning for Node Classification using a Convex Optimization approach [2022, BigDataService]
+- Active Learning for Node Classification using a Convex Optimization approach [2022, IEEE BigDataService]
 - SmartQuery: An Active Learning Framework for Graph Neural Networks through Hybrid Uncertainty Reduction [2022, CIKM]
 - Open-World Graph Active Learning for Node Classification [2023, ACM TKDD]
 - Improving Graph Neural Networks by combining active learning with self-training [2023, MDKD]
@@ -457,6 +458,9 @@ Entity Alignment:
 - Impact of the Characteristics of Multi-Source Entity Matching Tasks on the Performance of Active Learning Methods [2022]
 - Active Temporal Knowledge Graph Alignment [2023, IJSWIS]
 - Deep Active Alignment of Knowledge Graph Entities and Schemata [2023, Proc. ACM Manag. Data]
+
+Regression on Graph Data:
+- Batch Mode Deep Active Learning for Regression on Graph Data [2023, IEEE BigData]
 
 ## Metric learning/Pairwise comparison/Similarity learning 
 
@@ -762,6 +766,7 @@ Code Learning:
 ## Speech Recognition
 
 - [Loss Prediction: End-to-End Active Learning Approach For Speech Recognition [2021, Arxiv]](https://arxiv.org/pdf/2107.04289.pdf)
+- After: Active Learning Based Fine-Tuning Framework for Speech Emotion Recognition [2023, IEEE ASRU Workshop]
 
 ## Symbolic Regression
 

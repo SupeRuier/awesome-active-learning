@@ -50,3 +50,4 @@ In this chapter, we would only list the works which are not included in MLAL.
   Explore various multi-task selection criteria in three realistic multi-task scenarios.
 - PartAL: Efficient Partial Active Learning in Multi-Task Visual Settings [2022]:
   Only provide annotations for several tasks of the selected instances.
+- Active Learning with Task Consistency and Diversity in Multi-Task Networks [2024, WACV]

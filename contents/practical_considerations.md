@@ -171,6 +171,7 @@ Works:
 - Active feature acquisition on data streams under feature drift [2020, Annals of Telecommunications]
 - Active learning with missing values considering imputation uncertainty [2021, KBS]
 - Cost-Sensitive Active Learning for Incomplete Data [2022, T-SMC]
+- Active Learning for Handling Missing Data [2024, TNNLS]
 
 ## Multiple correct outputs
 
@@ -412,7 +413,7 @@ Works:
 The cost may not be the same for different instances due to the labeling tools and the difficulty of the instances.
 
 Works:
-- FOCAL: A Cost-Aware, Video Dataset for Active Learning [2023, ICBD]
+- FOCAL: A Cost-Aware, Video Dataset for Active Learning [2023, IEEE BigData]
 
 # The consideration of query/feedback types
 

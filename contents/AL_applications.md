@@ -134,6 +134,9 @@ Materials Design and Discovery
 Model checking:
 - [Active and sparse methods in smoothed model checking](https://arxiv.org/pdf/2104.09940.pdf)
 
+Non-Parametric Estimation:
+- Improved Bounds for Agnostic Active Learning of Single Index Models [2023, NeurIPS Workshop ReALML]
+
 ## Physics
 
 ### Condensed Matter Physics
@@ -194,6 +197,7 @@ Eg. 5g, Traffic Classification
 - [Active content popularity learning and caching optimization with hit ratio guarantees [2020, IEEE Access]](https://ieeexplore.ieee.org/abstract/document/9159587): Similar to the last one but with more details. A query is defined as the response received from the user terminal to the system.
 - [Active Learning for Network Traffic Classification: A Technical Survey [2021, Arxiv]](https://arxiv.org/pdf/2106.06933.pdf)
 - Active Sensing for Communications by Learning [2021]
+- Learning from the Best: Active Learning for Wireless Communications [2024, IEEE Wirel. Commun.]
 
 ## Crowd Counting
 
@@ -243,6 +247,7 @@ Customer address resolution:
 - Active learning for computational chemogenomics [2017, Future Medicinal Chemistry]
 - Evaluation of Categorical Matrix Completion Algorithms: Towards Improved Active Learning for Drug Discovery [2021, System Biology]
 - Active Learning for Drug Design: A Case Study on the Plasma Exposure of Orally Administered Drugs [2021, J MED CHEM]
+- A Comprehensive Investigation of Active Learning Strategies for Conducting Anti-Cancer Drug Screening [2024, Cancers]
 
 ## Ecology 
 
@@ -315,6 +320,7 @@ Works:
 - Graph Node Based Interpretability Guided Sample Selection for Active Learning [2022, TMI]
 - BI-LAVA: Biocuration with Hierarchical Image Labeling through Active Learning and Visual Analysis [2023, Computer Graphics Forum]
 - Learning from Incorrectness: Active Learning with Negative Pre-training and Curriculum Querying for Histological Tissue Classification [2023, TMI]
+- GANDALF: Graph-based transformer and Data Augmentation Active Learning Framework with interpretable features for multi-label chest Xray classification [2024, Medical Image Analysis]
 
 ### Medical Image Segmentation
 
@@ -329,6 +335,7 @@ Works:
 - HAL-IA: A Hybrid Active Learning framework using Interactive Annotation for medical image segmentation [2023, Medical Image Analysis]
 - EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation [2023, MICCAI]
 - A dynamic interactive learning framework for automated 3D medical image segmentation [2023]
+- BDAL: Balanced Distribution Active Learning for MRI Cardiac Multistructures Segmentation [2024, IEEE Trans. Ind. Inform.]
 
 ### Medical Symptom Recognition from Text
 
@@ -390,6 +397,7 @@ Papers:
 - DIAL: Deep Interactive and Active Learning for Semantic Segmentation in Remote Sensing [2022]
 - Active learning based on similarity level histogram and adaptive-scale sampling for very high resolution image classification [2023, Neural Networks]
 - Class-wise Graph Embedding-Based Active Learning for Hyperspectral Image Classification [2023, IEEE Transactions on Geoscience and Remote Sensing]
+- Integrating Prototype Learning With Graph Convolution Network for Effective Active Hyperspectral Image Classification [2024, IEEE Transactions on Geoscience and Remote Sensing]
 
 ## Semiconductor Manufacturing
 
