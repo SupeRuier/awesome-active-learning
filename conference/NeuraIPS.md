@@ -1,4 +1,5 @@
 ## Main Conference
+- [Navigating the Pitfalls of Active Learning Evaluation: A Systematic Framework for Meaningful Performance Assessment [2023, NeurIPS]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1ed4723f12853cbd02aecb8160f5e0c9-Abstract-Conference.html) [[Code]](https://github.com/sten2lu/realistic-al): Identifies 5 AL evaluation pitfalls; large-scale empirical study across datasets, query methods, and training paradigms (incl. semi-supervised and self-supervised).
 - Interactive Multi-fidelity Learning for Cost-effective Adaptation of Language Model with Sparse Human Supervision [2023, NeurIPS]
 - Active Learning Helps Pretrained Models Learn the Intended Task [2022, NeuraIPS]
 - Batch Active Learning from the Perspective of Sparse Approximation [2022, NeurIPS]

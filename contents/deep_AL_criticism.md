@@ -91,5 +91,23 @@ Present an AL benchmarking suite and run extensive experiments on five datasets 
 
 ## 8. How To Overcome Confirmation Bias in Semi-Supervised Image Classification By Active Learning [2023, ECML PKDD]
 
-Our experiments show that AL is a useful tool to overcome confirmation bias in various real-world challenges. 
+Our experiments show that AL is a useful tool to overcome confirmation bias in various real-world challenges.
 However, it is not trivial to determine which AL method is most suitable in a real-world scenario.
+
+## 9. Navigating the Pitfalls of Active Learning Evaluation: A Systematic Framework for Meaningful Performance Assessment [2023, NeurIPS]
+
+Identifies five systematic evaluation pitfalls in AL research.
+Large-scale benchmark: multiple datasets × query methods × training paradigms (incl. semi-supervised and self-supervised).
+Code: https://github.com/sten2lu/realistic-al
+
+## 10. nnActive: A Framework for Evaluation of Active Learning in 3D Biomedical Segmentation [2025, TMLR]
+
+Largest AL benchmark to date: ~150k GPU hours, 8 methods × 4 datasets × 3 label regimes.
+Addresses four critical evaluation pitfalls; proposes Foreground-Aware Random sampling and foreground efficiency metric.
+Code: https://github.com/MIC-DKFZ/nnActive · Results: https://huggingface.co/nnActive
+
+## 11. Finally Outshining the Random Baseline: A Simple and Effective Solution for Active Learning in 3D Biomedical Imaging [2026, TMLR]
+
+First AL method consistently outperforming random baseline in 3D biomedical segmentation.
+Practitioner deployment guidelines included.
+Code: https://github.com/MIC-DKFZ/nnActive · Results: https://huggingface.co/nnActive

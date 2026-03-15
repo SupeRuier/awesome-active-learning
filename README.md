@@ -148,6 +148,9 @@ There have been several reviews / surveys / benchmarks for this topic.
 - [A Framework and Benchmark for Deep Batch Active Learning for Regression [2022]](https://arxiv.org/pdf/2203.09410.pdf)
 - [Re-Benchmarking Pool-Based Active Learning for Binary Classification [2023]](https://arxiv.org/pdf/2306.08954.pdf)
 - [LabelBench: A Comprehensive Framework for Benchmarking Label-Efficient Learning [2023]](https://arxiv.org/pdf/2306.09910.pdf)
+- [Navigating the Pitfalls of Active Learning Evaluation: A Systematic Framework for Meaningful Performance Assessment [2023, NeurIPS]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/1ed4723f12853cbd02aecb8160f5e0c9-Abstract-Conference.html)
+- [nnActive: A Framework for Evaluation of Active Learning in 3D Biomedical Segmentation [2025, TMLR]](https://openreview.net/forum?id=AJAnmRLJjJ) [[Code]](https://github.com/MIC-DKFZ/nnActive) [[Results]](https://huggingface.co/nnActive)
+- [Finally Outshining the Random Baseline: A Simple and Effective Solution for Active Learning in 3D Biomedical Imaging [2026, TMLR]](https://arxiv.org/abs/2601.13677) [[Code]](https://github.com/MIC-DKFZ/nnActive) [[Results]](https://huggingface.co/nnActive)
 
 ### **Tutorials - 教程**
 
