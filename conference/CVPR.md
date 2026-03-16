@@ -1,3 +1,6 @@
+## 2024
+- [Active Generalized Category Discovery [2024, CVPR]](https://arxiv.org/abs/2403.04272)
+
 ## 2023
 
 - Active Exploration of Multimodal Complementarity for Few-Shot Action Recognition [2023, CVPR]
