@@ -496,6 +496,9 @@ Save Training Cost in the Measure of Time:
 Atari Games:
 - Width-Based Planning and Active Learning for Atari [2021]
 
+Concept labels for interpretable (concept-bottleneck) policies:
+- [LICORICE: Label-Efficient Concept-Based Interpretable Reinforcement Learning [2025, ICLR]](https://arxiv.org/abs/2407.15786)
+
 ## Robotics
 
 Review:
